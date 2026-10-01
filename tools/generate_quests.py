@@ -3,6 +3,7 @@
 Writes:
   src/BereftSouls/Quests/ProgressionBook.Nodes.cs  - chapter node layout
   src/BereftSouls/Quests/Steps/StepQuests.cs       - one quest class per step
+  src/BereftSouls/Quests/Steps/QuestRewards.cs     - reward per quest key
   src/BereftSouls/Localization/en-US_Mods.BereftSouls.hjson
 
 Run from the repository root:  python tools/generate_quests.py
@@ -59,6 +60,14 @@ def item_expr(item):
     if item.get("vanilla_id"):
         return f"ItemID.{item['vanilla_id']}"
     return f"ModContent.ItemType<global::{item['namespace']}.{item['class']}>()"
+
+
+def describe_reward(reward):
+    if not reward:
+        return ""
+    stack = reward.get("stack", 1)
+    count = f"{stack} " if stack > 1 else ""
+    return f" [c/7FD4FF:Reward: {count}{reward['title']}]"
 
 
 def modded_bosses():
@@ -151,6 +160,7 @@ def main():
     localization = []
     boss_kinds = {}
     step_keys = set()
+    rewards = {}
 
     for name, field, _ in CHAPTERS:
         chapter = chapters[name]
@@ -164,6 +174,8 @@ def main():
             # entry); keep the most important kind for its text.
             if boss_kinds.get(boss["key"]) != "Gate":
                 boss_kinds[boss["key"]] = boss["kind"]
+            if boss.get("reward"):
+                rewards.setdefault(boss["key"], boss["reward"])
 
         for step in chapter["steps"]:
             if step["key"] in known_bosses or step["key"] in step_keys:
@@ -212,14 +224,9 @@ def main():
                     goal = f"Obtain {step['title']}"
 
             reward = step.get("reward")
-            reward_text = ""
             if reward:
-                body.append(f"    protected internal override int RewardType => {item_expr(reward)};")
-                reward_stack = reward.get("stack", 1)
-                if reward_stack > 1:
-                    body.append(f"    protected internal override int RewardStack => {reward_stack};")
-                count = f"{reward_stack} " if reward_stack > 1 else ""
-                reward_text = f" [c/7FD4FF:Reward: {count}{reward['title']}]"
+                rewards[step["key"]] = reward
+            reward_text = describe_reward(reward)
 
             step_classes.append(
                 f"public sealed class {step['key']} : {base}\n{{\n" + "\n\n".join(body) + "\n}\n"
@@ -243,8 +250,9 @@ def main():
             fail(f"no boss text for {key}")
         title, how, why = boss_text[key]
         tag = TAGS["Final" if key in FINAL_BOSSES else kind]
-        contents = " ".join(part for part in (f"{tag} Defeat {title}.", how, why) if part)
-        tooltip = f"{tag} Defeat {title}"
+        reward_text = describe_reward(rewards.get(key))
+        contents = " ".join(part for part in (f"{tag} Defeat {title}.", how, why) if part) + reward_text
+        tooltip = f"{tag} Defeat {title}" + reward_text
         localization.append(
             f"\t{key}: {{\n"
             f"\t\tTitle: {hjson_string(title)}\n"
@@ -272,6 +280,23 @@ def main():
         encoding="utf-8",
     )
 
+    reward_lines = []
+    for key, reward in rewards.items():
+        reward_lines.append(f'            ["{key}"] = ({item_expr(reward)}, {reward.get("stack", 1)}),')
+
+    (MOD / "Quests" / "Steps" / "QuestRewards.cs").write_text(
+        header
+        + "using System.Collections.Generic;\n\nusing Terraria.ID;\nusing Terraria.ModLoader;\n\n"
+        + "namespace BereftSouls.Quests.Steps;\n\n"
+        + "internal static class QuestRewards\n{\n"
+        + "    /// <summary>Reward item and stack per quest key, including vanilla boss quests.</summary>\n"
+        + "    public static Dictionary<string, (int Type, int Stack)> Create() => new()\n"
+        + "    {\n"
+        + "\n".join(reward_lines)
+        + "\n    };\n}\n",
+        encoding="utf-8",
+    )
+
     book = ["\tProgression: {", "\t\tName: Bereft Progression"]
     book += [f"\t\t{name}: {display}" for name, _, display in CHAPTERS]
     book.append("\t}\n")
@@ -283,7 +308,7 @@ def main():
     )
 
     total = sum(len(c["steps"]) for c in data["chapters"])
-    print(f"generated {total} step quests across {len(CHAPTERS)} chapters")
+    print(f"generated {total} step quests and {len(rewards)} rewards across {len(CHAPTERS)} chapters")
 
 
 if __name__ == "__main__":

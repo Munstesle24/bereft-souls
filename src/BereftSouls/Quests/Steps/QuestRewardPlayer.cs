@@ -16,13 +16,15 @@ using Terraria.ModLoader.IO;
 namespace BereftSouls.Quests.Steps;
 
 /// <summary>
-///     Hands out step quest rewards to each player, including any they missed
+///     Hands out quest rewards to each player, including any they missed
 ///     while offline.
 /// </summary>
 /// <remarks>
-///     Steps are shared world quests, but rewards are per character: each
-///     player remembers which rewards it has claimed in each world, and claims
-///     the rest whenever it is in a world where those steps are complete.
+///     Rewards come from <see cref="QuestRewards"/> and cover steps and boss
+///     quests alike.  Progress is shared per world, but rewards are per
+///     character: each player remembers which rewards it has claimed in each
+///     world, and claims the rest whenever it is in a world where those quests
+///     are complete.
 ///     This covers players online when a step completes as well as anyone
 ///     joining later.
 /// </remarks>
@@ -34,8 +36,15 @@ internal sealed class QuestRewardPlayer : ModPlayer
     // How often to look for unclaimed rewards.
     private const int claim_interval = 60;
 
+    private static Dictionary<string, (int Type, int Stack)>? rewards;
+
     // "<world unique id>:<quest key>"
     private HashSet<string> claimed = [];
+
+    public override void Unload()
+    {
+        rewards = null;
+    }
 
     public override void SaveData(TagCompound tag)
     {
@@ -64,9 +73,11 @@ internal sealed class QuestRewardPlayer : ModPlayer
         var world  = Main.ActiveWorldFileData.UniqueId.ToString();
         var source = new EntitySource_Misc("BereftSouls:QuestReward");
 
-        foreach (var (key, quest) in quests)
+        rewards ??= QuestRewards.Create();
+
+        foreach (var (key, (type, stack)) in rewards)
         {
-            if (quest is not StepQuest { Completed: true, RewardType: > 0 } step)
+            if (!quests.TryGetValue(key, out var quest) || !quest.Completed)
             {
                 continue;
             }
@@ -76,9 +87,9 @@ internal sealed class QuestRewardPlayer : ModPlayer
                 continue;
             }
 
-            Player.QuickSpawnItem(source, step.RewardType, step.RewardStack);
+            Player.QuickSpawnItem(source, type, stack);
 
-            var title = Language.GetTextValue(step.GetLocalizationKey("Title"));
+            var title = Language.GetTextValue(quest.GetLocalizationKey("Title"));
             Main.NewText(Mod.GetLocalization("QuestBooks.RewardClaimed").Format(title), new Color(127, 212, 255));
         }
     }

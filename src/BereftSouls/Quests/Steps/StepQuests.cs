@@ -7,6 +7,64 @@ using Terraria.ModLoader;
 
 namespace BereftSouls.Quests.Steps;
 
+public sealed class FarmLens : ObtainItemQuest
+{
+    protected override int ItemType => ItemID.Lens;
+
+    protected override int Stack => 6;
+}
+
+public sealed class CraftSuspiciousLookingEye : ObtainItemQuest
+{
+    protected override int ItemType => ItemID.SuspiciousLookingEye;
+}
+
+public sealed class ObtainIronBars : ObtainItemQuest
+{
+    protected override int ItemType => ItemID.IronBar;
+
+    protected override int Stack => 12;
+}
+
+public sealed class ObtainLeadBars : ObtainItemQuest
+{
+    protected override int ItemType => ItemID.LeadBar;
+
+    protected override int Stack => 12;
+}
+
+public sealed class SetIronArmor : EquipSetQuest
+{
+    protected override int[] Pieces => [ItemID.IronHelmet, ItemID.IronChainmail, ItemID.IronGreaves];
+}
+
+public sealed class SetLeadArmor : EquipSetQuest
+{
+    protected override int[] Pieces => [ItemID.LeadHelmet, ItemID.LeadChainmail, ItemID.LeadGreaves];
+}
+
+public sealed class FarmWulfrumScrap : ObtainItemQuest
+{
+    protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.WulfrumMetalScrap>();
+
+    protected override int Stack => 15;
+}
+
+public sealed class CraftWulfrumProsthesis : ObtainItemQuest
+{
+    protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Weapons.Magic.WulfrumProsthesis>();
+}
+
+public sealed class CraftWulfrumKnife : ObtainItemQuest
+{
+    protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Weapons.Rogue.WulfrumKnife>();
+}
+
+public sealed class EquipMarniteRepulsionShield : EquipItemQuest
+{
+    protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Accessories.MarniteRepulsionShield>();
+}
+
 public sealed class ObtainSolidifier : ObtainItemQuest
 {
     protected override int ItemType => ItemID.Solidifier;
@@ -15,15 +73,11 @@ public sealed class ObtainSolidifier : ObtainItemQuest
 public sealed class SetWulfrumArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Wulfrum.WulfrumHat>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Wulfrum.WulfrumJacket>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Wulfrum.WulfrumOveralls>()];
-
-    protected internal override int RewardType => ItemID.HermesBoots;
 }
 
 public sealed class SetSnowRuffianArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.SnowRuffian.SnowRuffianMask>(), ModContent.ItemType<global::CalamityMod.Items.Armor.SnowRuffian.SnowRuffianChestplate>(), ModContent.ItemType<global::CalamityMod.Items.Armor.SnowRuffian.SnowRuffianGreaves>()];
-
-    protected internal override int RewardType => ModContent.ItemType<global::CalamityMod.Items.Accessories.CoinofDeceit>();
 }
 
 public sealed class FarmFragmentOfNature : ObtainItemQuest
@@ -31,10 +85,6 @@ public sealed class FarmFragmentOfNature : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::SOTS.Items.Fragments.FragmentOfNature>();
 
     protected override int Stack => 10;
-
-    protected internal override int RewardType => ItemID.RegenerationPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class FarmFragmentOfEarth : ObtainItemQuest
@@ -42,10 +92,6 @@ public sealed class FarmFragmentOfEarth : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::SOTS.Items.Fragments.FragmentOfEarth>();
 
     protected override int Stack => 10;
-
-    protected internal override int RewardType => ItemID.SpelunkerPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class FarmFragmentOfTide : ObtainItemQuest
@@ -53,10 +99,6 @@ public sealed class FarmFragmentOfTide : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::SOTS.Items.Fragments.FragmentOfTide>();
 
     protected override int Stack => 10;
-
-    protected internal override int RewardType => ItemID.GillsPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class FarmFragmentOfOtherworld : ObtainItemQuest
@@ -64,10 +106,6 @@ public sealed class FarmFragmentOfOtherworld : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::SOTS.Items.Fragments.FragmentOfOtherworld>();
 
     protected override int Stack => 10;
-
-    protected internal override int RewardType => ItemID.FeatherfallPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class FarmStormlionMandible : ObtainItemQuest
@@ -89,17 +127,11 @@ public sealed class CraftFrigidBar : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::SOTS.Items.Permafrost.FrigidBar>();
 
     protected override int Stack => 12;
-
-    protected internal override int RewardType => ItemID.WarmthPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetFrigidArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::SOTS.Items.Permafrost.FrigidCrown>(), ModContent.ItemType<global::SOTS.Items.Permafrost.FrigidRobe>(), ModContent.ItemType<global::SOTS.Items.Permafrost.FrigidGreaves>()];
-
-    protected internal override int RewardType => ItemID.IceSkates;
 }
 
 public sealed class CraftVibrantBar : ObtainItemQuest
@@ -112,8 +144,6 @@ public sealed class CraftVibrantBar : ObtainItemQuest
 public sealed class SetVibrantArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::SOTS.Items.Earth.VibrantHelmet>(), ModContent.ItemType<global::SOTS.Items.Earth.VibrantChestplate>(), ModContent.ItemType<global::SOTS.Items.Earth.VibrantLeggings>()];
-
-    protected internal override int RewardType => ItemID.SharkToothNecklace;
 }
 
 public sealed class CraftDesertMedallion : ObtainItemQuest
@@ -131,8 +161,6 @@ public sealed class ObtainPearlShard : ObtainItemQuest
 public sealed class SetVictideArmorMelee : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Victide.VictideHeadMelee>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Victide.VictideBreastplate>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Victide.VictideGreaves>()];
-
-    protected internal override int RewardType => ItemID.FeralClaws;
 }
 
 public sealed class ObtainPrismShard : ObtainItemQuest
@@ -169,17 +197,11 @@ public sealed class CraftAerialiteBar : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.AerialiteBar>();
 
     protected override int Stack => 10;
-
-    protected internal override int RewardType => ItemID.IronskinPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetAerospecArmorRogue : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Aerospec.AerospecHeadRogue>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Aerospec.AerospecBreastplate>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Aerospec.AerospecLeggings>()];
-
-    protected internal override int RewardType => ModContent.ItemType<global::CalamityMod.Items.Accessories.RaidersTalisman>();
 }
 
 public sealed class FarmPeanuts : ObtainItemQuest
@@ -187,10 +209,6 @@ public sealed class FarmPeanuts : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::SOTS.Items.Slime.Peanut>();
 
     protected override int Stack => 15;
-
-    protected internal override int RewardType => ItemID.SwiftnessPotion;
-
-    protected internal override int RewardStack => 2;
 }
 
 public sealed class CraftJarOfPeanuts : ObtainItemQuest
@@ -208,8 +226,6 @@ public sealed class ObtainWormwood : ObtainItemQuest
 public sealed class SetNatureArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::SOTS.Items.Nature.NatureWreath>(), ModContent.ItemType<global::SOTS.Items.Nature.NatureShirt>(), ModContent.ItemType<global::SOTS.Items.Nature.NatureLeggings>()];
-
-    protected internal override int RewardType => ItemID.FeralClaws;
 }
 
 public sealed class FarmBlightedGel : ObtainItemQuest
@@ -217,10 +233,6 @@ public sealed class FarmBlightedGel : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.BlightedGel>();
 
     protected override int Stack => 40;
-
-    protected internal override int RewardType => ItemID.HealingPotion;
-
-    protected internal override int RewardStack => 5;
 }
 
 public sealed class CraftOverloadedSludge : ObtainItemQuest
@@ -238,8 +250,6 @@ public sealed class ObtainPurifiedGel : ObtainItemQuest
 public sealed class SetStatigelArmorMagic : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Statigel.StatigelHeadMagic>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Statigel.StatigelArmor>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Statigel.StatigelGreaves>()];
-
-    protected internal override int RewardType => ItemID.BandofStarpower;
 }
 
 public sealed class CraftAbeemination : ObtainItemQuest
@@ -259,26 +269,16 @@ public sealed class ObtainCursedMatter : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::SOTS.Items.Pyramid.CursedMatter>();
 
     protected override int Stack => 20;
-
-    protected internal override int RewardType => ItemID.MagicPowerPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetCursedArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::SOTS.Items.Pyramid.CursedHood>(), ModContent.ItemType<global::SOTS.Items.Pyramid.CursedRobe>()];
-
-    protected internal override int RewardType => ItemID.CelestialMagnet;
 }
 
 public sealed class ObtainHellforge : ObtainItemQuest
 {
     protected override int ItemType => ItemID.Hellforge;
-
-    protected internal override int RewardType => ItemID.ObsidianSkinPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftHellstoneBars : ObtainItemQuest
@@ -286,26 +286,16 @@ public sealed class CraftHellstoneBars : ObtainItemQuest
     protected override int ItemType => ItemID.HellstoneBar;
 
     protected override int Stack => 15;
-
-    protected internal override int RewardType => ItemID.MiningPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetMoltenArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ItemID.MoltenHelmet, ItemID.MoltenBreastplate, ItemID.MoltenGreaves];
-
-    protected internal override int RewardType => ItemID.SharkToothNecklace;
 }
 
 public sealed class ObtainGuideVoodooDoll : ObtainItemQuest
 {
     protected override int ItemType => ItemID.GuideVoodooDoll;
-
-    protected internal override int RewardType => ItemID.IronskinPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class ObtainEarthenPlating : ObtainItemQuest
@@ -330,8 +320,6 @@ public sealed class CraftStarlightAlloy : ObtainItemQuest
 public sealed class SetTwilightAssassinArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::SOTS.Items.Planetarium.FromChests.TwilightAssassinsCirclet>(), ModContent.ItemType<global::SOTS.Items.Planetarium.FromChests.TwilightAssassinsChestplate>(), ModContent.ItemType<global::SOTS.Items.Planetarium.FromChests.TwilightAssassinsLeggings>()];
-
-    protected internal override int RewardType => ItemID.FeralClaws;
 }
 
 public sealed class CraftDeerThing : ObtainItemQuest
@@ -344,10 +332,6 @@ public sealed class FarmSoulsOfLight : ObtainItemQuest
     protected override int ItemType => ItemID.SoulofLight;
 
     protected override int Stack => 15;
-
-    protected internal override int RewardType => ItemID.ShinePotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class FarmSoulsOfNight : ObtainItemQuest
@@ -355,10 +339,6 @@ public sealed class FarmSoulsOfNight : ObtainItemQuest
     protected override int ItemType => ItemID.SoulofNight;
 
     protected override int Stack => 15;
-
-    protected internal override int RewardType => ItemID.NightOwlPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class ObtainMythrilAnvil : ObtainItemQuest
@@ -412,17 +392,11 @@ public sealed class ObtainHallowedBars : ObtainItemQuest
     protected override int ItemType => ItemID.HallowedBar;
 
     protected override int Stack => 15;
-
-    protected internal override int RewardType => ItemID.LifeforcePotion;
-
-    protected internal override int RewardStack => 2;
 }
 
 public sealed class SetHallowedArmorMelee : EquipSetQuest
 {
     protected override int[] Pieces => [ItemID.HallowedMask, ItemID.HallowedPlateMail, ItemID.HallowedGreaves];
-
-    protected internal override int RewardType => ItemID.WarriorEmblem;
 }
 
 public sealed class FarmEssenceOfEleum : ObtainItemQuest
@@ -430,10 +404,6 @@ public sealed class FarmEssenceOfEleum : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.EssenceofEleum>();
 
     protected override int Stack => 14;
-
-    protected internal override int RewardType => ItemID.WarmthPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class FarmFragmentOfPermafrost : ObtainItemQuest
@@ -441,10 +411,6 @@ public sealed class FarmFragmentOfPermafrost : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::SOTS.Items.Fragments.FragmentOfPermafrost>();
 
     protected override int Stack => 30;
-
-    protected internal override int RewardType => ItemID.IronskinPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftCryoKey : ObtainItemQuest
@@ -457,10 +423,6 @@ public sealed class MineCryonicOre : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Placeables.Ores.CryonicOre>();
 
     protected override int Stack => 24;
-
-    protected internal override int RewardType => ItemID.MiningPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class ObtainAdamantiteForge : ObtainItemQuest
@@ -478,17 +440,11 @@ public sealed class CraftCryonicBar : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.CryonicBar>();
 
     protected override int Stack => 20;
-
-    protected internal override int RewardType => ItemID.EndurancePotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetDaedalusArmorRanged : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Daedalus.DaedalusHeadRanged>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Daedalus.DaedalusBreastplate>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Daedalus.DaedalusLeggings>()];
-
-    protected internal override int RewardType => ItemID.MagicQuiver;
 }
 
 public sealed class EquipOrnateShield : EquipItemQuest
@@ -511,10 +467,6 @@ public sealed class ObtainSoulOfPlight : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::SOTS.Items.Permafrost.SoulOfPlight>();
 
     protected override int Stack => 15;
-
-    protected internal override int RewardType => ItemID.GreaterHealingPotion;
-
-    protected internal override int RewardStack => 5;
 }
 
 public sealed class CraftAbsoluteBar : ObtainItemQuest
@@ -522,17 +474,11 @@ public sealed class CraftAbsoluteBar : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::SOTS.Items.Permafrost.AbsoluteBar>();
 
     protected override int Stack => 15;
-
-    protected internal override int RewardType => ItemID.EndurancePotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetFrostArtifactArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::SOTS.Items.Permafrost.FrostArtifactHelmet>(), ModContent.ItemType<global::SOTS.Items.Permafrost.FrostArtifactChestplate>(), ModContent.ItemType<global::SOTS.Items.Permafrost.FrostArtifactTrousers>()];
-
-    protected internal override int RewardType => ItemID.FrozenTurtleShell;
 }
 
 public sealed class FarmEssenceOfHavoc : ObtainItemQuest
@@ -540,10 +486,6 @@ public sealed class FarmEssenceOfHavoc : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.EssenceofHavoc>();
 
     protected override int Stack => 15;
-
-    protected internal override int RewardType => ItemID.InfernoPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftEyeofDesolation : ObtainItemQuest
@@ -556,10 +498,6 @@ public sealed class ObtainAshesOfCalamity : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.AshesofCalamity>();
 
     protected override int Stack => 25;
-
-    protected internal override int RewardType => ItemID.HeartreachPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftUnholyCore : ObtainItemQuest
@@ -577,8 +515,6 @@ public sealed class CraftCharredIdol : ObtainItemQuest
 public sealed class SetBrimflameArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Brimflame.BrimflameCowl>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Brimflame.BrimflameRobes>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Brimflame.BrimflameBoots>()];
-
-    protected internal override int RewardType => ItemID.SorcererEmblem;
 }
 
 public sealed class CraftSeafood : ObtainItemQuest
@@ -603,10 +539,6 @@ public sealed class MinePerennialOre : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Placeables.Ores.PerennialOre>();
 
     protected override int Stack => 24;
-
-    protected internal override int RewardType => ItemID.MiningPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftPerennialBar : ObtainItemQuest
@@ -614,17 +546,11 @@ public sealed class CraftPerennialBar : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.PerennialBar>();
 
     protected override int Stack => 15;
-
-    protected internal override int RewardType => ItemID.RegenerationPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetReaverArmorTank : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Reaver.ReaverHeadTank>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Reaver.ReaverScaleMail>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Reaver.ReaverCuisses>()];
-
-    protected internal override int RewardType => ItemID.PaladinsShield;
 }
 
 public sealed class ObtainEctoplasm : ObtainItemQuest
@@ -632,17 +558,11 @@ public sealed class ObtainEctoplasm : ObtainItemQuest
     protected override int ItemType => ItemID.Ectoplasm;
 
     protected override int Stack => 10;
-
-    protected internal override int RewardType => ItemID.SpelunkerPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetSpectreArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ItemID.SpectreHood, ItemID.SpectreRobe, ItemID.SpectrePants];
-
-    protected internal override int RewardType => ItemID.CelestialEmblem;
 }
 
 public sealed class FarmEssenceOfSunlight : ObtainItemQuest
@@ -650,10 +570,6 @@ public sealed class FarmEssenceOfSunlight : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.EssenceofSunlight>();
 
     protected override int Stack => 12;
-
-    protected internal override int RewardType => ItemID.FeatherfallPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftCoreOfCalamity : ObtainItemQuest
@@ -676,10 +592,6 @@ public sealed class MineScoriaOre : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Placeables.Ores.ScoriaOre>();
 
     protected override int Stack => 24;
-
-    protected internal override int RewardType => ItemID.GillsPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftScoriaBar : ObtainItemQuest
@@ -687,17 +599,11 @@ public sealed class CraftScoriaBar : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.ScoriaBar>();
 
     protected override int Stack => 15;
-
-    protected internal override int RewardType => ItemID.WrathPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetHydrothermicArmorMelee : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Hydrothermic.HydrothermicHeadMelee>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Hydrothermic.HydrothermicArmor>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Hydrothermic.HydrothermicSubligar>()];
-
-    protected internal override int RewardType => ItemID.FireGauntlet;
 }
 
 public sealed class CraftLifeAlloy : ObtainItemQuest
@@ -705,10 +611,6 @@ public sealed class CraftLifeAlloy : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.LifeAlloy>();
 
     protected override int Stack => 12;
-
-    protected internal override int RewardType => ItemID.LifeforcePotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftElectromagneticLure : ObtainItemQuest
@@ -740,8 +642,6 @@ public sealed class CraftPhaseBar : ObtainItemQuest
 public sealed class SetElementalArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::SOTS.Items.Chaos.ElementalHelmet>(), ModContent.ItemType<global::SOTS.Items.Chaos.ElementalBreastplate>(), ModContent.ItemType<global::SOTS.Items.Chaos.ElementalLeggings>()];
-
-    protected internal override int RewardType => ItemID.PapyrusScarab;
 }
 
 public sealed class CraftDecryptionComputer : ObtainItemQuest
@@ -791,15 +691,11 @@ public sealed class CraftAbombination : ObtainItemQuest
 public sealed class SetPlaguebringerArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Plaguebringer.PlaguebringerVisor>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Plaguebringer.PlaguebringerCarapace>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Plaguebringer.PlaguebringerPistons>()];
-
-    protected internal override int RewardType => ItemID.PygmyNecklace;
 }
 
 public sealed class SetPlagueReaperArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.PlagueReaper.PlagueReaperMask>(), ModContent.ItemType<global::CalamityMod.Items.Armor.PlagueReaper.PlagueReaperVest>(), ModContent.ItemType<global::CalamityMod.Items.Armor.PlagueReaper.PlagueReaperStriders>()];
-
-    protected internal override int RewardType => ItemID.ReconScope;
 }
 
 public sealed class CraftDeathWhistle : ObtainItemQuest
@@ -817,10 +713,6 @@ public sealed class FarmMeldBlob : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.MeldBlob>();
 
     protected override int Stack => 8;
-
-    protected internal override int RewardType => ItemID.RagePotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class ObtainTitanHeart : ObtainItemQuest
@@ -833,10 +725,6 @@ public sealed class MineAstralOre : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Placeables.Ores.AstralOre>();
 
     protected override int Stack => 24;
-
-    protected internal override int RewardType => ItemID.SpelunkerPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftAstralBar : ObtainItemQuest
@@ -844,17 +732,11 @@ public sealed class CraftAstralBar : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.AstralBar>();
 
     protected override int Stack => 15;
-
-    protected internal override int RewardType => ItemID.TitanPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetAstralArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Astral.AstralHelm>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Astral.AstralBreastplate>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Astral.AstralLeggings>()];
-
-    protected internal override int RewardType => ItemID.CelestialStone;
 }
 
 public sealed class CraftStarcore : ObtainItemQuest
@@ -865,8 +747,6 @@ public sealed class CraftStarcore : ObtainItemQuest
 public sealed class SetTitanHeartArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.TitanHeart.TitanHeartMask>(), ModContent.ItemType<global::CalamityMod.Items.Armor.TitanHeart.TitanHeartMantle>(), ModContent.ItemType<global::CalamityMod.Items.Armor.TitanHeart.TitanHeartBoots>()];
-
-    protected internal override int RewardType => ModContent.ItemType<global::CalamityMod.Items.Accessories.ElectriciansGlove>();
 }
 
 public sealed class CraftTorchBomb : ObtainItemQuest
@@ -886,17 +766,11 @@ public sealed class ObtainSanguiteBar : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::SOTS.Items.Celestial.SanguiteBar>();
 
     protected override int Stack => 20;
-
-    protected internal override int RewardType => ItemID.GreaterHealingPotion;
-
-    protected internal override int RewardStack => 5;
 }
 
 public sealed class SetVoidspaceArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::SOTS.Items.Celestial.VoidspaceMask>(), ModContent.ItemType<global::SOTS.Items.Celestial.VoidspaceBreastplate>(), ModContent.ItemType<global::SOTS.Items.Celestial.VoidspaceLeggings>()];
-
-    protected internal override int RewardType => ItemID.RangerEmblem;
 }
 
 public sealed class ObtainLuminiteBars : ObtainItemQuest
@@ -904,10 +778,6 @@ public sealed class ObtainLuminiteBars : ObtainItemQuest
     protected override int ItemType => ItemID.LunarBar;
 
     protected override int Stack => 20;
-
-    protected internal override int RewardType => ItemID.SuperHealingPotion;
-
-    protected internal override int RewardStack => 5;
 }
 
 public sealed class FarmUnholyEssence : ObtainItemQuest
@@ -915,10 +785,6 @@ public sealed class FarmUnholyEssence : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.UnholyEssence>();
 
     protected override int Stack => 70;
-
-    protected internal override int RewardType => ItemID.InfernoPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftProfanedShard : ObtainItemQuest
@@ -936,10 +802,6 @@ public sealed class ObtainDivineGeode : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.DivineGeode>();
 
     protected override int Stack => 25;
-
-    protected internal override int RewardType => ItemID.LifeforcePotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class MineUelibloomOre : ObtainItemQuest
@@ -947,10 +809,6 @@ public sealed class MineUelibloomOre : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Placeables.Ores.UelibloomOre>();
 
     protected override int Stack => 24;
-
-    protected internal override int RewardType => ItemID.MiningPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftUelibloomBar : ObtainItemQuest
@@ -958,17 +816,11 @@ public sealed class CraftUelibloomBar : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.UelibloomBar>();
 
     protected override int Stack => 20;
-
-    protected internal override int RewardType => ItemID.EndurancePotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetTarragonArmorMelee : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Tarragon.TarragonHeadMelee>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Tarragon.TarragonBreastplate>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Tarragon.TarragonLeggings>()];
-
-    protected internal override int RewardType => ModContent.ItemType<global::CalamityMod.Items.Accessories.BadgeofBravery>();
 }
 
 public sealed class ObtainSolarFragments : ObtainItemQuest
@@ -1002,10 +854,6 @@ public sealed class FarmNecroplasm : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.Necroplasm>();
 
     protected override int Stack => 50;
-
-    protected internal override int RewardType => ItemID.SpelunkerPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftNecroplasmicBeacon : ObtainItemQuest
@@ -1023,8 +871,6 @@ public sealed class ObtainRuinousSoul : ObtainItemQuest
 public sealed class SetBloodflareArmorRanged : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Bloodflare.BloodflareHeadRanged>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Bloodflare.BloodflareBodyArmor>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Bloodflare.BloodflareCuisses>()];
-
-    protected internal override int RewardType => ModContent.ItemType<global::CalamityMod.Items.Accessories.DeadshotBrooch>();
 }
 
 public sealed class ObtainBloodworm : ObtainItemQuest
@@ -1060,43 +906,31 @@ public sealed class CraftCosmicWorm : ObtainItemQuest
 public sealed class SetPrismaticArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Prismatic.PrismaticHelmet>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Prismatic.PrismaticRegalia>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Prismatic.PrismaticGreaves>()];
-
-    protected internal override int RewardType => ModContent.ItemType<global::CalamityMod.Items.Accessories.SigilofCalamitas>();
 }
 
 public sealed class SetEmpyreanArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Empyrean.EmpyreanMask>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Empyrean.EmpyreanCloak>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Empyrean.EmpyreanCuisses>()];
-
-    protected internal override int RewardType => ModContent.ItemType<global::CalamityMod.Items.Accessories.DarkMatterSheath>();
 }
 
 public sealed class SetSolarFlareArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ItemID.SolarFlareHelmet, ItemID.SolarFlareBreastplate, ItemID.SolarFlareLeggings];
-
-    protected internal override int RewardType => ItemID.CelestialShell;
 }
 
 public sealed class SetVortexArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ItemID.VortexHelmet, ItemID.VortexBreastplate, ItemID.VortexLeggings];
-
-    protected internal override int RewardType => ItemID.SniperScope;
 }
 
 public sealed class SetNebulaArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ItemID.NebulaHelmet, ItemID.NebulaBreastplate, ItemID.NebulaLeggings];
-
-    protected internal override int RewardType => ItemID.ManaCloak;
 }
 
 public sealed class SetStardustArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ItemID.StardustHelmet, ItemID.StardustBreastplate, ItemID.StardustLeggings];
-
-    protected internal override int RewardType => ModContent.ItemType<global::CalamityMod.Items.Accessories.StatisBlessing>();
 }
 
 public sealed class ObtainCosmiliteBar : ObtainItemQuest
@@ -1104,10 +938,6 @@ public sealed class ObtainCosmiliteBar : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.CosmiliteBar>();
 
     protected override int Stack => 20;
-
-    protected internal override int RewardType => ItemID.SuperHealingPotion;
-
-    protected internal override int RewardStack => 5;
 }
 
 public sealed class CraftCosmicAnvil : ObtainItemQuest
@@ -1120,10 +950,6 @@ public sealed class FarmNightmareFuel : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.NightmareFuel>();
 
     protected override int Stack => 10;
-
-    protected internal override int RewardType => ItemID.WrathPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class FarmEndothermicEnergy : ObtainItemQuest
@@ -1131,10 +957,6 @@ public sealed class FarmEndothermicEnergy : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.EndothermicEnergy>();
 
     protected override int Stack => 50;
-
-    protected internal override int RewardType => ItemID.EndurancePotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class FarmDarksunFragment : ObtainItemQuest
@@ -1142,10 +964,6 @@ public sealed class FarmDarksunFragment : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.DarksunFragment>();
 
     protected override int Stack => 10;
-
-    protected internal override int RewardType => ItemID.RagePotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftAscendantSpiritEssence : ObtainItemQuest
@@ -1158,22 +976,16 @@ public sealed class CraftAscendantSpiritEssence : ObtainItemQuest
 public sealed class SetGodSlayerArmorMelee : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.GodSlayer.GodSlayerHeadMelee>(), ModContent.ItemType<global::CalamityMod.Items.Armor.GodSlayer.GodSlayerChestplate>(), ModContent.ItemType<global::CalamityMod.Items.Armor.GodSlayer.GodSlayerLeggings>()];
-
-    protected internal override int RewardType => ModContent.ItemType<global::CalamityMod.Items.Accessories.BadgeofBravery>();
 }
 
 public sealed class SetSilvaArmorSummon : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Silva.SilvaHeadSummon>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Silva.SilvaArmor>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Silva.SilvaLeggings>()];
-
-    protected internal override int RewardType => ModContent.ItemType<global::CalamityMod.Items.Accessories.StatisCurse>();
 }
 
 public sealed class SetFearmongerArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Fearmonger.FearmongerGreathelm>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Fearmonger.FearmongerPlateMail>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Fearmonger.FearmongerGreaves>()];
-
-    protected internal override int RewardType => ItemID.PapyrusScarab;
 }
 
 public sealed class EquipElementalGauntlet : EquipItemQuest
@@ -1198,10 +1010,6 @@ public sealed class ObtainAuricOre : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Placeables.Ores.AuricOre>();
 
     protected override int Stack => 100;
-
-    protected internal override int RewardType => ItemID.SpelunkerPotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class CraftAuricBar : ObtainItemQuest
@@ -1209,17 +1017,11 @@ public sealed class CraftAuricBar : ObtainItemQuest
     protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Materials.AuricBar>();
 
     protected override int Stack => 20;
-
-    protected internal override int RewardType => ItemID.LifeforcePotion;
-
-    protected internal override int RewardStack => 3;
 }
 
 public sealed class SetAuricTeslaArmorMelee : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Auric.AuricTeslaHeadMelee>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Auric.AuricTeslaBodyArmor>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Auric.AuricTeslaCuisses>()];
-
-    protected internal override int RewardType => ItemID.FireGauntlet;
 }
 
 public sealed class CraftCodebreakerBase : ObtainItemQuest
@@ -1281,6 +1083,4 @@ public sealed class CraftShadowspecBar : ObtainItemQuest
 public sealed class SetDemonshadeArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Demonshade.DemonshadeHelm>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Demonshade.DemonshadeBreastplate>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Demonshade.DemonshadeGreaves>()];
-
-    protected internal override int RewardType => ModContent.ItemType<global::CalamityMod.Items.Accessories.Nucleogenesis>();
 }

@@ -7,13 +7,25 @@
      "key": "KingSlimeDefeated",
      "kind": "Optional",
      "after": [],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "EyeOfCthulhuDefeated",
      "kind": "Required",
-     "after": [],
-     "any_of": false
+     "after": [
+      "CraftSuspiciousLookingEye"
+     ],
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "DesertScourgeDefeated",
@@ -21,7 +33,12 @@
      "after": [
       "CraftDesertMedallion"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "GlowmothDefeated",
@@ -29,7 +46,12 @@
      "after": [
       "CraftSuspiciousLookingCandle"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "CrabulonDefeated",
@@ -37,7 +59,12 @@
      "after": [
       "CraftDecapoditaSprout"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "EvilBossDefeated",
@@ -45,7 +72,12 @@
      "after": [
       "EyeOfCthulhuDefeated"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "HiveMindDefeated",
@@ -53,7 +85,12 @@
      "after": [
       "EvilBossDefeated"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "PerforatorsDefeated",
@@ -61,7 +98,12 @@
      "after": [
       "EvilBossDefeated"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "PutridPinkyDefeated",
@@ -69,7 +111,12 @@
      "after": [
       "CraftJarOfPeanuts"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "QueenBeeDefeated",
@@ -77,7 +124,12 @@
      "after": [
       "CraftAbeemination"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "PharaohsCurseDefeated",
@@ -85,7 +137,12 @@
      "after": [
       "EvilBossDefeated"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "SkeletronDefeated",
@@ -93,7 +150,12 @@
      "after": [
       "EvilBossDefeated"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "SlimeGodDefeated",
@@ -101,7 +163,12 @@
      "after": [
       "CraftOverloadedSludge"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "ExcavatorDefeated",
@@ -109,7 +176,12 @@
      "after": [
       "SkeletronDefeated"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "DeerclopsDefeated",
@@ -117,7 +189,12 @@
      "after": [
       "CraftDeerThing"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "AdvisorDefeated",
@@ -125,7 +202,12 @@
      "after": [
       "ExcavatorDefeated"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "WallOfFleshDefeated",
@@ -133,10 +215,235 @@
      "after": [
       "ObtainGuideVoodooDoll"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     }
    ],
    "steps": [
+    {
+     "key": "FarmLens",
+     "type": "obtain",
+     "kind": "Required",
+     "after": [],
+     "any_of": false,
+     "title": "Lenses",
+     "how": "Demon Eyes drop them at night on the surface.",
+     "stack": 6,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "NightOwlPotion",
+      "title": "Night Owl Potion",
+      "stack": 2
+     },
+     "vanilla_id": "Lens"
+    },
+    {
+     "key": "CraftSuspiciousLookingEye",
+     "type": "obtain",
+     "kind": "Required",
+     "after": [
+      "FarmLens"
+     ],
+     "any_of": false,
+     "title": "Suspicious Looking Eye",
+     "how": "Craft at a Demon or Crimson Altar from 6 Lenses and use it at night. The Eye of Cthulhu can also show up on its own.",
+     "stack": 1,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "IronskinPotion",
+      "title": "Ironskin Potion",
+      "stack": 2
+     },
+     "vanilla_id": "SuspiciousLookingEye"
+    },
+    {
+     "key": "ObtainIronBars",
+     "type": "obtain",
+     "kind": "Optional",
+     "after": [],
+     "any_of": false,
+     "title": "Iron Bars",
+     "how": "Smelt 3 Iron Ore each at a Furnace. Either this or Lead Bars is enough for your first armor.",
+     "stack": 12,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "MiningPotion",
+      "title": "Mining Potion",
+      "stack": 2
+     },
+     "vanilla_id": "IronBar"
+    },
+    {
+     "key": "ObtainLeadBars",
+     "type": "obtain",
+     "kind": "Optional",
+     "after": [],
+     "any_of": false,
+     "title": "Lead Bars",
+     "how": "Smelt 3 Lead Ore each at a Furnace. Either this or Iron Bars is enough for your first armor.",
+     "stack": 12,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "MiningPotion",
+      "title": "Mining Potion",
+      "stack": 2
+     },
+     "vanilla_id": "LeadBar"
+    },
+    {
+     "key": "SetIronArmor",
+     "type": "equip_set",
+     "kind": "Optional",
+     "after": [
+      "ObtainIronBars"
+     ],
+     "any_of": false,
+     "title": "Iron Armor",
+     "how": "Craft the Iron Helmet, Chainmail and Greaves at an Iron or Lead Anvil.",
+     "stack": 1,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "IronskinPotion",
+      "title": "Ironskin Potion",
+      "stack": 3
+     },
+     "pieces": [
+      {
+       "vanilla_id": "IronHelmet",
+       "title": "",
+       "stack": 1
+      },
+      {
+       "vanilla_id": "IronChainmail",
+       "title": "",
+       "stack": 1
+      },
+      {
+       "vanilla_id": "IronGreaves",
+       "title": "",
+       "stack": 1
+      }
+     ]
+    },
+    {
+     "key": "SetLeadArmor",
+     "type": "equip_set",
+     "kind": "Optional",
+     "after": [
+      "ObtainLeadBars"
+     ],
+     "any_of": false,
+     "title": "Lead Armor",
+     "how": "Craft the Lead Helmet, Chainmail and Greaves at an Iron or Lead Anvil.",
+     "stack": 1,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "IronskinPotion",
+      "title": "Ironskin Potion",
+      "stack": 3
+     },
+     "pieces": [
+      {
+       "vanilla_id": "LeadHelmet",
+       "title": "",
+       "stack": 1
+      },
+      {
+       "vanilla_id": "LeadChainmail",
+       "title": "",
+       "stack": 1
+      },
+      {
+       "vanilla_id": "LeadGreaves",
+       "title": "",
+       "stack": 1
+      }
+     ]
+    },
+    {
+     "key": "FarmWulfrumScrap",
+     "type": "obtain",
+     "kind": "Optional",
+     "after": [],
+     "any_of": false,
+     "title": "Wulfrum Metal Scrap",
+     "how": "Dropped by Wulfrum robots (Drones, Gyrators, Hovercraft) on the surface during the day.",
+     "stack": 15,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "LesserHealingPotion",
+      "title": "Lesser Healing Potion",
+      "stack": 5
+     },
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "WulfrumMetalScrap"
+    },
+    {
+     "key": "CraftWulfrumProsthesis",
+     "type": "obtain",
+     "kind": "Optional",
+     "after": [
+      "FarmWulfrumScrap"
+     ],
+     "any_of": false,
+     "title": "Wulfrum Prosthesis",
+     "how": "Craft at an Anvil from 10 Wulfrum Metal Scrap. An early magic weapon for the Eye.",
+     "stack": 1,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "ManaRegenerationPotion",
+      "title": "Mana Regeneration Potion",
+      "stack": 2
+     },
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Weapons.Magic",
+     "class": "WulfrumProsthesis"
+    },
+    {
+     "key": "CraftWulfrumKnife",
+     "type": "obtain",
+     "kind": "Optional",
+     "after": [
+      "FarmWulfrumScrap"
+     ],
+     "any_of": false,
+     "title": "Wulfrum Knife",
+     "how": "Craft at an Anvil from 10 Wulfrum Metal Scrap. An early rogue weapon for the Eye.",
+     "stack": 1,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SwiftnessPotion",
+      "title": "Swiftness Potion",
+      "stack": 2
+     },
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Weapons.Rogue",
+     "class": "WulfrumKnife"
+    },
+    {
+     "key": "EquipMarniteRepulsionShield",
+     "type": "equip",
+     "kind": "Optional",
+     "after": [],
+     "any_of": false,
+     "title": "Marnite Repulsion Shield",
+     "how": "Craft at an Anvil from Granite and Marble blocks, found in their underground cave biomes.",
+     "stack": 1,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "ThornsPotion",
+      "title": "Thorns Potion",
+      "stack": 2
+     },
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Accessories",
+     "class": "MarniteRepulsionShield"
+    },
     {
      "key": "ObtainSolidifier",
      "type": "obtain",
@@ -152,7 +459,12 @@
      "any_of": false,
      "title": "Solidifier",
      "how": "Always dropped by King Slime. Needed for Statigel armor and lets you craft Wormwood (2 Wood + 5 Gel).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "IronskinPotion",
+      "title": "Ironskin Potion",
+      "stack": 2
+     }
     },
     {
      "key": "SetWulfrumArmor",
@@ -182,7 +494,7 @@
      ],
      "kind": "Optional",
      "after": [
-      "EyeOfCthulhuDefeated"
+      "FarmWulfrumScrap"
      ],
      "any_of": false,
      "title": "Wulfrum Armor",
@@ -224,9 +536,7 @@
       }
      ],
      "kind": "Optional",
-     "after": [
-      "EyeOfCthulhuDefeated"
-     ],
+     "after": [],
      "any_of": false,
      "title": "Snow Ruffian Armor (Rogue)",
      "how": "Craft at an Anvil from Boreal Wood, Silk and Flinx Fur.",
@@ -249,9 +559,7 @@
      "vanilla_id": null,
      "stack": 10,
      "kind": "Optional",
-     "after": [
-      "EyeOfCthulhuDefeated"
-     ],
+     "after": [],
      "any_of": false,
      "title": "Fragments of Nature",
      "how": "Any enemy in the Forest or Jungle has a 1/35 chance to drop 1-2.",
@@ -274,9 +582,7 @@
      "vanilla_id": null,
      "stack": 10,
      "kind": "Optional",
-     "after": [
-      "EyeOfCthulhuDefeated"
-     ],
+     "after": [],
      "any_of": false,
      "title": "Fragments of Earth",
      "how": "Any enemy in the Pyramid, Desert or Underground has a 1/35 chance to drop 1-2.",
@@ -299,9 +605,7 @@
      "vanilla_id": null,
      "stack": 10,
      "kind": "Optional",
-     "after": [
-      "EyeOfCthulhuDefeated"
-     ],
+     "after": [],
      "any_of": false,
      "title": "Fragments of Tide",
      "how": "Any enemy at the Beach or in the Dungeon has a 1/35 chance to drop 1-2.",
@@ -323,10 +627,8 @@
      "class": "FragmentOfOtherworld",
      "vanilla_id": null,
      "stack": 10,
-     "kind": "Required",
-     "after": [
-      "EyeOfCthulhuDefeated"
-     ],
+     "kind": "Optional",
+     "after": [],
      "any_of": false,
      "title": "Fragments of Otherworld",
      "how": "Any enemy in the Sky or a Meteor biome has a 1/35 chance to drop 1-2; Planetarium enemies drop them more often. Each Aerialite Bar needs one.",
@@ -349,13 +651,16 @@
      "vanilla_id": null,
      "stack": 5,
      "kind": "Optional",
-     "after": [
-      "EyeOfCthulhuDefeated"
-     ],
+     "after": [],
      "any_of": false,
      "title": "Stormlion Mandibles",
      "how": "Dropped by Stormlions in the Desert. Used for the Desert Medallion and SotS Cursed armor.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SwiftnessPotion",
+      "title": "Swiftness Potion",
+      "stack": 2
+     }
     },
     {
      "key": "FarmSulphuricScale",
@@ -372,7 +677,12 @@
      "any_of": false,
      "title": "Sulphuric Scales",
      "how": "Dropped by Acid Rain enemies in the Sulphurous Sea. Used for SotS Nature armor.",
-     "uncertain": true
+     "uncertain": true,
+     "reward": {
+      "vanilla_id": "RegenerationPotion",
+      "title": "Regeneration Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftFrigidBar",
@@ -383,9 +693,7 @@
      "vanilla_id": null,
      "stack": 12,
      "kind": "Optional",
-     "after": [
-      "EyeOfCthulhuDefeated"
-     ],
+     "after": [],
      "any_of": false,
      "title": "Frigid Bars",
      "how": "Craft 2 at an Anvil from 10 Frigid Ice, 1 Ancient Steel Bar and 1 Fragment of Permafrost (cold-biome enemy drop). Daedalus armor in Hardmode also needs these.",
@@ -457,7 +765,12 @@
      "any_of": false,
      "title": "Vibrant Bars",
      "how": "Craft 2 at a Furnace from 10 Vibrant Ore, 2 Glowing Mushrooms, 1 Iron/Lead Bar, 1 Fragment of Earth and 1 Wulfrum Metal Scrap (pack addition). Vibrant Ore is a worldgen crystal ore.",
-     "uncertain": true
+     "uncertain": true,
+     "reward": {
+      "vanilla_id": "LesserHealingPotion",
+      "title": "Lesser Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "SetVibrantArmor",
@@ -518,7 +831,12 @@
      "any_of": false,
      "title": "Desert Medallion",
      "how": "Craft at a Demon/Crimson Altar from 40 Sand, 4 Antlion Mandibles, 2 Stormlion Mandibles and 3 Fragments of Earth (pack addition). Reusable.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "NightOwlPotion",
+      "title": "Night Owl Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainPearlShard",
@@ -535,7 +853,12 @@
      "any_of": false,
      "title": "Pearl Shards",
      "how": "The Desert Scourge drops 25-30. Combine 2 with Coral, Starfish and Seashells at a Furnace for Sea Remains.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FishingPotion",
+      "title": "Fishing Potion",
+      "stack": 2
+     }
     },
     {
      "key": "SetVictideArmorMelee",
@@ -590,13 +913,16 @@
      "vanilla_id": null,
      "stack": 3,
      "kind": "Optional",
-     "after": [
-      "EyeOfCthulhuDefeated"
-     ],
+     "after": [],
      "any_of": false,
      "title": "Prism Shards",
      "how": "Break Sea Prism crystals in the Sunken Sea, or kill Sunken Sea enemies such as the Blinded Angler.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "ArcheryPotion",
+      "title": "Archery Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftSuspiciousLookingCandle",
@@ -613,7 +939,12 @@
      "any_of": false,
      "title": "Suspicious Looking Candle",
      "how": "Craft at a Demon/Crimson Altar from a Candle, 5 Glow Nylon (Cobweb + Glowing Mushroom at a Loom), 10 Glowing Mushrooms and 3 Prism Shards (pack addition). Use in a Glowing Mushroom biome; consumed.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "LesserHealingPotion",
+      "title": "Lesser Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "CraftDecapoditaSprout",
@@ -630,7 +961,12 @@
      "any_of": false,
      "title": "Decapodita Sprout",
      "how": "Craft at a Demon/Crimson Altar from 50 Glowing Mushrooms and 3 Fragments of Nature (pack addition). Reusable.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "BuilderPotion",
+      "title": "Builder Potion",
+      "stack": 2
+     }
     },
     {
      "key": "EquipFungalClump",
@@ -647,7 +983,12 @@
      "any_of": false,
      "title": "Fungal Clump",
      "how": "Found in Crabulon's Treasure Bag (Expert/Master only).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "MagicPowerPotion",
+      "title": "Magic Power Potion",
+      "stack": 2
+     }
     },
     {
      "key": "MineAerialiteOre",
@@ -657,7 +998,7 @@
      "class": "AerialiteOre",
      "vanilla_id": null,
      "stack": 15,
-     "kind": "Required",
+     "kind": "Optional",
      "after": [
       "HiveMindDefeated",
       "PerforatorsDefeated"
@@ -665,7 +1006,12 @@
      "any_of": true,
      "title": "Aerialite Ore",
      "how": "The first Hive Mind or Perforators kill enchants the Aerialite ore in sky-island clouds; mine it with a 65%+ pickaxe.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "MiningPotion",
+      "title": "Mining Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftAerialiteBar",
@@ -675,7 +1021,7 @@
      "class": "AerialiteBar",
      "vanilla_id": null,
      "stack": 10,
-     "kind": "Required",
+     "kind": "Optional",
      "after": [
       "MineAerialiteOre",
       "FarmFragmentOfOtherworld"
@@ -777,7 +1123,12 @@
      "any_of": false,
      "title": "Jar of Peanuts",
      "how": "Craft by hand from a Bottle, 15 Peanuts and 2 Aerialite Bars (pack addition). Summons Putrid Pinky; consumed.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "LesserHealingPotion",
+      "title": "Lesser Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "ObtainWormwood",
@@ -795,7 +1146,12 @@
      "any_of": true,
      "title": "Wormwood",
      "how": "Putrid Pinky drops 20-30. It can also be crafted (2 per 2 Wood + 5 Gel) at a Solidifier, so this does not strictly require Pinky.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "IronskinPotion",
+      "title": "Ironskin Potion",
+      "stack": 2
+     }
     },
     {
      "key": "SetNatureArmor",
@@ -883,7 +1239,12 @@
      "any_of": false,
      "title": "Overloaded Sludge",
      "how": "Craft at a Demon/Crimson Altar from 40 Blighted Gel, 40 evil blocks and 5 Wormwood (pack addition). Reusable.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SwiftnessPotion",
+      "title": "Swiftness Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainPurifiedGel",
@@ -900,7 +1261,12 @@
      "any_of": false,
      "title": "Purified Gel",
      "how": "The Slime God drops 30-45.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "RegenerationPotion",
+      "title": "Regeneration Potion",
+      "stack": 2
+     }
     },
     {
      "key": "SetStatigelArmorMagic",
@@ -955,13 +1321,16 @@
      "vanilla_id": "Abeemination",
      "stack": 1,
      "kind": "Optional",
-     "after": [
-      "EyeOfCthulhuDefeated"
-     ],
+     "after": [],
      "any_of": false,
      "title": "Abeemination",
      "how": "Craft at a Demon/Crimson Altar from honey, hive and Stinger materials, or just break a Bee Larva in the Underground Jungle.",
-     "uncertain": true
+     "uncertain": true,
+     "reward": {
+      "vanilla_id": "LesserHealingPotion",
+      "title": "Lesser Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "ObtainBeeWax",
@@ -978,7 +1347,12 @@
      "any_of": false,
      "title": "Bee Wax",
      "how": "Dropped by Queen Bee.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "NightOwlPotion",
+      "title": "Night Owl Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainCursedMatter",
@@ -1081,7 +1455,7 @@
      ],
      "any_of": false,
      "title": "Hellstone Bars",
-     "how": "Smelt Hellstone (needs a Nightmare/Deathbringer Pickaxe) and Obsidian at a Hellforge. The Eye of Desolation needs 10 in Hardmode.",
+     "how": "Smelt Hellstone (needs a Nightmare/Deathbringer Pickaxe) and Obsidian at a Hellforge. The Eye of Desolation needs 10 in Hardmode. Required for Chapter 2.",
      "uncertain": false,
      "reward": {
       "mod": "Terraria",
@@ -1145,8 +1519,7 @@
      "stack": 1,
      "kind": "Required",
      "after": [
-      "SkeletronDefeated",
-      "CraftHellstoneBars"
+      "SkeletronDefeated"
      ],
      "any_of": false,
      "title": "Guide Voodoo Doll",
@@ -1176,7 +1549,12 @@
      "any_of": false,
      "title": "Earthen Plating",
      "how": "The Excavator (summoned from the Seismic Station in the Abandoned Village) and Earthen Gizmos drop it. One kind of elemental plating for the Electromagnetic Lure.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "HunterPotion",
+      "title": "Hunter Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainHardlightFabricator",
@@ -1193,7 +1571,12 @@
      "any_of": false,
      "title": "Hardlight Fabricator",
      "how": "Craft by hand from 10 Avaritian Plating harvested in the Planetarium. Crafting station for SotS alloys and Twilight Assassin armor.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "ArcheryPotion",
+      "title": "Archery Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftStarlightAlloy",
@@ -1211,7 +1594,12 @@
      "any_of": false,
      "title": "Starlight Alloy",
      "how": "Craft at the Hardlight Fabricator from a Fallen Star, a Fragment of Otherworld, a Twilight Shard and an Aerialite Bar (pack addition).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "LesserHealingPotion",
+      "title": "Lesser Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "SetTwilightAssassinArmor",
@@ -1266,13 +1654,16 @@
      "vanilla_id": "DeerThing",
      "stack": 1,
      "kind": "Optional",
-     "after": [
-      "EyeOfCthulhuDefeated"
-     ],
+     "after": [],
      "any_of": false,
      "title": "Deer Thing",
      "how": "Craft at a Demon/Crimson Altar from Flinx Fur, a Lens and Demonite/Crimtane Ore; use in the Snow biome.",
-     "uncertain": true
+     "uncertain": true,
+     "reward": {
+      "vanilla_id": "BuilderPotion",
+      "title": "Builder Potion",
+      "stack": 2
+     }
     }
    ]
   },
@@ -1291,7 +1682,12 @@
      "after": [
       "ObtainGelatinCrystal"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "CryogenDefeated",
@@ -1299,7 +1695,12 @@
      "after": [
       "CraftCryoKey"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "TheDestroyerDefeated",
@@ -1307,7 +1708,12 @@
      "after": [
       "CraftMechanicalWorm"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "TheTwinsDefeated",
@@ -1315,7 +1721,12 @@
      "after": [
       "CraftMechanicalEye"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "SkeletronPrimeDefeated",
@@ -1323,7 +1734,12 @@
      "after": [
       "CraftMechanicalSkull"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "AquaticScourgeDefeated",
@@ -1331,7 +1747,12 @@
      "after": [
       "CraftSeafood"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "BrimstoneElementalDefeated",
@@ -1339,7 +1760,12 @@
      "after": [
       "CraftCharredIdol"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "PolarisDefeated",
@@ -1347,7 +1773,12 @@
      "after": [
       "CraftFrostedKey"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "CalamitasCloneDefeated",
@@ -1355,7 +1786,12 @@
      "after": [
       "CraftEyeofDesolation"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "PlanteraDefeated",
@@ -1365,7 +1801,12 @@
       "TheTwinsDefeated",
       "SkeletronPrimeDefeated"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 5
+     }
     }
    ],
    "steps": [
@@ -1435,7 +1876,12 @@
      "any_of": false,
      "title": "Mythril Anvil",
      "how": "Craft from 10 Mythril Bars at an Anvil. Needed for the mechanical boss summons and most Hardmode modded gear.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "EndurancePotion",
+      "title": "Endurance Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainOrichalcumAnvil",
@@ -1453,7 +1899,12 @@
      "any_of": false,
      "title": "Orichalcum Anvil",
      "how": "Craft from 12 Orichalcum Bars at an Anvil. Equivalent to the Mythril Anvil.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "LifeforcePotion",
+      "title": "Lifeforce Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftMechanicalWorm",
@@ -1471,7 +1922,12 @@
      "any_of": true,
      "title": "Mechanical Worm",
      "how": "Craft at a Mythril/Orichalcum Anvil from Rotten Chunks/Vertebrae, Iron/Lead Bars and Souls of Night. Use at night.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "InfernoPotion",
+      "title": "Inferno Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftMechanicalEye",
@@ -1489,7 +1945,12 @@
      "any_of": true,
      "title": "Mechanical Eye",
      "how": "Craft at a Mythril/Orichalcum Anvil from Lenses, Iron/Lead Bars and Souls of Light. Use at night.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "CraftMechanicalSkull",
@@ -1507,7 +1968,12 @@
      "any_of": true,
      "title": "Mechanical Skull",
      "how": "Craft at a Mythril/Orichalcum Anvil from Bones, Iron/Lead Bars and Souls of Light and Night. Use at night.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "WrathPotion",
+      "title": "Wrath Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainSoulsOfMight",
@@ -1524,7 +1990,12 @@
      "any_of": false,
      "title": "Souls of Might",
      "how": "Dropped by The Destroyer.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "TitanPotion",
+      "title": "Titan Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainSoulsOfSight",
@@ -1541,7 +2012,12 @@
      "any_of": false,
      "title": "Souls of Sight",
      "how": "Dropped by The Twins.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "HeartreachPotion",
+      "title": "Heartreach Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainSoulsOfFright",
@@ -1558,7 +2034,12 @@
      "any_of": false,
      "title": "Souls of Fright",
      "how": "Dropped by Skeletron Prime.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "ObtainHallowedBars",
@@ -1698,7 +2179,12 @@
      "any_of": false,
      "title": "Cryo Key",
      "how": "Craft at an Anvil from 50 ice blocks, 5 Souls of Light, 5 Souls of Night, 8 Essence of Eleum and 6 Fragments of Permafrost (pack addition). Use in the Snow biome.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofIchor",
+      "title": "Flask of Ichor",
+      "stack": 1
+     }
     },
     {
      "key": "MineCryonicOre",
@@ -1740,7 +2226,12 @@
      "any_of": false,
      "title": "Adamantite Forge",
      "how": "Craft from a Hellforge and 30 Adamantite Ore at a Mythril/Orichalcum Anvil. Smelts most Calamity and SotS Hardmode bars.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofFire",
+      "title": "Flask of Fire",
+      "stack": 1
+     }
     },
     {
      "key": "ObtainTitaniumForge",
@@ -1757,7 +2248,12 @@
      "any_of": false,
      "title": "Titanium Forge",
      "how": "Craft from a Hellforge and 30 Titanium Ore at a Mythril/Orichalcum Anvil. Equivalent to the Adamantite Forge.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "IronskinPotion",
+      "title": "Ironskin Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftCryonicBar",
@@ -1843,7 +2339,12 @@
      "any_of": false,
      "title": "Ornate Shield",
      "how": "Craft at a Mythril/Orichalcum Anvil from 12 Cryonic Bars, 20 Crystal Shards and 6 Fragments of Permafrost (pack addition).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "ObtainDissolvingAurora",
@@ -1860,7 +2361,12 @@
      "any_of": false,
      "title": "Dissolving Aurora",
      "how": "Dropped by the Permafrost Spirit, which emerges when you kill a Permafrost Construct in the Snow biome.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "RegenerationPotion",
+      "title": "Regeneration Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftFrostedKey",
@@ -1881,7 +2387,12 @@
      "any_of": false,
      "title": "Frosted Key",
      "how": "Craft at a Mythril/Orichalcum Anvil from a Dissolving Aurora, 8 Cryonic Bars (replacing the Frost Core in this pack) and a Soul of Might, Sight and Fright. Hold it and right-click the Frost Artifact in the Permafrost biome; not consumed.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "ShinePotion",
+      "title": "Shine Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainSoulOfPlight",
@@ -2020,7 +2531,12 @@
      "any_of": false,
      "title": "Eye of Desolation",
      "how": "Craft at an Anvil from 10 Hellstone Bars, 5 Essence of Havoc and 3 Souls of Plight (pack addition, so Polaris comes first). Use at night; reusable.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "NightOwlPotion",
+      "title": "Night Owl Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainAshesOfCalamity",
@@ -2062,7 +2578,12 @@
      "any_of": false,
      "title": "Unholy Cores",
      "how": "Craft at a Hellforge from 3 Infernal Suevite (dropped by Infernal Congealments) and 2 Hellstone. (Hellforge from Pre-Hardmode.)",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SpelunkerPotion",
+      "title": "Spelunker Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftCharredIdol",
@@ -2080,7 +2601,12 @@
      "any_of": false,
      "title": "Charred Idol",
      "how": "Craft at a Hellforge from 5 Unholy Cores, 7 Essence of Havoc, 5 Souls of Night and 5 Fragments of Inferno (pack addition). Use in the Brimstone Crags.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "ArcheryPotion",
+      "title": "Archery Potion",
+      "stack": 2
+     }
     },
     {
      "key": "SetBrimflameArmor",
@@ -2141,7 +2667,12 @@
      "any_of": false,
      "title": "Seafood",
      "how": "Craft at an Anvil from 20 Sulphurous Sand, 10 Starfish, 5 Shark Fins and 5 Fragments of Tide (pack addition). Use in the Sulphurous Sea.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FishingPotion",
+      "title": "Fishing Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainGelatinCrystal",
@@ -2158,7 +2689,12 @@
      "any_of": false,
      "title": "Gelatin Crystal",
      "how": "Mine one from the crystal clusters in the underground Hallow; use it in the Hallow to summon Queen Slime.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "MiningPotion",
+      "title": "Mining Potion",
+      "stack": 2
+     }
     }
    ]
   },
@@ -2177,7 +2713,12 @@
      "after": [
       "CraftAstralChunk"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     },
     {
      "key": "LeviathanDefeated",
@@ -2185,7 +2726,12 @@
      "after": [
       "PlanteraDefeated"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     },
     {
      "key": "GolemDefeated",
@@ -2193,7 +2739,12 @@
      "after": [
       "ObtainLihzahrdPowerCell"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     },
     {
      "key": "DukeFishronDefeated",
@@ -2201,7 +2752,12 @@
      "after": [
       "ObtainTruffleWorm"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     },
     {
      "key": "EmpressOfLightDefeated",
@@ -2209,7 +2765,12 @@
      "after": [
       "ObtainPrismaticLacewing"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     },
     {
      "key": "PlaguebringerDefeated",
@@ -2217,7 +2778,12 @@
      "after": [
       "CraftAbombination"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     },
     {
      "key": "RavagerDefeated",
@@ -2225,7 +2791,12 @@
      "after": [
       "CraftDeathWhistle"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     },
     {
      "key": "LuxDefeated",
@@ -2234,7 +2805,12 @@
       "GolemDefeated",
       "CraftElectromagneticLure"
      ],
-     "any_of": true
+     "any_of": true,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     },
     {
      "key": "LunaticCultistDefeated",
@@ -2242,7 +2818,12 @@
      "after": [
       "GolemDefeated"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     },
     {
      "key": "AstrumDeusDefeated",
@@ -2250,7 +2831,12 @@
      "after": [
       "ObtainTitanHeart"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     },
     {
      "key": "SubspaceSerpentDefeated",
@@ -2258,7 +2844,12 @@
      "after": [
       "CraftCatalystBomb"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     },
     {
      "key": "MoonLordDefeated",
@@ -2266,7 +2857,12 @@
      "after": [
       "LunaticCultistDefeated"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 8
+     }
     }
    ],
    "steps": [
@@ -2285,7 +2881,12 @@
      "any_of": false,
      "title": "Living Shards",
      "how": "Plantera drops 30-40 (in its Treasure Bag on Expert+). Used for the reusable Portabulb and many Calamity items.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "EndurancePotion",
+      "title": "Endurance Potion",
+      "stack": 2
+     }
     },
     {
      "key": "MinePerennialOre",
@@ -2489,7 +3090,12 @@
      "any_of": false,
      "title": "Core of Calamity",
      "how": "Craft at a Mythril/Orichalcum Anvil from one each of Essence of Sunlight/Havoc/Eleum, Ashes of Calamity, Ectoplasm and Soul of Plight (pack addition).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SpelunkerPotion",
+      "title": "Spelunker Potion",
+      "stack": 2
+     }
     },
     {
      "key": "EquipAsgardsValor",
@@ -2506,7 +3112,12 @@
      "any_of": false,
      "title": "Asgard's Valor",
      "how": "Craft at a Mythril/Orichalcum Anvil from an Ornate Shield, 5 Hallowed Bars, a Core of Calamity and 4 Absolute Bars (pack addition).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "InfernoPotion",
+      "title": "Inferno Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainLihzahrdPowerCell",
@@ -2523,7 +3134,12 @@
      "any_of": false,
      "title": "Lihzahrd Power Cell",
      "how": "Found in Jungle Temple chests (the Temple Key comes from Plantera). Place it on the Lihzahrd Altar.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 3
+     }
     },
     {
      "key": "MineScoriaOre",
@@ -2659,7 +3275,12 @@
      "any_of": false,
      "title": "Electromagnetic Lure",
      "how": "Craft at an Anvil from a Dissolving element, 15 elemental fragments, 15 elemental plating and 2 Life Alloy (pack addition). Use on the surface Hallow to call a Chaos Construct, whose spirit becomes Lux; consumed.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "WrathPotion",
+      "title": "Wrath Potion",
+      "stack": 2
+     }
     },
     {
      "key": "FarmFragmentOfChaos",
@@ -2676,7 +3297,12 @@
      "any_of": false,
      "title": "Fragments of Chaos",
      "how": "Any enemy in the Hallow has a 1/35 chance to drop 1-2. Used for Phase Bars and Astral Bars (pack addition).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "TitanPotion",
+      "title": "Titan Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainPhaseOre",
@@ -2693,7 +3319,12 @@
      "any_of": false,
      "title": "Phase Ore",
      "how": "Lux drops a large amount (120-180 in its bag); Phase Assaulters and Speeders drop some too.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "MiningPotion",
+      "title": "Mining Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftPhaseBar",
@@ -2712,7 +3343,12 @@
      "any_of": false,
      "title": "Phase Bars",
      "how": "Smelt 3 at an Adamantite/Titanium Forge from 30 Phase Ore, 5 Crystal Shards, 1 Fragment of Chaos and 2 Essence of Sunlight (pack addition).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 3
+     }
     },
     {
      "key": "SetElementalArmor",
@@ -2773,7 +3409,12 @@
      "any_of": false,
      "title": "Decryption Computer",
      "how": "Craft at an Anvil from 18 Mysterious Circuitry, 10 Dubious Plating, Wire, Copper Bars and Glass after reading the Sunken Sea lab schematic. Decrypts the lab schematics that unlock Arsenal recipes.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofIchor",
+      "title": "Flask of Ichor",
+      "stack": 1
+     }
     },
     {
      "key": "CraftAstralChunk",
@@ -2790,7 +3431,12 @@
      "any_of": false,
      "title": "Astral Chunk",
      "how": "Craft at a Mythril/Orichalcum Anvil from 8 Dubious Plating, 20 Fallen Stars, 30 Starblight Soot and 6 Fragments of Otherworld (pack addition); requires the decrypted Planetoid (Tier 2) schematic. Use at night in the Astral Infection.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofFire",
+      "title": "Flask of Fire",
+      "stack": 1
+     }
     },
     {
      "key": "ObtainAureusCell",
@@ -2807,7 +3453,12 @@
      "any_of": false,
      "title": "Aureus Cells",
      "how": "Dropped by Astrum Aureus. Used for the reusable Starcore.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofVenom",
+      "title": "Flask of Venom",
+      "stack": 1
+     }
     },
     {
      "key": "EquipLeviathanAmbergris",
@@ -2824,7 +3475,12 @@
      "any_of": false,
      "title": "Leviathan Ambergris",
      "how": "Found in the Leviathan and Anahita Treasure Bag (Expert/Master only).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 3
+     }
     },
     {
      "key": "ObtainTruffleWorm",
@@ -2841,7 +3497,12 @@
      "any_of": false,
      "title": "Truffle Worm",
      "how": "Catch one with a bug net in an underground Glowing Mushroom biome in Hardmode; use it as bait in the Ocean.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "EndurancePotion",
+      "title": "Endurance Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainPrismaticLacewing",
@@ -2858,7 +3519,12 @@
      "any_of": false,
      "title": "Prismatic Lacewing",
      "how": "Catch one with a bug net in the surface Hallow at night after Plantera, then release or kill it there.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "LifeforcePotion",
+      "title": "Lifeforce Potion",
+      "stack": 2
+     }
     },
     {
      "key": "FarmPlagueCellCanister",
@@ -2875,7 +3541,12 @@
      "any_of": false,
      "title": "Plague Cell Canisters",
      "how": "Dropped by Plague enemies (Plague Chargers, Melters, Viruling, etc.), which roam the Jungle after Golem.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "InfernoPotion",
+      "title": "Inferno Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftAbombination",
@@ -2893,7 +3564,12 @@
      "any_of": false,
      "title": "Abombination",
      "how": "Craft at a Mythril/Orichalcum Anvil from 20 Plague Cell Canisters and 12 Mysterious Circuitry; requires the decrypted Jungle lab (Tier 3) schematic. Use in the Jungle.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "GreaterHealingPotion",
+      "title": "Greater Healing Potion",
+      "stack": 3
+     }
     },
     {
      "key": "SetPlaguebringerArmor",
@@ -2996,7 +3672,12 @@
      "any_of": false,
      "title": "Death Whistle",
      "how": "Craft at a Demon/Crimson Altar from 15 Lunar Tablet Fragments and 25 Lihzahrd Bricks. Reusable.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "WrathPotion",
+      "title": "Wrath Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainAncientManipulator",
@@ -3013,7 +3694,12 @@
      "any_of": false,
      "title": "Ancient Manipulator",
      "how": "Dropped by the Lunatic Cultist. Needed for Astral Bars, Astral armor, the Starcore and all lunar-tier gear.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "TitanPotion",
+      "title": "Titan Potion",
+      "stack": 2
+     }
     },
     {
      "key": "FarmMeldBlob",
@@ -3055,7 +3741,12 @@
      "any_of": false,
      "title": "Titan Heart",
      "how": "Dropped by Atlas in the Astral Infection. Place it in the Astral Beacon to summon Astrum Deus; the heart is consumed.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "HeartreachPotion",
+      "title": "Heartreach Potion",
+      "stack": 2
+     }
     },
     {
      "key": "MineAstralOre",
@@ -3170,7 +3861,12 @@
      "any_of": false,
      "title": "Starcore",
      "how": "Reusable Astrum Deus summon for rematches: craft at an Ancient Manipulator from 8 Astral Bars, 8 Aureus Cells, 25 Starblight Soot and 3 Phase Bars (pack addition). Astral Bars are only obtainable after Deus, so the first fight uses a Titan Heart.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SpelunkerPotion",
+      "title": "Spelunker Potion",
+      "stack": 2
+     }
     },
     {
      "key": "SetTitanHeartArmor",
@@ -3230,7 +3926,12 @@
      "any_of": false,
      "title": "Torch Bombs",
      "how": "Craft at an Anvil from a Bomb, a Torch and a Glow Nylon; the Glowmoth also drops 8-16 (12-24 from its Silk Cocoon).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofIchor",
+      "title": "Flask of Ichor",
+      "stack": 1
+     }
     },
     {
      "key": "CraftCatalystBomb",
@@ -3249,7 +3950,12 @@
      "any_of": false,
      "title": "Catalyst Bomb",
      "how": "Craft at a Mythril/Orichalcum Anvil from 5 Torch Bombs, a Dynamite, an Ectoplasm, a Soul of Night and 4 Meld Blobs (pack addition). Detonate it in the Sanctuary at Underworld depth; consumed.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofFire",
+      "title": "Flask of Fire",
+      "stack": 1
+     }
     },
     {
      "key": "ObtainSanguiteBar",
@@ -3337,7 +4043,12 @@
      "after": [
       "CraftExoticPheromones"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "ProfanedGuardiansDefeated",
@@ -3345,7 +4056,12 @@
      "after": [
       "CraftProfanedShard"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "PolterghastDefeated",
@@ -3353,7 +4069,12 @@
      "after": [
       "CraftNecroplasmicBeacon"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "ProvidenceDefeated",
@@ -3361,7 +4082,12 @@
      "after": [
       "ObtainProfanedCore"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "OldDukeDefeated",
@@ -3369,7 +4095,12 @@
      "after": [
       "ObtainBloodworm"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "CeaselessVoidDefeated",
@@ -3377,7 +4108,12 @@
      "after": [
       "CraftMarkOfProvidence"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "StormWeaverDefeated",
@@ -3385,7 +4121,12 @@
      "after": [
       "CraftMarkOfProvidence"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "SignusDefeated",
@@ -3393,7 +4134,12 @@
      "after": [
       "CraftMarkOfProvidence"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "DevourerOfGodsDefeated",
@@ -3401,7 +4147,12 @@
      "after": [
       "CraftCosmicWorm"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     }
    ],
    "steps": [
@@ -3471,7 +4222,12 @@
      "any_of": false,
      "title": "Profaned Shard",
      "how": "Craft at a Mythril/Orichalcum Anvil from 5 Luminite Bars, 25 Unholy Essence and 4 Sanguite Bars (pack addition; from the Subspace Serpent). Use in the Hallow or Underworld; reusable.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "EndurancePotion",
+      "title": "Endurance Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainProfanedCore",
@@ -3488,7 +4244,12 @@
      "any_of": false,
      "title": "Profaned Core",
      "how": "Dropped by the Profaned Guardian Commander. Summons Providence (reusable).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SpelunkerPotion",
+      "title": "Spelunker Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainDivineGeode",
@@ -3624,7 +4385,12 @@
      "any_of": false,
      "title": "Solar Fragments",
      "how": "Left over from the Solar Pillar (or farm more there before the Moon Lord). Exotic Pheromones need 20 and the Mark of Providence 5.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "InfernoPotion",
+      "title": "Inferno Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftExoticPheromones",
@@ -3641,7 +4407,12 @@
      "any_of": false,
      "title": "Exotic Pheromones",
      "how": "Craft at an Ancient Manipulator from 5 Life Alloy and 20 Solar Fragments. Use in the Jungle; reusable.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 3
+     }
     },
     {
      "key": "ObtainEffulgentFeather",
@@ -3658,7 +4429,12 @@
      "any_of": false,
      "title": "Effulgent Feathers",
      "how": "Dropped by the Dragonfolly (and Wild Bumblebirbs). Yharon's egg needs 15.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "WrathPotion",
+      "title": "Wrath Potion",
+      "stack": 2
+     }
     },
     {
      "key": "MineExodiumCluster",
@@ -3675,7 +4451,12 @@
      "any_of": false,
      "title": "Exodium Clusters",
      "how": "Mine Exodium on the Luminite planetoids in space (225% pickaxe). The Cosmic Anvil needs 20.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SpelunkerPotion",
+      "title": "Spelunker Potion",
+      "stack": 2
+     }
     },
     {
      "key": "FarmNecroplasm",
@@ -3717,7 +4498,12 @@
      "any_of": false,
      "title": "Necroplasmic Beacon",
      "how": "Craft at a Mythril/Orichalcum Anvil from 25 Wood and 50 Necroplasm. Use in the Dungeon; reusable.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "HeartreachPotion",
+      "title": "Heartreach Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainRuinousSoul",
@@ -3734,7 +4520,12 @@
      "any_of": false,
      "title": "Ruinous Souls",
      "how": "Dropped by the Polterghast.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 3
+     }
     },
     {
      "key": "SetBloodflareArmorRanged",
@@ -3794,7 +4585,12 @@
      "any_of": false,
      "title": "Bloodworm",
      "how": "After the Moon Lord, Bloodworms appear in the Sulphurous Sea when no Acid Rain is active; catch one with a bug net and use it as bait there to fish up the Old Duke (consumed).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FishingPotion",
+      "title": "Fishing Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftMarkOfProvidence",
@@ -3813,7 +4609,12 @@
      "any_of": false,
      "title": "Mark of Providence",
      "how": "Craft at a Mythril/Orichalcum Anvil from 3 Luminite Bars, 40 Unholy Essence and 5 Solar Fragments. Use in the Dungeon (Ceaseless Void), Underworld (Signus) or Space (Storm Weaver); reusable.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofFire",
+      "title": "Flask of Fire",
+      "stack": 1
+     }
     },
     {
      "key": "ObtainDarkPlasma",
@@ -3830,7 +4631,12 @@
      "any_of": false,
      "title": "Dark Plasma",
      "how": "Dropped by the Ceaseless Void.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofVenom",
+      "title": "Flask of Venom",
+      "stack": 1
+     }
     },
     {
      "key": "ObtainArmoredShell",
@@ -3847,7 +4653,12 @@
      "any_of": false,
      "title": "Armored Shell",
      "how": "Dropped by the Storm Weaver.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SpelunkerPotion",
+      "title": "Spelunker Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainTwistingNether",
@@ -3864,7 +4675,12 @@
      "any_of": false,
      "title": "Twisting Nether",
      "how": "Dropped by Signus.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "EndurancePotion",
+      "title": "Endurance Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftCosmicWorm",
@@ -3883,7 +4699,12 @@
      "any_of": false,
      "title": "Cosmic Worm",
      "how": "Craft at a Mythril/Orichalcum Anvil from an Armored Shell, a Twisting Nether and a Dark Plasma (an alternate recipe uses 40 Luminite Bars, 10 of each lunar fragment, 10 Meld Blobs and 40 Necroplasm). Reusable.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "LifeforcePotion",
+      "title": "Lifeforce Potion",
+      "stack": 2
+     }
     },
     {
      "key": "SetPrismaticArmor",
@@ -4162,7 +4983,12 @@
      "after": [
       "CraftYharonEgg"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 10
+     }
     },
     {
      "key": "ExoMechsDefeated",
@@ -4172,7 +4998,12 @@
       "CraftVoltageRegulationSystem",
       "CraftAuricQuantumCoolingCell"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 10
+     }
     },
     {
      "key": "SupremeCalamitasDefeated",
@@ -4180,7 +5011,12 @@
      "after": [
       "GatherAshesOfCalamity"
      ],
-     "any_of": false
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 10
+     }
     }
    ],
    "steps": [
@@ -4224,7 +5060,12 @@
      "any_of": false,
      "title": "Cosmic Anvil",
      "how": "Craft at an Ancient Manipulator from a Mythril/Orichalcum Anvil, 10 Cosmilite Bars, 10 Luminite Bars and 20 Exodium Clusters. Crafts God Slayer, Silva and Auric gear.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "EndurancePotion",
+      "title": "Endurance Potion",
+      "stack": 2
+     }
     },
     {
      "key": "FarmNightmareFuel",
@@ -4318,7 +5159,12 @@
      "any_of": false,
      "title": "Ascendant Spirit Essence",
      "how": "Craft at a Mythril/Orichalcum Anvil from 2 Necroplasm, 5 Nightmare Fuel, 5 Endothermic Energy and 2 Darksun Fragments.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "LifeforcePotion",
+      "title": "Lifeforce Potion",
+      "stack": 2
+     }
     },
     {
      "key": "SetGodSlayerArmorMelee",
@@ -4468,7 +5314,12 @@
      "any_of": false,
      "title": "Elemental Gauntlet",
      "how": "Craft at the Cosmic Anvil from a Fire Gauntlet, 4 Ascendant Spirit Essence and 6 Sanguite Bars (pack addition).",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "InfernoPotion",
+      "title": "Inferno Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftYharonEgg",
@@ -4485,7 +5336,12 @@
      "any_of": false,
      "title": "Jungle Dragon Egg",
      "how": "Craft at a Mythril/Orichalcum Anvil from 10 Life Alloy and 15 Effulgent Feathers (from the Dragonfolly). Use in the Jungle; reusable.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "ObtainYharonSoulFragment",
@@ -4502,7 +5358,12 @@
      "any_of": false,
      "title": "Yharon Soul Fragments",
      "how": "Dropped by Yharon.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "WrathPotion",
+      "title": "Wrath Potion",
+      "stack": 2
+     }
     },
     {
      "key": "ObtainAuricOre",
@@ -4613,7 +5474,12 @@
      "any_of": false,
      "title": "Codebreaker Base",
      "how": "Craft at an Anvil from a Charging Station, 20 Mysterious Circuitry and 35 Dubious Plating; fit it with the Decryption Computer and the other Codebreaker parts.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "TitanPotion",
+      "title": "Titan Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftVoltageRegulationSystem",
@@ -4630,7 +5496,12 @@
      "any_of": false,
      "title": "Voltage Regulation System",
      "how": "Craft at a Mythril/Orichalcum Anvil from 10 Mysterious Circuitry, 10 Dubious Plating, 10 Uelibloom Bars and 10 Luminite Bars; requires the Underworld lab (Tier 4) schematic.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "HeartreachPotion",
+      "title": "Heartreach Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftAuricQuantumCoolingCell",
@@ -4650,7 +5521,12 @@
      "any_of": false,
      "title": "Auric Quantum Cooling Cell",
      "how": "Craft at the Cosmic Anvil from 5 Auric Bars, 8 Mysterious Circuitry, 8 Dubious Plating, 40 Endothermic Energy and 6 Essence of Eleum; requires the Ice lab (Tier 5) schematic. Insert it in the Codebreaker to contact Draedon.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "CraftAltarOfTheAccursed",
@@ -4667,7 +5543,12 @@
      "any_of": false,
      "title": "Altar of the Accursed",
      "how": "Craft at a Mythril/Orichalcum Anvil from 30 Brimstone Slag, 5 Auric Bars and a Core of Calamity; places a Supreme Calamitas altar if you need one away from the Brimstone Crags.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofIchor",
+      "title": "Flask of Ichor",
+      "stack": 1
+     }
     },
     {
      "key": "GatherAshesOfCalamity",
@@ -4684,7 +5565,12 @@
      "any_of": false,
      "title": "Ashes of Calamity (Offering)",
      "how": "Hold Ashes of Calamity (from the Calamitas Clone) and right-click the altar in the Brimstone Crags; one is consumed per summon.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofFire",
+      "title": "Flask of Fire",
+      "stack": 1
+     }
     },
     {
      "key": "ObtainAshesOfAnnihilation",
@@ -4701,7 +5587,12 @@
      "any_of": false,
      "title": "Ashes of Annihilation",
      "how": "Dropped by Supreme Calamitas.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "FlaskofVenom",
+      "title": "Flask of Venom",
+      "stack": 1
+     }
     },
     {
      "key": "CraftCeremonialUrn",
@@ -4718,7 +5609,12 @@
      "any_of": false,
      "title": "Ceremonial Urn",
      "how": "Craft at the altar from 5 Ashes of Annihilation and 15 Ashes of Calamity; lets you re-summon Supreme Calamitas without consuming Ashes.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SuperHealingPotion",
+      "title": "Super Healing Potion",
+      "stack": 5
+     }
     },
     {
      "key": "ObtainExoPrism",
@@ -4735,7 +5631,12 @@
      "any_of": false,
      "title": "Exo Prisms",
      "how": "Dropped by the Exo Mechs.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "EndurancePotion",
+      "title": "Endurance Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftDraedonsForge",
@@ -4754,7 +5655,12 @@
      "any_of": false,
      "title": "Draedon's Forge",
      "how": "Combine a Cosmic Anvil, an Adamantite/Titanium Forge, a Tinkerer's Workshop and an Ancient Manipulator with 15 Auric Bars, 12 Exo Prisms and 15 Ascendant Spirit Essence.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "LifeforcePotion",
+      "title": "Lifeforce Potion",
+      "stack": 2
+     }
     },
     {
      "key": "CraftShadowspecBar",
@@ -4772,7 +5678,12 @@
      "any_of": false,
      "title": "Shadowspec Bars",
      "how": "Craft at Draedon's Forge from one Auric Bar, Exo Prism and Ash of Annihilation each.",
-     "uncertain": false
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "InfernoPotion",
+      "title": "Inferno Potion",
+      "stack": 2
+     }
     },
     {
      "key": "SetDemonshadeArmor",

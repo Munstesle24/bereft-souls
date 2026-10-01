@@ -19,12 +19,6 @@ public abstract class StepQuest : Quest
 {
     public override QuestType QuestType => QuestType.World;
 
-    /// <summary>The reward item each player receives, or 0 for none.</summary>
-    /// <remarks>Handed out by <see cref="QuestRewardPlayer"/>.</remarks>
-    protected internal virtual int RewardType => 0;
-
-    protected internal virtual int RewardStack => 1;
-
     // QuestBooks checks incomplete quests every tick; inventory scans for
     // every player don't need to run that often.
     private const int check_interval = 30;
