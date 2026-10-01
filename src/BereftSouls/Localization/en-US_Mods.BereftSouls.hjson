@@ -8,208 +8,1251 @@ QuestBooks: {
 		Endgame: Endgame
 	}
 
+	ObtainSolidifier: {
+		Title: "Solidifier"
+		Contents: "[c/9AA0A6:Optional] Obtain Solidifier. Always dropped by King Slime. Needed for Statigel armor and lets you craft Wormwood (2 Wood + 5 Gel)."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Solidifier"
+	}
+
+	SetWulfrumArmor: {
+		Title: "Wulfrum Armor"
+		Contents: "[c/9AA0A6:Optional] Wear the full Wulfrum Armor. Craft each piece at an Anvil from Wulfrum Metal Scrap and an Energy Core, dropped by Wulfrum robots (Drones, Gyrators, Amplifiers) on the surface. [c/7FD4FF:Reward: Hermes Boots]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Wulfrum Armor [c/7FD4FF:Reward: Hermes Boots]"
+	}
+
+	SetSnowRuffianArmor: {
+		Title: "Snow Ruffian Armor (Rogue)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Snow Ruffian Armor (Rogue). Craft at an Anvil from Boreal Wood, Silk and Flinx Fur. [c/7FD4FF:Reward: Coin of Deceit]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Snow Ruffian Armor (Rogue) [c/7FD4FF:Reward: Coin of Deceit]"
+	}
+
+	FarmFragmentOfNature: {
+		Title: "Fragments of Nature"
+		Contents: "[c/9AA0A6:Optional] Obtain 10 Fragments of Nature. Any enemy in the Forest or Jungle has a 1/35 chance to drop 1-2. [c/7FD4FF:Reward: 3 Regeneration Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 10 Fragments of Nature [c/7FD4FF:Reward: 3 Regeneration Potions]"
+	}
+
+	FarmFragmentOfEarth: {
+		Title: "Fragments of Earth"
+		Contents: "[c/9AA0A6:Optional] Obtain 10 Fragments of Earth. Any enemy in the Pyramid, Desert or Underground has a 1/35 chance to drop 1-2. [c/7FD4FF:Reward: 3 Spelunker Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 10 Fragments of Earth [c/7FD4FF:Reward: 3 Spelunker Potions]"
+	}
+
+	FarmFragmentOfTide: {
+		Title: "Fragments of Tide"
+		Contents: "[c/9AA0A6:Optional] Obtain 10 Fragments of Tide. Any enemy at the Beach or in the Dungeon has a 1/35 chance to drop 1-2. [c/7FD4FF:Reward: 3 Gills Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 10 Fragments of Tide [c/7FD4FF:Reward: 3 Gills Potions]"
+	}
+
+	FarmFragmentOfOtherworld: {
+		Title: "Fragments of Otherworld"
+		Contents: "[c/FFD700:Required] Obtain 10 Fragments of Otherworld. Any enemy in the Sky or a Meteor biome has a 1/35 chance to drop 1-2; Planetarium enemies drop them more often. Each Aerialite Bar needs one. [c/7FD4FF:Reward: 3 Featherfall Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 10 Fragments of Otherworld [c/7FD4FF:Reward: 3 Featherfall Potions]"
+	}
+
+	FarmStormlionMandible: {
+		Title: "Stormlion Mandibles"
+		Contents: "[c/9AA0A6:Optional] Obtain 5 Stormlion Mandibles. Dropped by Stormlions in the Desert. Used for the Desert Medallion and SotS Cursed armor."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 5 Stormlion Mandibles"
+	}
+
+	FarmSulphuricScale: {
+		Title: "Sulphuric Scales"
+		Contents: "[c/9AA0A6:Optional] Obtain 10 Sulphuric Scales. Dropped by Acid Rain enemies in the Sulphurous Sea. Used for SotS Nature armor."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 10 Sulphuric Scales"
+	}
+
+	CraftFrigidBar: {
+		Title: "Frigid Bars"
+		Contents: "[c/9AA0A6:Optional] Obtain 12 Frigid Bars. Craft 2 at an Anvil from 10 Frigid Ice, 1 Ancient Steel Bar and 1 Fragment of Permafrost (cold-biome enemy drop). Daedalus armor in Hardmode also needs these. [c/7FD4FF:Reward: 3 Warmth Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 12 Frigid Bars [c/7FD4FF:Reward: 3 Warmth Potions]"
+	}
+
+	SetFrigidArmor: {
+		Title: "Frigid Armor"
+		Contents: "[c/9AA0A6:Optional] Wear the full Frigid Armor. Craft each piece at an Anvil from Frigid Bars (8 / 16 / 12). [c/7FD4FF:Reward: Ice Skates]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Frigid Armor [c/7FD4FF:Reward: Ice Skates]"
+	}
+
+	CraftVibrantBar: {
+		Title: "Vibrant Bars"
+		Contents: "[c/9AA0A6:Optional] Obtain 10 Vibrant Bars. Craft 2 at a Furnace from 10 Vibrant Ore, 2 Glowing Mushrooms, 1 Iron/Lead Bar, 1 Fragment of Earth and 1 Wulfrum Metal Scrap (pack addition). Vibrant Ore is a worldgen crystal ore."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 10 Vibrant Bars"
+	}
+
+	SetVibrantArmor: {
+		Title: "Vibrant Armor (Ranged)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Vibrant Armor (Ranged). Craft each piece at an Anvil from Vibrant Bars (10 / 12 / 10). [c/7FD4FF:Reward: Shark Tooth Necklace]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Vibrant Armor (Ranged) [c/7FD4FF:Reward: Shark Tooth Necklace]"
+	}
+
+	CraftDesertMedallion: {
+		Title: "Desert Medallion"
+		Contents: "[c/9AA0A6:Optional] Obtain Desert Medallion. Craft at a Demon/Crimson Altar from 40 Sand, 4 Antlion Mandibles, 2 Stormlion Mandibles and 3 Fragments of Earth (pack addition). Reusable."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Desert Medallion"
+	}
+
+	ObtainPearlShard: {
+		Title: "Pearl Shards"
+		Contents: "[c/9AA0A6:Optional] Obtain 4 Pearl Shards. The Desert Scourge drops 25-30. Combine 2 with Coral, Starfish and Seashells at a Furnace for Sea Remains."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 4 Pearl Shards"
+	}
+
+	SetVictideArmorMelee: {
+		Title: "Victide Armor (Melee)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Victide Armor (Melee). Craft at an Anvil from Sea Remains (3 / 5 / 4); the breastplate and greaves also need 4 / 3 Fragments of Tide (pack addition). [c/7FD4FF:Reward: Feral Claws]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Victide Armor (Melee) [c/7FD4FF:Reward: Feral Claws]"
+	}
+
+	ObtainPrismShard: {
+		Title: "Prism Shards"
+		Contents: "[c/9AA0A6:Optional] Obtain 3 Prism Shards. Break Sea Prism crystals in the Sunken Sea, or kill Sunken Sea enemies such as the Blinded Angler."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 3 Prism Shards"
+	}
+
+	CraftSuspiciousLookingCandle: {
+		Title: "Suspicious Looking Candle"
+		Contents: "[c/9AA0A6:Optional] Obtain Suspicious Looking Candle. Craft at a Demon/Crimson Altar from a Candle, 5 Glow Nylon (Cobweb + Glowing Mushroom at a Loom), 10 Glowing Mushrooms and 3 Prism Shards (pack addition). Use in a Glowing Mushroom biome; consumed."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Suspicious Looking Candle"
+	}
+
+	CraftDecapoditaSprout: {
+		Title: "Decapodita Sprout"
+		Contents: "[c/9AA0A6:Optional] Obtain Decapodita Sprout. Craft at a Demon/Crimson Altar from 50 Glowing Mushrooms and 3 Fragments of Nature (pack addition). Reusable."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Decapodita Sprout"
+	}
+
+	EquipFungalClump: {
+		Title: "Fungal Clump"
+		Contents: "[c/9AA0A6:Optional] Equip Fungal Clump. Found in Crabulon's Treasure Bag (Expert/Master only)."
+		Tooltip: "[c/9AA0A6:Optional] Equip Fungal Clump"
+	}
+
+	MineAerialiteOre: {
+		Title: "Aerialite Ore"
+		Contents: "[c/FFD700:Required] Obtain 15 Aerialite Ore. The first Hive Mind or Perforators kill enchants the Aerialite ore in sky-island clouds; mine it with a 65%+ pickaxe."
+		Tooltip: "[c/FFD700:Required] Obtain 15 Aerialite Ore"
+	}
+
+	CraftAerialiteBar: {
+		Title: "Aerialite Bars"
+		Contents: "[c/FFD700:Required] Obtain 10 Aerialite Bars. Smelt at a Furnace from 3 Aerialite Ore plus 1 Fragment of Otherworld (pack addition). [c/7FD4FF:Reward: 3 Ironskin Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 10 Aerialite Bars [c/7FD4FF:Reward: 3 Ironskin Potions]"
+	}
+
+	SetAerospecArmorRogue: {
+		Title: "Aerospec Armor (Rogue)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Aerospec Armor (Rogue). Craft at an Anvil from Aerialite Bars (10 / 20 / 15) and Feathers. [c/7FD4FF:Reward: Raider's Talisman]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Aerospec Armor (Rogue) [c/7FD4FF:Reward: Raider's Talisman]"
+	}
+
+	FarmPeanuts: {
+		Title: "Peanuts"
+		Contents: "[c/9AA0A6:Optional] Obtain 15 Peanuts. Treasure Slimes drop 10-20; also from Peanut Bushes and pots in the Abandoned Village. [c/7FD4FF:Reward: 2 Swiftness Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 15 Peanuts [c/7FD4FF:Reward: 2 Swiftness Potions]"
+	}
+
+	CraftJarOfPeanuts: {
+		Title: "Jar of Peanuts"
+		Contents: "[c/9AA0A6:Optional] Obtain Jar of Peanuts. Craft by hand from a Bottle, 15 Peanuts and 2 Aerialite Bars (pack addition). Summons Putrid Pinky; consumed."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Jar of Peanuts"
+	}
+
+	ObtainWormwood: {
+		Title: "Wormwood"
+		Contents: "[c/9AA0A6:Optional] Obtain 25 Wormwood. Putrid Pinky drops 20-30. It can also be crafted (2 per 2 Wood + 5 Gel) at a Solidifier, so this does not strictly require Pinky."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 25 Wormwood"
+	}
+
+	SetNatureArmor: {
+		Title: "Nature Armor (Summoner)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Nature Armor (Summoner). Craft at a Work Bench from Wormwood and Fragments of Nature, plus 3 / 4 / 3 Sulphuric Scales (pack addition). [c/7FD4FF:Reward: Feral Claws]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Nature Armor (Summoner) [c/7FD4FF:Reward: Feral Claws]"
+	}
+
+	FarmBlightedGel: {
+		Title: "Blighted Gel"
+		Contents: "[c/9AA0A6:Optional] Obtain 40 Blighted Gel. Ebonian/Crimulan Blight Slimes in the Corruption/Crimson drop 15-21 each. [c/7FD4FF:Reward: 5 Healing Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 40 Blighted Gel [c/7FD4FF:Reward: 5 Healing Potions]"
+	}
+
+	CraftOverloadedSludge: {
+		Title: "Overloaded Sludge"
+		Contents: "[c/9AA0A6:Optional] Obtain Overloaded Sludge. Craft at a Demon/Crimson Altar from 40 Blighted Gel, 40 evil blocks and 5 Wormwood (pack addition). Reusable."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Overloaded Sludge"
+	}
+
+	ObtainPurifiedGel: {
+		Title: "Purified Gel"
+		Contents: "[c/9AA0A6:Optional] Obtain 18 Purified Gel. The Slime God drops 30-45."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 18 Purified Gel"
+	}
+
+	SetStatigelArmorMagic: {
+		Title: "Statigel Armor (Magic)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Statigel Armor (Magic). Craft at a Solidifier from Purified Gel and Blighted Gel; the chest and greaves also need 6 / 5 Wormwood (pack addition). [c/7FD4FF:Reward: Band of Starpower]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Statigel Armor (Magic) [c/7FD4FF:Reward: Band of Starpower]"
+	}
+
+	CraftAbeemination: {
+		Title: "Abeemination"
+		Contents: "[c/9AA0A6:Optional] Obtain Abeemination. Craft at a Demon/Crimson Altar from honey, hive and Stinger materials, or just break a Bee Larva in the Underground Jungle."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Abeemination"
+	}
+
+	ObtainBeeWax: {
+		Title: "Bee Wax"
+		Contents: "[c/9AA0A6:Optional] Obtain 14 Bee Wax. Dropped by Queen Bee."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 14 Bee Wax"
+	}
+
+	ObtainCursedMatter: {
+		Title: "Cursed Matter"
+		Contents: "[c/9AA0A6:Optional] Obtain 20 Cursed Matter. Pharaoh's Curse drops it (14-24 in its bag); right-click the Pyramid sarcophagus to summon it. Ghasts in the Pyramid also drop some. [c/7FD4FF:Reward: 3 Magic Power Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 20 Cursed Matter [c/7FD4FF:Reward: 3 Magic Power Potions]"
+	}
+
+	SetCursedArmor: {
+		Title: "Cursed Armor (Magic)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Cursed Armor (Magic). Craft at an Anvil: hood from 8 Cursed Matter + 20 Royal Ruby Shards, robe from 12 Cursed Matter + a gem robe + a Ruby Keystone; 2 / 3 Stormlion Mandibles each (pack addition). [c/7FD4FF:Reward: Celestial Magnet]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Cursed Armor (Magic) [c/7FD4FF:Reward: Celestial Magnet]"
+	}
+
+	ObtainHellforge: {
+		Title: "Hellforge"
+		Contents: "[c/FFD700:Required] Obtain Hellforge. Find one in the ruined houses of the Underworld. Needed to smelt Hellstone Bars. [c/7FD4FF:Reward: 3 Obsidian Skin Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain Hellforge [c/7FD4FF:Reward: 3 Obsidian Skin Potions]"
+	}
+
+	CraftHellstoneBars: {
+		Title: "Hellstone Bars"
+		Contents: "[c/FFD700:Required] Obtain 15 Hellstone Bars. Smelt Hellstone (needs a Nightmare/Deathbringer Pickaxe) and Obsidian at a Hellforge. The Eye of Desolation needs 10 in Hardmode. [c/7FD4FF:Reward: 3 Mining Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 15 Hellstone Bars [c/7FD4FF:Reward: 3 Mining Potions]"
+	}
+
+	SetMoltenArmor: {
+		Title: "Molten Armor"
+		Contents: "[c/9AA0A6:Optional] Wear the full Molten Armor. Craft each piece at an Anvil from Hellstone Bars. [c/7FD4FF:Reward: Shark Tooth Necklace]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Molten Armor [c/7FD4FF:Reward: Shark Tooth Necklace]"
+	}
+
+	ObtainGuideVoodooDoll: {
+		Title: "Guide Voodoo Doll"
+		Contents: "[c/FFD700:Required] Obtain Guide Voodoo Doll. Dropped by Voodoo Demons in the Underworld. Throw it into lava there to summon the Wall of Flesh. [c/7FD4FF:Reward: 3 Ironskin Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain Guide Voodoo Doll [c/7FD4FF:Reward: 3 Ironskin Potions]"
+	}
+
+	ObtainEarthenPlating: {
+		Title: "Earthen Plating"
+		Contents: "[c/9AA0A6:Optional] Obtain 15 Earthen Plating. The Excavator (summoned from the Seismic Station in the Abandoned Village) and Earthen Gizmos drop it. One kind of elemental plating for the Electromagnetic Lure."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 15 Earthen Plating"
+	}
+
+	ObtainHardlightFabricator: {
+		Title: "Hardlight Fabricator"
+		Contents: "[c/9AA0A6:Optional] Obtain Hardlight Fabricator. Craft by hand from 10 Avaritian Plating harvested in the Planetarium. Crafting station for SotS alloys and Twilight Assassin armor."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Hardlight Fabricator"
+	}
+
+	CraftStarlightAlloy: {
+		Title: "Starlight Alloy"
+		Contents: "[c/9AA0A6:Optional] Obtain 12 Starlight Alloy. Craft at the Hardlight Fabricator from a Fallen Star, a Fragment of Otherworld, a Twilight Shard and an Aerialite Bar (pack addition)."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 12 Starlight Alloy"
+	}
+
+	SetTwilightAssassinArmor: {
+		Title: "Twilight Assassin Armor"
+		Contents: "[c/9AA0A6:Optional] Wear the full Twilight Assassin Armor. Craft at the Hardlight Fabricator from Starlight/Hardlight/Otherworldly Alloys (chest: Hellstone Bars + Hardlight Alloy) and a Dissolving Aether each, plus 4 / 6 / 5 Purified Gel (pack addition). [c/7FD4FF:Reward: Feral Claws]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Twilight Assassin Armor [c/7FD4FF:Reward: Feral Claws]"
+	}
+
+	CraftDeerThing: {
+		Title: "Deer Thing"
+		Contents: "[c/9AA0A6:Optional] Obtain Deer Thing. Craft at a Demon/Crimson Altar from Flinx Fur, a Lens and Demonite/Crimtane Ore; use in the Snow biome."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Deer Thing"
+	}
+
+	FarmSoulsOfLight: {
+		Title: "Souls of Light"
+		Contents: "[c/FFD700:Required] Obtain 15 Souls of Light. Dropped by enemies in the underground Hallow. [c/7FD4FF:Reward: 3 Shine Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 15 Souls of Light [c/7FD4FF:Reward: 3 Shine Potions]"
+	}
+
+	FarmSoulsOfNight: {
+		Title: "Souls of Night"
+		Contents: "[c/FFD700:Required] Obtain 15 Souls of Night. Dropped by enemies in the underground Corruption/Crimson. [c/7FD4FF:Reward: 3 Night Owl Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 15 Souls of Night [c/7FD4FF:Reward: 3 Night Owl Potions]"
+	}
+
+	ObtainMythrilAnvil: {
+		Title: "Mythril Anvil"
+		Contents: "[c/9AA0A6:Optional] Obtain Mythril Anvil. Craft from 10 Mythril Bars at an Anvil. Needed for the mechanical boss summons and most Hardmode modded gear."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Mythril Anvil"
+	}
+
+	ObtainOrichalcumAnvil: {
+		Title: "Orichalcum Anvil"
+		Contents: "[c/9AA0A6:Optional] Obtain Orichalcum Anvil. Craft from 12 Orichalcum Bars at an Anvil. Equivalent to the Mythril Anvil."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Orichalcum Anvil"
+	}
+
+	CraftMechanicalWorm: {
+		Title: "Mechanical Worm"
+		Contents: "[c/FFD700:Required] Obtain Mechanical Worm. Craft at a Mythril/Orichalcum Anvil from Rotten Chunks/Vertebrae, Iron/Lead Bars and Souls of Night. Use at night."
+		Tooltip: "[c/FFD700:Required] Obtain Mechanical Worm"
+	}
+
+	CraftMechanicalEye: {
+		Title: "Mechanical Eye"
+		Contents: "[c/FFD700:Required] Obtain Mechanical Eye. Craft at a Mythril/Orichalcum Anvil from Lenses, Iron/Lead Bars and Souls of Light. Use at night."
+		Tooltip: "[c/FFD700:Required] Obtain Mechanical Eye"
+	}
+
+	CraftMechanicalSkull: {
+		Title: "Mechanical Skull"
+		Contents: "[c/FFD700:Required] Obtain Mechanical Skull. Craft at a Mythril/Orichalcum Anvil from Bones, Iron/Lead Bars and Souls of Light and Night. Use at night."
+		Tooltip: "[c/FFD700:Required] Obtain Mechanical Skull"
+	}
+
+	ObtainSoulsOfMight: {
+		Title: "Souls of Might"
+		Contents: "[c/FFD700:Required] Obtain 5 Souls of Might. Dropped by The Destroyer."
+		Tooltip: "[c/FFD700:Required] Obtain 5 Souls of Might"
+	}
+
+	ObtainSoulsOfSight: {
+		Title: "Souls of Sight"
+		Contents: "[c/FFD700:Required] Obtain 5 Souls of Sight. Dropped by The Twins."
+		Tooltip: "[c/FFD700:Required] Obtain 5 Souls of Sight"
+	}
+
+	ObtainSoulsOfFright: {
+		Title: "Souls of Fright"
+		Contents: "[c/FFD700:Required] Obtain 5 Souls of Fright. Dropped by Skeletron Prime."
+		Tooltip: "[c/FFD700:Required] Obtain 5 Souls of Fright"
+	}
+
+	ObtainHallowedBars: {
+		Title: "Hallowed Bars"
+		Contents: "[c/FFD700:Required] Obtain 15 Hallowed Bars. Every mechanical boss drops Hallowed Bars. Absolute Bars need one each. [c/7FD4FF:Reward: 2 Lifeforce Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 15 Hallowed Bars [c/7FD4FF:Reward: 2 Lifeforce Potions]"
+	}
+
+	SetHallowedArmorMelee: {
+		Title: "Hallowed Armor (Melee)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Hallowed Armor (Melee). Craft each piece at a Mythril/Orichalcum Anvil from Hallowed Bars. [c/7FD4FF:Reward: Warrior Emblem]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Hallowed Armor (Melee) [c/7FD4FF:Reward: Warrior Emblem]"
+	}
+
+	FarmEssenceOfEleum: {
+		Title: "Essence of Eleum"
+		Contents: "[c/FFD700:Required] Obtain 14 Essence of Eleum. Hardmode Snow enemies drop it: Ice Elementals, Icy Mermen, Wolves and Ice Tortoises always drop one. [c/7FD4FF:Reward: 3 Warmth Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 14 Essence of Eleum [c/7FD4FF:Reward: 3 Warmth Potions]"
+	}
+
+	FarmFragmentOfPermafrost: {
+		Title: "Fragments of Permafrost"
+		Contents: "[c/FFD700:Required] Obtain 30 Fragments of Permafrost. Any enemy in a cold biome has a 1/35 chance to drop 1-2; Arctic Goblins drop 1-2. Used by the Cryo Key, Cryonic Bars and the Ornate Shield. [c/7FD4FF:Reward: 3 Ironskin Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 30 Fragments of Permafrost [c/7FD4FF:Reward: 3 Ironskin Potions]"
+	}
+
+	CraftCryoKey: {
+		Title: "Cryo Key"
+		Contents: "[c/FFD700:Required] Obtain Cryo Key. Craft at an Anvil from 50 ice blocks, 5 Souls of Light, 5 Souls of Night, 8 Essence of Eleum and 6 Fragments of Permafrost (pack addition). Use in the Snow biome."
+		Tooltip: "[c/FFD700:Required] Obtain Cryo Key"
+	}
+
+	MineCryonicOre: {
+		Title: "Cryonic Ore"
+		Contents: "[c/FFD700:Required] Obtain 24 Cryonic Ore. Cryogen's first kill seeds Cryonic Ore through the Snow biome (180% pickaxe); Cryo Slimes also drop it. [c/7FD4FF:Reward: 3 Mining Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 24 Cryonic Ore [c/7FD4FF:Reward: 3 Mining Potions]"
+	}
+
+	ObtainAdamantiteForge: {
+		Title: "Adamantite Forge"
+		Contents: "[c/9AA0A6:Optional] Obtain Adamantite Forge. Craft from a Hellforge and 30 Adamantite Ore at a Mythril/Orichalcum Anvil. Smelts most Calamity and SotS Hardmode bars."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Adamantite Forge"
+	}
+
+	ObtainTitaniumForge: {
+		Title: "Titanium Forge"
+		Contents: "[c/9AA0A6:Optional] Obtain Titanium Forge. Craft from a Hellforge and 30 Titanium Ore at a Mythril/Orichalcum Anvil. Equivalent to the Adamantite Forge."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Titanium Forge"
+	}
+
+	CraftCryonicBar: {
+		Title: "Cryonic Bars"
+		Contents: "[c/FFD700:Required] Obtain 20 Cryonic Bars. Smelt at an Adamantite/Titanium Forge from 4 Cryonic Ore plus 1 Fragment of Permafrost (pack addition). [c/7FD4FF:Reward: 3 Endurance Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 20 Cryonic Bars [c/7FD4FF:Reward: 3 Endurance Potions]"
+	}
+
+	SetDaedalusArmorRanged: {
+		Title: "Daedalus Armor (Ranged)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Daedalus Armor (Ranged). Craft at a Mythril/Orichalcum Anvil from Cryonic Bars; the breastplate and leggings also need 6 / 4 SotS Frigid Bars (pack addition, from Pre-Hardmode). [c/7FD4FF:Reward: Magic Quiver]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Daedalus Armor (Ranged) [c/7FD4FF:Reward: Magic Quiver]"
+	}
+
+	EquipOrnateShield: {
+		Title: "Ornate Shield"
+		Contents: "[c/9AA0A6:Optional] Equip Ornate Shield. Craft at a Mythril/Orichalcum Anvil from 12 Cryonic Bars, 20 Crystal Shards and 6 Fragments of Permafrost (pack addition)."
+		Tooltip: "[c/9AA0A6:Optional] Equip Ornate Shield"
+	}
+
+	ObtainDissolvingAurora: {
+		Title: "Dissolving Aurora"
+		Contents: "[c/FFD700:Required] Obtain Dissolving Aurora. Dropped by the Permafrost Spirit, which emerges when you kill a Permafrost Construct in the Snow biome."
+		Tooltip: "[c/FFD700:Required] Obtain Dissolving Aurora"
+	}
+
+	CraftFrostedKey: {
+		Title: "Frosted Key"
+		Contents: "[c/FFD700:Required] Obtain Frosted Key. Craft at a Mythril/Orichalcum Anvil from a Dissolving Aurora, 8 Cryonic Bars (replacing the Frost Core in this pack) and a Soul of Might, Sight and Fright. Hold it and right-click the Frost Artifact in the Permafrost biome; not consumed."
+		Tooltip: "[c/FFD700:Required] Obtain Frosted Key"
+	}
+
+	ObtainSoulOfPlight: {
+		Title: "Souls of Plight"
+		Contents: "[c/FFD700:Required] Obtain 15 Souls of Plight. Polaris drops them (25-40 in its bag). Needed for Absolute Bars and the Eye of Desolation. [c/7FD4FF:Reward: 5 Greater Healing Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 15 Souls of Plight [c/7FD4FF:Reward: 5 Greater Healing Potions]"
+	}
+
+	CraftAbsoluteBar: {
+		Title: "Absolute Bars"
+		Contents: "[c/FFD700:Required] Obtain 15 Absolute Bars. Smelt at an Adamantite/Titanium Forge from 1 Hallowed Bar, 1 Soul of Plight and 1 Essence of Eleum (pack addition). Life Alloy needs these later. [c/7FD4FF:Reward: 3 Endurance Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 15 Absolute Bars [c/7FD4FF:Reward: 3 Endurance Potions]"
+	}
+
+	SetFrostArtifactArmor: {
+		Title: "Frost Artifact Armor"
+		Contents: "[c/9AA0A6:Optional] Wear the full Frost Artifact Armor. Upgrade Frost armor at a Mythril/Orichalcum Anvil with Absolute Bars (12 / 20 / 16) and Cryonic Bars (4 / 6 / 5, pack addition). [c/7FD4FF:Reward: Frozen Turtle Shell]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Frost Artifact Armor [c/7FD4FF:Reward: Frozen Turtle Shell]"
+	}
+
+	FarmEssenceOfHavoc: {
+		Title: "Essence of Havoc"
+		Contents: "[c/FFD700:Required] Obtain 15 Essence of Havoc. Dropped by Hardmode Brimstone Crag enemies (Heat Spirits, Infernal Congealments, Soul Slurpers, etc.); Red Devils drop it 50% of the time. [c/7FD4FF:Reward: 3 Inferno Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 15 Essence of Havoc [c/7FD4FF:Reward: 3 Inferno Potions]"
+	}
+
+	CraftEyeofDesolation: {
+		Title: "Eye of Desolation"
+		Contents: "[c/FFD700:Required] Obtain Eye of Desolation. Craft at an Anvil from 10 Hellstone Bars, 5 Essence of Havoc and 3 Souls of Plight (pack addition, so Polaris comes first). Use at night; reusable."
+		Tooltip: "[c/FFD700:Required] Obtain Eye of Desolation"
+	}
+
+	ObtainAshesOfCalamity: {
+		Title: "Ashes of Calamity"
+		Contents: "[c/FFD700:Required] Obtain 25 Ashes of Calamity. The Calamitas Clone drops 25-30. Needed for Core of Calamity and, much later, to summon Supreme Calamitas. [c/7FD4FF:Reward: 3 Heartreach Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 25 Ashes of Calamity [c/7FD4FF:Reward: 3 Heartreach Potions]"
+	}
+
+	CraftUnholyCore: {
+		Title: "Unholy Cores"
+		Contents: "[c/9AA0A6:Optional] Obtain 12 Unholy Cores. Craft at a Hellforge from 3 Infernal Suevite (dropped by Infernal Congealments) and 2 Hellstone. (Hellforge from Pre-Hardmode.)"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 12 Unholy Cores"
+	}
+
+	CraftCharredIdol: {
+		Title: "Charred Idol"
+		Contents: "[c/9AA0A6:Optional] Obtain Charred Idol. Craft at a Hellforge from 5 Unholy Cores, 7 Essence of Havoc, 5 Souls of Night and 5 Fragments of Inferno (pack addition). Use in the Brimstone Crags."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Charred Idol"
+	}
+
+	SetBrimflameArmor: {
+		Title: "Brimflame Armor (Magic)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Brimflame Armor (Magic). Craft at a Mythril/Orichalcum Anvil from Unholy Cores and Ashes of Calamity. [c/7FD4FF:Reward: Sorcerer Emblem]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Brimflame Armor (Magic) [c/7FD4FF:Reward: Sorcerer Emblem]"
+	}
+
+	CraftSeafood: {
+		Title: "Seafood"
+		Contents: "[c/9AA0A6:Optional] Obtain Seafood. Craft at an Anvil from 20 Sulphurous Sand, 10 Starfish, 5 Shark Fins and 5 Fragments of Tide (pack addition). Use in the Sulphurous Sea."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Seafood"
+	}
+
+	ObtainGelatinCrystal: {
+		Title: "Gelatin Crystal"
+		Contents: "[c/9AA0A6:Optional] Obtain Gelatin Crystal. Mine one from the crystal clusters in the underground Hallow; use it in the Hallow to summon Queen Slime."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Gelatin Crystal"
+	}
+
+	ObtainLivingShard: {
+		Title: "Living Shards"
+		Contents: "[c/9AA0A6:Optional] Obtain 10 Living Shards. Plantera drops 30-40 (in its Treasure Bag on Expert+). Used for the reusable Portabulb and many Calamity items."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 10 Living Shards"
+	}
+
+	MinePerennialOre: {
+		Title: "Perennial Ore"
+		Contents: "[c/FFD700:Required] Obtain 24 Perennial Ore. Plantera's first kill seeds Perennial Ore in underground dirt and stone (200% pickaxe); Perennial Slimes drop it too. [c/7FD4FF:Reward: 3 Mining Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 24 Perennial Ore [c/7FD4FF:Reward: 3 Mining Potions]"
+	}
+
+	CraftPerennialBar: {
+		Title: "Perennial Bars"
+		Contents: "[c/FFD700:Required] Obtain 15 Perennial Bars. Smelt at an Adamantite/Titanium Forge from 4 Perennial Ore plus 1 Fragment of Nature (pack addition). [c/7FD4FF:Reward: 3 Regeneration Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 15 Perennial Bars [c/7FD4FF:Reward: 3 Regeneration Potions]"
+	}
+
+	SetReaverArmorTank: {
+		Title: "Reaver Armor (Tank)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Reaver Armor (Tank). Craft at a Mythril/Orichalcum Anvil from Perennial Bars. [c/7FD4FF:Reward: Paladin's Shield]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Reaver Armor (Tank) [c/7FD4FF:Reward: Paladin's Shield]"
+	}
+
+	ObtainEctoplasm: {
+		Title: "Ectoplasm"
+		Contents: "[c/FFD700:Required] Obtain 10 Ectoplasm. Dropped by Dungeon Spirits after Plantera. Needed for the Catalyst Bomb, Core of Calamity and Spectre Bars. [c/7FD4FF:Reward: 3 Spelunker Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 10 Ectoplasm [c/7FD4FF:Reward: 3 Spelunker Potions]"
+	}
+
+	SetSpectreArmor: {
+		Title: "Spectre Armor (Magic)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Spectre Armor (Magic). Craft at a Mythril/Orichalcum Anvil from Spectre Bars (Chlorophyte Bars + Ectoplasm). [c/7FD4FF:Reward: Celestial Emblem]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Spectre Armor (Magic) [c/7FD4FF:Reward: Celestial Emblem]"
+	}
+
+	FarmEssenceOfSunlight: {
+		Title: "Essence of Sunlight"
+		Contents: "[c/9AA0A6:Optional] Obtain 12 Essence of Sunlight. Hardmode sky enemies drop it: Harpies and Angry Nimbi 50%, Wyverns 8-10. Used for Phase Bars (pack addition) and Core of Calamity. [c/7FD4FF:Reward: 3 Featherfall Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 12 Essence of Sunlight [c/7FD4FF:Reward: 3 Featherfall Potions]"
+	}
+
+	CraftCoreOfCalamity: {
+		Title: "Core of Calamity"
+		Contents: "[c/9AA0A6:Optional] Obtain Core of Calamity. Craft at a Mythril/Orichalcum Anvil from one each of Essence of Sunlight/Havoc/Eleum, Ashes of Calamity, Ectoplasm and Soul of Plight (pack addition)."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Core of Calamity"
+	}
+
+	EquipAsgardsValor: {
+		Title: "Asgard's Valor"
+		Contents: "[c/9AA0A6:Optional] Equip Asgard's Valor. Craft at a Mythril/Orichalcum Anvil from an Ornate Shield, 5 Hallowed Bars, a Core of Calamity and 4 Absolute Bars (pack addition)."
+		Tooltip: "[c/9AA0A6:Optional] Equip Asgard's Valor"
+	}
+
+	ObtainLihzahrdPowerCell: {
+		Title: "Lihzahrd Power Cell"
+		Contents: "[c/FFD700:Required] Obtain Lihzahrd Power Cell. Found in Jungle Temple chests (the Temple Key comes from Plantera). Place it on the Lihzahrd Altar."
+		Tooltip: "[c/FFD700:Required] Obtain Lihzahrd Power Cell"
+	}
+
+	MineScoriaOre: {
+		Title: "Scoria Ore"
+		Contents: "[c/FFD700:Required] Obtain 24 Scoria Ore. Mine it in the lower Abyss (210% pickaxe); Chaotic Puffers and Devil Fish drop it after Golem. [c/7FD4FF:Reward: 3 Gills Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 24 Scoria Ore [c/7FD4FF:Reward: 3 Gills Potions]"
+	}
+
+	CraftScoriaBar: {
+		Title: "Scoria Bars"
+		Contents: "[c/FFD700:Required] Obtain 15 Scoria Bars. Smelt at an Adamantite/Titanium Forge from 4 Scoria Ore plus 1 Fragment of Inferno (pack addition). [c/7FD4FF:Reward: 3 Wrath Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 15 Scoria Bars [c/7FD4FF:Reward: 3 Wrath Potions]"
+	}
+
+	SetHydrothermicArmorMelee: {
+		Title: "Hydrothermic Armor (Melee)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Hydrothermic Armor (Melee). Craft at a Mythril/Orichalcum Anvil from Scoria Bars. [c/7FD4FF:Reward: Fire Gauntlet]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Hydrothermic Armor (Melee) [c/7FD4FF:Reward: Fire Gauntlet]"
+	}
+
+	CraftLifeAlloy: {
+		Title: "Life Alloy"
+		Contents: "[c/FFD700:Required] Obtain 12 Life Alloy. Craft at a Mythril/Orichalcum Anvil from one Cryonic, Perennial and Scoria Bar plus an Absolute Bar (pack addition). Needed for the Electromagnetic Lure, Exotic Pheromones and Yharon's egg. [c/7FD4FF:Reward: 3 Lifeforce Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 12 Life Alloy [c/7FD4FF:Reward: 3 Lifeforce Potions]"
+	}
+
+	CraftElectromagneticLure: {
+		Title: "Electromagnetic Lure"
+		Contents: "[c/9AA0A6:Optional] Obtain Electromagnetic Lure. Craft at an Anvil from a Dissolving element, 15 elemental fragments, 15 elemental plating and 2 Life Alloy (pack addition). Use on the surface Hallow to call a Chaos Construct, whose spirit becomes Lux; consumed."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Electromagnetic Lure"
+	}
+
+	FarmFragmentOfChaos: {
+		Title: "Fragments of Chaos"
+		Contents: "[c/9AA0A6:Optional] Obtain 12 Fragments of Chaos. Any enemy in the Hallow has a 1/35 chance to drop 1-2. Used for Phase Bars and Astral Bars (pack addition)."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 12 Fragments of Chaos"
+	}
+
+	ObtainPhaseOre: {
+		Title: "Phase Ore"
+		Contents: "[c/9AA0A6:Optional] Obtain 60 Phase Ore. Lux drops a large amount (120-180 in its bag); Phase Assaulters and Speeders drop some too."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 60 Phase Ore"
+	}
+
+	CraftPhaseBar: {
+		Title: "Phase Bars"
+		Contents: "[c/9AA0A6:Optional] Obtain 9 Phase Bars. Smelt 3 at an Adamantite/Titanium Forge from 30 Phase Ore, 5 Crystal Shards, 1 Fragment of Chaos and 2 Essence of Sunlight (pack addition)."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 9 Phase Bars"
+	}
+
+	SetElementalArmor: {
+		Title: "Elemental Armor"
+		Contents: "[c/9AA0A6:Optional] Wear the full Elemental Armor. Upgrade Twilight Assassin armor at a Mythril/Orichalcum Anvil with Phase Bars, Fragments of Chaos and Scoria Bars (4 / 6 / 5, pack addition); the breastplate also needs a Blink Pack or Particle Relocator. [c/7FD4FF:Reward: Papyrus Scarab]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Elemental Armor [c/7FD4FF:Reward: Papyrus Scarab]"
+	}
+
+	CraftDecryptionComputer: {
+		Title: "Decryption Computer"
+		Contents: "[c/9AA0A6:Optional] Obtain Decryption Computer. Craft at an Anvil from 18 Mysterious Circuitry, 10 Dubious Plating, Wire, Copper Bars and Glass after reading the Sunken Sea lab schematic. Decrypts the lab schematics that unlock Arsenal recipes."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Decryption Computer"
+	}
+
+	CraftAstralChunk: {
+		Title: "Astral Chunk"
+		Contents: "[c/9AA0A6:Optional] Obtain Astral Chunk. Craft at a Mythril/Orichalcum Anvil from 8 Dubious Plating, 20 Fallen Stars, 30 Starblight Soot and 6 Fragments of Otherworld (pack addition); requires the decrypted Planetoid (Tier 2) schematic. Use at night in the Astral Infection."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Astral Chunk"
+	}
+
+	ObtainAureusCell: {
+		Title: "Aureus Cells"
+		Contents: "[c/9AA0A6:Optional] Obtain 8 Aureus Cells. Dropped by Astrum Aureus. Used for the reusable Starcore."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 8 Aureus Cells"
+	}
+
+	EquipLeviathanAmbergris: {
+		Title: "Leviathan Ambergris"
+		Contents: "[c/9AA0A6:Optional] Equip Leviathan Ambergris. Found in the Leviathan and Anahita Treasure Bag (Expert/Master only)."
+		Tooltip: "[c/9AA0A6:Optional] Equip Leviathan Ambergris"
+	}
+
+	ObtainTruffleWorm: {
+		Title: "Truffle Worm"
+		Contents: "[c/9AA0A6:Optional] Obtain Truffle Worm. Catch one with a bug net in an underground Glowing Mushroom biome in Hardmode; use it as bait in the Ocean."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Truffle Worm"
+	}
+
+	ObtainPrismaticLacewing: {
+		Title: "Prismatic Lacewing"
+		Contents: "[c/9AA0A6:Optional] Obtain Prismatic Lacewing. Catch one with a bug net in the surface Hallow at night after Plantera, then release or kill it there."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Prismatic Lacewing"
+	}
+
+	FarmPlagueCellCanister: {
+		Title: "Plague Cell Canisters"
+		Contents: "[c/9AA0A6:Optional] Obtain 30 Plague Cell Canisters. Dropped by Plague enemies (Plague Chargers, Melters, Viruling, etc.), which roam the Jungle after Golem."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 30 Plague Cell Canisters"
+	}
+
+	CraftAbombination: {
+		Title: "Abombination"
+		Contents: "[c/9AA0A6:Optional] Obtain Abombination. Craft at a Mythril/Orichalcum Anvil from 20 Plague Cell Canisters and 12 Mysterious Circuitry; requires the decrypted Jungle lab (Tier 3) schematic. Use in the Jungle."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Abombination"
+	}
+
+	SetPlaguebringerArmor: {
+		Title: "Plaguebringer Armor (Summoner)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Plaguebringer Armor (Summoner). Upgrade Bee armor at a Mythril/Orichalcum Anvil with Alchemical Decanters, Infected Armor Plating (from the Plaguebringer Goliath) and Plague Cell Canisters. [c/7FD4FF:Reward: Pygmy Necklace]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Plaguebringer Armor (Summoner) [c/7FD4FF:Reward: Pygmy Necklace]"
+	}
+
+	SetPlagueReaperArmor: {
+		Title: "Plague Reaper Armor (Ranged)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Plague Reaper Armor (Ranged). Upgrade Necro armor at a Mythril/Orichalcum Anvil with Plague Cell Canisters and Nanites. [c/7FD4FF:Reward: Recon Scope]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Plague Reaper Armor (Ranged) [c/7FD4FF:Reward: Recon Scope]"
+	}
+
+	CraftDeathWhistle: {
+		Title: "Death Whistle"
+		Contents: "[c/9AA0A6:Optional] Obtain Death Whistle. Craft at a Demon/Crimson Altar from 15 Lunar Tablet Fragments and 25 Lihzahrd Bricks. Reusable."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Death Whistle"
+	}
+
+	ObtainAncientManipulator: {
+		Title: "Ancient Manipulator"
+		Contents: "[c/FFD700:Required] Obtain Ancient Manipulator. Dropped by the Lunatic Cultist. Needed for Astral Bars, Astral armor, the Starcore and all lunar-tier gear."
+		Tooltip: "[c/FFD700:Required] Obtain Ancient Manipulator"
+	}
+
+	FarmMeldBlob: {
+		Title: "Meld Blobs"
+		Contents: "[c/FFD700:Required] Obtain 8 Meld Blobs. Solar Pillar enemies drop them (1 in 5, 1 in 4 on Expert); Astrum Deus drops them too. The Catalyst Bomb needs 4 (pack addition). [c/7FD4FF:Reward: 3 Rage Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 8 Meld Blobs [c/7FD4FF:Reward: 3 Rage Potions]"
+	}
+
+	ObtainTitanHeart: {
+		Title: "Titan Heart"
+		Contents: "[c/9AA0A6:Optional] Obtain Titan Heart. Dropped by Atlas in the Astral Infection. Place it in the Astral Beacon to summon Astrum Deus; the heart is consumed."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Titan Heart"
+	}
+
+	MineAstralOre: {
+		Title: "Astral Ore"
+		Contents: "[c/9AA0A6:Optional] Obtain 24 Astral Ore. Astral Ore can only be mined (210% pickaxe) after Astrum Deus dies; Astral Slimes also drop it from then on. [c/7FD4FF:Reward: 3 Spelunker Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 24 Astral Ore [c/7FD4FF:Reward: 3 Spelunker Potions]"
+	}
+
+	CraftAstralBar: {
+		Title: "Astral Bars"
+		Contents: "[c/9AA0A6:Optional] Obtain 15 Astral Bars. Craft at an Ancient Manipulator from 2 Astral Ore, 3 Starblight Soot and 1 Fragment of Chaos (pack addition). [c/7FD4FF:Reward: 3 Titan Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 15 Astral Bars [c/7FD4FF:Reward: 3 Titan Potions]"
+	}
+
+	SetAstralArmor: {
+		Title: "Astral Armor"
+		Contents: "[c/9AA0A6:Optional] Wear the full Astral Armor. Craft at an Ancient Manipulator from Astral Bars (12 / 24 / 18) plus Phase Bars (3 / 6 / 4, pack addition). [c/7FD4FF:Reward: Celestial Stone]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Astral Armor [c/7FD4FF:Reward: Celestial Stone]"
+	}
+
+	CraftStarcore: {
+		Title: "Starcore"
+		Contents: "[c/9AA0A6:Optional] Obtain Starcore. Reusable Astrum Deus summon for rematches: craft at an Ancient Manipulator from 8 Astral Bars, 8 Aureus Cells, 25 Starblight Soot and 3 Phase Bars (pack addition). Astral Bars are only obtainable after Deus, so the first fight uses a Titan Heart."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Starcore"
+	}
+
+	SetTitanHeartArmor: {
+		Title: "Titan Heart Armor (Rogue)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Titan Heart Armor (Rogue). Craft at an Anvil from Astral Monoliths and a Titan Heart per piece. [c/7FD4FF:Reward: Electrician's Glove]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Titan Heart Armor (Rogue) [c/7FD4FF:Reward: Electrician's Glove]"
+	}
+
+	CraftTorchBomb: {
+		Title: "Torch Bombs"
+		Contents: "[c/FFD700:Required] Obtain 5 Torch Bombs. Craft at an Anvil from a Bomb, a Torch and a Glow Nylon; the Glowmoth also drops 8-16 (12-24 from its Silk Cocoon)."
+		Tooltip: "[c/FFD700:Required] Obtain 5 Torch Bombs"
+	}
+
+	CraftCatalystBomb: {
+		Title: "Catalyst Bomb"
+		Contents: "[c/FFD700:Required] Obtain Catalyst Bomb. Craft at a Mythril/Orichalcum Anvil from 5 Torch Bombs, a Dynamite, an Ectoplasm, a Soul of Night and 4 Meld Blobs (pack addition). Detonate it in the Sanctuary at Underworld depth; consumed."
+		Tooltip: "[c/FFD700:Required] Obtain Catalyst Bomb"
+	}
+
+	ObtainSanguiteBar: {
+		Title: "Sanguite Bars"
+		Contents: "[c/FFD700:Required] Obtain 20 Sanguite Bars. The Subspace Serpent drops 16-29; afterwards any enemy has a 1/35 chance to drop 4-5. The Profaned Shard needs 4 (pack addition). [c/7FD4FF:Reward: 5 Greater Healing Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 20 Sanguite Bars [c/7FD4FF:Reward: 5 Greater Healing Potions]"
+	}
+
+	SetVoidspaceArmor: {
+		Title: "Voidspace Armor"
+		Contents: "[c/9AA0A6:Optional] Wear the full Voidspace Armor. Upgrade Vespera armor at a Mythril/Orichalcum Anvil with Sanguite Bars, Fragments of Inferno and Astral Bars (4 / 6 / 5, pack addition). [c/7FD4FF:Reward: Ranger Emblem]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Voidspace Armor [c/7FD4FF:Reward: Ranger Emblem]"
+	}
+
+	ObtainLuminiteBars: {
+		Title: "Luminite Bars"
+		Contents: "[c/FFD700:Required] Obtain 20 Luminite Bars. Smelt Luminite (dropped by the Moon Lord) at an Ancient Manipulator. [c/7FD4FF:Reward: 5 Super Healing Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 20 Luminite Bars [c/7FD4FF:Reward: 5 Super Healing Potions]"
+	}
+
+	FarmUnholyEssence: {
+		Title: "Unholy Essence"
+		Contents: "[c/FFD700:Required] Obtain 70 Unholy Essence. After the Moon Lord, Impious Immolators and Scorn Eaters (Underworld/Hallow) and Profaned Energy drop it. [c/7FD4FF:Reward: 3 Inferno Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 70 Unholy Essence [c/7FD4FF:Reward: 3 Inferno Potions]"
+	}
+
+	CraftProfanedShard: {
+		Title: "Profaned Shard"
+		Contents: "[c/FFD700:Required] Obtain Profaned Shard. Craft at a Mythril/Orichalcum Anvil from 5 Luminite Bars, 25 Unholy Essence and 4 Sanguite Bars (pack addition; from the Subspace Serpent). Use in the Hallow or Underworld; reusable."
+		Tooltip: "[c/FFD700:Required] Obtain Profaned Shard"
+	}
+
+	ObtainProfanedCore: {
+		Title: "Profaned Core"
+		Contents: "[c/FFD700:Required] Obtain Profaned Core. Dropped by the Profaned Guardian Commander. Summons Providence (reusable)."
+		Tooltip: "[c/FFD700:Required] Obtain Profaned Core"
+	}
+
+	ObtainDivineGeode: {
+		Title: "Divine Geodes"
+		Contents: "[c/FFD700:Required] Obtain 25 Divine Geodes. Dropped by Providence (and the Profaned Guardians). [c/7FD4FF:Reward: 3 Lifeforce Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 25 Divine Geodes [c/7FD4FF:Reward: 3 Lifeforce Potions]"
+	}
+
+	MineUelibloomOre: {
+		Title: "Uelibloom Ore"
+		Contents: "[c/FFD700:Required] Obtain 24 Uelibloom Ore. Providence's first kill seeds Uelibloom Ore in Jungle mud (225% pickaxe); Bloom Slimes drop it too. [c/7FD4FF:Reward: 3 Mining Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 24 Uelibloom Ore [c/7FD4FF:Reward: 3 Mining Potions]"
+	}
+
+	CraftUelibloomBar: {
+		Title: "Uelibloom Bars"
+		Contents: "[c/FFD700:Required] Obtain 20 Uelibloom Bars. Smelt at an Adamantite/Titanium Forge from 4 Uelibloom Ore. [c/7FD4FF:Reward: 3 Endurance Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 20 Uelibloom Bars [c/7FD4FF:Reward: 3 Endurance Potions]"
+	}
+
+	SetTarragonArmorMelee: {
+		Title: "Tarragon Armor (Melee)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Tarragon Armor (Melee). Craft at a Mythril/Orichalcum Anvil from Uelibloom Bars and Divine Geodes. [c/7FD4FF:Reward: Badge of Bravery]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Tarragon Armor (Melee) [c/7FD4FF:Reward: Badge of Bravery]"
+	}
+
+	ObtainSolarFragments: {
+		Title: "Solar Fragments"
+		Contents: "[c/FFD700:Required] Obtain 25 Solar Fragments. Left over from the Solar Pillar (or farm more there before the Moon Lord). Exotic Pheromones need 20 and the Mark of Providence 5."
+		Tooltip: "[c/FFD700:Required] Obtain 25 Solar Fragments"
+	}
+
+	CraftExoticPheromones: {
+		Title: "Exotic Pheromones"
+		Contents: "[c/FFD700:Required] Obtain Exotic Pheromones. Craft at an Ancient Manipulator from 5 Life Alloy and 20 Solar Fragments. Use in the Jungle; reusable."
+		Tooltip: "[c/FFD700:Required] Obtain Exotic Pheromones"
+	}
+
+	ObtainEffulgentFeather: {
+		Title: "Effulgent Feathers"
+		Contents: "[c/FFD700:Required] Obtain 15 Effulgent Feathers. Dropped by the Dragonfolly (and Wild Bumblebirbs). Yharon's egg needs 15."
+		Tooltip: "[c/FFD700:Required] Obtain 15 Effulgent Feathers"
+	}
+
+	MineExodiumCluster: {
+		Title: "Exodium Clusters"
+		Contents: "[c/9AA0A6:Optional] Obtain 25 Exodium Clusters. Mine Exodium on the Luminite planetoids in space (225% pickaxe). The Cosmic Anvil needs 20."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 25 Exodium Clusters"
+	}
+
+	FarmNecroplasm: {
+		Title: "Necroplasm"
+		Contents: "[c/9AA0A6:Optional] Obtain 50 Necroplasm. After the Moon Lord, killing strong Dungeon enemies can release Phantom Spirits, which drop Necroplasm. [c/7FD4FF:Reward: 3 Spelunker Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 50 Necroplasm [c/7FD4FF:Reward: 3 Spelunker Potions]"
+	}
+
+	CraftNecroplasmicBeacon: {
+		Title: "Necroplasmic Beacon"
+		Contents: "[c/9AA0A6:Optional] Obtain Necroplasmic Beacon. Craft at a Mythril/Orichalcum Anvil from 25 Wood and 50 Necroplasm. Use in the Dungeon; reusable."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Necroplasmic Beacon"
+	}
+
+	ObtainRuinousSoul: {
+		Title: "Ruinous Souls"
+		Contents: "[c/9AA0A6:Optional] Obtain 8 Ruinous Souls. Dropped by the Polterghast."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 8 Ruinous Souls"
+	}
+
+	SetBloodflareArmorRanged: {
+		Title: "Bloodflare Armor (Ranged)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Bloodflare Armor (Ranged). Craft at a Mythril/Orichalcum Anvil from Bloodstone (Brimstone Crag enemies), Blood Orbs and Ruinous Souls. [c/7FD4FF:Reward: Deadshot Brooch]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Bloodflare Armor (Ranged) [c/7FD4FF:Reward: Deadshot Brooch]"
+	}
+
+	ObtainBloodworm: {
+		Title: "Bloodworm"
+		Contents: "[c/9AA0A6:Optional] Obtain Bloodworm. After the Moon Lord, Bloodworms appear in the Sulphurous Sea when no Acid Rain is active; catch one with a bug net and use it as bait there to fish up the Old Duke (consumed)."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Bloodworm"
+	}
+
+	CraftMarkOfProvidence: {
+		Title: "Mark of Providence"
+		Contents: "[c/FFD700:Required] Obtain Mark of Providence. Craft at a Mythril/Orichalcum Anvil from 3 Luminite Bars, 40 Unholy Essence and 5 Solar Fragments. Use in the Dungeon (Ceaseless Void), Underworld (Signus) or Space (Storm Weaver); reusable."
+		Tooltip: "[c/FFD700:Required] Obtain Mark of Providence"
+	}
+
+	ObtainDarkPlasma: {
+		Title: "Dark Plasma"
+		Contents: "[c/FFD700:Required] Obtain Dark Plasma. Dropped by the Ceaseless Void."
+		Tooltip: "[c/FFD700:Required] Obtain Dark Plasma"
+	}
+
+	ObtainArmoredShell: {
+		Title: "Armored Shell"
+		Contents: "[c/FFD700:Required] Obtain Armored Shell. Dropped by the Storm Weaver."
+		Tooltip: "[c/FFD700:Required] Obtain Armored Shell"
+	}
+
+	ObtainTwistingNether: {
+		Title: "Twisting Nether"
+		Contents: "[c/FFD700:Required] Obtain Twisting Nether. Dropped by Signus."
+		Tooltip: "[c/FFD700:Required] Obtain Twisting Nether"
+	}
+
+	CraftCosmicWorm: {
+		Title: "Cosmic Worm"
+		Contents: "[c/FFD700:Required] Obtain Cosmic Worm. Craft at a Mythril/Orichalcum Anvil from an Armored Shell, a Twisting Nether and a Dark Plasma (an alternate recipe uses 40 Luminite Bars, 10 of each lunar fragment, 10 Meld Blobs and 40 Necroplasm). Reusable."
+		Tooltip: "[c/FFD700:Required] Obtain Cosmic Worm"
+	}
+
+	SetPrismaticArmor: {
+		Title: "Prismatic Armor (Magic)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Prismatic Armor (Magic). Craft at a Mythril/Orichalcum Anvil from Armored Shells, Exodium Clusters, Divine Geodes and Nanites. [c/7FD4FF:Reward: Sigil of Calamitas]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Prismatic Armor (Magic) [c/7FD4FF:Reward: Sigil of Calamitas]"
+	}
+
+	SetEmpyreanArmor: {
+		Title: "Empyrean Armor (Rogue)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Empyrean Armor (Rogue). Craft at an Ancient Manipulator from Meld Blobs and Luminite Bars, plus 3 / 6 / 4 Sanguite Bars (pack addition). [c/7FD4FF:Reward: Dark Matter Sheath]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Empyrean Armor (Rogue) [c/7FD4FF:Reward: Dark Matter Sheath]"
+	}
+
+	SetSolarFlareArmor: {
+		Title: "Solar Flare Armor (Melee)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Solar Flare Armor (Melee). Craft at an Ancient Manipulator from Solar Fragments and Luminite Bars. [c/7FD4FF:Reward: Celestial Shell]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Solar Flare Armor (Melee) [c/7FD4FF:Reward: Celestial Shell]"
+	}
+
+	SetVortexArmor: {
+		Title: "Vortex Armor (Ranged)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Vortex Armor (Ranged). Craft at an Ancient Manipulator from Vortex Fragments and Luminite Bars. [c/7FD4FF:Reward: Sniper Scope]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Vortex Armor (Ranged) [c/7FD4FF:Reward: Sniper Scope]"
+	}
+
+	SetNebulaArmor: {
+		Title: "Nebula Armor (Magic)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Nebula Armor (Magic). Craft at an Ancient Manipulator from Nebula Fragments and Luminite Bars. [c/7FD4FF:Reward: Mana Cloak]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Nebula Armor (Magic) [c/7FD4FF:Reward: Mana Cloak]"
+	}
+
+	SetStardustArmor: {
+		Title: "Stardust Armor (Summoner)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Stardust Armor (Summoner). Craft at an Ancient Manipulator from Stardust Fragments and Luminite Bars. [c/7FD4FF:Reward: Statis' Blessing]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Stardust Armor (Summoner) [c/7FD4FF:Reward: Statis' Blessing]"
+	}
+
+	ObtainCosmiliteBar: {
+		Title: "Cosmilite Bars"
+		Contents: "[c/FFD700:Required] Obtain 20 Cosmilite Bars. Dropped by the Devourer of Gods. [c/7FD4FF:Reward: 5 Super Healing Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 20 Cosmilite Bars [c/7FD4FF:Reward: 5 Super Healing Potions]"
+	}
+
+	CraftCosmicAnvil: {
+		Title: "Cosmic Anvil"
+		Contents: "[c/FFD700:Required] Obtain Cosmic Anvil. Craft at an Ancient Manipulator from a Mythril/Orichalcum Anvil, 10 Cosmilite Bars, 10 Luminite Bars and 20 Exodium Clusters. Crafts God Slayer, Silva and Auric gear."
+		Tooltip: "[c/FFD700:Required] Obtain Cosmic Anvil"
+	}
+
+	FarmNightmareFuel: {
+		Title: "Nightmare Fuel"
+		Contents: "[c/9AA0A6:Optional] Obtain 10 Nightmare Fuel. Pumpkin Moon enemies drop it after the Devourer of Gods. [c/7FD4FF:Reward: 3 Wrath Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 10 Nightmare Fuel [c/7FD4FF:Reward: 3 Wrath Potions]"
+	}
+
+	FarmEndothermicEnergy: {
+		Title: "Endothermic Energy"
+		Contents: "[c/FFD700:Required] Obtain 50 Endothermic Energy. Frost Moon enemies drop it after the Devourer of Gods. The Auric Quantum Cooling Cell needs 40. [c/7FD4FF:Reward: 3 Endurance Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 50 Endothermic Energy [c/7FD4FF:Reward: 3 Endurance Potions]"
+	}
+
+	FarmDarksunFragment: {
+		Title: "Darksun Fragments"
+		Contents: "[c/9AA0A6:Optional] Obtain 10 Darksun Fragments. Solar Eclipse enemies drop them after the Devourer of Gods. [c/7FD4FF:Reward: 3 Rage Potions]"
+		Tooltip: "[c/9AA0A6:Optional] Obtain 10 Darksun Fragments [c/7FD4FF:Reward: 3 Rage Potions]"
+	}
+
+	CraftAscendantSpiritEssence: {
+		Title: "Ascendant Spirit Essence"
+		Contents: "[c/9AA0A6:Optional] Obtain 8 Ascendant Spirit Essence. Craft at a Mythril/Orichalcum Anvil from 2 Necroplasm, 5 Nightmare Fuel, 5 Endothermic Energy and 2 Darksun Fragments."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 8 Ascendant Spirit Essence"
+	}
+
+	SetGodSlayerArmorMelee: {
+		Title: "God Slayer Armor (Melee)"
+		Contents: "[c/9AA0A6:Optional] Wear the full God Slayer Armor (Melee). Craft at the Cosmic Anvil from Cosmilite Bars and Ascendant Spirit Essence. [c/7FD4FF:Reward: Badge of Bravery]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full God Slayer Armor (Melee) [c/7FD4FF:Reward: Badge of Bravery]"
+	}
+
+	SetSilvaArmorSummon: {
+		Title: "Silva Armor (Summoner)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Silva Armor (Summoner). Craft at the Cosmic Anvil from Planty Mush, Effulgent Feathers and Ascendant Spirit Essence. [c/7FD4FF:Reward: Statis' Curse]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Silva Armor (Summoner) [c/7FD4FF:Reward: Statis' Curse]"
+	}
+
+	SetFearmongerArmor: {
+		Title: "Fearmonger Armor (Summoner)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Fearmonger Armor (Summoner). Upgrade Spooky armor at the Cosmic Anvil with Cosmilite Bars, Ascendant Spirit Essence and Souls of Fright. [c/7FD4FF:Reward: Papyrus Scarab]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Fearmonger Armor (Summoner) [c/7FD4FF:Reward: Papyrus Scarab]"
+	}
+
+	EquipElementalGauntlet: {
+		Title: "Elemental Gauntlet"
+		Contents: "[c/9AA0A6:Optional] Equip Elemental Gauntlet. Craft at the Cosmic Anvil from a Fire Gauntlet, 4 Ascendant Spirit Essence and 6 Sanguite Bars (pack addition)."
+		Tooltip: "[c/9AA0A6:Optional] Equip Elemental Gauntlet"
+	}
+
+	CraftYharonEgg: {
+		Title: "Jungle Dragon Egg"
+		Contents: "[c/FFD700:Required] Obtain Jungle Dragon Egg. Craft at a Mythril/Orichalcum Anvil from 10 Life Alloy and 15 Effulgent Feathers (from the Dragonfolly). Use in the Jungle; reusable."
+		Tooltip: "[c/FFD700:Required] Obtain Jungle Dragon Egg"
+	}
+
+	ObtainYharonSoulFragment: {
+		Title: "Yharon Soul Fragments"
+		Contents: "[c/FFD700:Required] Obtain 5 Yharon Soul Fragments. Dropped by Yharon."
+		Tooltip: "[c/FFD700:Required] Obtain 5 Yharon Soul Fragments"
+	}
+
+	ObtainAuricOre: {
+		Title: "Auric Ore"
+		Contents: "[c/FFD700:Required] Obtain 100 Auric Ore. Yharon's first kill seeds Auric Ore underground (250% pickaxe); you can also shimmer a Yharon Soul Fragment into 10 Auric Ore. [c/7FD4FF:Reward: 3 Spelunker Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 100 Auric Ore [c/7FD4FF:Reward: 3 Spelunker Potions]"
+	}
+
+	CraftAuricBar: {
+		Title: "Auric Bars"
+		Contents: "[c/FFD700:Required] Obtain 20 Auric Bars. Smelt 5 at an Adamantite/Titanium Forge from 50 Auric Ore and 1 Yharon Soul Fragment. Needed for the Codebreaker's cooling cell. [c/7FD4FF:Reward: 3 Lifeforce Potions]"
+		Tooltip: "[c/FFD700:Required] Obtain 20 Auric Bars [c/7FD4FF:Reward: 3 Lifeforce Potions]"
+	}
+
+	SetAuricTeslaArmorMelee: {
+		Title: "Auric Tesla Armor (Melee)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Auric Tesla Armor (Melee). Fuse God Slayer (or Silva), Bloodflare and Tarragon pieces with Auric Bars at the Cosmic Anvil. [c/7FD4FF:Reward: Fire Gauntlet]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Auric Tesla Armor (Melee) [c/7FD4FF:Reward: Fire Gauntlet]"
+	}
+
+	CraftCodebreakerBase: {
+		Title: "Codebreaker Base"
+		Contents: "[c/FFD700:Required] Obtain Codebreaker Base. Craft at an Anvil from a Charging Station, 20 Mysterious Circuitry and 35 Dubious Plating; fit it with the Decryption Computer and the other Codebreaker parts."
+		Tooltip: "[c/FFD700:Required] Obtain Codebreaker Base"
+	}
+
+	CraftVoltageRegulationSystem: {
+		Title: "Voltage Regulation System"
+		Contents: "[c/FFD700:Required] Obtain Voltage Regulation System. Craft at a Mythril/Orichalcum Anvil from 10 Mysterious Circuitry, 10 Dubious Plating, 10 Uelibloom Bars and 10 Luminite Bars; requires the Underworld lab (Tier 4) schematic."
+		Tooltip: "[c/FFD700:Required] Obtain Voltage Regulation System"
+	}
+
+	CraftAuricQuantumCoolingCell: {
+		Title: "Auric Quantum Cooling Cell"
+		Contents: "[c/FFD700:Required] Obtain Auric Quantum Cooling Cell. Craft at the Cosmic Anvil from 5 Auric Bars, 8 Mysterious Circuitry, 8 Dubious Plating, 40 Endothermic Energy and 6 Essence of Eleum; requires the Ice lab (Tier 5) schematic. Insert it in the Codebreaker to contact Draedon."
+		Tooltip: "[c/FFD700:Required] Obtain Auric Quantum Cooling Cell"
+	}
+
+	CraftAltarOfTheAccursed: {
+		Title: "Altar of the Accursed"
+		Contents: "[c/9AA0A6:Optional] Obtain Altar of the Accursed. Craft at a Mythril/Orichalcum Anvil from 30 Brimstone Slag, 5 Auric Bars and a Core of Calamity; places a Supreme Calamitas altar if you need one away from the Brimstone Crags."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Altar of the Accursed"
+	}
+
+	GatherAshesOfCalamity: {
+		Title: "Ashes of Calamity (Offering)"
+		Contents: "[c/FFD700:Required] Obtain Ashes of Calamity (Offering). Hold Ashes of Calamity (from the Calamitas Clone) and right-click the altar in the Brimstone Crags; one is consumed per summon."
+		Tooltip: "[c/FFD700:Required] Obtain Ashes of Calamity (Offering)"
+	}
+
+	ObtainAshesOfAnnihilation: {
+		Title: "Ashes of Annihilation"
+		Contents: "[c/9AA0A6:Optional] Obtain 10 Ashes of Annihilation. Dropped by Supreme Calamitas."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 10 Ashes of Annihilation"
+	}
+
+	CraftCeremonialUrn: {
+		Title: "Ceremonial Urn"
+		Contents: "[c/9AA0A6:Optional] Obtain Ceremonial Urn. Craft at the altar from 5 Ashes of Annihilation and 15 Ashes of Calamity; lets you re-summon Supreme Calamitas without consuming Ashes."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Ceremonial Urn"
+	}
+
+	ObtainExoPrism: {
+		Title: "Exo Prisms"
+		Contents: "[c/9AA0A6:Optional] Obtain 12 Exo Prisms. Dropped by the Exo Mechs."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 12 Exo Prisms"
+	}
+
+	CraftDraedonsForge: {
+		Title: "Draedon's Forge"
+		Contents: "[c/9AA0A6:Optional] Obtain Draedon's Forge. Combine a Cosmic Anvil, an Adamantite/Titanium Forge, a Tinkerer's Workshop and an Ancient Manipulator with 15 Auric Bars, 12 Exo Prisms and 15 Ascendant Spirit Essence."
+		Tooltip: "[c/9AA0A6:Optional] Obtain Draedon's Forge"
+	}
+
+	CraftShadowspecBar: {
+		Title: "Shadowspec Bars"
+		Contents: "[c/9AA0A6:Optional] Obtain 18 Shadowspec Bars. Craft at Draedon's Forge from one Auric Bar, Exo Prism and Ash of Annihilation each."
+		Tooltip: "[c/9AA0A6:Optional] Obtain 18 Shadowspec Bars"
+	}
+
+	SetDemonshadeArmor: {
+		Title: "Demonshade Armor (Summoner)"
+		Contents: "[c/9AA0A6:Optional] Wear the full Demonshade Armor (Summoner). Craft at Draedon's Forge from Shadowspec Bars. [c/7FD4FF:Reward: Nucleogenesis]"
+		Tooltip: "[c/9AA0A6:Optional] Wear the full Demonshade Armor (Summoner) [c/7FD4FF:Reward: Nucleogenesis]"
+	}
+
 	DesertScourgeDefeated: {
-		Title: The Desert Scourge
-		Contents: "[c/9AA0A6:Optional] Defeat The Desert Scourge. Use a Desert Medallion in the Desert. Its drops aren't needed later, but Pearl Shards help early gear."
+		Title: "The Desert Scourge"
+		Contents: "[c/9AA0A6:Optional] Defeat The Desert Scourge. Use a Desert Medallion in the Desert. Drops Pearl Shards."
 		Tooltip: "[c/9AA0A6:Optional] Defeat The Desert Scourge"
 	}
 
 	GlowmothDefeated: {
-		Title: Glowmoth
-		Contents: "[c/9AA0A6:Optional] Defeat Glowmoth. Use a Suspicious Looking Candle in a glowing mushroom biome. A Secrets of the Shadows boss."
+		Title: "Glowmoth"
+		Contents: "[c/9AA0A6:Optional] Defeat Glowmoth. Use a Suspicious Looking Candle in a glowing mushroom biome."
 		Tooltip: "[c/9AA0A6:Optional] Defeat Glowmoth"
 	}
 
 	CrabulonDefeated: {
-		Title: Crabulon
+		Title: "Crabulon"
 		Contents: "[c/9AA0A6:Optional] Defeat Crabulon. Use a Decapodita Sprout in a glowing mushroom biome."
 		Tooltip: "[c/9AA0A6:Optional] Defeat Crabulon"
 	}
 
 	HiveMindDefeated: {
-		Title: The Hive Mind
-		Contents: "[c/9AA0A6:Optional] Defeat The Hive Mind. Use a Teratoma in the Corruption. The first Hive Mind or Perforators kill enchants Aerialite Ore."
+		Title: "The Hive Mind"
+		Contents: "[c/9AA0A6:Optional] Defeat The Hive Mind. Break a Hive Tumor in the Corruption; later fights can use a Teratoma. The first Hive Mind or Perforators kill enchants Aerialite Ore."
 		Tooltip: "[c/9AA0A6:Optional] Defeat The Hive Mind"
 	}
 
 	PerforatorsDefeated: {
-		Title: The Perforators
-		Contents: "[c/9AA0A6:Optional] Defeat The Perforators. Use Bloody Worm Food in the Crimson. The first Hive Mind or Perforators kill enchants Aerialite Ore."
+		Title: "The Perforators"
+		Contents: "[c/9AA0A6:Optional] Defeat The Perforators. Break a Perforator Cyst in the Crimson; later fights can use Bloody Worm Food. The first Hive Mind or Perforators kill enchants Aerialite Ore."
 		Tooltip: "[c/9AA0A6:Optional] Defeat The Perforators"
 	}
 
 	PutridPinkyDefeated: {
-		Title: Putrid Pinky
-		Contents: "[c/9AA0A6:Optional] Defeat Putrid Pinky. Use a Jar of Peanuts. Peanuts drop from Treasure Slimes."
+		Title: "Putrid Pinky"
+		Contents: "[c/9AA0A6:Optional] Defeat Putrid Pinky. Use a Jar of Peanuts. Drops Wormwood, needed for Overloaded Sludge."
 		Tooltip: "[c/9AA0A6:Optional] Defeat Putrid Pinky"
 	}
 
 	PharaohsCurseDefeated: {
-		Title: Pharaoh's Curse
-		Contents: "[c/9AA0A6:Optional] Defeat Pharaoh's Curse. Open the Sarcophagus deep inside the Pyramid."
+		Title: "Pharaoh's Curse"
+		Contents: "[c/9AA0A6:Optional] Defeat Pharaoh's Curse. Open the Sarcophagus deep inside the Pyramid. Drops Cursed Matter."
 		Tooltip: "[c/9AA0A6:Optional] Defeat Pharaoh's Curse"
 	}
 
 	SlimeGodDefeated: {
-		Title: The Slime God
+		Title: "The Slime God"
 		Contents: "[c/9AA0A6:Optional] Defeat The Slime God. Use Overloaded Sludge. Drops Purified Gel, used in many recipes."
 		Tooltip: "[c/9AA0A6:Optional] Defeat The Slime God"
 	}
 
 	ExcavatorDefeated: {
-		Title: The Excavator
+		Title: "The Excavator"
 		Contents: "[c/9AA0A6:Optional] Defeat The Excavator. Activate the Seismic Station in the Abandoned Village."
 		Tooltip: "[c/9AA0A6:Optional] Defeat The Excavator"
 	}
 
 	AdvisorDefeated: {
-		Title: The Advisor
+		Title: "The Advisor"
 		Contents: "[c/9AA0A6:Optional] Defeat The Advisor. Wake it at the Avaritian Gateway in the Planetarium."
 		Tooltip: "[c/9AA0A6:Optional] Defeat The Advisor"
 	}
 
 	CryogenDefeated: {
-		Title: Cryogen
+		Title: "Cryogen"
 		Contents: "[c/FFD700:Required] Defeat Cryogen. Use a Cryo Key in the Snow biome. Its first defeat spawns Cryonic Ore, needed for Life Alloy."
 		Tooltip: "[c/FFD700:Required] Defeat Cryogen"
 	}
 
 	AquaticScourgeDefeated: {
-		Title: The Aquatic Scourge
+		Title: "The Aquatic Scourge"
 		Contents: "[c/9AA0A6:Optional] Defeat The Aquatic Scourge. Use Seafood in the Sulphurous Sea."
 		Tooltip: "[c/9AA0A6:Optional] Defeat The Aquatic Scourge"
 	}
 
 	BrimstoneElementalDefeated: {
-		Title: The Brimstone Elemental
+		Title: "The Brimstone Elemental"
 		Contents: "[c/9AA0A6:Optional] Defeat The Brimstone Elemental. Use a Charred Idol in the Brimstone Crag."
 		Tooltip: "[c/9AA0A6:Optional] Defeat The Brimstone Elemental"
 	}
 
 	PolarisDefeated: {
-		Title: Polaris
-		Contents: "[c/9AA0A6:Optional] Defeat Polaris. Use a Frosted Key on the Frost Artifact. The key needs souls from all three mechanical bosses."
-		Tooltip: "[c/9AA0A6:Optional] Defeat Polaris"
+		Title: "Polaris"
+		Contents: "[c/FFD700:Required] Defeat Polaris. Use a Frosted Key on the Frost Artifact. Drops Soul of Plight, needed for the Eye of Desolation and Absolute Bars."
+		Tooltip: "[c/FFD700:Required] Defeat Polaris"
 	}
 
 	CalamitasCloneDefeated: {
-		Title: The Calamitas Clone
+		Title: "The Calamitas Clone"
 		Contents: "[c/FFD700:Required] Defeat The Calamitas Clone. Use an Eye of Desolation at night. Drops Ashes of Calamity, needed to summon Supreme Calamitas."
 		Tooltip: "[c/FFD700:Required] Defeat The Calamitas Clone"
 	}
 
-	LeviathanDefeated: {
-		Title: The Leviathan and Anahita
-		Contents: "[c/9AA0A6:Optional] Defeat The Leviathan and Anahita. Use a Naiad's Warhorn at the Ocean."
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Leviathan and Anahita"
-	}
-
 	AstrumAureusDefeated: {
-		Title: Astrum Aureus
+		Title: "Astrum Aureus"
 		Contents: "[c/9AA0A6:Optional] Defeat Astrum Aureus. Use an Astral Chunk in the Astral Infection. Its defeat brings down a new Astral meteor."
 		Tooltip: "[c/9AA0A6:Optional] Defeat Astrum Aureus"
 	}
 
+	LeviathanDefeated: {
+		Title: "The Leviathan and Anahita"
+		Contents: "[c/9AA0A6:Optional] Defeat The Leviathan and Anahita. Use a Naiad's Warhorn at the Ocean."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Leviathan and Anahita"
+	}
+
 	PlaguebringerDefeated: {
-		Title: The Plaguebringer Goliath
+		Title: "The Plaguebringer Goliath"
 		Contents: "[c/9AA0A6:Optional] Defeat The Plaguebringer Goliath. Use an Abombination in the Jungle. Plague enemies only appear after Golem."
 		Tooltip: "[c/9AA0A6:Optional] Defeat The Plaguebringer Goliath"
 	}
 
 	RavagerDefeated: {
-		Title: Ravager
+		Title: "Ravager"
 		Contents: "[c/9AA0A6:Optional] Defeat Ravager. Use a Death Whistle."
 		Tooltip: "[c/9AA0A6:Optional] Defeat Ravager"
 	}
 
 	LuxDefeated: {
-		Title: Lux
-		Contents: "[c/9AA0A6:Optional] Defeat Lux. Destroy a Chaos Construct and its spirit in the Hallow. An Electromagnetic Lure helps find one."
+		Title: "Lux"
+		Contents: "[c/9AA0A6:Optional] Defeat Lux. Destroy a Chaos Construct and its spirit in the Hallow. Drops Phase Ore."
 		Tooltip: "[c/9AA0A6:Optional] Defeat Lux"
 	}
 
 	AstrumDeusDefeated: {
-		Title: Astrum Deus
-		Contents: "[c/9AA0A6:Optional] Defeat Astrum Deus. Use a Titan Heart on an Astral Beacon. Its defeat lets you mine Astral Ore."
+		Title: "Astrum Deus"
+		Contents: "[c/9AA0A6:Optional] Defeat Astrum Deus. Use a Titan Heart (dropped by Atlas) on an Astral Beacon; later fights can use a reusable Starcore. Its defeat lets you mine Astral Ore."
 		Tooltip: "[c/9AA0A6:Optional] Defeat Astrum Deus"
 	}
 
 	SubspaceSerpentDefeated: {
-		Title: The Subspace Serpent
-		Contents: "[c/9AA0A6:Optional] Defeat The Subspace Serpent. Detonate a Catalyst Bomb in the Underworld Sanctuary."
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Subspace Serpent"
-	}
-
-	ProfanedGuardiansDefeated: {
-		Title: The Profaned Guardians
-		Contents: "[c/FFD700:Required] Defeat The Profaned Guardians. Use a Profaned Shard in the Hallow or Underworld. The only source of the Profaned Core, which summons Providence."
-		Tooltip: "[c/FFD700:Required] Defeat The Profaned Guardians"
+		Title: "The Subspace Serpent"
+		Contents: "[c/FFD700:Required] Defeat The Subspace Serpent. Detonate a Catalyst Bomb in the Underworld Sanctuary. Unlocks Sanguite Bars, needed for the Profaned Shard."
+		Tooltip: "[c/FFD700:Required] Defeat The Subspace Serpent"
 	}
 
 	DragonfollyDefeated: {
-		Title: The Dragonfolly
+		Title: "The Dragonfolly"
 		Contents: "[c/FFD700:Required] Defeat The Dragonfolly. Use Exotic Pheromones in the Jungle. Drops Effulgent Feathers for the Yharon Egg. Wild Bumblebirbs also drop them."
 		Tooltip: "[c/FFD700:Required] Defeat The Dragonfolly"
 	}
 
+	ProfanedGuardiansDefeated: {
+		Title: "The Profaned Guardians"
+		Contents: "[c/FFD700:Required] Defeat The Profaned Guardians. Use a Profaned Shard in the Hallow or Underworld. The only source of the Profaned Core, which summons Providence."
+		Tooltip: "[c/FFD700:Required] Defeat The Profaned Guardians"
+	}
+
+	PolterghastDefeated: {
+		Title: "Polterghast"
+		Contents: "[c/9AA0A6:Optional] Defeat Polterghast. Use a Necroplasmic Beacon in the Dungeon. Lets the Acid Rain bring the Old Duke."
+		Tooltip: "[c/9AA0A6:Optional] Defeat Polterghast"
+	}
+
 	ProvidenceDefeated: {
-		Title: Providence, the Profaned Goddess
+		Title: "Providence, the Profaned Goddess"
 		Contents: "[c/FFD700:Required] Defeat Providence, the Profaned Goddess. Use a Profaned Core in the Hallow or Underworld. Its defeat spawns Uelibloom Ore."
 		Tooltip: "[c/FFD700:Required] Defeat Providence, the Profaned Goddess"
 	}
 
+	OldDukeDefeated: {
+		Title: "The Old Duke"
+		Contents: "[c/9AA0A6:Optional] Defeat The Old Duke. Fish in the Sulphurous Sea with a Bloodworm, or wait out a post-Polterghast Acid Rain."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Old Duke"
+	}
+
 	CeaselessVoidDefeated: {
-		Title: The Ceaseless Void
+		Title: "The Ceaseless Void"
 		Contents: "[c/FFD700:Required] Defeat The Ceaseless Void. Use a Rune of Kos in the Dungeon. Drops Dark Plasma for the Cosmic Worm."
 		Tooltip: "[c/FFD700:Required] Defeat The Ceaseless Void"
 	}
 
 	StormWeaverDefeated: {
-		Title: The Storm Weaver
+		Title: "The Storm Weaver"
 		Contents: "[c/FFD700:Required] Defeat The Storm Weaver. Use a Rune of Kos in Space. Drops Armored Shell for the Cosmic Worm."
 		Tooltip: "[c/FFD700:Required] Defeat The Storm Weaver"
 	}
 
 	SignusDefeated: {
-		Title: Signus, Envoy of the Devourer
+		Title: "Signus, Envoy of the Devourer"
 		Contents: "[c/FFD700:Required] Defeat Signus, Envoy of the Devourer. Use a Rune of Kos in the Underworld. Drops Twisted Netherium for the Cosmic Worm."
 		Tooltip: "[c/FFD700:Required] Defeat Signus, Envoy of the Devourer"
 	}
 
-	PolterghastDefeated: {
-		Title: Polterghast
-		Contents: "[c/9AA0A6:Optional] Defeat Polterghast. Use a Necroplasmic Beacon in the Dungeon. Lets the Acid Rain bring the Old Duke."
-		Tooltip: "[c/9AA0A6:Optional] Defeat Polterghast"
-	}
-
-	OldDukeDefeated: {
-		Title: The Old Duke
-		Contents: "[c/9AA0A6:Optional] Defeat The Old Duke. Fish in the Sulphurous Sea with a Bloodworm, or wait out a post-Polterghast Acid Rain."
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Old Duke"
-	}
-
 	DevourerOfGodsDefeated: {
-		Title: The Devourer of Gods
+		Title: "The Devourer of Gods"
 		Contents: "[c/FFD700:Required] Defeat The Devourer of Gods. Use a Cosmic Worm. Drops Cosmilite, needed for the Cosmic Anvil."
 		Tooltip: "[c/FFD700:Required] Defeat The Devourer of Gods"
 	}
 
 	YharonDefeated: {
-		Title: Yharon, Dragon of Rebirth
+		Title: "Yharon, Dragon of Rebirth"
 		Contents: "[c/FFD700:Required] Defeat Yharon, Dragon of Rebirth. Use a Yharon Egg in the Jungle. Its first defeat spawns Auric Ore."
 		Tooltip: "[c/FFD700:Required] Defeat Yharon, Dragon of Rebirth"
 	}
 
 	ExoMechsDefeated: {
-		Title: The Exo Mechs
+		Title: "The Exo Mechs"
 		Contents: "[c/FF4040:Final boss] Defeat The Exo Mechs. Contact Draedon from a Codebreaker holding an Auric Quantum Cooling Cell. One of the two final bosses."
 		Tooltip: "[c/FF4040:Final boss] Defeat The Exo Mechs"
 	}
 
 	SupremeCalamitasDefeated: {
-		Title: Supreme Witch, Calamitas
+		Title: "Supreme Witch, Calamitas"
 		Contents: "[c/FF4040:Final boss] Defeat Supreme Witch, Calamitas. Offer Ashes of Calamity at the Altar of the Accursed. One of the two final bosses."
 		Tooltip: "[c/FF4040:Final boss] Defeat Supreme Witch, Calamitas"
 	}
-
 }

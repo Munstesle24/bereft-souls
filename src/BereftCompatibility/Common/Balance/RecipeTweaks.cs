@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 using CalamityMod.Items.Accessories;
 using CalamityMod.Items.Armor.Astral;
@@ -154,7 +154,8 @@ internal sealed class RecipeTweaks : ModSystem
         Add<DecapoditaSprout, FragmentOfNature>(3);
         Add<Teratoma, FragmentOfEvil>(3);
         Add<BloodyWormFood, FragmentOfEvil>(3);
-        // Puts the Slime God after Putrid Pinky.
+        // Wormwood comes from Putrid Pinky, or from wood and gel at a
+        // Solidifier.
         Add<OverloadedSludge, Wormwood>(5);
         Add<CryoKey, FragmentOfPermafrost>(6);
         Add<Seafood, FragmentOfTide>(5);
@@ -162,7 +163,8 @@ internal sealed class RecipeTweaks : ModSystem
         // Puts Polaris on the critical path, before the Calamitas Clone.
         Add<EyeofDesolation, SoulOfPlight>(3);
         Add<AstralChunk, FragmentOfOtherworld>(6);
-        // Puts Lux before Astrum Deus.
+        // Astral Bars already need a first Astrum Deus kill, so this only
+        // affects the reusable rematch summon.
         Add<Starcore, PhaseBar>(3);
         // Puts the Subspace Serpent on the critical path, before the Profaned
         // Guardians.

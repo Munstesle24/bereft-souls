@@ -1,0 +1,172 @@
+{
+ "DesertScourgeDefeated": [
+  "The Desert Scourge",
+  "Use a Desert Medallion in the Desert.",
+  "Drops Pearl Shards."
+ ],
+ "GlowmothDefeated": [
+  "Glowmoth",
+  "Use a Suspicious Looking Candle in a glowing mushroom biome.",
+  ""
+ ],
+ "CrabulonDefeated": [
+  "Crabulon",
+  "Use a Decapodita Sprout in a glowing mushroom biome.",
+  ""
+ ],
+ "HiveMindDefeated": [
+  "The Hive Mind",
+  "Break a Hive Tumor in the Corruption; later fights can use a Teratoma.",
+  "The first Hive Mind or Perforators kill enchants Aerialite Ore."
+ ],
+ "PerforatorsDefeated": [
+  "The Perforators",
+  "Break a Perforator Cyst in the Crimson; later fights can use Bloody Worm Food.",
+  "The first Hive Mind or Perforators kill enchants Aerialite Ore."
+ ],
+ "PutridPinkyDefeated": [
+  "Putrid Pinky",
+  "Use a Jar of Peanuts.",
+  "Drops Wormwood, needed for Overloaded Sludge."
+ ],
+ "PharaohsCurseDefeated": [
+  "Pharaoh's Curse",
+  "Open the Sarcophagus deep inside the Pyramid.",
+  "Drops Cursed Matter."
+ ],
+ "SlimeGodDefeated": [
+  "The Slime God",
+  "Use Overloaded Sludge.",
+  "Drops Purified Gel, used in many recipes."
+ ],
+ "ExcavatorDefeated": [
+  "The Excavator",
+  "Activate the Seismic Station in the Abandoned Village.",
+  ""
+ ],
+ "AdvisorDefeated": [
+  "The Advisor",
+  "Wake it at the Avaritian Gateway in the Planetarium.",
+  ""
+ ],
+ "CryogenDefeated": [
+  "Cryogen",
+  "Use a Cryo Key in the Snow biome.",
+  "Its first defeat spawns Cryonic Ore, needed for Life Alloy."
+ ],
+ "AquaticScourgeDefeated": [
+  "The Aquatic Scourge",
+  "Use Seafood in the Sulphurous Sea.",
+  ""
+ ],
+ "BrimstoneElementalDefeated": [
+  "The Brimstone Elemental",
+  "Use a Charred Idol in the Brimstone Crag.",
+  ""
+ ],
+ "PolarisDefeated": [
+  "Polaris",
+  "Use a Frosted Key on the Frost Artifact.",
+  "Drops Soul of Plight, needed for the Eye of Desolation and Absolute Bars."
+ ],
+ "CalamitasCloneDefeated": [
+  "The Calamitas Clone",
+  "Use an Eye of Desolation at night.",
+  "Drops Ashes of Calamity, needed to summon Supreme Calamitas."
+ ],
+ "LeviathanDefeated": [
+  "The Leviathan and Anahita",
+  "Use a Naiad's Warhorn at the Ocean.",
+  ""
+ ],
+ "AstrumAureusDefeated": [
+  "Astrum Aureus",
+  "Use an Astral Chunk in the Astral Infection.",
+  "Its defeat brings down a new Astral meteor."
+ ],
+ "PlaguebringerDefeated": [
+  "The Plaguebringer Goliath",
+  "Use an Abombination in the Jungle.",
+  "Plague enemies only appear after Golem."
+ ],
+ "RavagerDefeated": [
+  "Ravager",
+  "Use a Death Whistle.",
+  ""
+ ],
+ "LuxDefeated": [
+  "Lux",
+  "Destroy a Chaos Construct and its spirit in the Hallow.",
+  "Drops Phase Ore."
+ ],
+ "AstrumDeusDefeated": [
+  "Astrum Deus",
+  "Use a Titan Heart (dropped by Atlas) on an Astral Beacon; later fights can use a reusable Starcore.",
+  "Its defeat lets you mine Astral Ore."
+ ],
+ "SubspaceSerpentDefeated": [
+  "The Subspace Serpent",
+  "Detonate a Catalyst Bomb in the Underworld Sanctuary.",
+  "Unlocks Sanguite Bars, needed for the Profaned Shard."
+ ],
+ "ProfanedGuardiansDefeated": [
+  "The Profaned Guardians",
+  "Use a Profaned Shard in the Hallow or Underworld.",
+  "The only source of the Profaned Core, which summons Providence."
+ ],
+ "DragonfollyDefeated": [
+  "The Dragonfolly",
+  "Use Exotic Pheromones in the Jungle.",
+  "Drops Effulgent Feathers for the Yharon Egg. Wild Bumblebirbs also drop them."
+ ],
+ "ProvidenceDefeated": [
+  "Providence, the Profaned Goddess",
+  "Use a Profaned Core in the Hallow or Underworld.",
+  "Its defeat spawns Uelibloom Ore."
+ ],
+ "CeaselessVoidDefeated": [
+  "The Ceaseless Void",
+  "Use a Rune of Kos in the Dungeon.",
+  "Drops Dark Plasma for the Cosmic Worm."
+ ],
+ "StormWeaverDefeated": [
+  "The Storm Weaver",
+  "Use a Rune of Kos in Space.",
+  "Drops Armored Shell for the Cosmic Worm."
+ ],
+ "SignusDefeated": [
+  "Signus, Envoy of the Devourer",
+  "Use a Rune of Kos in the Underworld.",
+  "Drops Twisted Netherium for the Cosmic Worm."
+ ],
+ "PolterghastDefeated": [
+  "Polterghast",
+  "Use a Necroplasmic Beacon in the Dungeon.",
+  "Lets the Acid Rain bring the Old Duke."
+ ],
+ "OldDukeDefeated": [
+  "The Old Duke",
+  "Fish in the Sulphurous Sea with a Bloodworm, or wait out a post-Polterghast Acid Rain.",
+  ""
+ ],
+ "DevourerOfGodsDefeated": [
+  "The Devourer of Gods",
+  "Use a Cosmic Worm.",
+  "Drops Cosmilite, needed for the Cosmic Anvil."
+ ],
+ "YharonDefeated": [
+  "Yharon, Dragon of Rebirth",
+  "Use a Yharon Egg in the Jungle.",
+  "Its first defeat spawns Auric Ore."
+ ],
+ "ExoMechsDefeated": [
+  "The Exo Mechs",
+  "Contact Draedon from a Codebreaker holding an Auric Quantum Cooling Cell.",
+  "One of the two final bosses."
+ ],
+ "SupremeCalamitasDefeated": [
+  "Supreme Witch, Calamitas",
+  "Offer Ashes of Calamity at the Altar of the Accursed.",
+  "One of the two final bosses."
+ ]
+}

@@ -1,0 +1,4823 @@
+{
+ "chapters": [
+  {
+   "name": "PreHardmode",
+   "bosses": [
+    {
+     "key": "KingSlimeDefeated",
+     "kind": "Optional",
+     "after": [],
+     "any_of": false
+    },
+    {
+     "key": "EyeOfCthulhuDefeated",
+     "kind": "Required",
+     "after": [],
+     "any_of": false
+    },
+    {
+     "key": "DesertScourgeDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftDesertMedallion"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "GlowmothDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftSuspiciousLookingCandle"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "CrabulonDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftDecapoditaSprout"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "EvilBossDefeated",
+     "kind": "Required",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "HiveMindDefeated",
+     "kind": "Optional",
+     "after": [
+      "EvilBossDefeated"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "PerforatorsDefeated",
+     "kind": "Optional",
+     "after": [
+      "EvilBossDefeated"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "PutridPinkyDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftJarOfPeanuts"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "QueenBeeDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftAbeemination"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "PharaohsCurseDefeated",
+     "kind": "Optional",
+     "after": [
+      "EvilBossDefeated"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "SkeletronDefeated",
+     "kind": "Required",
+     "after": [
+      "EvilBossDefeated"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "SlimeGodDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftOverloadedSludge"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "ExcavatorDefeated",
+     "kind": "Optional",
+     "after": [
+      "SkeletronDefeated"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "DeerclopsDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftDeerThing"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "AdvisorDefeated",
+     "kind": "Optional",
+     "after": [
+      "ExcavatorDefeated"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "WallOfFleshDefeated",
+     "kind": "Gate",
+     "after": [
+      "ObtainGuideVoodooDoll"
+     ],
+     "any_of": false
+    }
+   ],
+   "steps": [
+    {
+     "key": "ObtainSolidifier",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "Solidifier",
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "KingSlimeDefeated"
+     ],
+     "any_of": false,
+     "title": "Solidifier",
+     "how": "Always dropped by King Slime. Needed for Statigel armor and lets you craft Wormwood (2 Wood + 5 Gel).",
+     "uncertain": false
+    },
+    {
+     "key": "SetWulfrumArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Wulfrum",
+       "class": "WulfrumHat",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Wulfrum",
+       "class": "WulfrumJacket",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Wulfrum",
+       "class": "WulfrumOveralls",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Wulfrum Armor",
+     "how": "Craft each piece at an Anvil from Wulfrum Metal Scrap and an Energy Core, dropped by Wulfrum robots (Drones, Gyrators, Amplifiers) on the surface.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "HermesBoots",
+      "stack": 1,
+      "title": "Hermes Boots"
+     }
+    },
+    {
+     "key": "SetSnowRuffianArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.SnowRuffian",
+       "class": "SnowRuffianMask",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.SnowRuffian",
+       "class": "SnowRuffianChestplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.SnowRuffian",
+       "class": "SnowRuffianGreaves",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Snow Ruffian Armor (Rogue)",
+     "how": "Craft at an Anvil from Boreal Wood, Silk and Flinx Fur.",
+     "uncertain": false,
+     "reward": {
+      "mod": "CalamityMod",
+      "namespace": "CalamityMod.Items.Accessories",
+      "class": "CoinofDeceit",
+      "vanilla_id": null,
+      "stack": 1,
+      "title": "Coin of Deceit"
+     }
+    },
+    {
+     "key": "FarmFragmentOfNature",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Fragments",
+     "class": "FragmentOfNature",
+     "vanilla_id": null,
+     "stack": 10,
+     "kind": "Optional",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Fragments of Nature",
+     "how": "Any enemy in the Forest or Jungle has a 1/35 chance to drop 1-2.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "RegenerationPotion",
+      "stack": 3,
+      "title": "Regeneration Potions"
+     }
+    },
+    {
+     "key": "FarmFragmentOfEarth",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Fragments",
+     "class": "FragmentOfEarth",
+     "vanilla_id": null,
+     "stack": 10,
+     "kind": "Optional",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Fragments of Earth",
+     "how": "Any enemy in the Pyramid, Desert or Underground has a 1/35 chance to drop 1-2.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SpelunkerPotion",
+      "stack": 3,
+      "title": "Spelunker Potions"
+     }
+    },
+    {
+     "key": "FarmFragmentOfTide",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Fragments",
+     "class": "FragmentOfTide",
+     "vanilla_id": null,
+     "stack": 10,
+     "kind": "Optional",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Fragments of Tide",
+     "how": "Any enemy at the Beach or in the Dungeon has a 1/35 chance to drop 1-2.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "GillsPotion",
+      "stack": 3,
+      "title": "Gills Potions"
+     }
+    },
+    {
+     "key": "FarmFragmentOfOtherworld",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Fragments",
+     "class": "FragmentOfOtherworld",
+     "vanilla_id": null,
+     "stack": 10,
+     "kind": "Required",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Fragments of Otherworld",
+     "how": "Any enemy in the Sky or a Meteor biome has a 1/35 chance to drop 1-2; Planetarium enemies drop them more often. Each Aerialite Bar needs one.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "FeatherfallPotion",
+      "stack": 3,
+      "title": "Featherfall Potions"
+     }
+    },
+    {
+     "key": "FarmStormlionMandible",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "StormlionMandible",
+     "vanilla_id": null,
+     "stack": 5,
+     "kind": "Optional",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Stormlion Mandibles",
+     "how": "Dropped by Stormlions in the Desert. Used for the Desert Medallion and SotS Cursed armor.",
+     "uncertain": false
+    },
+    {
+     "key": "FarmSulphuricScale",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "SulphuricScale",
+     "vanilla_id": null,
+     "stack": 10,
+     "kind": "Optional",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Sulphuric Scales",
+     "how": "Dropped by Acid Rain enemies in the Sulphurous Sea. Used for SotS Nature armor.",
+     "uncertain": true
+    },
+    {
+     "key": "CraftFrigidBar",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Permafrost",
+     "class": "FrigidBar",
+     "vanilla_id": null,
+     "stack": 12,
+     "kind": "Optional",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Frigid Bars",
+     "how": "Craft 2 at an Anvil from 10 Frigid Ice, 1 Ancient Steel Bar and 1 Fragment of Permafrost (cold-biome enemy drop). Daedalus armor in Hardmode also needs these.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "WarmthPotion",
+      "stack": 3,
+      "title": "Warmth Potions"
+     }
+    },
+    {
+     "key": "SetFrigidArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Permafrost",
+       "class": "FrigidCrown",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Permafrost",
+       "class": "FrigidRobe",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Permafrost",
+       "class": "FrigidGreaves",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftFrigidBar"
+     ],
+     "any_of": false,
+     "title": "Frigid Armor",
+     "how": "Craft each piece at an Anvil from Frigid Bars (8 / 16 / 12).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "IceSkates",
+      "stack": 1,
+      "title": "Ice Skates"
+     }
+    },
+    {
+     "key": "CraftVibrantBar",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Earth",
+     "class": "VibrantBar",
+     "vanilla_id": null,
+     "stack": 10,
+     "kind": "Optional",
+     "after": [
+      "FarmFragmentOfEarth"
+     ],
+     "any_of": false,
+     "title": "Vibrant Bars",
+     "how": "Craft 2 at a Furnace from 10 Vibrant Ore, 2 Glowing Mushrooms, 1 Iron/Lead Bar, 1 Fragment of Earth and 1 Wulfrum Metal Scrap (pack addition). Vibrant Ore is a worldgen crystal ore.",
+     "uncertain": true
+    },
+    {
+     "key": "SetVibrantArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Earth",
+       "class": "VibrantHelmet",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Earth",
+       "class": "VibrantChestplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Earth",
+       "class": "VibrantLeggings",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftVibrantBar"
+     ],
+     "any_of": false,
+     "title": "Vibrant Armor (Ranged)",
+     "how": "Craft each piece at an Anvil from Vibrant Bars (10 / 12 / 10).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SharkToothNecklace",
+      "stack": 1,
+      "title": "Shark Tooth Necklace"
+     }
+    },
+    {
+     "key": "CraftDesertMedallion",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "DesertMedallion",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "FarmStormlionMandible",
+      "FarmFragmentOfEarth"
+     ],
+     "any_of": false,
+     "title": "Desert Medallion",
+     "how": "Craft at a Demon/Crimson Altar from 40 Sand, 4 Antlion Mandibles, 2 Stormlion Mandibles and 3 Fragments of Earth (pack addition). Reusable.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainPearlShard",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "PearlShard",
+     "vanilla_id": null,
+     "stack": 4,
+     "kind": "Optional",
+     "after": [
+      "DesertScourgeDefeated"
+     ],
+     "any_of": false,
+     "title": "Pearl Shards",
+     "how": "The Desert Scourge drops 25-30. Combine 2 with Coral, Starfish and Seashells at a Furnace for Sea Remains.",
+     "uncertain": false
+    },
+    {
+     "key": "SetVictideArmorMelee",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Victide",
+       "class": "VictideHeadMelee",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Victide",
+       "class": "VictideBreastplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Victide",
+       "class": "VictideGreaves",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainPearlShard",
+      "FarmFragmentOfTide"
+     ],
+     "any_of": false,
+     "title": "Victide Armor (Melee)",
+     "how": "Craft at an Anvil from Sea Remains (3 / 5 / 4); the breastplate and greaves also need 4 / 3 Fragments of Tide (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "FeralClaws",
+      "stack": 1,
+      "title": "Feral Claws"
+     }
+    },
+    {
+     "key": "ObtainPrismShard",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.SunkenSea",
+     "class": "PrismShard",
+     "vanilla_id": null,
+     "stack": 3,
+     "kind": "Optional",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Prism Shards",
+     "how": "Break Sea Prism crystals in the Sunken Sea, or kill Sunken Sea enemies such as the Blinded Angler.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftSuspiciousLookingCandle",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Earth.Glowmoth",
+     "class": "SuspiciousLookingCandle",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "ObtainPrismShard"
+     ],
+     "any_of": false,
+     "title": "Suspicious Looking Candle",
+     "how": "Craft at a Demon/Crimson Altar from a Candle, 5 Glow Nylon (Cobweb + Glowing Mushroom at a Loom), 10 Glowing Mushrooms and 3 Prism Shards (pack addition). Use in a Glowing Mushroom biome; consumed.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftDecapoditaSprout",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "DecapoditaSprout",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "FarmFragmentOfNature"
+     ],
+     "any_of": false,
+     "title": "Decapodita Sprout",
+     "how": "Craft at a Demon/Crimson Altar from 50 Glowing Mushrooms and 3 Fragments of Nature (pack addition). Reusable.",
+     "uncertain": false
+    },
+    {
+     "key": "EquipFungalClump",
+     "type": "equip",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Accessories",
+     "class": "FungalClump",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "CrabulonDefeated"
+     ],
+     "any_of": false,
+     "title": "Fungal Clump",
+     "how": "Found in Crabulon's Treasure Bag (Expert/Master only).",
+     "uncertain": false
+    },
+    {
+     "key": "MineAerialiteOre",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.Ores",
+     "class": "AerialiteOre",
+     "vanilla_id": null,
+     "stack": 15,
+     "kind": "Required",
+     "after": [
+      "HiveMindDefeated",
+      "PerforatorsDefeated"
+     ],
+     "any_of": true,
+     "title": "Aerialite Ore",
+     "how": "The first Hive Mind or Perforators kill enchants the Aerialite ore in sky-island clouds; mine it with a 65%+ pickaxe.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftAerialiteBar",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "AerialiteBar",
+     "vanilla_id": null,
+     "stack": 10,
+     "kind": "Required",
+     "after": [
+      "MineAerialiteOre",
+      "FarmFragmentOfOtherworld"
+     ],
+     "any_of": false,
+     "title": "Aerialite Bars",
+     "how": "Smelt at a Furnace from 3 Aerialite Ore plus 1 Fragment of Otherworld (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "IronskinPotion",
+      "stack": 3,
+      "title": "Ironskin Potions"
+     }
+    },
+    {
+     "key": "SetAerospecArmorRogue",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Aerospec",
+       "class": "AerospecHeadRogue",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Aerospec",
+       "class": "AerospecBreastplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Aerospec",
+       "class": "AerospecLeggings",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftAerialiteBar"
+     ],
+     "any_of": false,
+     "title": "Aerospec Armor (Rogue)",
+     "how": "Craft at an Anvil from Aerialite Bars (10 / 20 / 15) and Feathers.",
+     "uncertain": false,
+     "reward": {
+      "mod": "CalamityMod",
+      "namespace": "CalamityMod.Items.Accessories",
+      "class": "RaidersTalisman",
+      "vanilla_id": null,
+      "stack": 1,
+      "title": "Raider's Talisman"
+     }
+    },
+    {
+     "key": "FarmPeanuts",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Slime",
+     "class": "Peanut",
+     "vanilla_id": null,
+     "stack": 15,
+     "kind": "Optional",
+     "after": [
+      "EvilBossDefeated"
+     ],
+     "any_of": false,
+     "title": "Peanuts",
+     "how": "Treasure Slimes drop 10-20; also from Peanut Bushes and pots in the Abandoned Village.",
+     "uncertain": true,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SwiftnessPotion",
+      "stack": 2,
+      "title": "Swiftness Potions"
+     }
+    },
+    {
+     "key": "CraftJarOfPeanuts",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Slime",
+     "class": "JarOfPeanuts",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "CraftAerialiteBar",
+      "FarmPeanuts"
+     ],
+     "any_of": false,
+     "title": "Jar of Peanuts",
+     "how": "Craft by hand from a Bottle, 15 Peanuts and 2 Aerialite Bars (pack addition). Summons Putrid Pinky; consumed.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainWormwood",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Slime",
+     "class": "Wormwood",
+     "vanilla_id": null,
+     "stack": 25,
+     "kind": "Optional",
+     "after": [
+      "PutridPinkyDefeated",
+      "ObtainSolidifier"
+     ],
+     "any_of": true,
+     "title": "Wormwood",
+     "how": "Putrid Pinky drops 20-30. It can also be crafted (2 per 2 Wood + 5 Gel) at a Solidifier, so this does not strictly require Pinky.",
+     "uncertain": false
+    },
+    {
+     "key": "SetNatureArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Nature",
+       "class": "NatureWreath",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Nature",
+       "class": "NatureShirt",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Nature",
+       "class": "NatureLeggings",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainWormwood",
+      "FarmFragmentOfNature",
+      "FarmSulphuricScale"
+     ],
+     "any_of": false,
+     "title": "Nature Armor (Summoner)",
+     "how": "Craft at a Work Bench from Wormwood and Fragments of Nature, plus 3 / 4 / 3 Sulphuric Scales (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "FeralClaws",
+      "stack": 1,
+      "title": "Feral Claws"
+     }
+    },
+    {
+     "key": "FarmBlightedGel",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "BlightedGel",
+     "vanilla_id": null,
+     "stack": 40,
+     "kind": "Optional",
+     "after": [
+      "EvilBossDefeated"
+     ],
+     "any_of": false,
+     "title": "Blighted Gel",
+     "how": "Ebonian/Crimulan Blight Slimes in the Corruption/Crimson drop 15-21 each.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "HealingPotion",
+      "stack": 5,
+      "title": "Healing Potions"
+     }
+    },
+    {
+     "key": "CraftOverloadedSludge",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "OverloadedSludge",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "ObtainWormwood",
+      "FarmBlightedGel"
+     ],
+     "any_of": false,
+     "title": "Overloaded Sludge",
+     "how": "Craft at a Demon/Crimson Altar from 40 Blighted Gel, 40 evil blocks and 5 Wormwood (pack addition). Reusable.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainPurifiedGel",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "PurifiedGel",
+     "vanilla_id": null,
+     "stack": 18,
+     "kind": "Optional",
+     "after": [
+      "SlimeGodDefeated"
+     ],
+     "any_of": false,
+     "title": "Purified Gel",
+     "how": "The Slime God drops 30-45.",
+     "uncertain": false
+    },
+    {
+     "key": "SetStatigelArmorMagic",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Statigel",
+       "class": "StatigelHeadMagic",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Statigel",
+       "class": "StatigelArmor",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Statigel",
+       "class": "StatigelGreaves",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainPurifiedGel",
+      "ObtainSolidifier"
+     ],
+     "any_of": false,
+     "title": "Statigel Armor (Magic)",
+     "how": "Craft at a Solidifier from Purified Gel and Blighted Gel; the chest and greaves also need 6 / 5 Wormwood (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "BandofStarpower",
+      "stack": 1,
+      "title": "Band of Starpower"
+     }
+    },
+    {
+     "key": "CraftAbeemination",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "Abeemination",
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Abeemination",
+     "how": "Craft at a Demon/Crimson Altar from honey, hive and Stinger materials, or just break a Bee Larva in the Underground Jungle.",
+     "uncertain": true
+    },
+    {
+     "key": "ObtainBeeWax",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "BeeWax",
+     "stack": 14,
+     "kind": "Optional",
+     "after": [
+      "QueenBeeDefeated"
+     ],
+     "any_of": false,
+     "title": "Bee Wax",
+     "how": "Dropped by Queen Bee.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainCursedMatter",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Pyramid",
+     "class": "CursedMatter",
+     "vanilla_id": null,
+     "stack": 20,
+     "kind": "Optional",
+     "after": [
+      "PharaohsCurseDefeated"
+     ],
+     "any_of": false,
+     "title": "Cursed Matter",
+     "how": "Pharaoh's Curse drops it (14-24 in its bag); right-click the Pyramid sarcophagus to summon it. Ghasts in the Pyramid also drop some.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "MagicPowerPotion",
+      "stack": 3,
+      "title": "Magic Power Potions"
+     }
+    },
+    {
+     "key": "SetCursedArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Pyramid",
+       "class": "CursedHood",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Pyramid",
+       "class": "CursedRobe",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainCursedMatter",
+      "FarmStormlionMandible"
+     ],
+     "any_of": false,
+     "title": "Cursed Armor (Magic)",
+     "how": "Craft at an Anvil: hood from 8 Cursed Matter + 20 Royal Ruby Shards, robe from 12 Cursed Matter + a gem robe + a Ruby Keystone; 2 / 3 Stormlion Mandibles each (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "CelestialMagnet",
+      "stack": 1,
+      "title": "Celestial Magnet"
+     }
+    },
+    {
+     "key": "ObtainHellforge",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "Hellforge",
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "EvilBossDefeated"
+     ],
+     "any_of": false,
+     "title": "Hellforge",
+     "how": "Find one in the ruined houses of the Underworld. Needed to smelt Hellstone Bars.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "ObsidianSkinPotion",
+      "stack": 3,
+      "title": "Obsidian Skin Potions"
+     }
+    },
+    {
+     "key": "CraftHellstoneBars",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "HellstoneBar",
+     "stack": 15,
+     "kind": "Required",
+     "after": [
+      "ObtainHellforge"
+     ],
+     "any_of": false,
+     "title": "Hellstone Bars",
+     "how": "Smelt Hellstone (needs a Nightmare/Deathbringer Pickaxe) and Obsidian at a Hellforge. The Eye of Desolation needs 10 in Hardmode.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "MiningPotion",
+      "stack": 3,
+      "title": "Mining Potions"
+     }
+    },
+    {
+     "key": "SetMoltenArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "MoltenHelmet",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "MoltenBreastplate",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "MoltenGreaves",
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftHellstoneBars"
+     ],
+     "any_of": false,
+     "title": "Molten Armor",
+     "how": "Craft each piece at an Anvil from Hellstone Bars.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SharkToothNecklace",
+      "stack": 1,
+      "title": "Shark Tooth Necklace"
+     }
+    },
+    {
+     "key": "ObtainGuideVoodooDoll",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "GuideVoodooDoll",
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "SkeletronDefeated",
+      "CraftHellstoneBars"
+     ],
+     "any_of": false,
+     "title": "Guide Voodoo Doll",
+     "how": "Dropped by Voodoo Demons in the Underworld. Throw it into lava there to summon the Wall of Flesh.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "IronskinPotion",
+      "stack": 3,
+      "title": "Ironskin Potions"
+     }
+    },
+    {
+     "key": "ObtainEarthenPlating",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Fragments",
+     "class": "EarthenPlating",
+     "vanilla_id": null,
+     "stack": 15,
+     "kind": "Optional",
+     "after": [
+      "ExcavatorDefeated"
+     ],
+     "any_of": false,
+     "title": "Earthen Plating",
+     "how": "The Excavator (summoned from the Seismic Station in the Abandoned Village) and Earthen Gizmos drop it. One kind of elemental plating for the Electromagnetic Lure.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainHardlightFabricator",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Planetarium.Furniture",
+     "class": "HardlightFabricator",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "AdvisorDefeated"
+     ],
+     "any_of": false,
+     "title": "Hardlight Fabricator",
+     "how": "Craft by hand from 10 Avaritian Plating harvested in the Planetarium. Crafting station for SotS alloys and Twilight Assassin armor.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftStarlightAlloy",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Planetarium.FromChests",
+     "class": "StarlightAlloy",
+     "vanilla_id": null,
+     "stack": 12,
+     "kind": "Optional",
+     "after": [
+      "ObtainHardlightFabricator",
+      "CraftAerialiteBar"
+     ],
+     "any_of": false,
+     "title": "Starlight Alloy",
+     "how": "Craft at the Hardlight Fabricator from a Fallen Star, a Fragment of Otherworld, a Twilight Shard and an Aerialite Bar (pack addition).",
+     "uncertain": false
+    },
+    {
+     "key": "SetTwilightAssassinArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Planetarium.FromChests",
+       "class": "TwilightAssassinsCirclet",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Planetarium.FromChests",
+       "class": "TwilightAssassinsChestplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Planetarium.FromChests",
+       "class": "TwilightAssassinsLeggings",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftStarlightAlloy",
+      "ObtainPurifiedGel"
+     ],
+     "any_of": false,
+     "title": "Twilight Assassin Armor",
+     "how": "Craft at the Hardlight Fabricator from Starlight/Hardlight/Otherworldly Alloys (chest: Hellstone Bars + Hardlight Alloy) and a Dissolving Aether each, plus 4 / 6 / 5 Purified Gel (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "FeralClaws",
+      "stack": 1,
+      "title": "Feral Claws"
+     }
+    },
+    {
+     "key": "CraftDeerThing",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "DeerThing",
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "EyeOfCthulhuDefeated"
+     ],
+     "any_of": false,
+     "title": "Deer Thing",
+     "how": "Craft at a Demon/Crimson Altar from Flinx Fur, a Lens and Demonite/Crimtane Ore; use in the Snow biome.",
+     "uncertain": true
+    }
+   ]
+  },
+  {
+   "name": "EarlyHardmode",
+   "bosses": [
+    {
+     "key": "WallOfFleshDefeated",
+     "kind": "Gate",
+     "after": [],
+     "any_of": false
+    },
+    {
+     "key": "QueenSlimeDefeated",
+     "kind": "Optional",
+     "after": [
+      "ObtainGelatinCrystal"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "CryogenDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftCryoKey"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "TheDestroyerDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftMechanicalWorm"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "TheTwinsDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftMechanicalEye"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "SkeletronPrimeDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftMechanicalSkull"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "AquaticScourgeDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftSeafood"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "BrimstoneElementalDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftCharredIdol"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "PolarisDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftFrostedKey"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "CalamitasCloneDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftEyeofDesolation"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "PlanteraDefeated",
+     "kind": "Gate",
+     "after": [
+      "TheDestroyerDefeated",
+      "TheTwinsDefeated",
+      "SkeletronPrimeDefeated"
+     ],
+     "any_of": false
+    }
+   ],
+   "steps": [
+    {
+     "key": "FarmSoulsOfLight",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "SoulofLight",
+     "stack": 15,
+     "kind": "Required",
+     "after": [
+      "WallOfFleshDefeated"
+     ],
+     "any_of": false,
+     "title": "Souls of Light",
+     "how": "Dropped by enemies in the underground Hallow.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "ShinePotion",
+      "stack": 3,
+      "title": "Shine Potions"
+     }
+    },
+    {
+     "key": "FarmSoulsOfNight",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "SoulofNight",
+     "stack": 15,
+     "kind": "Required",
+     "after": [
+      "WallOfFleshDefeated"
+     ],
+     "any_of": false,
+     "title": "Souls of Night",
+     "how": "Dropped by enemies in the underground Corruption/Crimson.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "NightOwlPotion",
+      "stack": 3,
+      "title": "Night Owl Potions"
+     }
+    },
+    {
+     "key": "ObtainMythrilAnvil",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "MythrilAnvil",
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "FarmSoulsOfLight",
+      "FarmSoulsOfNight"
+     ],
+     "any_of": false,
+     "title": "Mythril Anvil",
+     "how": "Craft from 10 Mythril Bars at an Anvil. Needed for the mechanical boss summons and most Hardmode modded gear.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainOrichalcumAnvil",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "OrichalcumAnvil",
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "FarmSoulsOfLight",
+      "FarmSoulsOfNight"
+     ],
+     "any_of": false,
+     "title": "Orichalcum Anvil",
+     "how": "Craft from 12 Orichalcum Bars at an Anvil. Equivalent to the Mythril Anvil.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftMechanicalWorm",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "MechanicalWorm",
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "ObtainMythrilAnvil",
+      "ObtainOrichalcumAnvil"
+     ],
+     "any_of": true,
+     "title": "Mechanical Worm",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Rotten Chunks/Vertebrae, Iron/Lead Bars and Souls of Night. Use at night.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftMechanicalEye",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "MechanicalEye",
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "ObtainMythrilAnvil",
+      "ObtainOrichalcumAnvil"
+     ],
+     "any_of": true,
+     "title": "Mechanical Eye",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Lenses, Iron/Lead Bars and Souls of Light. Use at night.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftMechanicalSkull",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "MechanicalSkull",
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "ObtainMythrilAnvil",
+      "ObtainOrichalcumAnvil"
+     ],
+     "any_of": true,
+     "title": "Mechanical Skull",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Bones, Iron/Lead Bars and Souls of Light and Night. Use at night.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainSoulsOfMight",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "SoulofMight",
+     "stack": 5,
+     "kind": "Required",
+     "after": [
+      "TheDestroyerDefeated"
+     ],
+     "any_of": false,
+     "title": "Souls of Might",
+     "how": "Dropped by The Destroyer.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainSoulsOfSight",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "SoulofSight",
+     "stack": 5,
+     "kind": "Required",
+     "after": [
+      "TheTwinsDefeated"
+     ],
+     "any_of": false,
+     "title": "Souls of Sight",
+     "how": "Dropped by The Twins.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainSoulsOfFright",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "SoulofFright",
+     "stack": 5,
+     "kind": "Required",
+     "after": [
+      "SkeletronPrimeDefeated"
+     ],
+     "any_of": false,
+     "title": "Souls of Fright",
+     "how": "Dropped by Skeletron Prime.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainHallowedBars",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "HallowedBar",
+     "stack": 15,
+     "kind": "Required",
+     "after": [
+      "TheDestroyerDefeated",
+      "TheTwinsDefeated",
+      "SkeletronPrimeDefeated"
+     ],
+     "any_of": true,
+     "title": "Hallowed Bars",
+     "how": "Every mechanical boss drops Hallowed Bars. Absolute Bars need one each.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "LifeforcePotion",
+      "stack": 2,
+      "title": "Lifeforce Potions"
+     }
+    },
+    {
+     "key": "SetHallowedArmorMelee",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "HallowedMask",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "HallowedPlateMail",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "HallowedGreaves",
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainHallowedBars"
+     ],
+     "any_of": false,
+     "title": "Hallowed Armor (Melee)",
+     "how": "Craft each piece at a Mythril/Orichalcum Anvil from Hallowed Bars.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "WarriorEmblem",
+      "stack": 1,
+      "title": "Warrior Emblem"
+     }
+    },
+    {
+     "key": "FarmEssenceOfEleum",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "EssenceofEleum",
+     "vanilla_id": null,
+     "stack": 14,
+     "kind": "Required",
+     "after": [
+      "WallOfFleshDefeated"
+     ],
+     "any_of": false,
+     "title": "Essence of Eleum",
+     "how": "Hardmode Snow enemies drop it: Ice Elementals, Icy Mermen, Wolves and Ice Tortoises always drop one.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "WarmthPotion",
+      "stack": 3,
+      "title": "Warmth Potions"
+     }
+    },
+    {
+     "key": "FarmFragmentOfPermafrost",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Fragments",
+     "class": "FragmentOfPermafrost",
+     "vanilla_id": null,
+     "stack": 30,
+     "kind": "Required",
+     "after": [
+      "WallOfFleshDefeated"
+     ],
+     "any_of": false,
+     "title": "Fragments of Permafrost",
+     "how": "Any enemy in a cold biome has a 1/35 chance to drop 1-2; Arctic Goblins drop 1-2. Used by the Cryo Key, Cryonic Bars and the Ornate Shield.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "IronskinPotion",
+      "stack": 3,
+      "title": "Ironskin Potions"
+     }
+    },
+    {
+     "key": "CraftCryoKey",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "CryoKey",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "FarmEssenceOfEleum",
+      "FarmFragmentOfPermafrost",
+      "FarmSoulsOfLight",
+      "FarmSoulsOfNight"
+     ],
+     "any_of": false,
+     "title": "Cryo Key",
+     "how": "Craft at an Anvil from 50 ice blocks, 5 Souls of Light, 5 Souls of Night, 8 Essence of Eleum and 6 Fragments of Permafrost (pack addition). Use in the Snow biome.",
+     "uncertain": false
+    },
+    {
+     "key": "MineCryonicOre",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.Ores",
+     "class": "CryonicOre",
+     "vanilla_id": null,
+     "stack": 24,
+     "kind": "Required",
+     "after": [
+      "CryogenDefeated"
+     ],
+     "any_of": false,
+     "title": "Cryonic Ore",
+     "how": "Cryogen's first kill seeds Cryonic Ore through the Snow biome (180% pickaxe); Cryo Slimes also drop it.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "MiningPotion",
+      "stack": 3,
+      "title": "Mining Potions"
+     }
+    },
+    {
+     "key": "ObtainAdamantiteForge",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "AdamantiteForge",
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "MineCryonicOre"
+     ],
+     "any_of": false,
+     "title": "Adamantite Forge",
+     "how": "Craft from a Hellforge and 30 Adamantite Ore at a Mythril/Orichalcum Anvil. Smelts most Calamity and SotS Hardmode bars.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainTitaniumForge",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "TitaniumForge",
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "MineCryonicOre"
+     ],
+     "any_of": false,
+     "title": "Titanium Forge",
+     "how": "Craft from a Hellforge and 30 Titanium Ore at a Mythril/Orichalcum Anvil. Equivalent to the Adamantite Forge.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftCryonicBar",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "CryonicBar",
+     "vanilla_id": null,
+     "stack": 20,
+     "kind": "Required",
+     "after": [
+      "ObtainAdamantiteForge",
+      "ObtainTitaniumForge"
+     ],
+     "any_of": true,
+     "title": "Cryonic Bars",
+     "how": "Smelt at an Adamantite/Titanium Forge from 4 Cryonic Ore plus 1 Fragment of Permafrost (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "EndurancePotion",
+      "stack": 3,
+      "title": "Endurance Potions"
+     }
+    },
+    {
+     "key": "SetDaedalusArmorRanged",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Daedalus",
+       "class": "DaedalusHeadRanged",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Daedalus",
+       "class": "DaedalusBreastplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Daedalus",
+       "class": "DaedalusLeggings",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftCryonicBar"
+     ],
+     "any_of": false,
+     "title": "Daedalus Armor (Ranged)",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Cryonic Bars; the breastplate and leggings also need 6 / 4 SotS Frigid Bars (pack addition, from Pre-Hardmode).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "MagicQuiver",
+      "stack": 1,
+      "title": "Magic Quiver"
+     }
+    },
+    {
+     "key": "EquipOrnateShield",
+     "type": "equip",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Accessories",
+     "class": "OrnateShield",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "CraftCryonicBar"
+     ],
+     "any_of": false,
+     "title": "Ornate Shield",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 12 Cryonic Bars, 20 Crystal Shards and 6 Fragments of Permafrost (pack addition).",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainDissolvingAurora",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Fragments",
+     "class": "DissolvingAurora",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "FarmFragmentOfPermafrost"
+     ],
+     "any_of": false,
+     "title": "Dissolving Aurora",
+     "how": "Dropped by the Permafrost Spirit, which emerges when you kill a Permafrost Construct in the Snow biome.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftFrostedKey",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Permafrost",
+     "class": "FrostedKey",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "CraftCryonicBar",
+      "ObtainDissolvingAurora",
+      "ObtainSoulsOfMight",
+      "ObtainSoulsOfSight",
+      "ObtainSoulsOfFright"
+     ],
+     "any_of": false,
+     "title": "Frosted Key",
+     "how": "Craft at a Mythril/Orichalcum Anvil from a Dissolving Aurora, 8 Cryonic Bars (replacing the Frost Core in this pack) and a Soul of Might, Sight and Fright. Hold it and right-click the Frost Artifact in the Permafrost biome; not consumed.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainSoulOfPlight",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Permafrost",
+     "class": "SoulOfPlight",
+     "vanilla_id": null,
+     "stack": 15,
+     "kind": "Required",
+     "after": [
+      "PolarisDefeated"
+     ],
+     "any_of": false,
+     "title": "Souls of Plight",
+     "how": "Polaris drops them (25-40 in its bag). Needed for Absolute Bars and the Eye of Desolation.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "GreaterHealingPotion",
+      "stack": 5,
+      "title": "Greater Healing Potions"
+     }
+    },
+    {
+     "key": "CraftAbsoluteBar",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Permafrost",
+     "class": "AbsoluteBar",
+     "vanilla_id": null,
+     "stack": 15,
+     "kind": "Required",
+     "after": [
+      "ObtainSoulOfPlight",
+      "ObtainHallowedBars",
+      "FarmEssenceOfEleum"
+     ],
+     "any_of": false,
+     "title": "Absolute Bars",
+     "how": "Smelt at an Adamantite/Titanium Forge from 1 Hallowed Bar, 1 Soul of Plight and 1 Essence of Eleum (pack addition). Life Alloy needs these later.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "EndurancePotion",
+      "stack": 3,
+      "title": "Endurance Potions"
+     }
+    },
+    {
+     "key": "SetFrostArtifactArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Permafrost",
+       "class": "FrostArtifactHelmet",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Permafrost",
+       "class": "FrostArtifactChestplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Permafrost",
+       "class": "FrostArtifactTrousers",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftAbsoluteBar",
+      "CraftCryonicBar"
+     ],
+     "any_of": false,
+     "title": "Frost Artifact Armor",
+     "how": "Upgrade Frost armor at a Mythril/Orichalcum Anvil with Absolute Bars (12 / 20 / 16) and Cryonic Bars (4 / 6 / 5, pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "FrozenTurtleShell",
+      "stack": 1,
+      "title": "Frozen Turtle Shell"
+     }
+    },
+    {
+     "key": "FarmEssenceOfHavoc",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "EssenceofHavoc",
+     "vanilla_id": null,
+     "stack": 15,
+     "kind": "Required",
+     "after": [
+      "WallOfFleshDefeated"
+     ],
+     "any_of": false,
+     "title": "Essence of Havoc",
+     "how": "Dropped by Hardmode Brimstone Crag enemies (Heat Spirits, Infernal Congealments, Soul Slurpers, etc.); Red Devils drop it 50% of the time.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "InfernoPotion",
+      "stack": 3,
+      "title": "Inferno Potions"
+     }
+    },
+    {
+     "key": "CraftEyeofDesolation",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "EyeofDesolation",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "ObtainSoulOfPlight",
+      "FarmEssenceOfHavoc"
+     ],
+     "any_of": false,
+     "title": "Eye of Desolation",
+     "how": "Craft at an Anvil from 10 Hellstone Bars, 5 Essence of Havoc and 3 Souls of Plight (pack addition, so Polaris comes first). Use at night; reusable.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainAshesOfCalamity",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "AshesofCalamity",
+     "vanilla_id": null,
+     "stack": 25,
+     "kind": "Required",
+     "after": [
+      "CalamitasCloneDefeated"
+     ],
+     "any_of": false,
+     "title": "Ashes of Calamity",
+     "how": "The Calamitas Clone drops 25-30. Needed for Core of Calamity and, much later, to summon Supreme Calamitas.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "HeartreachPotion",
+      "stack": 3,
+      "title": "Heartreach Potions"
+     }
+    },
+    {
+     "key": "CraftUnholyCore",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "UnholyCore",
+     "vanilla_id": null,
+     "stack": 12,
+     "kind": "Optional",
+     "after": [
+      "FarmEssenceOfHavoc"
+     ],
+     "any_of": false,
+     "title": "Unholy Cores",
+     "how": "Craft at a Hellforge from 3 Infernal Suevite (dropped by Infernal Congealments) and 2 Hellstone. (Hellforge from Pre-Hardmode.)",
+     "uncertain": false
+    },
+    {
+     "key": "CraftCharredIdol",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "CharredIdol",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "CraftUnholyCore",
+      "FarmSoulsOfNight"
+     ],
+     "any_of": false,
+     "title": "Charred Idol",
+     "how": "Craft at a Hellforge from 5 Unholy Cores, 7 Essence of Havoc, 5 Souls of Night and 5 Fragments of Inferno (pack addition). Use in the Brimstone Crags.",
+     "uncertain": false
+    },
+    {
+     "key": "SetBrimflameArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Brimflame",
+       "class": "BrimflameCowl",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Brimflame",
+       "class": "BrimflameRobes",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Brimflame",
+       "class": "BrimflameBoots",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftUnholyCore",
+      "ObtainAshesOfCalamity"
+     ],
+     "any_of": false,
+     "title": "Brimflame Armor (Magic)",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Unholy Cores and Ashes of Calamity.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SorcererEmblem",
+      "stack": 1,
+      "title": "Sorcerer Emblem"
+     }
+    },
+    {
+     "key": "CraftSeafood",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "Seafood",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "WallOfFleshDefeated"
+     ],
+     "any_of": false,
+     "title": "Seafood",
+     "how": "Craft at an Anvil from 20 Sulphurous Sand, 10 Starfish, 5 Shark Fins and 5 Fragments of Tide (pack addition). Use in the Sulphurous Sea.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainGelatinCrystal",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "QueenSlimeCrystal",
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "WallOfFleshDefeated"
+     ],
+     "any_of": false,
+     "title": "Gelatin Crystal",
+     "how": "Mine one from the crystal clusters in the underground Hallow; use it in the Hallow to summon Queen Slime.",
+     "uncertain": false
+    }
+   ]
+  },
+  {
+   "name": "PostPlantera",
+   "bosses": [
+    {
+     "key": "PlanteraDefeated",
+     "kind": "Gate",
+     "after": [],
+     "any_of": false
+    },
+    {
+     "key": "AstrumAureusDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftAstralChunk"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "LeviathanDefeated",
+     "kind": "Optional",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "GolemDefeated",
+     "kind": "Required",
+     "after": [
+      "ObtainLihzahrdPowerCell"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "DukeFishronDefeated",
+     "kind": "Optional",
+     "after": [
+      "ObtainTruffleWorm"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "EmpressOfLightDefeated",
+     "kind": "Optional",
+     "after": [
+      "ObtainPrismaticLacewing"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "PlaguebringerDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftAbombination"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "RavagerDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftDeathWhistle"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "LuxDefeated",
+     "kind": "Optional",
+     "after": [
+      "GolemDefeated",
+      "CraftElectromagneticLure"
+     ],
+     "any_of": true
+    },
+    {
+     "key": "LunaticCultistDefeated",
+     "kind": "Required",
+     "after": [
+      "GolemDefeated"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "AstrumDeusDefeated",
+     "kind": "Optional",
+     "after": [
+      "ObtainTitanHeart"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "SubspaceSerpentDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftCatalystBomb"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "MoonLordDefeated",
+     "kind": "Gate",
+     "after": [
+      "LunaticCultistDefeated"
+     ],
+     "any_of": false
+    }
+   ],
+   "steps": [
+    {
+     "key": "ObtainLivingShard",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "LivingShard",
+     "vanilla_id": null,
+     "stack": 10,
+     "kind": "Optional",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false,
+     "title": "Living Shards",
+     "how": "Plantera drops 30-40 (in its Treasure Bag on Expert+). Used for the reusable Portabulb and many Calamity items.",
+     "uncertain": false
+    },
+    {
+     "key": "MinePerennialOre",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.Ores",
+     "class": "PerennialOre",
+     "vanilla_id": null,
+     "stack": 24,
+     "kind": "Required",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false,
+     "title": "Perennial Ore",
+     "how": "Plantera's first kill seeds Perennial Ore in underground dirt and stone (200% pickaxe); Perennial Slimes drop it too.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "MiningPotion",
+      "stack": 3,
+      "title": "Mining Potions"
+     }
+    },
+    {
+     "key": "CraftPerennialBar",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "PerennialBar",
+     "vanilla_id": null,
+     "stack": 15,
+     "kind": "Required",
+     "after": [
+      "MinePerennialOre"
+     ],
+     "any_of": false,
+     "title": "Perennial Bars",
+     "how": "Smelt at an Adamantite/Titanium Forge from 4 Perennial Ore plus 1 Fragment of Nature (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "RegenerationPotion",
+      "stack": 3,
+      "title": "Regeneration Potions"
+     }
+    },
+    {
+     "key": "SetReaverArmorTank",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Reaver",
+       "class": "ReaverHeadTank",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Reaver",
+       "class": "ReaverScaleMail",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Reaver",
+       "class": "ReaverCuisses",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftPerennialBar"
+     ],
+     "any_of": false,
+     "title": "Reaver Armor (Tank)",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Perennial Bars.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "PaladinsShield",
+      "stack": 1,
+      "title": "Paladin's Shield"
+     }
+    },
+    {
+     "key": "ObtainEctoplasm",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "Ectoplasm",
+     "stack": 10,
+     "kind": "Required",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false,
+     "title": "Ectoplasm",
+     "how": "Dropped by Dungeon Spirits after Plantera. Needed for the Catalyst Bomb, Core of Calamity and Spectre Bars.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SpelunkerPotion",
+      "stack": 3,
+      "title": "Spelunker Potions"
+     }
+    },
+    {
+     "key": "SetSpectreArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "SpectreHood",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "SpectreRobe",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "SpectrePants",
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainEctoplasm"
+     ],
+     "any_of": false,
+     "title": "Spectre Armor (Magic)",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Spectre Bars (Chlorophyte Bars + Ectoplasm).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "CelestialEmblem",
+      "stack": 1,
+      "title": "Celestial Emblem"
+     }
+    },
+    {
+     "key": "FarmEssenceOfSunlight",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "EssenceofSunlight",
+     "vanilla_id": null,
+     "stack": 12,
+     "kind": "Optional",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false,
+     "title": "Essence of Sunlight",
+     "how": "Hardmode sky enemies drop it: Harpies and Angry Nimbi 50%, Wyverns 8-10. Used for Phase Bars (pack addition) and Core of Calamity.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "FeatherfallPotion",
+      "stack": 3,
+      "title": "Featherfall Potions"
+     }
+    },
+    {
+     "key": "CraftCoreOfCalamity",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "CoreofCalamity",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "ObtainEctoplasm",
+      "FarmEssenceOfSunlight"
+     ],
+     "any_of": false,
+     "title": "Core of Calamity",
+     "how": "Craft at a Mythril/Orichalcum Anvil from one each of Essence of Sunlight/Havoc/Eleum, Ashes of Calamity, Ectoplasm and Soul of Plight (pack addition).",
+     "uncertain": false
+    },
+    {
+     "key": "EquipAsgardsValor",
+     "type": "equip",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Accessories",
+     "class": "AsgardsValor",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "CraftCoreOfCalamity"
+     ],
+     "any_of": false,
+     "title": "Asgard's Valor",
+     "how": "Craft at a Mythril/Orichalcum Anvil from an Ornate Shield, 5 Hallowed Bars, a Core of Calamity and 4 Absolute Bars (pack addition).",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainLihzahrdPowerCell",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "LihzahrdPowerCell",
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false,
+     "title": "Lihzahrd Power Cell",
+     "how": "Found in Jungle Temple chests (the Temple Key comes from Plantera). Place it on the Lihzahrd Altar.",
+     "uncertain": false
+    },
+    {
+     "key": "MineScoriaOre",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.Ores",
+     "class": "ScoriaOre",
+     "vanilla_id": null,
+     "stack": 24,
+     "kind": "Required",
+     "after": [
+      "GolemDefeated"
+     ],
+     "any_of": false,
+     "title": "Scoria Ore",
+     "how": "Mine it in the lower Abyss (210% pickaxe); Chaotic Puffers and Devil Fish drop it after Golem.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "GillsPotion",
+      "stack": 3,
+      "title": "Gills Potions"
+     }
+    },
+    {
+     "key": "CraftScoriaBar",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "ScoriaBar",
+     "vanilla_id": null,
+     "stack": 15,
+     "kind": "Required",
+     "after": [
+      "MineScoriaOre"
+     ],
+     "any_of": false,
+     "title": "Scoria Bars",
+     "how": "Smelt at an Adamantite/Titanium Forge from 4 Scoria Ore plus 1 Fragment of Inferno (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "WrathPotion",
+      "stack": 3,
+      "title": "Wrath Potions"
+     }
+    },
+    {
+     "key": "SetHydrothermicArmorMelee",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Hydrothermic",
+       "class": "HydrothermicHeadMelee",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Hydrothermic",
+       "class": "HydrothermicArmor",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Hydrothermic",
+       "class": "HydrothermicSubligar",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftScoriaBar"
+     ],
+     "any_of": false,
+     "title": "Hydrothermic Armor (Melee)",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Scoria Bars.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "FireGauntlet",
+      "stack": 1,
+      "title": "Fire Gauntlet"
+     }
+    },
+    {
+     "key": "CraftLifeAlloy",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "LifeAlloy",
+     "vanilla_id": null,
+     "stack": 12,
+     "kind": "Required",
+     "after": [
+      "CraftPerennialBar",
+      "CraftScoriaBar"
+     ],
+     "any_of": false,
+     "title": "Life Alloy",
+     "how": "Craft at a Mythril/Orichalcum Anvil from one Cryonic, Perennial and Scoria Bar plus an Absolute Bar (pack addition). Needed for the Electromagnetic Lure, Exotic Pheromones and Yharon's egg.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "LifeforcePotion",
+      "stack": 3,
+      "title": "Lifeforce Potions"
+     }
+    },
+    {
+     "key": "CraftElectromagneticLure",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items",
+     "class": "ElectromagneticLure",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "CraftLifeAlloy"
+     ],
+     "any_of": false,
+     "title": "Electromagnetic Lure",
+     "how": "Craft at an Anvil from a Dissolving element, 15 elemental fragments, 15 elemental plating and 2 Life Alloy (pack addition). Use on the surface Hallow to call a Chaos Construct, whose spirit becomes Lux; consumed.",
+     "uncertain": false
+    },
+    {
+     "key": "FarmFragmentOfChaos",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Fragments",
+     "class": "FragmentOfChaos",
+     "vanilla_id": null,
+     "stack": 12,
+     "kind": "Optional",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false,
+     "title": "Fragments of Chaos",
+     "how": "Any enemy in the Hallow has a 1/35 chance to drop 1-2. Used for Phase Bars and Astral Bars (pack addition).",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainPhaseOre",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Chaos",
+     "class": "PhaseOre",
+     "vanilla_id": null,
+     "stack": 60,
+     "kind": "Optional",
+     "after": [
+      "LuxDefeated"
+     ],
+     "any_of": false,
+     "title": "Phase Ore",
+     "how": "Lux drops a large amount (120-180 in its bag); Phase Assaulters and Speeders drop some too.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftPhaseBar",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Chaos",
+     "class": "PhaseBar",
+     "vanilla_id": null,
+     "stack": 9,
+     "kind": "Optional",
+     "after": [
+      "ObtainPhaseOre",
+      "FarmFragmentOfChaos",
+      "FarmEssenceOfSunlight"
+     ],
+     "any_of": false,
+     "title": "Phase Bars",
+     "how": "Smelt 3 at an Adamantite/Titanium Forge from 30 Phase Ore, 5 Crystal Shards, 1 Fragment of Chaos and 2 Essence of Sunlight (pack addition).",
+     "uncertain": false
+    },
+    {
+     "key": "SetElementalArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Chaos",
+       "class": "ElementalHelmet",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Chaos",
+       "class": "ElementalBreastplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Chaos",
+       "class": "ElementalLeggings",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftPhaseBar",
+      "CraftScoriaBar"
+     ],
+     "any_of": false,
+     "title": "Elemental Armor",
+     "how": "Upgrade Twilight Assassin armor at a Mythril/Orichalcum Anvil with Phase Bars, Fragments of Chaos and Scoria Bars (4 / 6 / 5, pack addition); the breastplate also needs a Blink Pack or Particle Relocator.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "PapyrusScarab",
+      "stack": 1,
+      "title": "Papyrus Scarab"
+     }
+    },
+    {
+     "key": "CraftDecryptionComputer",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.DraedonMisc",
+     "class": "DecryptionComputer",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false,
+     "title": "Decryption Computer",
+     "how": "Craft at an Anvil from 18 Mysterious Circuitry, 10 Dubious Plating, Wire, Copper Bars and Glass after reading the Sunken Sea lab schematic. Decrypts the lab schematics that unlock Arsenal recipes.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftAstralChunk",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "AstralChunk",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "CraftDecryptionComputer"
+     ],
+     "any_of": false,
+     "title": "Astral Chunk",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 8 Dubious Plating, 20 Fallen Stars, 30 Starblight Soot and 6 Fragments of Otherworld (pack addition); requires the decrypted Planetoid (Tier 2) schematic. Use at night in the Astral Infection.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainAureusCell",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Potions",
+     "class": "AureusCell",
+     "vanilla_id": null,
+     "stack": 8,
+     "kind": "Optional",
+     "after": [
+      "AstrumAureusDefeated"
+     ],
+     "any_of": false,
+     "title": "Aureus Cells",
+     "how": "Dropped by Astrum Aureus. Used for the reusable Starcore.",
+     "uncertain": false
+    },
+    {
+     "key": "EquipLeviathanAmbergris",
+     "type": "equip",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Accessories",
+     "class": "LeviathanAmbergris",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "LeviathanDefeated"
+     ],
+     "any_of": false,
+     "title": "Leviathan Ambergris",
+     "how": "Found in the Leviathan and Anahita Treasure Bag (Expert/Master only).",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainTruffleWorm",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "TruffleWorm",
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false,
+     "title": "Truffle Worm",
+     "how": "Catch one with a bug net in an underground Glowing Mushroom biome in Hardmode; use it as bait in the Ocean.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainPrismaticLacewing",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "EmpressButterfly",
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false,
+     "title": "Prismatic Lacewing",
+     "how": "Catch one with a bug net in the surface Hallow at night after Plantera, then release or kill it there.",
+     "uncertain": false
+    },
+    {
+     "key": "FarmPlagueCellCanister",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "PlagueCellCanister",
+     "vanilla_id": null,
+     "stack": 30,
+     "kind": "Optional",
+     "after": [
+      "GolemDefeated"
+     ],
+     "any_of": false,
+     "title": "Plague Cell Canisters",
+     "how": "Dropped by Plague enemies (Plague Chargers, Melters, Viruling, etc.), which roam the Jungle after Golem.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftAbombination",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "Abombination",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "FarmPlagueCellCanister",
+      "CraftDecryptionComputer"
+     ],
+     "any_of": false,
+     "title": "Abombination",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 20 Plague Cell Canisters and 12 Mysterious Circuitry; requires the decrypted Jungle lab (Tier 3) schematic. Use in the Jungle.",
+     "uncertain": false
+    },
+    {
+     "key": "SetPlaguebringerArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Plaguebringer",
+       "class": "PlaguebringerVisor",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Plaguebringer",
+       "class": "PlaguebringerCarapace",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Plaguebringer",
+       "class": "PlaguebringerPistons",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "PlaguebringerDefeated"
+     ],
+     "any_of": false,
+     "title": "Plaguebringer Armor (Summoner)",
+     "how": "Upgrade Bee armor at a Mythril/Orichalcum Anvil with Alchemical Decanters, Infected Armor Plating (from the Plaguebringer Goliath) and Plague Cell Canisters.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "PygmyNecklace",
+      "stack": 1,
+      "title": "Pygmy Necklace"
+     }
+    },
+    {
+     "key": "SetPlagueReaperArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.PlagueReaper",
+       "class": "PlagueReaperMask",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.PlagueReaper",
+       "class": "PlagueReaperVest",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.PlagueReaper",
+       "class": "PlagueReaperStriders",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "FarmPlagueCellCanister"
+     ],
+     "any_of": false,
+     "title": "Plague Reaper Armor (Ranged)",
+     "how": "Upgrade Necro armor at a Mythril/Orichalcum Anvil with Plague Cell Canisters and Nanites.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "ReconScope",
+      "stack": 1,
+      "title": "Recon Scope"
+     }
+    },
+    {
+     "key": "CraftDeathWhistle",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "DeathWhistle",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "GolemDefeated"
+     ],
+     "any_of": false,
+     "title": "Death Whistle",
+     "how": "Craft at a Demon/Crimson Altar from 15 Lunar Tablet Fragments and 25 Lihzahrd Bricks. Reusable.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainAncientManipulator",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "LunarCraftingStation",
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "LunaticCultistDefeated"
+     ],
+     "any_of": false,
+     "title": "Ancient Manipulator",
+     "how": "Dropped by the Lunatic Cultist. Needed for Astral Bars, Astral armor, the Starcore and all lunar-tier gear.",
+     "uncertain": false
+    },
+    {
+     "key": "FarmMeldBlob",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "MeldBlob",
+     "vanilla_id": null,
+     "stack": 8,
+     "kind": "Required",
+     "after": [
+      "LunaticCultistDefeated"
+     ],
+     "any_of": false,
+     "title": "Meld Blobs",
+     "how": "Solar Pillar enemies drop them (1 in 5, 1 in 4 on Expert); Astrum Deus drops them too. The Catalyst Bomb needs 4 (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "RagePotion",
+      "stack": 3,
+      "title": "Rage Potions"
+     }
+    },
+    {
+     "key": "ObtainTitanHeart",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "TitanHeart",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false,
+     "title": "Titan Heart",
+     "how": "Dropped by Atlas in the Astral Infection. Place it in the Astral Beacon to summon Astrum Deus; the heart is consumed.",
+     "uncertain": false
+    },
+    {
+     "key": "MineAstralOre",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.Ores",
+     "class": "AstralOre",
+     "vanilla_id": null,
+     "stack": 24,
+     "kind": "Optional",
+     "after": [
+      "AstrumDeusDefeated"
+     ],
+     "any_of": false,
+     "title": "Astral Ore",
+     "how": "Astral Ore can only be mined (210% pickaxe) after Astrum Deus dies; Astral Slimes also drop it from then on.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SpelunkerPotion",
+      "stack": 3,
+      "title": "Spelunker Potions"
+     }
+    },
+    {
+     "key": "CraftAstralBar",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "AstralBar",
+     "vanilla_id": null,
+     "stack": 15,
+     "kind": "Optional",
+     "after": [
+      "MineAstralOre",
+      "ObtainAncientManipulator",
+      "FarmFragmentOfChaos"
+     ],
+     "any_of": false,
+     "title": "Astral Bars",
+     "how": "Craft at an Ancient Manipulator from 2 Astral Ore, 3 Starblight Soot and 1 Fragment of Chaos (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "TitanPotion",
+      "stack": 3,
+      "title": "Titan Potions"
+     }
+    },
+    {
+     "key": "SetAstralArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Astral",
+       "class": "AstralHelm",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Astral",
+       "class": "AstralBreastplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Astral",
+       "class": "AstralLeggings",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftAstralBar",
+      "CraftPhaseBar"
+     ],
+     "any_of": false,
+     "title": "Astral Armor",
+     "how": "Craft at an Ancient Manipulator from Astral Bars (12 / 24 / 18) plus Phase Bars (3 / 6 / 4, pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "CelestialStone",
+      "stack": 1,
+      "title": "Celestial Stone"
+     }
+    },
+    {
+     "key": "CraftStarcore",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "Starcore",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "CraftAstralBar",
+      "ObtainAureusCell",
+      "CraftPhaseBar"
+     ],
+     "any_of": false,
+     "title": "Starcore",
+     "how": "Reusable Astrum Deus summon for rematches: craft at an Ancient Manipulator from 8 Astral Bars, 8 Aureus Cells, 25 Starblight Soot and 3 Phase Bars (pack addition). Astral Bars are only obtainable after Deus, so the first fight uses a Titan Heart.",
+     "uncertain": false
+    },
+    {
+     "key": "SetTitanHeartArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.TitanHeart",
+       "class": "TitanHeartMask",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.TitanHeart",
+       "class": "TitanHeartMantle",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.TitanHeart",
+       "class": "TitanHeartBoots",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainTitanHeart"
+     ],
+     "any_of": false,
+     "title": "Titan Heart Armor (Rogue)",
+     "how": "Craft at an Anvil from Astral Monoliths and a Titan Heart per piece.",
+     "uncertain": false,
+     "reward": {
+      "mod": "CalamityMod",
+      "namespace": "CalamityMod.Items.Accessories",
+      "class": "ElectriciansGlove",
+      "vanilla_id": null,
+      "stack": 1,
+      "title": "Electrician's Glove"
+     }
+    },
+    {
+     "key": "CraftTorchBomb",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Earth.Glowmoth",
+     "class": "TorchBomb",
+     "vanilla_id": null,
+     "stack": 5,
+     "kind": "Required",
+     "after": [
+      "PlanteraDefeated"
+     ],
+     "any_of": false,
+     "title": "Torch Bombs",
+     "how": "Craft at an Anvil from a Bomb, a Torch and a Glow Nylon; the Glowmoth also drops 8-16 (12-24 from its Silk Cocoon).",
+     "uncertain": false
+    },
+    {
+     "key": "CraftCatalystBomb",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Celestial",
+     "class": "CatalystBomb",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "CraftTorchBomb",
+      "FarmMeldBlob",
+      "ObtainEctoplasm"
+     ],
+     "any_of": false,
+     "title": "Catalyst Bomb",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 5 Torch Bombs, a Dynamite, an Ectoplasm, a Soul of Night and 4 Meld Blobs (pack addition). Detonate it in the Sanctuary at Underworld depth; consumed.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainSanguiteBar",
+     "type": "obtain",
+     "mod": "SOTS",
+     "namespace": "SOTS.Items.Celestial",
+     "class": "SanguiteBar",
+     "vanilla_id": null,
+     "stack": 20,
+     "kind": "Required",
+     "after": [
+      "SubspaceSerpentDefeated"
+     ],
+     "any_of": false,
+     "title": "Sanguite Bars",
+     "how": "The Subspace Serpent drops 16-29; afterwards any enemy has a 1/35 chance to drop 4-5. The Profaned Shard needs 4 (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "GreaterHealingPotion",
+      "stack": 5,
+      "title": "Greater Healing Potions"
+     }
+    },
+    {
+     "key": "SetVoidspaceArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Celestial",
+       "class": "VoidspaceMask",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Celestial",
+       "class": "VoidspaceBreastplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "SOTS",
+       "namespace": "SOTS.Items.Celestial",
+       "class": "VoidspaceLeggings",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainSanguiteBar",
+      "CraftAstralBar"
+     ],
+     "any_of": false,
+     "title": "Voidspace Armor",
+     "how": "Upgrade Vespera armor at a Mythril/Orichalcum Anvil with Sanguite Bars, Fragments of Inferno and Astral Bars (4 / 6 / 5, pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "RangerEmblem",
+      "stack": 1,
+      "title": "Ranger Emblem"
+     }
+    }
+   ]
+  },
+  {
+   "name": "PostMoonLord",
+   "bosses": [
+    {
+     "key": "MoonLordDefeated",
+     "kind": "Gate",
+     "after": [],
+     "any_of": false
+    },
+    {
+     "key": "DragonfollyDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftExoticPheromones"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "ProfanedGuardiansDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftProfanedShard"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "PolterghastDefeated",
+     "kind": "Optional",
+     "after": [
+      "CraftNecroplasmicBeacon"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "ProvidenceDefeated",
+     "kind": "Required",
+     "after": [
+      "ObtainProfanedCore"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "OldDukeDefeated",
+     "kind": "Optional",
+     "after": [
+      "ObtainBloodworm"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "CeaselessVoidDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftMarkOfProvidence"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "StormWeaverDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftMarkOfProvidence"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "SignusDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftMarkOfProvidence"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "DevourerOfGodsDefeated",
+     "kind": "Gate",
+     "after": [
+      "CraftCosmicWorm"
+     ],
+     "any_of": false
+    }
+   ],
+   "steps": [
+    {
+     "key": "ObtainLuminiteBars",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "LunarBar",
+     "stack": 20,
+     "kind": "Required",
+     "after": [
+      "MoonLordDefeated"
+     ],
+     "any_of": false,
+     "title": "Luminite Bars",
+     "how": "Smelt Luminite (dropped by the Moon Lord) at an Ancient Manipulator.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SuperHealingPotion",
+      "stack": 5,
+      "title": "Super Healing Potions"
+     }
+    },
+    {
+     "key": "FarmUnholyEssence",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "UnholyEssence",
+     "vanilla_id": null,
+     "stack": 70,
+     "kind": "Required",
+     "after": [
+      "MoonLordDefeated"
+     ],
+     "any_of": false,
+     "title": "Unholy Essence",
+     "how": "After the Moon Lord, Impious Immolators and Scorn Eaters (Underworld/Hallow) and Profaned Energy drop it.",
+     "uncertain": true,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "InfernoPotion",
+      "stack": 3,
+      "title": "Inferno Potions"
+     }
+    },
+    {
+     "key": "CraftProfanedShard",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "ProfanedShard",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "ObtainLuminiteBars",
+      "FarmUnholyEssence"
+     ],
+     "any_of": false,
+     "title": "Profaned Shard",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 5 Luminite Bars, 25 Unholy Essence and 4 Sanguite Bars (pack addition; from the Subspace Serpent). Use in the Hallow or Underworld; reusable.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainProfanedCore",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "ProfanedCore",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "ProfanedGuardiansDefeated"
+     ],
+     "any_of": false,
+     "title": "Profaned Core",
+     "how": "Dropped by the Profaned Guardian Commander. Summons Providence (reusable).",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainDivineGeode",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "DivineGeode",
+     "vanilla_id": null,
+     "stack": 25,
+     "kind": "Required",
+     "after": [
+      "ProvidenceDefeated"
+     ],
+     "any_of": false,
+     "title": "Divine Geodes",
+     "how": "Dropped by Providence (and the Profaned Guardians).",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "LifeforcePotion",
+      "stack": 3,
+      "title": "Lifeforce Potions"
+     }
+    },
+    {
+     "key": "MineUelibloomOre",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.Ores",
+     "class": "UelibloomOre",
+     "vanilla_id": null,
+     "stack": 24,
+     "kind": "Required",
+     "after": [
+      "ProvidenceDefeated"
+     ],
+     "any_of": false,
+     "title": "Uelibloom Ore",
+     "how": "Providence's first kill seeds Uelibloom Ore in Jungle mud (225% pickaxe); Bloom Slimes drop it too.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "MiningPotion",
+      "stack": 3,
+      "title": "Mining Potions"
+     }
+    },
+    {
+     "key": "CraftUelibloomBar",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "UelibloomBar",
+     "vanilla_id": null,
+     "stack": 20,
+     "kind": "Required",
+     "after": [
+      "MineUelibloomOre"
+     ],
+     "any_of": false,
+     "title": "Uelibloom Bars",
+     "how": "Smelt at an Adamantite/Titanium Forge from 4 Uelibloom Ore.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "EndurancePotion",
+      "stack": 3,
+      "title": "Endurance Potions"
+     }
+    },
+    {
+     "key": "SetTarragonArmorMelee",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Tarragon",
+       "class": "TarragonHeadMelee",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Tarragon",
+       "class": "TarragonBreastplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Tarragon",
+       "class": "TarragonLeggings",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftUelibloomBar",
+      "ObtainDivineGeode"
+     ],
+     "any_of": false,
+     "title": "Tarragon Armor (Melee)",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Uelibloom Bars and Divine Geodes.",
+     "uncertain": false,
+     "reward": {
+      "mod": "CalamityMod",
+      "namespace": "CalamityMod.Items.Accessories",
+      "class": "BadgeofBravery",
+      "vanilla_id": null,
+      "stack": 1,
+      "title": "Badge of Bravery"
+     }
+    },
+    {
+     "key": "ObtainSolarFragments",
+     "type": "obtain",
+     "mod": "Terraria",
+     "namespace": null,
+     "class": null,
+     "vanilla_id": "FragmentSolar",
+     "stack": 25,
+     "kind": "Required",
+     "after": [
+      "MoonLordDefeated"
+     ],
+     "any_of": false,
+     "title": "Solar Fragments",
+     "how": "Left over from the Solar Pillar (or farm more there before the Moon Lord). Exotic Pheromones need 20 and the Mark of Providence 5.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftExoticPheromones",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "ExoticPheromones",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "ObtainSolarFragments"
+     ],
+     "any_of": false,
+     "title": "Exotic Pheromones",
+     "how": "Craft at an Ancient Manipulator from 5 Life Alloy and 20 Solar Fragments. Use in the Jungle; reusable.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainEffulgentFeather",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "EffulgentFeather",
+     "vanilla_id": null,
+     "stack": 15,
+     "kind": "Required",
+     "after": [
+      "DragonfollyDefeated"
+     ],
+     "any_of": false,
+     "title": "Effulgent Feathers",
+     "how": "Dropped by the Dragonfolly (and Wild Bumblebirbs). Yharon's egg needs 15.",
+     "uncertain": false
+    },
+    {
+     "key": "MineExodiumCluster",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.Ores",
+     "class": "ExodiumCluster",
+     "vanilla_id": null,
+     "stack": 25,
+     "kind": "Optional",
+     "after": [
+      "MoonLordDefeated"
+     ],
+     "any_of": false,
+     "title": "Exodium Clusters",
+     "how": "Mine Exodium on the Luminite planetoids in space (225% pickaxe). The Cosmic Anvil needs 20.",
+     "uncertain": false
+    },
+    {
+     "key": "FarmNecroplasm",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "Necroplasm",
+     "vanilla_id": null,
+     "stack": 50,
+     "kind": "Optional",
+     "after": [
+      "MoonLordDefeated"
+     ],
+     "any_of": false,
+     "title": "Necroplasm",
+     "how": "After the Moon Lord, killing strong Dungeon enemies can release Phantom Spirits, which drop Necroplasm.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SpelunkerPotion",
+      "stack": 3,
+      "title": "Spelunker Potions"
+     }
+    },
+    {
+     "key": "CraftNecroplasmicBeacon",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "NecroplasmicBeacon",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "FarmNecroplasm"
+     ],
+     "any_of": false,
+     "title": "Necroplasmic Beacon",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 25 Wood and 50 Necroplasm. Use in the Dungeon; reusable.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainRuinousSoul",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "RuinousSoul",
+     "vanilla_id": null,
+     "stack": 8,
+     "kind": "Optional",
+     "after": [
+      "PolterghastDefeated"
+     ],
+     "any_of": false,
+     "title": "Ruinous Souls",
+     "how": "Dropped by the Polterghast.",
+     "uncertain": false
+    },
+    {
+     "key": "SetBloodflareArmorRanged",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Bloodflare",
+       "class": "BloodflareHeadRanged",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Bloodflare",
+       "class": "BloodflareBodyArmor",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Bloodflare",
+       "class": "BloodflareCuisses",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainRuinousSoul"
+     ],
+     "any_of": false,
+     "title": "Bloodflare Armor (Ranged)",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Bloodstone (Brimstone Crag enemies), Blood Orbs and Ruinous Souls.",
+     "uncertain": false,
+     "reward": {
+      "mod": "CalamityMod",
+      "namespace": "CalamityMod.Items.Accessories",
+      "class": "DeadshotBrooch",
+      "vanilla_id": null,
+      "stack": 1,
+      "title": "Deadshot Brooch"
+     }
+    },
+    {
+     "key": "ObtainBloodworm",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "BloodwormItem",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "MoonLordDefeated"
+     ],
+     "any_of": false,
+     "title": "Bloodworm",
+     "how": "After the Moon Lord, Bloodworms appear in the Sulphurous Sea when no Acid Rain is active; catch one with a bug net and use it as bait there to fish up the Old Duke (consumed).",
+     "uncertain": false
+    },
+    {
+     "key": "CraftMarkOfProvidence",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "MarkofProvidence",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "ProvidenceDefeated",
+      "ObtainLuminiteBars",
+      "ObtainSolarFragments"
+     ],
+     "any_of": false,
+     "title": "Mark of Providence",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 3 Luminite Bars, 40 Unholy Essence and 5 Solar Fragments. Use in the Dungeon (Ceaseless Void), Underworld (Signus) or Space (Storm Weaver); reusable.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainDarkPlasma",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "DarkPlasma",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "CeaselessVoidDefeated"
+     ],
+     "any_of": false,
+     "title": "Dark Plasma",
+     "how": "Dropped by the Ceaseless Void.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainArmoredShell",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "ArmoredShell",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "StormWeaverDefeated"
+     ],
+     "any_of": false,
+     "title": "Armored Shell",
+     "how": "Dropped by the Storm Weaver.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainTwistingNether",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "TwistingNether",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "SignusDefeated"
+     ],
+     "any_of": false,
+     "title": "Twisting Nether",
+     "how": "Dropped by Signus.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftCosmicWorm",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "CosmicWorm",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "ObtainDarkPlasma",
+      "ObtainArmoredShell",
+      "ObtainTwistingNether"
+     ],
+     "any_of": false,
+     "title": "Cosmic Worm",
+     "how": "Craft at a Mythril/Orichalcum Anvil from an Armored Shell, a Twisting Nether and a Dark Plasma (an alternate recipe uses 40 Luminite Bars, 10 of each lunar fragment, 10 Meld Blobs and 40 Necroplasm). Reusable.",
+     "uncertain": false
+    },
+    {
+     "key": "SetPrismaticArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Prismatic",
+       "class": "PrismaticHelmet",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Prismatic",
+       "class": "PrismaticRegalia",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Prismatic",
+       "class": "PrismaticGreaves",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainArmoredShell",
+      "ObtainDivineGeode",
+      "MineExodiumCluster"
+     ],
+     "any_of": false,
+     "title": "Prismatic Armor (Magic)",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Armored Shells, Exodium Clusters, Divine Geodes and Nanites.",
+     "uncertain": false,
+     "reward": {
+      "mod": "CalamityMod",
+      "namespace": "CalamityMod.Items.Accessories",
+      "class": "SigilofCalamitas",
+      "vanilla_id": null,
+      "stack": 1,
+      "title": "Sigil of Calamitas"
+     }
+    },
+    {
+     "key": "SetEmpyreanArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Empyrean",
+       "class": "EmpyreanMask",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Empyrean",
+       "class": "EmpyreanCloak",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Empyrean",
+       "class": "EmpyreanCuisses",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainLuminiteBars"
+     ],
+     "any_of": false,
+     "title": "Empyrean Armor (Rogue)",
+     "how": "Craft at an Ancient Manipulator from Meld Blobs and Luminite Bars, plus 3 / 6 / 4 Sanguite Bars (pack addition).",
+     "uncertain": false,
+     "reward": {
+      "mod": "CalamityMod",
+      "namespace": "CalamityMod.Items.Accessories",
+      "class": "DarkMatterSheath",
+      "vanilla_id": null,
+      "stack": 1,
+      "title": "Dark Matter Sheath"
+     }
+    },
+    {
+     "key": "SetSolarFlareArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "SolarFlareHelmet",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "SolarFlareBreastplate",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "SolarFlareLeggings",
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainLuminiteBars"
+     ],
+     "any_of": false,
+     "title": "Solar Flare Armor (Melee)",
+     "how": "Craft at an Ancient Manipulator from Solar Fragments and Luminite Bars.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "CelestialShell",
+      "stack": 1,
+      "title": "Celestial Shell"
+     }
+    },
+    {
+     "key": "SetVortexArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "VortexHelmet",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "VortexBreastplate",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "VortexLeggings",
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainLuminiteBars"
+     ],
+     "any_of": false,
+     "title": "Vortex Armor (Ranged)",
+     "how": "Craft at an Ancient Manipulator from Vortex Fragments and Luminite Bars.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SniperScope",
+      "stack": 1,
+      "title": "Sniper Scope"
+     }
+    },
+    {
+     "key": "SetNebulaArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "NebulaHelmet",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "NebulaBreastplate",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "NebulaLeggings",
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainLuminiteBars"
+     ],
+     "any_of": false,
+     "title": "Nebula Armor (Magic)",
+     "how": "Craft at an Ancient Manipulator from Nebula Fragments and Luminite Bars.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "ManaCloak",
+      "stack": 1,
+      "title": "Mana Cloak"
+     }
+    },
+    {
+     "key": "SetStardustArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "StardustHelmet",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "StardustBreastplate",
+       "stack": 1
+      },
+      {
+       "mod": "Terraria",
+       "namespace": null,
+       "class": null,
+       "vanilla_id": "StardustLeggings",
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "ObtainLuminiteBars"
+     ],
+     "any_of": false,
+     "title": "Stardust Armor (Summoner)",
+     "how": "Craft at an Ancient Manipulator from Stardust Fragments and Luminite Bars.",
+     "uncertain": false,
+     "reward": {
+      "mod": "CalamityMod",
+      "namespace": "CalamityMod.Items.Accessories",
+      "class": "StatisBlessing",
+      "vanilla_id": null,
+      "stack": 1,
+      "title": "Statis' Blessing"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Endgame",
+   "bosses": [
+    {
+     "key": "DevourerOfGodsDefeated",
+     "kind": "Gate",
+     "after": [],
+     "any_of": false
+    },
+    {
+     "key": "YharonDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftYharonEgg"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "ExoMechsDefeated",
+     "kind": "Gate",
+     "after": [
+      "CraftCodebreakerBase",
+      "CraftVoltageRegulationSystem",
+      "CraftAuricQuantumCoolingCell"
+     ],
+     "any_of": false
+    },
+    {
+     "key": "SupremeCalamitasDefeated",
+     "kind": "Gate",
+     "after": [
+      "GatherAshesOfCalamity"
+     ],
+     "any_of": false
+    }
+   ],
+   "steps": [
+    {
+     "key": "ObtainCosmiliteBar",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "CosmiliteBar",
+     "vanilla_id": null,
+     "stack": 20,
+     "kind": "Required",
+     "after": [
+      "DevourerOfGodsDefeated"
+     ],
+     "any_of": false,
+     "title": "Cosmilite Bars",
+     "how": "Dropped by the Devourer of Gods.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SuperHealingPotion",
+      "stack": 5,
+      "title": "Super Healing Potions"
+     }
+    },
+    {
+     "key": "CraftCosmicAnvil",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.Furniture.CraftingStations",
+     "class": "CosmicAnvilItem",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "ObtainCosmiliteBar"
+     ],
+     "any_of": false,
+     "title": "Cosmic Anvil",
+     "how": "Craft at an Ancient Manipulator from a Mythril/Orichalcum Anvil, 10 Cosmilite Bars, 10 Luminite Bars and 20 Exodium Clusters. Crafts God Slayer, Silva and Auric gear.",
+     "uncertain": false
+    },
+    {
+     "key": "FarmNightmareFuel",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "NightmareFuel",
+     "vanilla_id": null,
+     "stack": 10,
+     "kind": "Optional",
+     "after": [
+      "DevourerOfGodsDefeated"
+     ],
+     "any_of": false,
+     "title": "Nightmare Fuel",
+     "how": "Pumpkin Moon enemies drop it after the Devourer of Gods.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "WrathPotion",
+      "stack": 3,
+      "title": "Wrath Potions"
+     }
+    },
+    {
+     "key": "FarmEndothermicEnergy",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "EndothermicEnergy",
+     "vanilla_id": null,
+     "stack": 50,
+     "kind": "Required",
+     "after": [
+      "DevourerOfGodsDefeated"
+     ],
+     "any_of": false,
+     "title": "Endothermic Energy",
+     "how": "Frost Moon enemies drop it after the Devourer of Gods. The Auric Quantum Cooling Cell needs 40.",
+     "uncertain": true,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "EndurancePotion",
+      "stack": 3,
+      "title": "Endurance Potions"
+     }
+    },
+    {
+     "key": "FarmDarksunFragment",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "DarksunFragment",
+     "vanilla_id": null,
+     "stack": 10,
+     "kind": "Optional",
+     "after": [
+      "DevourerOfGodsDefeated"
+     ],
+     "any_of": false,
+     "title": "Darksun Fragments",
+     "how": "Solar Eclipse enemies drop them after the Devourer of Gods.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "RagePotion",
+      "stack": 3,
+      "title": "Rage Potions"
+     }
+    },
+    {
+     "key": "CraftAscendantSpiritEssence",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "AscendantSpiritEssence",
+     "vanilla_id": null,
+     "stack": 8,
+     "kind": "Optional",
+     "after": [
+      "FarmNightmareFuel",
+      "FarmEndothermicEnergy",
+      "FarmDarksunFragment"
+     ],
+     "any_of": false,
+     "title": "Ascendant Spirit Essence",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 2 Necroplasm, 5 Nightmare Fuel, 5 Endothermic Energy and 2 Darksun Fragments.",
+     "uncertain": false
+    },
+    {
+     "key": "SetGodSlayerArmorMelee",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.GodSlayer",
+       "class": "GodSlayerHeadMelee",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.GodSlayer",
+       "class": "GodSlayerChestplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.GodSlayer",
+       "class": "GodSlayerLeggings",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftAscendantSpiritEssence",
+      "CraftCosmicAnvil"
+     ],
+     "any_of": false,
+     "title": "God Slayer Armor (Melee)",
+     "how": "Craft at the Cosmic Anvil from Cosmilite Bars and Ascendant Spirit Essence.",
+     "uncertain": false,
+     "reward": {
+      "mod": "CalamityMod",
+      "namespace": "CalamityMod.Items.Accessories",
+      "class": "BadgeofBravery",
+      "vanilla_id": null,
+      "stack": 1,
+      "title": "Badge of Bravery"
+     }
+    },
+    {
+     "key": "SetSilvaArmorSummon",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Silva",
+       "class": "SilvaHeadSummon",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Silva",
+       "class": "SilvaArmor",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Silva",
+       "class": "SilvaLeggings",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftAscendantSpiritEssence",
+      "CraftCosmicAnvil"
+     ],
+     "any_of": false,
+     "title": "Silva Armor (Summoner)",
+     "how": "Craft at the Cosmic Anvil from Planty Mush, Effulgent Feathers and Ascendant Spirit Essence.",
+     "uncertain": false,
+     "reward": {
+      "mod": "CalamityMod",
+      "namespace": "CalamityMod.Items.Accessories",
+      "class": "StatisCurse",
+      "vanilla_id": null,
+      "stack": 1,
+      "title": "Statis' Curse"
+     }
+    },
+    {
+     "key": "SetFearmongerArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Fearmonger",
+       "class": "FearmongerGreathelm",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Fearmonger",
+       "class": "FearmongerPlateMail",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Fearmonger",
+       "class": "FearmongerGreaves",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftAscendantSpiritEssence",
+      "CraftCosmicAnvil"
+     ],
+     "any_of": false,
+     "title": "Fearmonger Armor (Summoner)",
+     "how": "Upgrade Spooky armor at the Cosmic Anvil with Cosmilite Bars, Ascendant Spirit Essence and Souls of Fright.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "PapyrusScarab",
+      "stack": 1,
+      "title": "Papyrus Scarab"
+     }
+    },
+    {
+     "key": "EquipElementalGauntlet",
+     "type": "equip",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Accessories",
+     "class": "ElementalGauntlet",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "CraftAscendantSpiritEssence",
+      "CraftCosmicAnvil"
+     ],
+     "any_of": false,
+     "title": "Elemental Gauntlet",
+     "how": "Craft at the Cosmic Anvil from a Fire Gauntlet, 4 Ascendant Spirit Essence and 6 Sanguite Bars (pack addition).",
+     "uncertain": false
+    },
+    {
+     "key": "CraftYharonEgg",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "YharonEgg",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "DevourerOfGodsDefeated"
+     ],
+     "any_of": false,
+     "title": "Jungle Dragon Egg",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 10 Life Alloy and 15 Effulgent Feathers (from the Dragonfolly). Use in the Jungle; reusable.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainYharonSoulFragment",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "YharonSoulFragment",
+     "vanilla_id": null,
+     "stack": 5,
+     "kind": "Required",
+     "after": [
+      "YharonDefeated"
+     ],
+     "any_of": false,
+     "title": "Yharon Soul Fragments",
+     "how": "Dropped by Yharon.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainAuricOre",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.Ores",
+     "class": "AuricOre",
+     "vanilla_id": null,
+     "stack": 100,
+     "kind": "Required",
+     "after": [
+      "ObtainYharonSoulFragment"
+     ],
+     "any_of": false,
+     "title": "Auric Ore",
+     "how": "Yharon's first kill seeds Auric Ore underground (250% pickaxe); you can also shimmer a Yharon Soul Fragment into 10 Auric Ore.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "SpelunkerPotion",
+      "stack": 3,
+      "title": "Spelunker Potions"
+     }
+    },
+    {
+     "key": "CraftAuricBar",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "AuricBar",
+     "vanilla_id": null,
+     "stack": 20,
+     "kind": "Required",
+     "after": [
+      "ObtainAuricOre"
+     ],
+     "any_of": false,
+     "title": "Auric Bars",
+     "how": "Smelt 5 at an Adamantite/Titanium Forge from 50 Auric Ore and 1 Yharon Soul Fragment. Needed for the Codebreaker's cooling cell.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "LifeforcePotion",
+      "stack": 3,
+      "title": "Lifeforce Potions"
+     }
+    },
+    {
+     "key": "SetAuricTeslaArmorMelee",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Auric",
+       "class": "AuricTeslaHeadMelee",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Auric",
+       "class": "AuricTeslaBodyArmor",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Auric",
+       "class": "AuricTeslaCuisses",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftAuricBar",
+      "CraftCosmicAnvil"
+     ],
+     "any_of": false,
+     "title": "Auric Tesla Armor (Melee)",
+     "how": "Fuse God Slayer (or Silva), Bloodflare and Tarragon pieces with Auric Bars at the Cosmic Anvil.",
+     "uncertain": false,
+     "reward": {
+      "mod": "Terraria",
+      "namespace": null,
+      "class": null,
+      "vanilla_id": "FireGauntlet",
+      "stack": 1,
+      "title": "Fire Gauntlet"
+     }
+    },
+    {
+     "key": "CraftCodebreakerBase",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.DraedonMisc",
+     "class": "CodebreakerBase",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "DevourerOfGodsDefeated"
+     ],
+     "any_of": false,
+     "title": "Codebreaker Base",
+     "how": "Craft at an Anvil from a Charging Station, 20 Mysterious Circuitry and 35 Dubious Plating; fit it with the Decryption Computer and the other Codebreaker parts.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftVoltageRegulationSystem",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.DraedonMisc",
+     "class": "VoltageRegulationSystem",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "CraftCodebreakerBase"
+     ],
+     "any_of": false,
+     "title": "Voltage Regulation System",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 10 Mysterious Circuitry, 10 Dubious Plating, 10 Uelibloom Bars and 10 Luminite Bars; requires the Underworld lab (Tier 4) schematic.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftAuricQuantumCoolingCell",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.DraedonMisc",
+     "class": "AuricQuantumCoolingCell",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "CraftAuricBar",
+      "FarmEndothermicEnergy",
+      "CraftCosmicAnvil",
+      "CraftVoltageRegulationSystem"
+     ],
+     "any_of": false,
+     "title": "Auric Quantum Cooling Cell",
+     "how": "Craft at the Cosmic Anvil from 5 Auric Bars, 8 Mysterious Circuitry, 8 Dubious Plating, 40 Endothermic Energy and 6 Essence of Eleum; requires the Ice lab (Tier 5) schematic. Insert it in the Codebreaker to contact Draedon.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftAltarOfTheAccursed",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.Furniture.CraftingStations",
+     "class": "AltarOfTheAccursedItem",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "CraftAuricBar"
+     ],
+     "any_of": false,
+     "title": "Altar of the Accursed",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 30 Brimstone Slag, 5 Auric Bars and a Core of Calamity; places a Supreme Calamitas altar if you need one away from the Brimstone Crags.",
+     "uncertain": false
+    },
+    {
+     "key": "GatherAshesOfCalamity",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "AshesofCalamity",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Required",
+     "after": [
+      "YharonDefeated"
+     ],
+     "any_of": false,
+     "title": "Ashes of Calamity (Offering)",
+     "how": "Hold Ashes of Calamity (from the Calamitas Clone) and right-click the altar in the Brimstone Crags; one is consumed per summon.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainAshesOfAnnihilation",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "AshesofAnnihilation",
+     "vanilla_id": null,
+     "stack": 10,
+     "kind": "Optional",
+     "after": [
+      "SupremeCalamitasDefeated"
+     ],
+     "any_of": false,
+     "title": "Ashes of Annihilation",
+     "how": "Dropped by Supreme Calamitas.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftCeremonialUrn",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.SummonItems",
+     "class": "CeremonialUrn",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "ObtainAshesOfAnnihilation"
+     ],
+     "any_of": false,
+     "title": "Ceremonial Urn",
+     "how": "Craft at the altar from 5 Ashes of Annihilation and 15 Ashes of Calamity; lets you re-summon Supreme Calamitas without consuming Ashes.",
+     "uncertain": false
+    },
+    {
+     "key": "ObtainExoPrism",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "ExoPrism",
+     "vanilla_id": null,
+     "stack": 12,
+     "kind": "Optional",
+     "after": [
+      "ExoMechsDefeated"
+     ],
+     "any_of": false,
+     "title": "Exo Prisms",
+     "how": "Dropped by the Exo Mechs.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftDraedonsForge",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Placeables.Furniture.CraftingStations",
+     "class": "DraedonsForge",
+     "vanilla_id": null,
+     "stack": 1,
+     "kind": "Optional",
+     "after": [
+      "ObtainExoPrism",
+      "CraftAscendantSpiritEssence",
+      "CraftCosmicAnvil"
+     ],
+     "any_of": false,
+     "title": "Draedon's Forge",
+     "how": "Combine a Cosmic Anvil, an Adamantite/Titanium Forge, a Tinkerer's Workshop and an Ancient Manipulator with 15 Auric Bars, 12 Exo Prisms and 15 Ascendant Spirit Essence.",
+     "uncertain": false
+    },
+    {
+     "key": "CraftShadowspecBar",
+     "type": "obtain",
+     "mod": "CalamityMod",
+     "namespace": "CalamityMod.Items.Materials",
+     "class": "ShadowspecBar",
+     "vanilla_id": null,
+     "stack": 18,
+     "kind": "Optional",
+     "after": [
+      "CraftDraedonsForge",
+      "ObtainAshesOfAnnihilation"
+     ],
+     "any_of": false,
+     "title": "Shadowspec Bars",
+     "how": "Craft at Draedon's Forge from one Auric Bar, Exo Prism and Ash of Annihilation each.",
+     "uncertain": false
+    },
+    {
+     "key": "SetDemonshadeArmor",
+     "type": "equip_set",
+     "pieces": [
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Demonshade",
+       "class": "DemonshadeHelm",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Demonshade",
+       "class": "DemonshadeBreastplate",
+       "vanilla_id": null,
+       "stack": 1
+      },
+      {
+       "mod": "CalamityMod",
+       "namespace": "CalamityMod.Items.Armor.Demonshade",
+       "class": "DemonshadeGreaves",
+       "vanilla_id": null,
+       "stack": 1
+      }
+     ],
+     "kind": "Optional",
+     "after": [
+      "CraftShadowspecBar"
+     ],
+     "any_of": false,
+     "title": "Demonshade Armor (Summoner)",
+     "how": "Craft at Draedon's Forge from Shadowspec Bars.",
+     "uncertain": false,
+     "reward": {
+      "mod": "CalamityMod",
+      "namespace": "CalamityMod.Items.Accessories",
+      "class": "Nucleogenesis",
+      "vanilla_id": null,
+      "stack": 1,
+      "title": "Nucleogenesis"
+     }
+    }
+   ]
+  }
+ ]
+}
