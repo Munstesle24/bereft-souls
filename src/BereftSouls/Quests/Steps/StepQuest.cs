@@ -30,15 +30,19 @@ public abstract class StepQuest : Quest
             return false;
         }
 
-        return Main.player.Any(p => p.active && IsMetBy(p));
+        return IsMetByWorld() || Main.player.Any(p => p.active && IsMetBy(p));
     }
 
     protected abstract bool IsMetBy(Player player);
+
+    /// <summary>Whether the world itself meets the goal, e.g. through shared storage.</summary>
+    protected virtual bool IsMetByWorld() => false;
 }
 
 /// <summary>
 ///     Completes once a player holds at least <see cref="Stack"/> of an item,
-///     however it was obtained (crafted, dropped, mined, bought).
+///     however it was obtained (crafted, dropped, mined, bought), or that many
+///     are kept in Magic Storage.
 /// </summary>
 public abstract class ObtainItemQuest : StepQuest
 {
@@ -47,6 +51,9 @@ public abstract class ObtainItemQuest : StepQuest
     protected virtual int Stack => 1;
 
     protected override bool IsMetBy(Player player) => player.CountItem(ItemType, Stack) >= Stack;
+
+    // Items kept in Magic Storage count too.
+    protected override bool IsMetByWorld() => MagicStorageCounts.Count(ItemType) >= Stack;
 }
 
 /// <summary>
