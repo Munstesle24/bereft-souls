@@ -1,52 +1,62 @@
+using System;
 using System.Reflection;
 
 using JetBrains.Annotations;
 
-using QuestBooks.Quests.QuestSystems;
+using QuestBooks.Quests;
+using QuestBooks.Systems;
 
-using Terraria;
 using Terraria.ModLoader;
 
 namespace BereftSouls.Common;
 
 /// <summary>
-///     Stops QuestBooks' tile-breaking quests from running during world
-///     generation.
+///     Keeps QuestBooks' quest hooks from crashing while no quest log is
+///     active, such as during world generation.
 /// </summary>
 /// <remarks>
-///     World generation kills tiles (e.g. the "Smooth World" pass) before any
-///     quest log is active, so <see cref="KillTileHook"/>'s completion callback
-///     hits a null quest table and the new world fails to generate.  No player
-///     can complete a quest then anyway.
+///     QuestBooks' tile, item and NPC hooks (chopping a tree, breaking an
+///     orb...) complete quests through <see cref="QuestManager"/>, whose quest
+///     table only exists inside a world.  World generation breaks tiles and
+///     trees before then, so the lookup threw and the new world failed to
+///     generate.  While the table is missing, lookups now find nothing and
+///     completing nothing does nothing; nobody can earn a quest then anyway.
 /// </remarks>
 [UsedImplicitly(ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature)]
 internal sealed class QuestBooksWorldGenFix : ModSystem
 {
-    private delegate void KillTileOrig(KillTileHook self, int i, int j, int type, ref bool fail, ref bool effectOnly, ref bool noItem);
-
-    private delegate void KillTileDetour(KillTileOrig orig, KillTileHook self, int i, int j, int type, ref bool fail, ref bool effectOnly, ref bool noItem);
+    private const BindingFlags flags = BindingFlags.NonPublic | BindingFlags.Static;
 
     public override void Load()
     {
         base.Load();
 
-        var byRefBool = typeof(bool).MakeByRefType();
-        var method = typeof(KillTileHook).GetMethod(
-            nameof(KillTileHook.KillTile),
-            BindingFlags.Public | BindingFlags.Instance,
-            [typeof(int), typeof(int), typeof(int), byRefBool, byRefBool, byRefBool]
-        );
+        MonoModHooks.Add(Method("GetQuest", typeof(string)), GetQuest_NoneWithoutQuestLog);
 
-        MonoModHooks.Add(method!, (KillTileDetour)SkipDuringWorldGen);
+        foreach (var name in new[] { "CompleteQuest", "MarkComplete", "MarkIncomplete" })
+        {
+            MonoModHooks.Add(Method(name, typeof(Quest)), SkipMissingQuest);
+        }
     }
 
-    private static void SkipDuringWorldGen(KillTileOrig orig, KillTileHook self, int i, int j, int type, ref bool fail, ref bool effectOnly, ref bool noItem)
+    private static MethodInfo Method(string name, Type parameter)
     {
-        if (WorldGen.generatingWorld)
+        return typeof(QuestManager).GetMethod(name, flags, [parameter])
+            ?? throw new MissingMethodException(nameof(QuestManager), name);
+    }
+
+    private static Quest? GetQuest_NoneWithoutQuestLog(Func<string, Quest> orig, string questName)
+    {
+        return QuestManager.ActiveQuests is null ? null : orig(questName);
+    }
+
+    private static void SkipMissingQuest(Action<Quest> orig, Quest? quest)
+    {
+        if (quest is null)
         {
             return;
         }
 
-        orig(self, i, j, type, ref fail, ref effectOnly, ref noItem);
+        orig(quest);
     }
 }
