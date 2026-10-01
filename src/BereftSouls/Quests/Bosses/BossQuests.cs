@@ -13,7 +13,7 @@ namespace BereftSouls.Quests.Bosses;
 /// </summary>
 /// <remarks>
 ///     Quests are listed in BossChecklist progression order across both mods.
-///     They still need placing in a quest log with the QuestBooks editor.
+///     Their layout lives in <see cref="ProgressionBook"/>.
 /// </remarks>
 public abstract class BossQuest : Quest
 {

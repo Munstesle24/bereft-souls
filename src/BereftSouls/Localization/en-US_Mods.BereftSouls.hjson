@@ -1,172 +1,215 @@
 QuestBooks: {
+	Progression: {
+		Name: Bereft Progression
+		PreHardmode: Pre-Hardmode
+		EarlyHardmode: Early Hardmode
+		PostPlantera: Post-Plantera
+		PostMoonLord: Post-Moon Lord
+		Endgame: Endgame
+	}
+
 	DesertScourgeDefeated: {
 		Title: The Desert Scourge
-		Contents: Defeat The Desert Scourge.
+		Contents: "[c/9AA0A6:Optional] Defeat The Desert Scourge. Use a Desert Medallion in the Desert. Its drops aren't needed later, but Pearl Shards help early gear."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Desert Scourge"
 	}
 
 	GlowmothDefeated: {
 		Title: Glowmoth
-		Contents: Defeat Glowmoth.
+		Contents: "[c/9AA0A6:Optional] Defeat Glowmoth. Use a Suspicious Looking Candle in a glowing mushroom biome. A Secrets of the Shadows boss."
+		Tooltip: "[c/9AA0A6:Optional] Defeat Glowmoth"
 	}
 
 	CrabulonDefeated: {
 		Title: Crabulon
-		Contents: Defeat Crabulon.
+		Contents: "[c/9AA0A6:Optional] Defeat Crabulon. Use a Decapodita Sprout in a glowing mushroom biome."
+		Tooltip: "[c/9AA0A6:Optional] Defeat Crabulon"
 	}
 
 	HiveMindDefeated: {
 		Title: The Hive Mind
-		Contents: Defeat The Hive Mind.
+		Contents: "[c/9AA0A6:Optional] Defeat The Hive Mind. Use a Teratoma in the Corruption. The first Hive Mind or Perforators kill enchants Aerialite Ore."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Hive Mind"
 	}
 
 	PerforatorsDefeated: {
 		Title: The Perforators
-		Contents: Defeat The Perforators.
+		Contents: "[c/9AA0A6:Optional] Defeat The Perforators. Use Bloody Worm Food in the Crimson. The first Hive Mind or Perforators kill enchants Aerialite Ore."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Perforators"
 	}
 
 	PutridPinkyDefeated: {
 		Title: Putrid Pinky
-		Contents: Defeat Putrid Pinky.
+		Contents: "[c/9AA0A6:Optional] Defeat Putrid Pinky. Use a Jar of Peanuts. Peanuts drop from Treasure Slimes."
+		Tooltip: "[c/9AA0A6:Optional] Defeat Putrid Pinky"
 	}
 
 	PharaohsCurseDefeated: {
 		Title: Pharaoh's Curse
-		Contents: Defeat Pharaoh's Curse.
+		Contents: "[c/9AA0A6:Optional] Defeat Pharaoh's Curse. Open the Sarcophagus deep inside the Pyramid."
+		Tooltip: "[c/9AA0A6:Optional] Defeat Pharaoh's Curse"
 	}
 
 	SlimeGodDefeated: {
 		Title: The Slime God
-		Contents: Defeat The Slime God.
+		Contents: "[c/9AA0A6:Optional] Defeat The Slime God. Use Overloaded Sludge. Drops Purified Gel, used in many recipes."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Slime God"
 	}
 
 	ExcavatorDefeated: {
 		Title: The Excavator
-		Contents: Defeat The Excavator.
+		Contents: "[c/9AA0A6:Optional] Defeat The Excavator. Activate the Seismic Station in the Abandoned Village."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Excavator"
 	}
 
 	AdvisorDefeated: {
 		Title: The Advisor
-		Contents: Defeat The Advisor.
+		Contents: "[c/9AA0A6:Optional] Defeat The Advisor. Wake it at the Avaritian Gateway in the Planetarium."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Advisor"
 	}
 
 	CryogenDefeated: {
 		Title: Cryogen
-		Contents: Defeat Cryogen.
+		Contents: "[c/FFD700:Required] Defeat Cryogen. Use a Cryo Key in the Snow biome. Its first defeat spawns Cryonic Ore, needed for Life Alloy."
+		Tooltip: "[c/FFD700:Required] Defeat Cryogen"
 	}
 
 	AquaticScourgeDefeated: {
 		Title: The Aquatic Scourge
-		Contents: Defeat The Aquatic Scourge.
+		Contents: "[c/9AA0A6:Optional] Defeat The Aquatic Scourge. Use Seafood in the Sulphurous Sea."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Aquatic Scourge"
 	}
 
 	BrimstoneElementalDefeated: {
 		Title: The Brimstone Elemental
-		Contents: Defeat The Brimstone Elemental.
+		Contents: "[c/9AA0A6:Optional] Defeat The Brimstone Elemental. Use a Charred Idol in the Brimstone Crag."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Brimstone Elemental"
 	}
 
 	PolarisDefeated: {
 		Title: Polaris
-		Contents: Defeat Polaris.
+		Contents: "[c/9AA0A6:Optional] Defeat Polaris. Use a Frosted Key on the Frost Artifact. The key needs souls from all three mechanical bosses."
+		Tooltip: "[c/9AA0A6:Optional] Defeat Polaris"
 	}
 
 	CalamitasCloneDefeated: {
 		Title: The Calamitas Clone
-		Contents: Defeat The Calamitas Clone.
+		Contents: "[c/FFD700:Required] Defeat The Calamitas Clone. Use an Eye of Desolation at night. Drops Ashes of Calamity, needed to summon Supreme Calamitas."
+		Tooltip: "[c/FFD700:Required] Defeat The Calamitas Clone"
 	}
 
 	LeviathanDefeated: {
 		Title: The Leviathan and Anahita
-		Contents: Defeat The Leviathan and Anahita.
+		Contents: "[c/9AA0A6:Optional] Defeat The Leviathan and Anahita. Use a Naiad's Warhorn at the Ocean."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Leviathan and Anahita"
 	}
 
 	AstrumAureusDefeated: {
 		Title: Astrum Aureus
-		Contents: Defeat Astrum Aureus.
+		Contents: "[c/9AA0A6:Optional] Defeat Astrum Aureus. Use an Astral Chunk in the Astral Infection. Its defeat brings down a new Astral meteor."
+		Tooltip: "[c/9AA0A6:Optional] Defeat Astrum Aureus"
 	}
 
 	PlaguebringerDefeated: {
 		Title: The Plaguebringer Goliath
-		Contents: Defeat The Plaguebringer Goliath.
+		Contents: "[c/9AA0A6:Optional] Defeat The Plaguebringer Goliath. Use an Abombination in the Jungle. Plague enemies only appear after Golem."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Plaguebringer Goliath"
 	}
 
 	RavagerDefeated: {
 		Title: Ravager
-		Contents: Defeat Ravager.
+		Contents: "[c/9AA0A6:Optional] Defeat Ravager. Use a Death Whistle."
+		Tooltip: "[c/9AA0A6:Optional] Defeat Ravager"
 	}
 
 	LuxDefeated: {
 		Title: Lux
-		Contents: Defeat Lux.
+		Contents: "[c/9AA0A6:Optional] Defeat Lux. Destroy a Chaos Construct and its spirit in the Hallow. An Electromagnetic Lure helps find one."
+		Tooltip: "[c/9AA0A6:Optional] Defeat Lux"
 	}
 
 	AstrumDeusDefeated: {
 		Title: Astrum Deus
-		Contents: Defeat Astrum Deus.
+		Contents: "[c/9AA0A6:Optional] Defeat Astrum Deus. Use a Titan Heart on an Astral Beacon. Its defeat lets you mine Astral Ore."
+		Tooltip: "[c/9AA0A6:Optional] Defeat Astrum Deus"
 	}
 
 	SubspaceSerpentDefeated: {
 		Title: The Subspace Serpent
-		Contents: Defeat The Subspace Serpent.
+		Contents: "[c/9AA0A6:Optional] Defeat The Subspace Serpent. Detonate a Catalyst Bomb in the Underworld Sanctuary."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Subspace Serpent"
 	}
 
 	ProfanedGuardiansDefeated: {
 		Title: The Profaned Guardians
-		Contents: Defeat The Profaned Guardians.
+		Contents: "[c/FFD700:Required] Defeat The Profaned Guardians. Use a Profaned Shard in the Hallow or Underworld. The only source of the Profaned Core, which summons Providence."
+		Tooltip: "[c/FFD700:Required] Defeat The Profaned Guardians"
 	}
 
 	DragonfollyDefeated: {
 		Title: The Dragonfolly
-		Contents: Defeat The Dragonfolly.
+		Contents: "[c/FFD700:Required] Defeat The Dragonfolly. Use Exotic Pheromones in the Jungle. Drops Effulgent Feathers for the Yharon Egg. Wild Bumblebirbs also drop them."
+		Tooltip: "[c/FFD700:Required] Defeat The Dragonfolly"
 	}
 
 	ProvidenceDefeated: {
 		Title: Providence, the Profaned Goddess
-		Contents: Defeat Providence, the Profaned Goddess.
+		Contents: "[c/FFD700:Required] Defeat Providence, the Profaned Goddess. Use a Profaned Core in the Hallow or Underworld. Its defeat spawns Uelibloom Ore."
+		Tooltip: "[c/FFD700:Required] Defeat Providence, the Profaned Goddess"
 	}
 
 	CeaselessVoidDefeated: {
 		Title: The Ceaseless Void
-		Contents: Defeat The Ceaseless Void.
+		Contents: "[c/FFD700:Required] Defeat The Ceaseless Void. Use a Rune of Kos in the Dungeon. Drops Dark Plasma for the Cosmic Worm."
+		Tooltip: "[c/FFD700:Required] Defeat The Ceaseless Void"
 	}
 
 	StormWeaverDefeated: {
 		Title: The Storm Weaver
-		Contents: Defeat The Storm Weaver.
+		Contents: "[c/FFD700:Required] Defeat The Storm Weaver. Use a Rune of Kos in Space. Drops Armored Shell for the Cosmic Worm."
+		Tooltip: "[c/FFD700:Required] Defeat The Storm Weaver"
 	}
 
 	SignusDefeated: {
 		Title: Signus, Envoy of the Devourer
-		Contents: Defeat Signus, Envoy of the Devourer.
+		Contents: "[c/FFD700:Required] Defeat Signus, Envoy of the Devourer. Use a Rune of Kos in the Underworld. Drops Twisted Netherium for the Cosmic Worm."
+		Tooltip: "[c/FFD700:Required] Defeat Signus, Envoy of the Devourer"
 	}
 
 	PolterghastDefeated: {
 		Title: Polterghast
-		Contents: Defeat Polterghast.
+		Contents: "[c/9AA0A6:Optional] Defeat Polterghast. Use a Necroplasmic Beacon in the Dungeon. Lets the Acid Rain bring the Old Duke."
+		Tooltip: "[c/9AA0A6:Optional] Defeat Polterghast"
 	}
 
 	OldDukeDefeated: {
 		Title: The Old Duke
-		Contents: Defeat The Old Duke.
+		Contents: "[c/9AA0A6:Optional] Defeat The Old Duke. Fish in the Sulphurous Sea with a Bloodworm, or wait out a post-Polterghast Acid Rain."
+		Tooltip: "[c/9AA0A6:Optional] Defeat The Old Duke"
 	}
 
 	DevourerOfGodsDefeated: {
 		Title: The Devourer of Gods
-		Contents: Defeat The Devourer of Gods.
+		Contents: "[c/FFD700:Required] Defeat The Devourer of Gods. Use a Cosmic Worm. Drops Cosmilite, needed for the Cosmic Anvil."
+		Tooltip: "[c/FFD700:Required] Defeat The Devourer of Gods"
 	}
 
 	YharonDefeated: {
 		Title: Yharon, Dragon of Rebirth
-		Contents: Defeat Yharon, Dragon of Rebirth.
+		Contents: "[c/FFD700:Required] Defeat Yharon, Dragon of Rebirth. Use a Yharon Egg in the Jungle. Its first defeat spawns Auric Ore."
+		Tooltip: "[c/FFD700:Required] Defeat Yharon, Dragon of Rebirth"
 	}
 
 	ExoMechsDefeated: {
 		Title: The Exo Mechs
-		Contents: Defeat The Exo Mechs.
+		Contents: "[c/FF4040:Final boss] Defeat The Exo Mechs. Contact Draedon from a Codebreaker holding an Auric Quantum Cooling Cell. One of the two final bosses."
+		Tooltip: "[c/FF4040:Final boss] Defeat The Exo Mechs"
 	}
 
 	SupremeCalamitasDefeated: {
 		Title: Supreme Witch, Calamitas
-		Contents: Defeat Supreme Witch, Calamitas.
+		Contents: "[c/FF4040:Final boss] Defeat Supreme Witch, Calamitas. Offer Ashes of Calamity at the Altar of the Accursed. One of the two final bosses."
+		Tooltip: "[c/FF4040:Final boss] Defeat Supreme Witch, Calamitas"
 	}
 
 }
