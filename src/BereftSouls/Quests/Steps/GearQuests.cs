@@ -8927,3 +8927,5 @@ public sealed class GearHeaderGeneralPostPlanteraPotion : HeaderQuest;
 public sealed class GearHeaderGeneralPostMoonLordWeapon : HeaderQuest;
 
 public sealed class GearHeaderGeneralPostMoonLordPotion : HeaderQuest;
+
+public sealed class GearHeaderGeneralEndgameArmor : HeaderQuest;

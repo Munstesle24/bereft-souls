@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from generate_quests import CHAPTERS, MOD, TOOLS, fail, hjson_string, item_expr  # noqa: E402
 from accessory_trees import book_nodes, build_graph  # noqa: E402
+from gear_classes import classes_from_text  # noqa: E402
 
 BOOKS = [
     # (name, class filter, display name)
@@ -94,7 +95,7 @@ def build_entries(records):
         entries[key] = {
             "key": key,
             "category": r["category"],
-            "classes": r.get("classes", []),
+            "classes": classes_from_text(r.get("tooltip", "")) if r["category"] == "accessory" else r.get("classes", []),
             "tier": r["tier"],
             "title": r["name"],
             "type": "equip" if r["category"] == "accessory" else "obtain",
@@ -123,7 +124,7 @@ def build_entries(records):
         else:
             stats = ", ".join(p.get("stats", "") for p in pieces if p.get("stats"))
         # The helmet decides a class variant; shared pieces list every class.
-        classes = sorted(set(first.get("classes", [])) or {c for p in pieces for c in p.get("classes", [])})
+        classes = classes_from_text(first.get("tooltip", ""), first["set"].get("set_bonus", ""))
         entries[key] = {
             "key": key,
             "category": "armor",

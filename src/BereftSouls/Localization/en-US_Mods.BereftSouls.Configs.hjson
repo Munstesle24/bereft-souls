@@ -1,0 +1,8 @@
+BsConfig: {
+	DisplayName: Bereft Souls (Testing)
+
+	EnableQuestDesigner: {
+		Label: Enable quest book designer
+		Tooltip: Turns on the QuestBooks in-game designer so the quest book layout can be rearranged and exported. For pack developers and testers only.
+	}
+}

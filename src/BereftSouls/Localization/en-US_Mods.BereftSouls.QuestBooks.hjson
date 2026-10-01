@@ -596,6 +596,12 @@ GearHeaderGeneralPostMoonLordPotion: {
 	Tooltip: "Potions and Flasks"
 }
 
+GearHeaderGeneralEndgameArmor: {
+	Title: "General Gear: Armor Sets"
+	Contents: "Endgame. Full sets for this class at this tier. Wear every piece to complete one."
+	Tooltip: "Armor Sets"
+}
+
 GearAcrobaticBobber: {
 	Title: "Acrobatic Bobber"
 	Contents: "[c/6CC4E8:Accessory] Equip Acrobatic Bobber. Accessory. Provides a fishing minigame. Moving while fishing instead moves your bobbers. Rings appear over time above the water's surface. Touching a ring hooks an item onto the bobber. Bobbers will automatically reel in hooked items upon landing back in the water. How to get it: Craft at Anvil from 1 Fishing Bobber, 5 Aerialite Bar"
