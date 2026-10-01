@@ -8,6 +8,9 @@ using SOTS.Items.Celestial;
 using SOTS.Items.Chaos;
 using SOTS.Items.ChestItems;
 using SOTS.Items.Earth.Glowmoth;
+using SOTS.Items.Invidia;
+using SOTS.Items.Nature;
+using SOTS.Items.Permafrost;
 using SOTS.Items.Planetarium.FromChests;
 using SOTS.Items.Pyramid;
 using SOTS.Items.Slime;
@@ -39,6 +42,10 @@ internal sealed class ItemBalance : GlobalItem
     // point in progression they become obtainable.  Original stats are noted
     // alongside; the tier is where the weapon is first obtainable.
     private static readonly Dictionary<int, WeaponStats> weapon_stats = [];
+
+    // SotS armor well below vanilla/Calamity sets of the same tier (Victide,
+    // Aerospec).  Original defense is noted alongside.
+    private static readonly Dictionary<int, int> armor_defense = [];
 
     public override void SetStaticDefaults()
     {
@@ -74,11 +81,24 @@ internal sealed class ItemBalance : GlobalItem
         // Subspace Serpent, alongside Astrum Deus.  Calamity curve is 250-450
         // DPS.  Also gated behind Astral Bars, see RecipeTweaks.
         weapon_stats[ItemType<Apocalypse>()] = new WeaponStats(75, ItemRarityID.Cyan); // 330, Yellow
+
+        // Nature, after Putrid Pinky.  6 total, Aerospec summoner is 15.
+        armor_defense[ItemType<NatureWreath>()]   = 2; // 1
+        armor_defense[ItemType<NatureShirt>()]    = 4; // 3
+        armor_defense[ItemType<NatureLeggings>()] = 3; // 2
+
+        // Vespera, early pre-boss.  8 total, Victide caster is 11.
+        armor_defense[ItemType<VesperaMask>()]        = 3; // 2
+        armor_defense[ItemType<VesperaBreastplate>()] = 4; // 3
+
+        // Frigid caster set.  8 total, Victide caster is 11.
+        armor_defense[ItemType<FrigidRobe>()] = 5; // 1
     }
 
     public override void Unload()
     {
         weapon_stats.Clear();
+        armor_defense.Clear();
     }
 
     public override void SetDefaults(Item entity)
@@ -107,6 +127,11 @@ internal sealed class ItemBalance : GlobalItem
                 entity.rare = stats.Rarity;
             }
         }
+
+        if (armor_defense.TryGetValue(entity.type, out var defense))
+        {
+            entity.defense = defense;
+        }
     }
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
@@ -124,6 +149,11 @@ internal sealed class ItemBalance : GlobalItem
         if (weapon_stats.ContainsKey(item.type))
         {
             NerfTooltip("DamageReduced");
+        }
+
+        if (armor_defense.ContainsKey(item.type))
+        {
+            BuffTooltip("DefenseIncreased");
         }
 
         return;
