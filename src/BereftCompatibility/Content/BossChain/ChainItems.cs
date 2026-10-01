@@ -13,7 +13,7 @@ namespace BereftCompatibility.Content.BossChain;
 ///     Wall has been beaten, this is the only way to summon it (see
 ///     <see cref="ChainGuards"/>).
 /// </summary>
-internal sealed class FleshboundEffigy : ModItem
+public sealed class FleshboundEffigy : ModItem
 {
     /// <summary>True while this item is spawning the Wall of Flesh.</summary>
     public static bool Summoning { get; private set; }
@@ -96,7 +96,7 @@ internal sealed class FleshboundEffigy : ModItem
 }
 
 /// <summary>The only bait Duke Fishron bites on before his first defeat.</summary>
-internal sealed class SigilTruffleWorm : ModItem
+public sealed class SigilTruffleWorm : ModItem
 {
     public override string Texture => $"Terraria/Images/Item_{ItemID.TruffleWorm}";
 
@@ -133,7 +133,7 @@ internal sealed class SigilTruffleWorm : ModItem
 }
 
 /// <summary>The only bait the Old Duke rises for before his first defeat.</summary>
-internal sealed class SigilBloodworm : ModItem
+public sealed class SigilBloodworm : ModItem
 {
     public override string Texture => "CalamityMod/Items/SummonItems/BloodwormItem";
 
