@@ -1,12 +1,12 @@
 [submodule "src/refs/Fargowiltas"]
 	path = src/refs/Fargowiltas
-	url = https://github.com/Fargowilta/Fargowiltas
+	url = https://github.com/Fargo-Team/FargosMutantMod.git
 [submodule "src/refs/CalamityMod"]
 	path = src/refs/CalamityMod
 	url = https://github.com/CalamityTeam/CalamityModPublic
 [submodule "src/refs/FargowiltasSouls"]
 	path = src/refs/FargowiltasSouls
-	url = https://github.com/Fargowilta/FargowiltasSouls.git
+	url = https://github.com/Fargo-Team/FargosSoulsMod.git
 [submodule "src/refs/SOTS"]
 	path = src/refs/SOTS
 	url = https://github.com/VortexOfRainbows/SOTS
@@ -18,4 +18,4 @@
 	url = https://github.com/ScalarVector1/StructureHelper
 [submodule "src/refs/FargowiltasCrossmod"]
 	path = src/refs/FargowiltasCrossmod
-	url = https://github.com/JavyzTaken/FargowiltasCrossmod.git
+	url = https://github.com/chairclr/FargowiltasCrossmod.git
