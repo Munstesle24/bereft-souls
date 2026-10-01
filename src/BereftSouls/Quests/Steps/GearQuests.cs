@@ -9,7 +9,7 @@ namespace BereftSouls.Quests.Steps;
 
 public sealed class GearAcrobaticBobber : EquipItemQuest
 {
-    protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Fishing.AcrobaticBobber>();
+    protected override int ItemType => ModContent.Find<ModItem>("CalamityMod/AcrobaticBobber").Type;
 }
 
 public sealed class GearAlluringBait : EquipItemQuest
@@ -284,7 +284,7 @@ public sealed class GearStressPills : EquipItemQuest
 
 public sealed class GearSunkenSinker : EquipItemQuest
 {
-    protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Accessories.SunkenSinker>();
+    protected override int ItemType => ModContent.Find<ModItem>("CalamityMod/SunkenSinker").Type;
 }
 
 public sealed class GearTeslasAmulet : EquipItemQuest
@@ -344,7 +344,7 @@ public sealed class GearWulfrumBattery : EquipItemQuest
 
 public sealed class GearWulfrumBobber : EquipItemQuest
 {
-    protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Accessories.WulfrumBobber>();
+    protected override int ItemType => ModContent.Find<ModItem>("CalamityMod/WulfrumBobber").Type;
 }
 
 public sealed class GearAbaddon : EquipItemQuest
@@ -629,7 +629,7 @@ public sealed class GearEtherealExtorter : EquipItemQuest
 
 public sealed class GearFeralBobber : EquipItemQuest
 {
-    protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Accessories.FeralBobber>();
+    protected override int ItemType => ModContent.Find<ModItem>("CalamityMod/FeralBobber").Type;
 }
 
 public sealed class GearFleshTotem : EquipItemQuest
@@ -759,7 +759,7 @@ public sealed class GearVoidofCalamity : EquipItemQuest
 
 public sealed class GearVolcanicSinker : EquipItemQuest
 {
-    protected override int ItemType => ModContent.ItemType<global::CalamityMod.Items.Accessories.VolcanicSinker>();
+    protected override int ItemType => ModContent.Find<ModItem>("CalamityMod/VolcanicSinker").Type;
 }
 
 public sealed class GearAbyssalDivingSuit : EquipItemQuest

@@ -55,10 +55,35 @@ def hjson_string(value):
     return '"' + value.replace("\\", "\\\\").replace('"', '\\"') + '"'
 
 
+REFS = ROOT / "src" / "refs"
+_non_public = {}
+
+
+def non_public_classes(mod):
+    """Names of classes in a referenced mod's source that aren't public, so
+    can't be named from our assembly (e.g. Calamity's internal bobbers)."""
+    if mod not in _non_public:
+        found = set()
+        decl = re.compile(
+            r"^[ \t]*((?:(?:public|internal|private|protected|abstract|sealed|static|partial|new)\s+)*)class\s+(\w+)",
+            re.M,
+        )
+        for path in (REFS / mod).rglob("*.cs") if (REFS / mod).is_dir() else []:
+            for modifiers, name in decl.findall(path.read_text(encoding="utf-8-sig", errors="replace")):
+                if "public" not in modifiers.split():
+                    found.add(name)
+        _non_public[mod] = found
+    return _non_public[mod]
+
+
 def item_expr(item):
     """C# expression for an item's type, from a step, set piece or reward."""
     if item.get("vanilla_id"):
         return f"ItemID.{item['vanilla_id']}"
+    mod = item.get("mod") or item["namespace"].split(".")[0]
+    if item["class"] in non_public_classes(mod):
+        # Not accessible from another assembly; look it up by name instead.
+        return f'ModContent.Find<ModItem>("{mod}/{item["class"]}").Type'
     return f"ModContent.ItemType<global::{item['namespace']}.{item['class']}>()"
 
 

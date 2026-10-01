@@ -21,9 +21,9 @@ internal static class ModCompatibility
     // ReSharper disable StaticMemberInGenericType - Trust me.  Intentional.
     public abstract class ModRef<T> where T : IModRef
     {
+        [MemberNotNullWhen(true, nameof(Mod))]
         public static bool Loaded { get; }
 
-        [MemberNotNullWhen(true, nameof(Loaded))]
         public static Mod? Mod { get; }
 
         static ModRef()

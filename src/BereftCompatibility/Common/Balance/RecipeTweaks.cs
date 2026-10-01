@@ -54,9 +54,11 @@ internal sealed class RecipeTweaks : ModSystem
 
         var additions = GetAdditions();
 
-        foreach (var recipe in Main.recipe)
+        for (var i = 0; i < Recipe.numRecipes; i++)
         {
-            if (recipe.createItem is not { } result || result.IsAir)
+            var recipe = Main.recipe[i];
+
+            if (recipe?.createItem is not { } result || result.IsAir)
             {
                 continue;
             }

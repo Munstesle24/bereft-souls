@@ -75,8 +75,9 @@ def book_nodes(book, class_filter, accessories, components):
         included.add(key)
         stack.extend(components[key])
 
-    parts = {k: [c for c in components[k] if c in included] for k in included}
-    results = {k: [] for k in included}
+    # Sorted so recipe loops break the same way on every run.
+    parts = {k: [c for c in components[k] if c in included] for k in sorted(included)}
+    results = {k: [] for k in sorted(included)}
     for k, cs in parts.items():
         for c in cs:
             results[c].append(k)
@@ -91,7 +92,7 @@ def book_nodes(book, class_filter, accessories, components):
         depth[key] = 0 if not parts[key] else 1 + max(column(c, seen + (key,)) for c in parts[key])
         return depth[key]
 
-    for key in included:
+    for key in sorted(included):
         column(key)
 
     # Drop links that run backwards, which only happen in recipe loops (two
