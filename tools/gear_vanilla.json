@@ -1,0 +1,6946 @@
+[
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WoodHelmet",
+    "name": "Wood Helmet",
+    "category": "armor",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "1 defense",
+    "tooltip": "Basic starter helmet",
+    "how": "Craft at a Work Bench from Wood",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaWood",
+      "set_name": "Wood Armor",
+      "slot": "head",
+      "set_bonus": "+1 defense"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WoodBreastplate",
+    "name": "Wood Breastplate",
+    "category": "armor",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "1 defense",
+    "tooltip": "Basic starter chest piece",
+    "how": "Craft at a Work Bench from Wood",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaWood",
+      "set_name": "Wood Armor",
+      "slot": "body",
+      "set_bonus": "+1 defense"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WoodGreaves",
+    "name": "Wood Greaves",
+    "category": "armor",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "0 defense",
+    "tooltip": "Basic starter greaves",
+    "how": "Craft at a Work Bench from Wood",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaWood",
+      "set_name": "Wood Armor",
+      "slot": "legs",
+      "set_bonus": "+1 defense"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GoldHelmet",
+    "name": "Gold Helmet",
+    "category": "armor",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "6 defense",
+    "tooltip": "Solid early ore helmet",
+    "how": "Craft at an Iron or Lead Anvil from Gold Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaGold",
+      "set_name": "Gold Armor",
+      "slot": "head",
+      "set_bonus": "+3 defense"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GoldChainmail",
+    "name": "Gold Chainmail",
+    "category": "armor",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "7 defense",
+    "tooltip": "Solid early ore chest piece",
+    "how": "Craft at an Iron or Lead Anvil from Gold Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaGold",
+      "set_name": "Gold Armor",
+      "slot": "body",
+      "set_bonus": "+3 defense"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GoldGreaves",
+    "name": "Gold Greaves",
+    "category": "armor",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "6 defense",
+    "tooltip": "Solid early ore greaves",
+    "how": "Craft at an Iron or Lead Anvil from Gold Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaGold",
+      "set_name": "Gold Armor",
+      "slot": "legs",
+      "set_bonus": "+3 defense"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "JungleHat",
+    "name": "Jungle Hat",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases maximum mana and magic critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Jungle Spores, Stingers and Vines",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaJungle",
+      "set_name": "Jungle Armor",
+      "slot": "head",
+      "set_bonus": "Reduces mana usage by 16%"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "JungleShirt",
+    "name": "Jungle Shirt",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases maximum mana and magic critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Jungle Spores, Stingers and Vines",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaJungle",
+      "set_name": "Jungle Armor",
+      "slot": "body",
+      "set_bonus": "Reduces mana usage by 16%"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "JunglePants",
+    "name": "Jungle Pants",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases maximum mana and magic critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Jungle Spores, Stingers and Vines",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaJungle",
+      "set_name": "Jungle Armor",
+      "slot": "legs",
+      "set_bonus": "Reduces mana usage by 16%"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MeteorHelmet",
+    "name": "Meteor Helmet",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases magic damage",
+    "how": "Craft at an Iron or Lead Anvil from Meteorite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMeteor",
+      "set_name": "Meteor Armor",
+      "slot": "head",
+      "set_bonus": "Space Gun costs 0 mana"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MeteorSuit",
+    "name": "Meteor Suit",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases magic damage",
+    "how": "Craft at an Iron or Lead Anvil from Meteorite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMeteor",
+      "set_name": "Meteor Armor",
+      "slot": "body",
+      "set_bonus": "Space Gun costs 0 mana"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MeteorLeggings",
+    "name": "Meteor Leggings",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases magic damage",
+    "how": "Craft at an Iron or Lead Anvil from Meteorite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMeteor",
+      "set_name": "Meteor Armor",
+      "slot": "legs",
+      "set_bonus": "Space Gun costs 0 mana"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShadowHelmet",
+    "name": "Shadow Helmet",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "6 defense",
+    "tooltip": "Increases melee speed",
+    "how": "Craft at an Iron or Lead Anvil from Demonite Bars and Shadow Scales",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShadow",
+      "set_name": "Shadow Armor",
+      "slot": "head",
+      "set_bonus": "Increased movement speed and acceleration"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShadowScalemail",
+    "name": "Shadow Scalemail",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "7 defense",
+    "tooltip": "Increases melee speed",
+    "how": "Craft at an Iron or Lead Anvil from Demonite Bars and Shadow Scales",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShadow",
+      "set_name": "Shadow Armor",
+      "slot": "body",
+      "set_bonus": "Increased movement speed and acceleration"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShadowGreaves",
+    "name": "Shadow Greaves",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "6 defense",
+    "tooltip": "Increases melee speed",
+    "how": "Craft at an Iron or Lead Anvil from Demonite Bars and Shadow Scales",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShadow",
+      "set_name": "Shadow Armor",
+      "slot": "legs",
+      "set_bonus": "Increased movement speed and acceleration"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CrimsonHelmet",
+    "name": "Crimson Helmet",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "6 defense",
+    "tooltip": "Increases damage",
+    "how": "Craft at an Iron or Lead Anvil from Crimtane Bars and Tissue Samples",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCrimson",
+      "set_name": "Crimson Armor",
+      "slot": "head",
+      "set_bonus": "Greatly increased life regeneration"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CrimsonScalemail",
+    "name": "Crimson Scalemail",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "7 defense",
+    "tooltip": "Increases damage",
+    "how": "Craft at an Iron or Lead Anvil from Crimtane Bars and Tissue Samples",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCrimson",
+      "set_name": "Crimson Armor",
+      "slot": "body",
+      "set_bonus": "Greatly increased life regeneration"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CrimsonGreaves",
+    "name": "Crimson Greaves",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "6 defense",
+    "tooltip": "Increases damage",
+    "how": "Craft at an Iron or Lead Anvil from Crimtane Bars and Tissue Samples",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCrimson",
+      "set_name": "Crimson Armor",
+      "slot": "legs",
+      "set_bonus": "Greatly increased life regeneration"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NecroHelmet",
+    "name": "Necro Helmet",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases ranged damage",
+    "how": "Craft at an Iron or Lead Anvil from Bones and Cobwebs",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaNecro",
+      "set_name": "Necro Armor",
+      "slot": "head",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NecroBreastplate",
+    "name": "Necro Breastplate",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases ranged damage",
+    "how": "Craft at an Iron or Lead Anvil from Bones and Cobwebs",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaNecro",
+      "set_name": "Necro Armor",
+      "slot": "body",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NecroGreaves",
+    "name": "Necro Greaves",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases ranged damage",
+    "how": "Craft at an Iron or Lead Anvil from Bones and Cobwebs",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaNecro",
+      "set_name": "Necro Armor",
+      "slot": "legs",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FossilHelm",
+    "name": "Fossil Helmet",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases ranged critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Sturdy Fossils",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaFossil",
+      "set_name": "Fossil Armor",
+      "slot": "head",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FossilShirt",
+    "name": "Fossil Plate",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases ranged damage",
+    "how": "Craft at an Iron or Lead Anvil from Sturdy Fossils",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaFossil",
+      "set_name": "Fossil Armor",
+      "slot": "body",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FossilPants",
+    "name": "Fossil Greaves",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases ranged critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Sturdy Fossils",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaFossil",
+      "set_name": "Fossil Armor",
+      "slot": "legs",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MoltenHelmet",
+    "name": "Molten Helmet",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "8 defense",
+    "tooltip": "Increases melee critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Hellstone Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMolten",
+      "set_name": "Molten Armor",
+      "slot": "head",
+      "set_bonus": "Increased melee damage; immunity to fire blocks"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MoltenBreastplate",
+    "name": "Molten Breastplate",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "9 defense",
+    "tooltip": "Increases melee damage",
+    "how": "Craft at an Iron or Lead Anvil from Hellstone Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMolten",
+      "set_name": "Molten Armor",
+      "slot": "body",
+      "set_bonus": "Increased melee damage; immunity to fire blocks"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MoltenGreaves",
+    "name": "Molten Greaves",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "8 defense",
+    "tooltip": "Increases melee speed",
+    "how": "Craft at an Iron or Lead Anvil from Hellstone Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMolten",
+      "set_name": "Molten Armor",
+      "slot": "legs",
+      "set_bonus": "Increased melee damage; immunity to fire blocks"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeeHeadgear",
+    "name": "Bee Headgear",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases minion damage and max minions",
+    "how": "Craft from Bee Wax (Queen Bee drop)",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaBee",
+      "set_name": "Bee Armor",
+      "slot": "head",
+      "set_bonus": "Increases minion damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeeBreastplate",
+    "name": "Bee Breastplate",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases minion damage and max minions",
+    "how": "Craft from Bee Wax (Queen Bee drop)",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaBee",
+      "set_name": "Bee Armor",
+      "slot": "body",
+      "set_bonus": "Increases minion damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeeGreaves",
+    "name": "Bee Greaves",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases minion damage",
+    "how": "Craft from Bee Wax (Queen Bee drop)",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaBee",
+      "set_name": "Bee Armor",
+      "slot": "legs",
+      "set_bonus": "Increases minion damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ObsidianHelm",
+    "name": "Obsidian Outlaw Hat",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases minion damage and whip speed",
+    "how": "Craft from Obsidian, Silk and Hellstone Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaObsidian",
+      "set_name": "Obsidian Armor",
+      "slot": "head",
+      "set_bonus": "Increases whip range and speed, plus minion damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ObsidianShirt",
+    "name": "Obsidian Longcoat",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases minion damage and max minions",
+    "how": "Craft from Obsidian, Silk and Hellstone Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaObsidian",
+      "set_name": "Obsidian Armor",
+      "slot": "body",
+      "set_bonus": "Increases whip range and speed, plus minion damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ObsidianPants",
+    "name": "Obsidian Pants",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases minion damage",
+    "how": "Craft from Obsidian, Silk and Hellstone Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaObsidian",
+      "set_name": "Obsidian Armor",
+      "slot": "legs",
+      "set_bonus": "Increases whip range and speed, plus minion damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GladiatorHelmet",
+    "name": "Gladiator Helmet",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Head armor",
+    "tooltip": "Early Marble-biome armor",
+    "how": "Dropped by Hoplites in the Marble biome",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaGladiator",
+      "set_name": "Gladiator Armor",
+      "slot": "head",
+      "set_bonus": "Small defensive set bonus"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GladiatorBreastplate",
+    "name": "Gladiator Breastplate",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Body armor",
+    "tooltip": "Early Marble-biome armor",
+    "how": "Dropped by Hoplites in the Marble biome",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaGladiator",
+      "set_name": "Gladiator Armor",
+      "slot": "body",
+      "set_bonus": "Small defensive set bonus"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GladiatorLeggings",
+    "name": "Gladiator Leggings",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Early Marble-biome armor",
+    "how": "Dropped by Hoplites in the Marble biome",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaGladiator",
+      "set_name": "Gladiator Armor",
+      "slot": "legs",
+      "set_bonus": "Small defensive set bonus"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NinjaHood",
+    "name": "Ninja Hood",
+    "category": "armor",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases critical strike chance",
+    "how": "Dropped by King Slime",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaNinja",
+      "set_name": "Ninja Armor",
+      "slot": "head",
+      "set_bonus": "Increased movement speed"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NinjaShirt",
+    "name": "Ninja Shirt",
+    "category": "armor",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage",
+    "how": "Dropped by King Slime",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaNinja",
+      "set_name": "Ninja Armor",
+      "slot": "body",
+      "set_bonus": "Increased movement speed"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NinjaPants",
+    "name": "Ninja Pants",
+    "category": "armor",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases critical strike chance",
+    "how": "Dropped by King Slime",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaNinja",
+      "set_name": "Ninja Armor",
+      "slot": "legs",
+      "set_bonus": "Increased movement speed"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CobaltHelmet",
+    "name": "Cobalt Helmet",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases melee speed",
+    "how": "Craft at an Iron or Lead Anvil from Cobalt Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCobaltMelee",
+      "set_name": "Cobalt Armor (Melee)",
+      "slot": "head",
+      "set_bonus": "Increases melee speed"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CobaltBreastplate",
+    "name": "Cobalt Breastplate",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Cobalt Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCobaltMelee",
+      "set_name": "Cobalt Armor (Melee)",
+      "slot": "body",
+      "set_bonus": "Increases melee speed"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CobaltLeggings",
+    "name": "Cobalt Leggings",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases movement speed",
+    "how": "Craft at an Iron or Lead Anvil from Cobalt Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCobaltMelee",
+      "set_name": "Cobalt Armor (Melee)",
+      "slot": "legs",
+      "set_bonus": "Increases melee speed"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CobaltMask",
+    "name": "Cobalt Mask",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases ranged damage and crit",
+    "how": "Craft at an Iron or Lead Anvil from Cobalt Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCobaltRanged",
+      "set_name": "Cobalt Armor (Ranged)",
+      "slot": "head",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CobaltBreastplate",
+    "name": "Cobalt Breastplate",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Cobalt Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCobaltRanged",
+      "set_name": "Cobalt Armor (Ranged)",
+      "slot": "body",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CobaltLeggings",
+    "name": "Cobalt Leggings",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases movement speed",
+    "how": "Craft at an Iron or Lead Anvil from Cobalt Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCobaltRanged",
+      "set_name": "Cobalt Armor (Ranged)",
+      "slot": "legs",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CobaltHat",
+    "name": "Cobalt Hat",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases maximum mana and magic crit",
+    "how": "Craft at an Iron or Lead Anvil from Cobalt Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCobaltMagic",
+      "set_name": "Cobalt Armor (Magic)",
+      "slot": "head",
+      "set_bonus": "Reduces mana usage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CobaltBreastplate",
+    "name": "Cobalt Breastplate",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Cobalt Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCobaltMagic",
+      "set_name": "Cobalt Armor (Magic)",
+      "slot": "body",
+      "set_bonus": "Reduces mana usage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CobaltLeggings",
+    "name": "Cobalt Leggings",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases movement speed",
+    "how": "Craft at an Iron or Lead Anvil from Cobalt Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCobaltMagic",
+      "set_name": "Cobalt Armor (Magic)",
+      "slot": "legs",
+      "set_bonus": "Reduces mana usage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PalladiumMask",
+    "name": "Palladium Mask",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases melee damage and speed",
+    "how": "Craft at an Iron or Lead Anvil from Palladium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaPalladiumMelee",
+      "set_name": "Palladium Armor (Melee)",
+      "slot": "head",
+      "set_bonus": "Greatly increases life regeneration after striking an enemy"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PalladiumBreastplate",
+    "name": "Palladium Breastplate",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Palladium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaPalladiumMelee",
+      "set_name": "Palladium Armor (Melee)",
+      "slot": "body",
+      "set_bonus": "Greatly increases life regeneration after striking an enemy"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PalladiumLeggings",
+    "name": "Palladium Leggings",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases damage",
+    "how": "Craft at an Iron or Lead Anvil from Palladium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaPalladiumMelee",
+      "set_name": "Palladium Armor (Melee)",
+      "slot": "legs",
+      "set_bonus": "Greatly increases life regeneration after striking an enemy"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PalladiumHelmet",
+    "name": "Palladium Helmet",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases ranged damage and crit",
+    "how": "Craft at an Iron or Lead Anvil from Palladium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaPalladiumRanged",
+      "set_name": "Palladium Armor (Ranged)",
+      "slot": "head",
+      "set_bonus": "Greatly increases life regeneration after striking an enemy"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PalladiumBreastplate",
+    "name": "Palladium Breastplate",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Palladium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaPalladiumRanged",
+      "set_name": "Palladium Armor (Ranged)",
+      "slot": "body",
+      "set_bonus": "Greatly increases life regeneration after striking an enemy"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PalladiumLeggings",
+    "name": "Palladium Leggings",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases damage",
+    "how": "Craft at an Iron or Lead Anvil from Palladium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaPalladiumRanged",
+      "set_name": "Palladium Armor (Ranged)",
+      "slot": "legs",
+      "set_bonus": "Greatly increases life regeneration after striking an enemy"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PalladiumHeadgear",
+    "name": "Palladium Headgear",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases magic damage and max mana",
+    "how": "Craft at an Iron or Lead Anvil from Palladium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaPalladiumMagic",
+      "set_name": "Palladium Armor (Magic)",
+      "slot": "head",
+      "set_bonus": "Greatly increases life regeneration after striking an enemy"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PalladiumBreastplate",
+    "name": "Palladium Breastplate",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at an Iron or Lead Anvil from Palladium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaPalladiumMagic",
+      "set_name": "Palladium Armor (Magic)",
+      "slot": "body",
+      "set_bonus": "Greatly increases life regeneration after striking an enemy"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PalladiumLeggings",
+    "name": "Palladium Leggings",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases damage",
+    "how": "Craft at an Iron or Lead Anvil from Palladium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaPalladiumMagic",
+      "set_name": "Palladium Armor (Magic)",
+      "slot": "legs",
+      "set_bonus": "Greatly increases life regeneration after striking an enemy"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MythrilHelmet",
+    "name": "Mythril Helmet",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases melee crit and damage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Mythril Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMythrilMelee",
+      "set_name": "Mythril Armor (Melee)",
+      "slot": "head",
+      "set_bonus": "Increases melee critical strike chance"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MythrilChainmail",
+    "name": "Mythril Chainmail",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Mythril Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMythrilMelee",
+      "set_name": "Mythril Armor (Melee)",
+      "slot": "body",
+      "set_bonus": "Increases melee critical strike chance"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MythrilGreaves",
+    "name": "Mythril Greaves",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Mythril Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMythrilMelee",
+      "set_name": "Mythril Armor (Melee)",
+      "slot": "legs",
+      "set_bonus": "Increases melee critical strike chance"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MythrilHat",
+    "name": "Mythril Hat",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases ranged damage and crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Mythril Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMythrilRanged",
+      "set_name": "Mythril Armor (Ranged)",
+      "slot": "head",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MythrilChainmail",
+    "name": "Mythril Chainmail",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Mythril Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMythrilRanged",
+      "set_name": "Mythril Armor (Ranged)",
+      "slot": "body",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MythrilGreaves",
+    "name": "Mythril Greaves",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Mythril Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMythrilRanged",
+      "set_name": "Mythril Armor (Ranged)",
+      "slot": "legs",
+      "set_bonus": "20% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MythrilHood",
+    "name": "Mythril Hood",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases maximum mana and magic damage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Mythril Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMythrilMagic",
+      "set_name": "Mythril Armor (Magic)",
+      "slot": "head",
+      "set_bonus": "Reduces mana usage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MythrilChainmail",
+    "name": "Mythril Chainmail",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Mythril Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMythrilMagic",
+      "set_name": "Mythril Armor (Magic)",
+      "slot": "body",
+      "set_bonus": "Reduces mana usage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MythrilGreaves",
+    "name": "Mythril Greaves",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Mythril Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaMythrilMagic",
+      "set_name": "Mythril Armor (Magic)",
+      "slot": "legs",
+      "set_bonus": "Reduces mana usage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "OrichalcumMask",
+    "name": "Orichalcum Mask",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases melee damage and speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Orichalcum Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaOrichalcumMelee",
+      "set_name": "Orichalcum Armor (Melee)",
+      "slot": "head",
+      "set_bonus": "Flower petals fall on your target for extra damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "OrichalcumBreastplate",
+    "name": "Orichalcum Breastplate",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Orichalcum Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaOrichalcumMelee",
+      "set_name": "Orichalcum Armor (Melee)",
+      "slot": "body",
+      "set_bonus": "Flower petals fall on your target for extra damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "OrichalcumLeggings",
+    "name": "Orichalcum Leggings",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Orichalcum Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaOrichalcumMelee",
+      "set_name": "Orichalcum Armor (Melee)",
+      "slot": "legs",
+      "set_bonus": "Flower petals fall on your target for extra damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "OrichalcumHelmet",
+    "name": "Orichalcum Helmet",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases ranged crit and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Orichalcum Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaOrichalcumRanged",
+      "set_name": "Orichalcum Armor (Ranged)",
+      "slot": "head",
+      "set_bonus": "Flower petals fall on your target for extra damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "OrichalcumBreastplate",
+    "name": "Orichalcum Breastplate",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Orichalcum Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaOrichalcumRanged",
+      "set_name": "Orichalcum Armor (Ranged)",
+      "slot": "body",
+      "set_bonus": "Flower petals fall on your target for extra damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "OrichalcumLeggings",
+    "name": "Orichalcum Leggings",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Orichalcum Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaOrichalcumRanged",
+      "set_name": "Orichalcum Armor (Ranged)",
+      "slot": "legs",
+      "set_bonus": "Flower petals fall on your target for extra damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "OrichalcumHeadgear",
+    "name": "Orichalcum Headgear",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases magic crit and max mana",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Orichalcum Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaOrichalcumMagic",
+      "set_name": "Orichalcum Armor (Magic)",
+      "slot": "head",
+      "set_bonus": "Flower petals fall on your target for extra damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "OrichalcumBreastplate",
+    "name": "Orichalcum Breastplate",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Orichalcum Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaOrichalcumMagic",
+      "set_name": "Orichalcum Armor (Magic)",
+      "slot": "body",
+      "set_bonus": "Flower petals fall on your target for extra damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "OrichalcumLeggings",
+    "name": "Orichalcum Leggings",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Orichalcum Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaOrichalcumMagic",
+      "set_name": "Orichalcum Armor (Magic)",
+      "slot": "legs",
+      "set_bonus": "Flower petals fall on your target for extra damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AdamantiteHelmet",
+    "name": "Adamantite Helmet",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases melee crit and damage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaAdamantiteMelee",
+      "set_name": "Adamantite Armor (Melee)",
+      "slot": "head",
+      "set_bonus": "Increases melee speed and movement speed"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AdamantiteBreastplate",
+    "name": "Adamantite Breastplate",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaAdamantiteMelee",
+      "set_name": "Adamantite Armor (Melee)",
+      "slot": "body",
+      "set_bonus": "Increases melee speed and movement speed"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AdamantiteLeggings",
+    "name": "Adamantite Leggings",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases critical strike chance and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaAdamantiteMelee",
+      "set_name": "Adamantite Armor (Melee)",
+      "slot": "legs",
+      "set_bonus": "Increases melee speed and movement speed"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AdamantiteMask",
+    "name": "Adamantite Mask",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases ranged damage and crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaAdamantiteRanged",
+      "set_name": "Adamantite Armor (Ranged)",
+      "slot": "head",
+      "set_bonus": "25% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AdamantiteBreastplate",
+    "name": "Adamantite Breastplate",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaAdamantiteRanged",
+      "set_name": "Adamantite Armor (Ranged)",
+      "slot": "body",
+      "set_bonus": "25% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AdamantiteLeggings",
+    "name": "Adamantite Leggings",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases critical strike chance and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaAdamantiteRanged",
+      "set_name": "Adamantite Armor (Ranged)",
+      "slot": "legs",
+      "set_bonus": "25% chance not to consume ammo"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AdamantiteHeadgear",
+    "name": "Adamantite Headgear",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases maximum mana and magic crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaAdamantiteMagic",
+      "set_name": "Adamantite Armor (Magic)",
+      "slot": "head",
+      "set_bonus": "Reduces mana usage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AdamantiteBreastplate",
+    "name": "Adamantite Breastplate",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaAdamantiteMagic",
+      "set_name": "Adamantite Armor (Magic)",
+      "slot": "body",
+      "set_bonus": "Reduces mana usage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AdamantiteLeggings",
+    "name": "Adamantite Leggings",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases critical strike chance and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaAdamantiteMagic",
+      "set_name": "Adamantite Armor (Magic)",
+      "slot": "legs",
+      "set_bonus": "Reduces mana usage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TitaniumMask",
+    "name": "Titanium Mask",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases melee damage, crit and speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTitaniumMelee",
+      "set_name": "Titanium Armor (Melee)",
+      "slot": "head",
+      "set_bonus": "Attacking generates a barrier of titanium shards"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TitaniumBreastplate",
+    "name": "Titanium Breastplate",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTitaniumMelee",
+      "set_name": "Titanium Armor (Melee)",
+      "slot": "body",
+      "set_bonus": "Attacking generates a barrier of titanium shards"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TitaniumLeggings",
+    "name": "Titanium Leggings",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases damage, crit and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTitaniumMelee",
+      "set_name": "Titanium Armor (Melee)",
+      "slot": "legs",
+      "set_bonus": "Attacking generates a barrier of titanium shards"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TitaniumHelmet",
+    "name": "Titanium Helmet",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases ranged damage and crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTitaniumRanged",
+      "set_name": "Titanium Armor (Ranged)",
+      "slot": "head",
+      "set_bonus": "Attacking generates a barrier of titanium shards"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TitaniumBreastplate",
+    "name": "Titanium Breastplate",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTitaniumRanged",
+      "set_name": "Titanium Armor (Ranged)",
+      "slot": "body",
+      "set_bonus": "Attacking generates a barrier of titanium shards"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TitaniumLeggings",
+    "name": "Titanium Leggings",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases damage, crit and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTitaniumRanged",
+      "set_name": "Titanium Armor (Ranged)",
+      "slot": "legs",
+      "set_bonus": "Attacking generates a barrier of titanium shards"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TitaniumHeadgear",
+    "name": "Titanium Headgear",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases magic damage, crit and max mana",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTitaniumMagic",
+      "set_name": "Titanium Armor (Magic)",
+      "slot": "head",
+      "set_bonus": "Attacking generates a barrier of titanium shards"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TitaniumBreastplate",
+    "name": "Titanium Breastplate",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTitaniumMagic",
+      "set_name": "Titanium Armor (Magic)",
+      "slot": "body",
+      "set_bonus": "Attacking generates a barrier of titanium shards"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TitaniumLeggings",
+    "name": "Titanium Leggings",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases damage, crit and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTitaniumMagic",
+      "set_name": "Titanium Armor (Magic)",
+      "slot": "legs",
+      "set_bonus": "Attacking generates a barrier of titanium shards"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FrostHelmet",
+    "name": "Frost Helmet",
+    "category": "armor",
+    "classes": [
+      "melee",
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases melee and ranged damage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite or Titanium Bars and Frost Cores",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaFrost",
+      "set_name": "Frost Armor",
+      "slot": "head",
+      "set_bonus": "Melee and ranged attacks inflict Frostburn"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FrostBreastplate",
+    "name": "Frost Breastplate",
+    "category": "armor",
+    "classes": [
+      "melee",
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases melee and ranged crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite or Titanium Bars and Frost Cores",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaFrost",
+      "set_name": "Frost Armor",
+      "slot": "body",
+      "set_bonus": "Melee and ranged attacks inflict Frostburn"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FrostLeggings",
+    "name": "Frost Leggings",
+    "category": "armor",
+    "classes": [
+      "melee",
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases melee speed and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Adamantite or Titanium Bars and Frost Cores",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaFrost",
+      "set_name": "Frost Armor",
+      "slot": "legs",
+      "set_bonus": "Melee and ranged attacks inflict Frostburn"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AncientBattleArmorHat",
+    "name": "Forbidden Mask",
+    "category": "armor",
+    "classes": [
+      "magic",
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases magic and minion damage",
+    "how": "Craft from Forbidden Fragments, Ancient Cloth and Adamantite or Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaForbidden",
+      "set_name": "Forbidden Armor",
+      "slot": "head",
+      "set_bonus": "Double tap down to call an ancient storm"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AncientBattleArmorShirt",
+    "name": "Forbidden Robes",
+    "category": "armor",
+    "classes": [
+      "magic",
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases maximum mana and max minions",
+    "how": "Craft from Forbidden Fragments, Ancient Cloth and Adamantite or Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaForbidden",
+      "set_name": "Forbidden Armor",
+      "slot": "body",
+      "set_bonus": "Double tap down to call an ancient storm"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AncientBattleArmorPants",
+    "name": "Forbidden Treads",
+    "category": "armor",
+    "classes": [
+      "magic",
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases magic and minion damage",
+    "how": "Craft from Forbidden Fragments, Ancient Cloth and Adamantite or Titanium Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaForbidden",
+      "set_name": "Forbidden Armor",
+      "slot": "legs",
+      "set_bonus": "Double tap down to call an ancient storm"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpiderMask",
+    "name": "Spider Mask",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases minion damage and max minions",
+    "how": "Craft at an Iron or Lead Anvil from Spider Fangs",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpider",
+      "set_name": "Spider Armor",
+      "slot": "head",
+      "set_bonus": "Increases minion damage by 12%"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpiderBreastplate",
+    "name": "Spider Breastplate",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases minion damage and max minions",
+    "how": "Craft at an Iron or Lead Anvil from Spider Fangs",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpider",
+      "set_name": "Spider Armor",
+      "slot": "body",
+      "set_bonus": "Increases minion damage by 12%"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpiderGreaves",
+    "name": "Spider Greaves",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases minion damage and max minions",
+    "how": "Craft at an Iron or Lead Anvil from Spider Fangs",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpider",
+      "set_name": "Spider Armor",
+      "slot": "legs",
+      "set_bonus": "Increases minion damage by 12%"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CrystalNinjaHelmet",
+    "name": "Crystal Assassin Hood",
+    "category": "armor",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Dropped by Queen Slime",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCrystalAssassin",
+      "set_name": "Crystal Assassin Armor",
+      "slot": "head",
+      "set_bonus": "Grants a dash; boosts damage and critical strike chance"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CrystalNinjaChestplate",
+    "name": "Crystal Assassin Shirt",
+    "category": "armor",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Dropped by Queen Slime",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCrystalAssassin",
+      "set_name": "Crystal Assassin Armor",
+      "slot": "body",
+      "set_bonus": "Grants a dash; boosts damage and critical strike chance"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CrystalNinjaLeggings",
+    "name": "Crystal Assassin Pants",
+    "category": "armor",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases damage and movement speed",
+    "how": "Dropped by Queen Slime",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaCrystalAssassin",
+      "set_name": "Crystal Assassin Armor",
+      "slot": "legs",
+      "set_bonus": "Grants a dash; boosts damage and critical strike chance"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedMask",
+    "name": "Hallowed Mask",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "24 defense",
+    "tooltip": "Increases melee damage, crit and speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaHallowedMelee",
+      "set_name": "Hallowed Armor (Melee)",
+      "slot": "head",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedPlateMail",
+    "name": "Hallowed Plate Mail",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "15 defense",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaHallowedMelee",
+      "set_name": "Hallowed Armor (Melee)",
+      "slot": "body",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedGreaves",
+    "name": "Hallowed Greaves",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "11 defense",
+    "tooltip": "Increases damage and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaHallowedMelee",
+      "set_name": "Hallowed Armor (Melee)",
+      "slot": "legs",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedHelmet",
+    "name": "Hallowed Helmet",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "11 defense",
+    "tooltip": "Increases ranged damage and crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaHallowedRanged",
+      "set_name": "Hallowed Armor (Ranged)",
+      "slot": "head",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedPlateMail",
+    "name": "Hallowed Plate Mail",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "15 defense",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaHallowedRanged",
+      "set_name": "Hallowed Armor (Ranged)",
+      "slot": "body",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedGreaves",
+    "name": "Hallowed Greaves",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "11 defense",
+    "tooltip": "Increases damage and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaHallowedRanged",
+      "set_name": "Hallowed Armor (Ranged)",
+      "slot": "legs",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedHeadgear",
+    "name": "Hallowed Headgear",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "5 defense",
+    "tooltip": "Increases maximum mana, magic damage and crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaHallowedMagic",
+      "set_name": "Hallowed Armor (Magic)",
+      "slot": "head",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedPlateMail",
+    "name": "Hallowed Plate Mail",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "15 defense",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaHallowedMagic",
+      "set_name": "Hallowed Armor (Magic)",
+      "slot": "body",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedGreaves",
+    "name": "Hallowed Greaves",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "11 defense",
+    "tooltip": "Increases damage and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaHallowedMagic",
+      "set_name": "Hallowed Armor (Magic)",
+      "slot": "legs",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedHood",
+    "name": "Hallowed Hood",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases minion damage and max minions",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaHallowedSummon",
+      "set_name": "Hallowed Armor (Summon)",
+      "slot": "head",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedPlateMail",
+    "name": "Hallowed Plate Mail",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "15 defense",
+    "tooltip": "Increases critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaHallowedSummon",
+      "set_name": "Hallowed Armor (Summon)",
+      "slot": "body",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedGreaves",
+    "name": "Hallowed Greaves",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "11 defense",
+    "tooltip": "Increases damage and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaHallowedSummon",
+      "set_name": "Hallowed Armor (Summon)",
+      "slot": "legs",
+      "set_bonus": "Holy Protection: periodically lets you dodge the next hit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChlorophyteMask",
+    "name": "Chlorophyte Mask",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "25 defense",
+    "tooltip": "Increases melee damage and crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaChlorophyteMelee",
+      "set_name": "Chlorophyte Armor (Melee)",
+      "slot": "head",
+      "set_bonus": "Summons a leaf crystal that shoots at nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChlorophytePlateMail",
+    "name": "Chlorophyte Plate Mail",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "18 defense",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaChlorophyteMelee",
+      "set_name": "Chlorophyte Armor (Melee)",
+      "slot": "body",
+      "set_bonus": "Summons a leaf crystal that shoots at nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChlorophyteGreaves",
+    "name": "Chlorophyte Greaves",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "13 defense",
+    "tooltip": "Increases critical strike chance and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaChlorophyteMelee",
+      "set_name": "Chlorophyte Armor (Melee)",
+      "slot": "legs",
+      "set_bonus": "Summons a leaf crystal that shoots at nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChlorophyteHelmet",
+    "name": "Chlorophyte Helmet",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "13 defense",
+    "tooltip": "Increases ranged damage and ammo conservation",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaChlorophyteRanged",
+      "set_name": "Chlorophyte Armor (Ranged)",
+      "slot": "head",
+      "set_bonus": "Summons a leaf crystal that shoots at nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChlorophytePlateMail",
+    "name": "Chlorophyte Plate Mail",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "18 defense",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaChlorophyteRanged",
+      "set_name": "Chlorophyte Armor (Ranged)",
+      "slot": "body",
+      "set_bonus": "Summons a leaf crystal that shoots at nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChlorophyteGreaves",
+    "name": "Chlorophyte Greaves",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "13 defense",
+    "tooltip": "Increases critical strike chance and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaChlorophyteRanged",
+      "set_name": "Chlorophyte Armor (Ranged)",
+      "slot": "legs",
+      "set_bonus": "Summons a leaf crystal that shoots at nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChlorophyteHeadgear",
+    "name": "Chlorophyte Headgear",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "7 defense",
+    "tooltip": "Increases maximum mana and magic damage, reduces mana usage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaChlorophyteMagic",
+      "set_name": "Chlorophyte Armor (Magic)",
+      "slot": "head",
+      "set_bonus": "Summons a leaf crystal that shoots at nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChlorophytePlateMail",
+    "name": "Chlorophyte Plate Mail",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "18 defense",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaChlorophyteMagic",
+      "set_name": "Chlorophyte Armor (Magic)",
+      "slot": "body",
+      "set_bonus": "Summons a leaf crystal that shoots at nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChlorophyteGreaves",
+    "name": "Chlorophyte Greaves",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "13 defense",
+    "tooltip": "Increases critical strike chance and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaChlorophyteMagic",
+      "set_name": "Chlorophyte Armor (Magic)",
+      "slot": "legs",
+      "set_bonus": "Summons a leaf crystal that shoots at nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TurtleHelmet",
+    "name": "Turtle Helmet",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Head armor",
+    "tooltip": "Increases melee damage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars and Turtle Shells",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTurtle",
+      "set_name": "Turtle Armor",
+      "slot": "head",
+      "set_bonus": "Attackers also take heavy damage; enemies more likely to target you"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TurtleScaleMail",
+    "name": "Turtle Scale Mail",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Body armor",
+    "tooltip": "Increases melee damage and crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars and Turtle Shells",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTurtle",
+      "set_name": "Turtle Armor",
+      "slot": "body",
+      "set_bonus": "Attackers also take heavy damage; enemies more likely to target you"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TurtleLeggings",
+    "name": "Turtle Leggings",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Leg armor",
+    "tooltip": "Increases melee critical strike chance",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars and Turtle Shells",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTurtle",
+      "set_name": "Turtle Armor",
+      "slot": "legs",
+      "set_bonus": "Attackers also take heavy damage; enemies more likely to target you"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TikiMask",
+    "name": "Tiki Mask",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Head armor",
+    "tooltip": "Increases max minions and minion damage",
+    "how": "Sold by the Witch Doctor after Plantera",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTiki",
+      "set_name": "Tiki Armor",
+      "slot": "head",
+      "set_bonus": "Increases max minions and whip range"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TikiShirt",
+    "name": "Tiki Shirt",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Body armor",
+    "tooltip": "Increases max minions and minion damage",
+    "how": "Sold by the Witch Doctor after Plantera",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTiki",
+      "set_name": "Tiki Armor",
+      "slot": "body",
+      "set_bonus": "Increases max minions and whip range"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TikiPants",
+    "name": "Tiki Pants",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Leg armor",
+    "tooltip": "Increases max minions and minion damage",
+    "how": "Sold by the Witch Doctor after Plantera",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaTiki",
+      "set_name": "Tiki Armor",
+      "slot": "legs",
+      "set_bonus": "Increases max minions and whip range"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpectreHood",
+    "name": "Spectre Hood",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Head armor",
+    "tooltip": "Increases magic damage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Spectre Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpectreHood",
+      "set_name": "Spectre Armor (Hood)",
+      "slot": "head",
+      "set_bonus": "Magic damage dealt heals the player and allies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpectreRobe",
+    "name": "Spectre Robe",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Body armor",
+    "tooltip": "Increases magic damage and crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Spectre Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpectreHood",
+      "set_name": "Spectre Armor (Hood)",
+      "slot": "body",
+      "set_bonus": "Magic damage dealt heals the player and allies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpectrePants",
+    "name": "Spectre Pants",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Leg armor",
+    "tooltip": "Increases magic damage and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Spectre Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpectreHood",
+      "set_name": "Spectre Armor (Hood)",
+      "slot": "legs",
+      "set_bonus": "Magic damage dealt heals the player and allies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpectreMask",
+    "name": "Spectre Mask",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Head armor",
+    "tooltip": "Increases maximum mana, magic damage and crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Spectre Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpectreMask",
+      "set_name": "Spectre Armor (Mask)",
+      "slot": "head",
+      "set_bonus": "Magic damage dealt also hurts nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpectreRobe",
+    "name": "Spectre Robe",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Body armor",
+    "tooltip": "Increases magic damage and crit",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Spectre Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpectreMask",
+      "set_name": "Spectre Armor (Mask)",
+      "slot": "body",
+      "set_bonus": "Magic damage dealt also hurts nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpectrePants",
+    "name": "Spectre Pants",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Leg armor",
+    "tooltip": "Increases magic damage and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Spectre Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpectreMask",
+      "set_name": "Spectre Armor (Mask)",
+      "slot": "legs",
+      "set_bonus": "Magic damage dealt also hurts nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShroomiteHeadgear",
+    "name": "Shroomite Headgear",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Head armor",
+    "tooltip": "Increases arrow damage and ranged crit",
+    "how": "Craft at an Autohammer from Shroomite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShroomiteArrows",
+      "set_name": "Shroomite Armor (Arrows)",
+      "slot": "head",
+      "set_bonus": "Standing still grants stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShroomiteBreastplate",
+    "name": "Shroomite Breastplate",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Body armor",
+    "tooltip": "Increases ranged crit and ammo conservation",
+    "how": "Craft at an Autohammer from Shroomite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShroomiteArrows",
+      "set_name": "Shroomite Armor (Arrows)",
+      "slot": "body",
+      "set_bonus": "Standing still grants stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShroomiteLeggings",
+    "name": "Shroomite Leggings",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Leg armor",
+    "tooltip": "Increases ranged crit and movement speed",
+    "how": "Craft at an Autohammer from Shroomite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShroomiteArrows",
+      "set_name": "Shroomite Armor (Arrows)",
+      "slot": "legs",
+      "set_bonus": "Standing still grants stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShroomiteMask",
+    "name": "Shroomite Mask",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Head armor",
+    "tooltip": "Increases bullet damage and ranged crit",
+    "how": "Craft at an Autohammer from Shroomite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShroomiteBullets",
+      "set_name": "Shroomite Armor (Bullets)",
+      "slot": "head",
+      "set_bonus": "Standing still grants stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShroomiteBreastplate",
+    "name": "Shroomite Breastplate",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Body armor",
+    "tooltip": "Increases ranged crit and ammo conservation",
+    "how": "Craft at an Autohammer from Shroomite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShroomiteBullets",
+      "set_name": "Shroomite Armor (Bullets)",
+      "slot": "body",
+      "set_bonus": "Standing still grants stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShroomiteLeggings",
+    "name": "Shroomite Leggings",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Leg armor",
+    "tooltip": "Increases ranged crit and movement speed",
+    "how": "Craft at an Autohammer from Shroomite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShroomiteBullets",
+      "set_name": "Shroomite Armor (Bullets)",
+      "slot": "legs",
+      "set_bonus": "Standing still grants stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShroomiteHelmet",
+    "name": "Shroomite Helmet",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Head armor",
+    "tooltip": "Increases rocket damage and ranged crit",
+    "how": "Craft at an Autohammer from Shroomite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShroomiteRockets",
+      "set_name": "Shroomite Armor (Rockets)",
+      "slot": "head",
+      "set_bonus": "Standing still grants stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShroomiteBreastplate",
+    "name": "Shroomite Breastplate",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Body armor",
+    "tooltip": "Increases ranged crit and ammo conservation",
+    "how": "Craft at an Autohammer from Shroomite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShroomiteRockets",
+      "set_name": "Shroomite Armor (Rockets)",
+      "slot": "body",
+      "set_bonus": "Standing still grants stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShroomiteLeggings",
+    "name": "Shroomite Leggings",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Leg armor",
+    "tooltip": "Increases ranged crit and movement speed",
+    "how": "Craft at an Autohammer from Shroomite Bars",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaShroomiteRockets",
+      "set_name": "Shroomite Armor (Rockets)",
+      "slot": "legs",
+      "set_bonus": "Standing still grants stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpookyHelmet",
+    "name": "Spooky Helmet",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Head armor",
+    "tooltip": "Increases minion damage and max minions",
+    "how": "Craft at a Work Bench from Spooky Wood (Pumpkin Moon)",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpooky",
+      "set_name": "Spooky Armor",
+      "slot": "head",
+      "set_bonus": "Increases minion damage by 25%"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpookyBreastplate",
+    "name": "Spooky Breastplate",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Body armor",
+    "tooltip": "Increases minion damage and max minions",
+    "how": "Craft at a Work Bench from Spooky Wood (Pumpkin Moon)",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpooky",
+      "set_name": "Spooky Armor",
+      "slot": "body",
+      "set_bonus": "Increases minion damage by 25%"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpookyLeggings",
+    "name": "Spooky Leggings",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Leg armor",
+    "tooltip": "Increases minion damage and max minions",
+    "how": "Craft at a Work Bench from Spooky Wood (Pumpkin Moon)",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaSpooky",
+      "set_name": "Spooky Armor",
+      "slot": "legs",
+      "set_bonus": "Increases minion damage by 25%"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeetleHelmet",
+    "name": "Beetle Helmet",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Head armor",
+    "tooltip": "Increases melee damage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Beetle Husks and the matching Turtle armor piece",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaBeetleOffense",
+      "set_name": "Beetle Armor (Scale Mail)",
+      "slot": "head",
+      "set_bonus": "Beetles boost melee damage and speed as you deal damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeetleScaleMail",
+    "name": "Beetle Scale Mail",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Body armor",
+    "tooltip": "Increases melee damage, crit and speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Beetle Husks and the matching Turtle armor piece",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaBeetleOffense",
+      "set_name": "Beetle Armor (Scale Mail)",
+      "slot": "body",
+      "set_bonus": "Beetles boost melee damage and speed as you deal damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeetleLeggings",
+    "name": "Beetle Leggings",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Leg armor",
+    "tooltip": "Increases melee speed and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Beetle Husks and the matching Turtle armor piece",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaBeetleOffense",
+      "set_name": "Beetle Armor (Scale Mail)",
+      "slot": "legs",
+      "set_bonus": "Beetles boost melee damage and speed as you deal damage"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeetleHelmet",
+    "name": "Beetle Helmet",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Head armor",
+    "tooltip": "Increases melee damage",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Beetle Husks and the matching Turtle armor piece",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaBeetleDefense",
+      "set_name": "Beetle Armor (Shell)",
+      "slot": "head",
+      "set_bonus": "Beetles protect you, reducing damage taken"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeetleShell",
+    "name": "Beetle Shell",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Body armor",
+    "tooltip": "Increases melee damage and crit; reduces damage taken",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Beetle Husks and the matching Turtle armor piece",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaBeetleDefense",
+      "set_name": "Beetle Armor (Shell)",
+      "slot": "body",
+      "set_bonus": "Beetles protect you, reducing damage taken"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeetleLeggings",
+    "name": "Beetle Leggings",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Leg armor",
+    "tooltip": "Increases melee speed and movement speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Beetle Husks and the matching Turtle armor piece",
+    "uncertain": true,
+    "set": {
+      "set_id": "VanillaBeetleDefense",
+      "set_name": "Beetle Armor (Shell)",
+      "slot": "legs",
+      "set_bonus": "Beetles protect you, reducing damage taken"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SolarFlareHelmet",
+    "name": "Solar Flare Helmet",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "24 defense",
+    "tooltip": "Increases melee critical strike chance",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Solar Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaSolar",
+      "set_name": "Solar Flare Armor",
+      "slot": "head",
+      "set_bonus": "Solar shields reduce damage taken; double tap to dash through enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SolarFlareBreastplate",
+    "name": "Solar Flare Breastplate",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "34 defense",
+    "tooltip": "Increases melee damage",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Solar Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaSolar",
+      "set_name": "Solar Flare Armor",
+      "slot": "body",
+      "set_bonus": "Solar shields reduce damage taken; double tap to dash through enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SolarFlareLeggings",
+    "name": "Solar Flare Leggings",
+    "category": "armor",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "20 defense",
+    "tooltip": "Increases melee speed and movement speed",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Solar Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaSolar",
+      "set_name": "Solar Flare Armor",
+      "slot": "legs",
+      "set_bonus": "Solar shields reduce damage taken; double tap to dash through enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "VortexHelmet",
+    "name": "Vortex Helmet",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Head armor",
+    "tooltip": "Increases ranged damage and crit",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Vortex Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaVortex",
+      "set_name": "Vortex Armor",
+      "slot": "head",
+      "set_bonus": "Double tap to toggle stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "VortexBreastplate",
+    "name": "Vortex Breastplate",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Body armor",
+    "tooltip": "Increases ranged damage and crit, ammo conservation",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Vortex Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaVortex",
+      "set_name": "Vortex Armor",
+      "slot": "body",
+      "set_bonus": "Double tap to toggle stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "VortexLeggings",
+    "name": "Vortex Leggings",
+    "category": "armor",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Leg armor",
+    "tooltip": "Increases ranged damage, crit and movement speed",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Vortex Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaVortex",
+      "set_name": "Vortex Armor",
+      "slot": "legs",
+      "set_bonus": "Double tap to toggle stealth, boosting ranged damage and crit"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NebulaHelmet",
+    "name": "Nebula Helmet",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Head armor",
+    "tooltip": "Increases maximum mana and magic crit",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Nebula Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaNebula",
+      "set_name": "Nebula Armor",
+      "slot": "head",
+      "set_bonus": "Hurting enemies drops damage, life and mana boosters"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NebulaBreastplate",
+    "name": "Nebula Breastplate",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Body armor",
+    "tooltip": "Increases magic damage and crit",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Nebula Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaNebula",
+      "set_name": "Nebula Armor",
+      "slot": "body",
+      "set_bonus": "Hurting enemies drops damage, life and mana boosters"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NebulaLeggings",
+    "name": "Nebula Leggings",
+    "category": "armor",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Leg armor",
+    "tooltip": "Increases magic damage and movement speed",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Nebula Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaNebula",
+      "set_name": "Nebula Armor",
+      "slot": "legs",
+      "set_bonus": "Hurting enemies drops damage, life and mana boosters"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StardustHelmet",
+    "name": "Stardust Helmet",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Head armor",
+    "tooltip": "Increases max minions and minion damage",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Stardust Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaStardust",
+      "set_name": "Stardust Armor",
+      "slot": "head",
+      "set_bonus": "A Stardust Guardian protects you and attacks nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StardustBreastplate",
+    "name": "Stardust Plate",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Body armor",
+    "tooltip": "Increases max minions and minion damage",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Stardust Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaStardust",
+      "set_name": "Stardust Armor",
+      "slot": "body",
+      "set_bonus": "A Stardust Guardian protects you and attacks nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StardustLeggings",
+    "name": "Stardust Leggings",
+    "category": "armor",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Leg armor",
+    "tooltip": "Increases max minions and minion damage",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Stardust Fragments",
+    "uncertain": false,
+    "set": {
+      "set_id": "VanillaStardust",
+      "set_name": "Stardust Armor",
+      "slot": "legs",
+      "set_bonus": "A Stardust Guardian protects you and attacks nearby enemies"
+    }
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FeralClaws",
+    "name": "Feral Claws",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases melee speed and enables autoswing",
+    "how": "Found in Underground Jungle chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SharkToothNecklace",
+    "name": "Shark Tooth Necklace",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases armor penetration",
+    "how": "Dropped by Blood Moon enemies",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TitanGlove",
+    "name": "Titan Glove",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases melee knockback and size",
+    "how": "Dropped by Mimics",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PowerGlove",
+    "name": "Power Glove",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases melee knockback, speed and size; autoswing",
+    "how": "Combine at a Tinkerer's Workshop from Feral Claws and Titan Glove",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FleshKnuckles",
+    "name": "Flesh Knuckles",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases defense; enemies are more likely to target you",
+    "how": "Dropped by Crimson Mimics",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BerserkerGlove",
+    "name": "Berserker's Glove",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Melee speed, knockback, size and defense; enemies more likely to target you",
+    "how": "Combine at a Tinkerer's Workshop from Power Glove and Flesh Knuckles",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MechanicalGlove",
+    "name": "Mechanical Glove",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases melee damage, speed and knockback",
+    "how": "Combine at a Tinkerer's Workshop from Power Glove and Avenger Emblem",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MagmaStone",
+    "name": "Magma Stone",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Melee attacks set enemies on fire",
+    "how": "Rare drop from Underworld enemies",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FireGauntlet",
+    "name": "Fire Gauntlet",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Melee damage, speed and knockback; melee attacks inflict fire",
+    "how": "Combine at a Tinkerer's Workshop from Mechanical Glove and Magma Stone",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WarriorEmblem",
+    "name": "Warrior Emblem",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases melee damage by 15%",
+    "how": "Dropped by the Wall of Flesh",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StingerNecklace",
+    "name": "Stinger Necklace",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Armor penetration; releases bees when damaged",
+    "how": "Combine at a Tinkerer's Workshop from Shark Tooth Necklace and Honey Comb",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FrozenTurtleShell",
+    "name": "Frozen Turtle Shell",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Puts a damage-reducing shell around you when below half health",
+    "how": "Dropped by Ice Tortoises",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PaladinsShield",
+    "name": "Paladin's Shield",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Absorbs part of the damage dealt to teammates; knockback immunity",
+    "how": "Dropped by Paladins in the post-Plantera Dungeon",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FrozenShield",
+    "name": "Frozen Shield",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Combines Paladin's Shield and Frozen Turtle Shell",
+    "how": "Combine at a Tinkerer's Workshop from Paladin's Shield and Frozen Turtle Shell",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HeroShield",
+    "name": "Hero Shield",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Combines Paladin's Shield and Flesh Knuckles",
+    "how": "Combine at a Tinkerer's Workshop from Paladin's Shield and Flesh Knuckles",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BlackBelt",
+    "name": "Black Belt",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Gives a chance to dodge attacks",
+    "how": "Dropped by Bone Lee in the post-Plantera Dungeon",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Tabi",
+    "name": "Tabi",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Allows the ability to dash",
+    "how": "Dropped by Bone Lee in the post-Plantera Dungeon",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MasterNinjaGear",
+    "name": "Master Ninja Gear",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Wall climbing, dash and dodge in one",
+    "how": "Combine at a Tinkerer's Workshop from Tiger Climbing Gear, Tabi and Black Belt",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MagicQuiver",
+    "name": "Magic Quiver",
+    "category": "accessory",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases arrow damage and speed; chance not to consume arrows",
+    "how": "Dropped by hardmode cavern skeletons",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MoltenQuiver",
+    "name": "Molten Quiver",
+    "category": "accessory",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Magic Quiver effects plus flaming wooden arrows",
+    "how": "Combine at a Tinkerer's Workshop from Magic Quiver, Hellstone Bars and Hellfire Arrows",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StalkersQuiver",
+    "name": "Stalker's Quiver",
+    "category": "accessory",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Magic Quiver effects plus extra ranged damage and lower aggro",
+    "how": "Combine at a Tinkerer's Workshop from Magic Quiver and Putrid Scent",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "RangerEmblem",
+    "name": "Ranger Emblem",
+    "category": "accessory",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases ranged damage by 15%",
+    "how": "Dropped by the Wall of Flesh",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SniperScope",
+    "name": "Sniper Scope",
+    "category": "accessory",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Extends view range for guns; increases ranged damage and crit",
+    "how": "Dropped by Skeleton Snipers and Tactical Skeletons in the post-Plantera Dungeon",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "RifleScope",
+    "name": "Rifle Scope",
+    "category": "accessory",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Extends view range for guns",
+    "how": "Dropped by Skeleton Snipers in the post-Plantera Dungeon",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ReconScope",
+    "name": "Recon Scope",
+    "category": "accessory",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Sniper Scope effects plus lower aggro and extra ranged stats",
+    "how": "Combine at a Tinkerer's Workshop from Sniper Scope and Putrid Scent",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PutridScent",
+    "name": "Putrid Scent",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Enemies less likely to target you; increases damage and crit",
+    "how": "Dropped by Corrupt Mimics",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BandofStarpower",
+    "name": "Band of Starpower",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases maximum mana",
+    "how": "Dropped from Shadow Orbs",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NaturesGift",
+    "name": "Nature's Gift",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Reduces mana usage",
+    "how": "Found growing in the Underground Jungle",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ManaFlower",
+    "name": "Mana Flower",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Reduces mana usage; auto-uses mana potions",
+    "how": "Combine at a Tinkerer's Workshop from Nature's Gift and a Mana Potion",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ManaRegenerationBand",
+    "name": "Mana Regeneration Band",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases maximum mana and mana regeneration",
+    "how": "Combine at a Tinkerer's Workshop from Band of Regeneration and Band of Starpower",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CelestialMagnet",
+    "name": "Celestial Magnet",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases pickup range for mana stars",
+    "how": "Sold by the Traveling Merchant",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MagicCuffs",
+    "name": "Magic Cuffs",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases maximum mana; restores mana when damaged",
+    "how": "Combine at a Tinkerer's Workshop from Band of Starpower and Shackle",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CelestialCuffs",
+    "name": "Celestial Cuffs",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Magic Cuffs plus extended mana star pickup range",
+    "how": "Combine at a Tinkerer's Workshop from Magic Cuffs and Celestial Magnet",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MagnetFlower",
+    "name": "Magnet Flower",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Mana Flower plus extended mana star pickup range",
+    "how": "Combine at a Tinkerer's Workshop from Mana Flower and Celestial Magnet",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SorcererEmblem",
+    "name": "Sorcerer Emblem",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases magic damage by 15%",
+    "how": "Dropped by the Wall of Flesh",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CelestialEmblem",
+    "name": "Celestial Emblem",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases magic damage and mana star pickup range",
+    "how": "Combine at a Tinkerer's Workshop from Celestial Magnet and Sorcerer Emblem",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ArcaneFlower",
+    "name": "Arcane Flower",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Mana Flower plus lower aggro",
+    "how": "Combine at a Tinkerer's Workshop from Mana Flower and Putrid Scent",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ManaCloak",
+    "name": "Mana Cloak",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Mana Flower plus falling stars when hurt",
+    "how": "Combine at a Tinkerer's Workshop from Mana Flower and Star Cloak",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PygmyNecklace",
+    "name": "Pygmy Necklace",
+    "category": "accessory",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases your max number of minions",
+    "how": "Sold by the Witch Doctor in Hardmode",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SummonerEmblem",
+    "name": "Summoner Emblem",
+    "category": "accessory",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases summon damage by 15%",
+    "how": "Dropped by the Wall of Flesh",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HerculesBeetle",
+    "name": "Hercules Beetle",
+    "category": "accessory",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Increases summon damage and knockback",
+    "how": "Sold by the Witch Doctor after Plantera",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NecromanticScroll",
+    "name": "Necromantic Scroll",
+    "category": "accessory",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Increases max minions and summon damage",
+    "how": "Dropped by Mourning Wood (Pumpkin Moon)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PapyrusScarab",
+    "name": "Papyrus Scarab",
+    "category": "accessory",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Combines Hercules Beetle and Necromantic Scroll",
+    "how": "Combine at a Tinkerer's Workshop from Hercules Beetle and Necromantic Scroll",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AvengerEmblem",
+    "name": "Avenger Emblem",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases damage by 12%",
+    "how": "Combine at a Tinkerer's Workshop from any class emblem and Souls of Might, Sight and Fright",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "DestroyerEmblem",
+    "name": "Destroyer Emblem",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Increases damage and critical strike chance",
+    "how": "Dropped by Golem",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "EyeoftheGolem",
+    "name": "Eye of the Golem",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Increases critical strike chance",
+    "how": "Dropped by Golem",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SunStone",
+    "name": "Sun Stone",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Boosts many stats during the day",
+    "how": "Dropped by Golem",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CelestialStone",
+    "name": "Celestial Stone",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Small boost to damage, crit, speed, defense and regen",
+    "how": "Combine at a Tinkerer's Workshop from Sun Stone and Moon Stone",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CelestialShell",
+    "name": "Celestial Shell",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Celestial Stone plus werewolf/merfolk transformations",
+    "how": "Combine at a Tinkerer's Workshop from Celestial Stone and Moon Shell",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "RoyalGel",
+    "name": "Royal Gel",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Slimes become friendly",
+    "how": "King Slime Treasure Bag (Expert)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "EoCShield",
+    "name": "Shield of Cthulhu",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Allows the ability to dash into enemies",
+    "how": "Eye of Cthulhu Treasure Bag (Expert)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WormScarf",
+    "name": "Worm Scarf",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Reduces damage taken by 17%",
+    "how": "Eater of Worlds Treasure Bag (Expert)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BrainOfConfusion",
+    "name": "Brain of Confusion",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Chance to dodge and confuse nearby enemies when hit",
+    "how": "Brain of Cthulhu Treasure Bag (Expert)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HiveBackpack",
+    "name": "Hive Pack",
+    "category": "accessory",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Strengthens friendly bees",
+    "how": "Queen Bee Treasure Bag (Expert)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BoneGlove",
+    "name": "Bone Glove",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Occasionally throws bones at enemies",
+    "how": "Skeletron Treasure Bag (Expert)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SporeSac",
+    "name": "Spore Sac",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PostPlantera",
+    "stats": "Accessory",
+    "tooltip": "Spawns damaging spores around you",
+    "how": "Plantera Treasure Bag (Expert)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GravityGlobe",
+    "name": "Gravity Globe",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PostMoonLord",
+    "stats": "Accessory",
+    "tooltip": "Hold UP to reverse gravity",
+    "how": "Moon Lord Treasure Bag (Expert)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HermesBoots",
+    "name": "Hermes Boots",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Lets you sprint",
+    "how": "Found in underground chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpectreBoots",
+    "name": "Spectre Boots",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Sprinting plus rocket flight",
+    "how": "Combine at a Tinkerer's Workshop from Hermes Boots and Rocket Boots",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "LightningBoots",
+    "name": "Lightning Boots",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Faster sprint, rocket flight and movement speed",
+    "how": "Combine at a Tinkerer's Workshop from Spectre Boots, Anklet of the Wind and Aglet",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FrostsparkBoots",
+    "name": "Frostspark Boots",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Lightning Boots plus ice skating",
+    "how": "Combine at a Tinkerer's Workshop from Lightning Boots and Ice Skates",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TerrasparkBoots",
+    "name": "Terraspark Boots",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Frostspark Boots plus lava and water walking, fire immunity",
+    "how": "Combine at a Tinkerer's Workshop from Frostspark Boots and Lava Waders",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CloudinaBottle",
+    "name": "Cloud in a Bottle",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Allows a double jump",
+    "how": "Found in underground chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShinyRedBalloon",
+    "name": "Shiny Red Balloon",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases jump height",
+    "how": "Found in Sky Island chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BundleofBalloons",
+    "name": "Bundle of Balloons",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Triple extra jumps and higher jump height",
+    "how": "Combine at a Tinkerer's Workshop from Cloud, Blizzard and Sandstorm in a Balloon",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CobaltShield",
+    "name": "Cobalt Shield",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Grants knockback immunity",
+    "how": "Found in Dungeon chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ObsidianSkull",
+    "name": "Obsidian Skull",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Grants immunity to fire blocks",
+    "how": "Craft at a Furnace from Obsidian",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ObsidianShield",
+    "name": "Obsidian Shield",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Knockback and fire block immunity",
+    "how": "Combine at a Tinkerer's Workshop from Cobalt Shield and Obsidian Skull",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AnkhCharm",
+    "name": "Ankh Charm",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Grants immunity to most debuffs",
+    "how": "Combine at a Tinkerer's Workshop from many debuff-immunity accessories",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AnkhShield",
+    "name": "Ankh Shield",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Knockback, fire block and most debuff immunities",
+    "how": "Combine at a Tinkerer's Workshop from Obsidian Shield and Ankh Charm",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BandofRegeneration",
+    "name": "Band of Regeneration",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Slowly regenerates life",
+    "how": "Found in underground chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HoneyComb",
+    "name": "Honey Comb",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Accessory",
+    "tooltip": "Releases bees and briefly boosts regen when hurt",
+    "how": "Dropped by Queen Bee",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CrossNecklace",
+    "name": "Cross Necklace",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Increases invincibility time after taking damage",
+    "how": "Dropped by Mimics",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StarCloak",
+    "name": "Star Cloak",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Stars fall when you are hurt",
+    "how": "Dropped by Mimics",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StarVeil",
+    "name": "Star Veil",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Star Cloak plus longer invincibility after damage",
+    "how": "Combine at a Tinkerer's Workshop from Star Cloak and Cross Necklace",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeeCloak",
+    "name": "Bee Cloak",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Stars fall and bees are released when hurt",
+    "how": "Combine at a Tinkerer's Workshop from Star Cloak and Honey Comb",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PhilosophersStone",
+    "name": "Philosopher's Stone",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Reduces healing potion cooldown",
+    "how": "Dropped by Mimics",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CharmofMyths",
+    "name": "Charm of Myths",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Accessory",
+    "tooltip": "Life regeneration plus reduced healing potion cooldown",
+    "how": "Combine at a Tinkerer's Workshop from Band of Regeneration and Philosopher's Stone",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AngelWings",
+    "name": "Angel Wings",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Wings",
+    "tooltip": "Allows flight and slow fall",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Souls of Flight, Souls of Light and Feathers",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "DemonWings",
+    "name": "Demon Wings",
+    "category": "accessory",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Wings",
+    "tooltip": "Allows flight and slow fall",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Souls of Flight, Souls of Night and Feathers",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FishronWings",
+    "name": "Fishron Wings",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PostPlantera",
+    "stats": "Wings",
+    "tooltip": "Strong flight; fast in water",
+    "how": "Dropped by Duke Fishron",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "RainbowWings",
+    "name": "Empress Wings",
+    "category": "accessory",
+    "classes": [],
+    "tier": "PostPlantera",
+    "stats": "Wings",
+    "tooltip": "Strong flight and hover",
+    "how": "Dropped by the Empress of Light",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WingsSolar",
+    "name": "Solar Wings",
+    "category": "accessory",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Wings",
+    "tooltip": "Top-tier flight",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Solar Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WingsVortex",
+    "name": "Vortex Booster",
+    "category": "accessory",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Wings",
+    "tooltip": "Top-tier flight and hover",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Vortex Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WingsNebula",
+    "name": "Nebula Mantle",
+    "category": "accessory",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Wings",
+    "tooltip": "Top-tier flight and hover",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Nebula Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WingsStardust",
+    "name": "Stardust Wings",
+    "category": "accessory",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Wings",
+    "tooltip": "Top-tier flight",
+    "how": "Craft at the Ancient Manipulator from Luminite Bars and Stardust Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BladeofGrass",
+    "name": "Blade of Grass",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Chance to poison enemies",
+    "how": "Craft at an Iron or Lead Anvil from Jungle Spores and Stingers",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "LightsBane",
+    "name": "Light's Bane",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Corruption sword used for Night's Edge",
+    "how": "Craft at an Iron or Lead Anvil from Demonite Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BloodButcherer",
+    "name": "Blood Butcherer",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Crimson sword that inflicts bleeding wounds; used for Night's Edge",
+    "how": "Craft at an Iron or Lead Anvil from Crimtane Bars",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Starfury",
+    "name": "Starfury",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Calls stars down from the sky on swing",
+    "how": "Found in Sky Island chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "EnchantedSword",
+    "name": "Enchanted Sword",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Fires an enchanted beam",
+    "how": "Found in Enchanted Sword shrines",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Muramasa",
+    "name": "Muramasa",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Very fast-swinging blade",
+    "how": "Found in Dungeon gold chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeeKeeper",
+    "name": "Bee Keeper",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Summons bees on hit and confuses enemies",
+    "how": "Dropped by Queen Bee",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FieryGreatsword",
+    "name": "Volcano",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Big fiery greatsword that burns enemies",
+    "how": "Craft at an Iron or Lead Anvil from Hellstone Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "DarkLance",
+    "name": "Dark Lance",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Spear",
+    "tooltip": "Long-reach spear",
+    "how": "Found in Shadow Chests in the Underworld",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Sunfury",
+    "name": "Sunfury",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Flail",
+    "tooltip": "Fiery flail that burns enemies",
+    "how": "Found in Shadow Chests in the Underworld",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NightsEdge",
+    "name": "Night's Edge",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Broadsword",
+    "tooltip": "The best pre-Hardmode sword",
+    "how": "Craft at a Demon or Crimson Altar from Light's Bane or Blood Butcherer, Muramasa, Blade of Grass and Volcano",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Excalibur",
+    "name": "Excalibur",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Fast holy blade",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Gungnir",
+    "name": "Gungnir",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Spear",
+    "tooltip": "Powerful holy spear",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Frostbrand",
+    "name": "Frostbrand",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Fires icy bolts and inflicts Frostburn",
+    "how": "Dropped by Ice Mimics",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "DeathSickle",
+    "name": "Death Sickle",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Scythe",
+    "tooltip": "Fires piercing sickles",
+    "how": "Dropped by Reapers during a Solar Eclipse",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TrueNightsEdge",
+    "name": "True Night's Edge",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Upgraded Night's Edge firing a large beam",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Night's Edge and Souls of Fright, Might and Sight",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TrueExcalibur",
+    "name": "True Excalibur",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Upgraded Excalibur firing light beams",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Excalibur and Chlorophyte Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChlorophyteClaymore",
+    "name": "Chlorophyte Claymore",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Broadsword",
+    "tooltip": "Fires a bouncing chlorophyte orb",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TerraBlade",
+    "name": "Terra Blade",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Broadsword",
+    "tooltip": "Fires powerful green beams",
+    "how": "Craft at a Mythril or Orichalcum Anvil from True Night's Edge, True Excalibur and a Broken Hero Sword",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Seedler",
+    "name": "Seedler",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Broadsword",
+    "tooltip": "Fires seeds that burst into smaller seeds",
+    "how": "Dropped by Plantera",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TheHorsemansBlade",
+    "name": "The Horseman's Blade",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Broadsword",
+    "tooltip": "Summons homing pumpkin heads",
+    "how": "Dropped by the Pumpkin King (Pumpkin Moon)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChristmasTreeSword",
+    "name": "Christmas Tree Sword",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Broadsword",
+    "tooltip": "Shoots Christmas ornaments",
+    "how": "Dropped by Everscream (Frost Moon)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NorthPole",
+    "name": "North Pole",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Spear",
+    "tooltip": "Spear that rains snowflakes",
+    "how": "Dropped by the Ice Queen (Frost Moon)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PossessedHatchet",
+    "name": "Possessed Hatchet",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Boomerang",
+    "tooltip": "Homing boomerang",
+    "how": "Dropped by Golem",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GolemFist",
+    "name": "Golem Fist",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Flail",
+    "tooltip": "Punches with a stone fist",
+    "how": "Dropped by Golem",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Flairon",
+    "name": "Flairon",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Flail",
+    "tooltip": "Flail that releases homing bubbles",
+    "how": "Dropped by Duke Fishron",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "InfluxWaver",
+    "name": "Influx Waver",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Broadsword",
+    "tooltip": "Fires a projectile that splits on hit",
+    "how": "Dropped by the Martian Saucer",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PiercingStarlight",
+    "name": "Starlight",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Shortsword",
+    "tooltip": "Extremely fast flurry of light thrusts",
+    "how": "Dropped by the Empress of Light",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "DayBreak",
+    "name": "Daybreak",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Spear",
+    "tooltip": "Throws solar spears that explode",
+    "how": "Craft at the Ancient Manipulator from Solar Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SolarEruption",
+    "name": "Solar Eruption",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Flail",
+    "tooltip": "Long-reach solar flail",
+    "how": "Craft at the Ancient Manipulator from Solar Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StarWrath",
+    "name": "Star Wrath",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Broadsword",
+    "tooltip": "Rains pink stars from the sky",
+    "how": "Dropped by Moon Lord",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Meowmere",
+    "name": "Meowmere",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Broadsword",
+    "tooltip": "Fires bouncing rainbow cats",
+    "how": "Dropped by Moon Lord",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Terrarian",
+    "name": "Terrarian",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Yoyo",
+    "tooltip": "Yoyo that fires homing orbs",
+    "how": "Dropped by Moon Lord",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Zenith",
+    "name": "Zenith",
+    "category": "weapon",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Broadsword",
+    "tooltip": "Summons spectral copies of its component swords",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Terra Blade, Meowmere, Star Wrath, Influx Waver, The Horseman's Blade, Seedler, Starfury, Bee Keeper, Enchanted Sword and Copper Shortsword",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Handgun",
+    "name": "Handgun",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Gun",
+    "tooltip": "Accurate fast-firing pistol",
+    "how": "Found in Dungeon chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Minishark",
+    "name": "Minishark",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Gun",
+    "tooltip": "Rapid-fire gun with a chance to save ammo",
+    "how": "Sold by the Arms Dealer",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Musket",
+    "name": "Musket",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Gun",
+    "tooltip": "Hard-hitting single-shot gun",
+    "how": "Dropped from Shadow Orbs",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TheUndertaker",
+    "name": "The Undertaker",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Gun",
+    "tooltip": "Crimson pistol",
+    "how": "Dropped from Crimson Hearts",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeesKnees",
+    "name": "The Bee's Knees",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Bow",
+    "tooltip": "Turns wooden arrows into piercing bees",
+    "how": "Dropped by Queen Bee",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StarCannon",
+    "name": "Star Cannon",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Launcher",
+    "tooltip": "Fires Fallen Stars",
+    "how": "Craft at an Iron or Lead Anvil from Minishark, Meteorite Bars and Fallen Stars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PhoenixBlaster",
+    "name": "Phoenix Blaster",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Gun",
+    "tooltip": "Fast fiery pistol",
+    "how": "Craft at an Iron or Lead Anvil from Handgun and Hellstone Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MoltenFury",
+    "name": "Molten Fury",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Bow",
+    "tooltip": "Lights wooden arrows on fire",
+    "how": "Craft at an Iron or Lead Anvil from Hellstone Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HellwingBow",
+    "name": "Hellwing Bow",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Bow",
+    "tooltip": "Turns wooden arrows into homing hellbats",
+    "how": "Found in Shadow Chests in the Underworld",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Shotgun",
+    "name": "Shotgun",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Gun",
+    "tooltip": "Fires a spread of bullets",
+    "how": "Sold by the Arms Dealer in Hardmode",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ClockworkAssaultRifle",
+    "name": "Clockwork Assault Rifle",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Gun",
+    "tooltip": "Fires three-round bursts",
+    "how": "Dropped by the Wall of Flesh",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "DaedalusStormbow",
+    "name": "Daedalus Stormbow",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Bow",
+    "tooltip": "Rains arrows from the sky",
+    "how": "Dropped by Hallowed Mimics",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "OnyxBlaster",
+    "name": "Onyx Blaster",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Gun",
+    "tooltip": "Shotgun that also fires an exploding onyx bolt",
+    "how": "Craft from Shotgun, Souls of Night and Dark Shards",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Megashark",
+    "name": "Megashark",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Gun",
+    "tooltip": "Very fast gun with a chance to save ammo",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Minishark, Illegal Gun Parts, Shark Fins and Souls of Might",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HallowedRepeater",
+    "name": "Hallowed Repeater",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Repeater",
+    "tooltip": "Fast holy crossbow",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChlorophyteShotbow",
+    "name": "Chlorophyte Shotbow",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Repeater",
+    "tooltip": "Fires a spread of arrows",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Chlorophyte Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "VenusMagnum",
+    "name": "Venus Magnum",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Gun",
+    "tooltip": "Fast, accurate pistol",
+    "how": "Dropped by Plantera",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TacticalShotgun",
+    "name": "Tactical Shotgun",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Gun",
+    "tooltip": "Fires a tight spread of bullets",
+    "how": "Dropped by Tactical Skeletons in the post-Plantera Dungeon",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SniperRifle",
+    "name": "Sniper Rifle",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Gun",
+    "tooltip": "Long-range high-damage rifle",
+    "how": "Dropped by Skeleton Snipers in the post-Plantera Dungeon",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CandyCornRifle",
+    "name": "Candy Corn Rifle",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Gun",
+    "tooltip": "Uses Candy Corn ammo",
+    "how": "Dropped by the Pumpkin King (Pumpkin Moon)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ElfMelter",
+    "name": "Elf Melter",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Flamethrower",
+    "tooltip": "Gel-fueled flamethrower",
+    "how": "Dropped by Elf Copters (Frost Moon)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Stynger",
+    "name": "Stynger",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Launcher",
+    "tooltip": "Fires exploding bolts",
+    "how": "Dropped by Golem",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Tsunami",
+    "name": "Tsunami",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Bow",
+    "tooltip": "Fires a fan of arrows",
+    "how": "Dropped by Duke Fishron",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Xenopopper",
+    "name": "Xenopopper",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Gun",
+    "tooltip": "Fires bubbles that burst into bullets",
+    "how": "Dropped by the Martian Saucer",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FairyQueenRangedItem",
+    "name": "Eventide",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Bow",
+    "tooltip": "Fires rainbow arrows from the sides of the screen",
+    "how": "Dropped by the Empress of Light",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Phantasm",
+    "name": "Phantasm",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Bow",
+    "tooltip": "Fires extra phantom arrows",
+    "how": "Craft at the Ancient Manipulator from Vortex Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "VortexBeater",
+    "name": "Vortex Beater",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Gun",
+    "tooltip": "Rapid fire plus exploding rockets",
+    "how": "Craft at the Ancient Manipulator from Vortex Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SDMG",
+    "name": "S.D.M.G.",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Gun",
+    "tooltip": "Extremely fast gun that rarely uses ammo",
+    "how": "Dropped by Moon Lord",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Celeb2",
+    "name": "Celebration Mk2",
+    "category": "weapon",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Launcher",
+    "tooltip": "Rapid-fire firework launcher",
+    "how": "Dropped by Moon Lord",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WandofSparking",
+    "name": "Wand of Sparking",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Wand",
+    "tooltip": "Shoots small sparks",
+    "how": "Found in surface and underground chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Vilethorn",
+    "name": "Vilethorn",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Wand",
+    "tooltip": "Summons a piercing thorn",
+    "how": "Dropped from Shadow Orbs",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CrimsonRod",
+    "name": "Crimson Rod",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Wand",
+    "tooltip": "Summons a cloud that rains blood",
+    "how": "Dropped from Crimson Hearts",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MagicMissile",
+    "name": "Magic Missile",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Wand",
+    "tooltip": "Steerable magic missile",
+    "how": "Found in Dungeon chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AquaScepter",
+    "name": "Aqua Scepter",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Staff",
+    "tooltip": "Sprays a stream of water",
+    "how": "Found in Dungeon chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WaterBolt",
+    "name": "Water Bolt",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Spell tome",
+    "tooltip": "Fires a slow bouncing bolt of water",
+    "how": "Found on Dungeon bookshelves",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BookofSkulls",
+    "name": "Book of Skulls",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Spell tome",
+    "tooltip": "Fires homing skulls",
+    "how": "Dropped by Skeletron",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BeeGun",
+    "name": "Bee Gun",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Magic gun",
+    "tooltip": "Fires homing bees",
+    "how": "Dropped by Queen Bee",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpaceGun",
+    "name": "Space Gun",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Magic gun",
+    "tooltip": "Fires green lasers; free with full Meteor Armor",
+    "how": "Craft at an Iron or Lead Anvil from Meteorite Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "DemonScythe",
+    "name": "Demon Scythe",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Spell tome",
+    "tooltip": "Fires accelerating demon scythes",
+    "how": "Dropped by Demons in the Underworld",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Flamelash",
+    "name": "Flamelash",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Wand",
+    "tooltip": "Steerable fireball",
+    "how": "Found in Shadow Chests in the Underworld",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FlowerofFire",
+    "name": "Flower of Fire",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Wand",
+    "tooltip": "Throws bouncing fireballs",
+    "how": "Found in Shadow Chests in the Underworld",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "LaserRifle",
+    "name": "Laser Rifle",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Magic gun",
+    "tooltip": "Fires piercing lasers",
+    "how": "Dropped by the Wall of Flesh",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CrystalStorm",
+    "name": "Crystal Storm",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Spell tome",
+    "tooltip": "Fires a rapid stream of bouncing crystals",
+    "how": "Craft at a Bookcase from a Spell Tome, Crystal Shards and Souls of Light",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CursedFlames",
+    "name": "Cursed Flames",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Spell tome",
+    "tooltip": "Fires bouncing cursed fireballs",
+    "how": "Craft at a Bookcase from a Spell Tome, Cursed Flames and Souls of Night",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GoldenShower",
+    "name": "Golden Shower",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Spell tome",
+    "tooltip": "Sprays Ichor that lowers enemy defense",
+    "how": "Craft at a Bookcase from a Spell Tome, Ichor and Souls of Night",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ClingerStaff",
+    "name": "Clinger Staff",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Staff",
+    "tooltip": "Summons a wall of cursed flames",
+    "how": "Dropped by Clingers in the Underground Corruption",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "UnholyTrident",
+    "name": "Unholy Trident",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Staff",
+    "tooltip": "Fires piercing unholy tridents",
+    "how": "Dropped by Red Devils in the Underworld",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShadowbeamStaff",
+    "name": "Shadowbeam Staff",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Staff",
+    "tooltip": "Fires a bouncing shadow beam",
+    "how": "Dropped by Necromancers in the post-Plantera Dungeon",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "InfernoFork",
+    "name": "Inferno Fork",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Staff",
+    "tooltip": "Fires an exploding fireball",
+    "how": "Dropped by Diabolists in the post-Plantera Dungeon",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpectreStaff",
+    "name": "Spectre Staff",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Staff",
+    "tooltip": "Summons homing lost souls",
+    "how": "Dropped by Ragged Casters in the post-Plantera Dungeon",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "LeafBlower",
+    "name": "Leaf Blower",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Magic gun",
+    "tooltip": "Rapidly shoots sharp leaves",
+    "how": "Dropped by Plantera",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NettleBurst",
+    "name": "Nettle Burst",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Spear-like spell",
+    "tooltip": "Summons a long line of thorns",
+    "how": "Dropped by Plantera",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WaspGun",
+    "name": "Wasp Gun",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Magic gun",
+    "tooltip": "Fires homing wasps",
+    "how": "Dropped by Plantera",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BatScepter",
+    "name": "Bat Scepter",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Staff",
+    "tooltip": "Summons bats that attack enemies",
+    "how": "Dropped by the Pumpkin King (Pumpkin Moon)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BlizzardStaff",
+    "name": "Blizzard Staff",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Staff",
+    "tooltip": "Rains icicles on an area",
+    "how": "Dropped by the Ice Queen (Frost Moon)",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StaffofEarth",
+    "name": "Staff of Earth",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Staff",
+    "tooltip": "Summons a large boulder",
+    "how": "Dropped by Golem",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HeatRay",
+    "name": "Heat Ray",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Magic gun",
+    "tooltip": "Fires a fast piercing beam",
+    "how": "Dropped by Golem",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BubbleGun",
+    "name": "Bubble Gun",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Magic gun",
+    "tooltip": "Rapid-fires damaging bubbles",
+    "how": "Dropped by Duke Fishron",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "RazorbladeTyphoon",
+    "name": "Razorblade Typhoon",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Spell tome",
+    "tooltip": "Fires homing razor whirlpools",
+    "how": "Dropped by Duke Fishron",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ChargedBlasterCannon",
+    "name": "Charged Blaster Cannon",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Magic gun",
+    "tooltip": "Charges a sustained laser",
+    "how": "Dropped by the Martian Saucer",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FairyQueenMagicItem",
+    "name": "Nightglow",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Staff",
+    "tooltip": "Summons homing lights",
+    "how": "Dropped by the Empress of Light",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NebulaArcanum",
+    "name": "Nebula Arcanum",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Spell tome",
+    "tooltip": "Fires a homing astral orb",
+    "how": "Craft at the Ancient Manipulator from Nebula Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NebulaBlaze",
+    "name": "Nebula Blaze",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Spell tome",
+    "tooltip": "Fires homing nebula bolts",
+    "how": "Craft at the Ancient Manipulator from Nebula Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "LastPrism",
+    "name": "Last Prism",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Magic gun",
+    "tooltip": "Fires a converging rainbow laser",
+    "how": "Dropped by Moon Lord",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "LunarFlareBook",
+    "name": "Lunar Flare",
+    "category": "weapon",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Spell tome",
+    "tooltip": "Calls down lunar flares near the cursor",
+    "how": "Dropped by Moon Lord",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SlimeStaff",
+    "name": "Slime Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Minion staff",
+    "tooltip": "Summons a baby slime",
+    "how": "Rare drop from slimes",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BabyBirdStaff",
+    "name": "Finch Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Minion staff",
+    "tooltip": "Summons a finch",
+    "how": "Found in Living Tree chests",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FlinxStaff",
+    "name": "Flinx Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Minion staff",
+    "tooltip": "Summons a flinx",
+    "how": "Craft from Flinx Fur and Gold or Platinum Bars",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "VampireFrogStaff",
+    "name": "Vampire Frog Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Minion staff",
+    "tooltip": "Summons a life-stealing frog",
+    "how": "Dropped by Blood Moon fishing enemies",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AbigailsFlower",
+    "name": "Abigail's Flower",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Minion item",
+    "tooltip": "Summons Abigail, who grows stronger with more minion slots",
+    "how": "Found in a Graveyard biome at night",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HornetStaff",
+    "name": "Hornet Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Minion staff",
+    "tooltip": "Summons a hornet",
+    "how": "Craft from Bee Wax (Queen Bee drop)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ImpStaff",
+    "name": "Imp Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Minion staff",
+    "tooltip": "Summons a fire imp",
+    "how": "Craft at an Iron or Lead Anvil from Hellstone Bars",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BlandWhip",
+    "name": "Leather Whip",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Whip",
+    "tooltip": "Basic whip that boosts minion damage",
+    "how": "Craft from Leather",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ThornWhip",
+    "name": "Snapthorn",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Whip",
+    "tooltip": "Whip that poisons and boosts minion attack speed",
+    "how": "Craft from Jungle Spores, Stingers and Vines",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BoneWhip",
+    "name": "Spinal Tap",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Whip",
+    "tooltip": "Whip that boosts minion damage",
+    "how": "Dropped in the Dungeon",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FireWhip",
+    "name": "Firecracker",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Whip",
+    "tooltip": "Minions make whip-tagged enemies explode",
+    "how": "Dropped by the Wall of Flesh",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpiderStaff",
+    "name": "Spider Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Minion staff",
+    "tooltip": "Summons spiders",
+    "how": "Craft at an Iron or Lead Anvil from Spider Fangs",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "QueenSpiderStaff",
+    "name": "Queen Spider Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Sentry staff",
+    "tooltip": "Summons a spider queen that spits eggs",
+    "how": "Craft at an Iron or Lead Anvil from Spider Fangs",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PirateStaff",
+    "name": "Pirate Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Minion staff",
+    "tooltip": "Summons pirates",
+    "how": "Dropped during the Pirate Invasion",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SanguineStaff",
+    "name": "Sanguine Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Minion staff",
+    "tooltip": "Summons blood bats",
+    "how": "Dropped during a Hardmode Blood Moon",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "Smolstar",
+    "name": "Blade Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Minion staff",
+    "tooltip": "Summons swarms of tiny enchanted daggers",
+    "how": "Dropped by Queen Slime",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "OpticStaff",
+    "name": "Optic Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Minion staff",
+    "tooltip": "Summons the Twins to fight for you",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars, Lenses and Souls of Sight",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SwordWhip",
+    "name": "Durendal",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Whip",
+    "tooltip": "Boosts minion damage and attack speed",
+    "how": "Craft at a Mythril or Orichalcum Anvil from Hallowed Bars",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "PygmyStaff",
+    "name": "Pygmy Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Minion staff",
+    "tooltip": "Summons spear-throwing pygmies",
+    "how": "Dropped by Plantera",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "DeadlySphereStaff",
+    "name": "Deadly Sphere Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Minion staff",
+    "tooltip": "Summons a deadly sphere",
+    "how": "Dropped by Deadly Spheres during a Solar Eclipse",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "RavenStaff",
+    "name": "Raven Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Minion staff",
+    "tooltip": "Summons ravens",
+    "how": "Dropped by the Pumpkin King (Pumpkin Moon)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ScytheWhip",
+    "name": "Dark Harvest",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Whip",
+    "tooltip": "Minions summon scythes on whip-tagged enemies",
+    "how": "Dropped by Mourning Wood (Pumpkin Moon)",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TempestStaff",
+    "name": "Tempest Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Minion staff",
+    "tooltip": "Summons sharknadoes",
+    "how": "Dropped by Duke Fishron",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "XenoStaff",
+    "name": "Xeno Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Minion staff",
+    "tooltip": "Summons a UFO",
+    "how": "Dropped by the Martian Saucer",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "EmpressBlade",
+    "name": "Terraprisma",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Minion staff",
+    "tooltip": "Summons an enchanted blade",
+    "how": "Dropped by the Empress of Light (in daytime)",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "RainbowWhip",
+    "name": "Kaleidoscope",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostPlantera",
+    "stats": "Whip",
+    "tooltip": "Strong whip with a rainbow trail",
+    "how": "Dropped by the Empress of Light",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StardustCellStaff",
+    "name": "Stardust Cell Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Minion staff",
+    "tooltip": "Summons cells that burrow into enemies",
+    "how": "Craft at the Ancient Manipulator from Stardust Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "StardustDragonStaff",
+    "name": "Stardust Dragon Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Minion staff",
+    "tooltip": "Summons a dragon that grows with every slot",
+    "how": "Craft at the Ancient Manipulator from Stardust Fragments",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "RainbowCrystalStaff",
+    "name": "Rainbow Crystal Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Sentry staff",
+    "tooltip": "Summons a crystal that fires rainbow bursts",
+    "how": "Dropped by Moon Lord",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MoonlordTurretStaff",
+    "name": "Lunar Portal Staff",
+    "category": "weapon",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PostMoonLord",
+    "stats": "Sentry staff",
+    "tooltip": "Summons a portal that fires lasers",
+    "how": "Dropped by Moon Lord",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "LesserHealingPotion",
+    "name": "Lesser Healing Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Healing potion",
+    "tooltip": "Restores a small amount of life",
+    "how": "Craft from Bottles, Gel and Mushrooms",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HealingPotion",
+    "name": "Healing Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Healing potion",
+    "tooltip": "Restores life",
+    "how": "Brew from Lesser Healing Potions and Glowing Mushrooms",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GreaterHealingPotion",
+    "name": "Greater Healing Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Healing potion",
+    "tooltip": "Restores a lot of life",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Pixie Dust and Crystal Shards",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SuperHealingPotion",
+    "name": "Super Healing Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PostMoonLord",
+    "stats": "Healing potion",
+    "tooltip": "Restores a large amount of life",
+    "how": "Brew from Greater Healing Potions and each Celestial Fragment",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ManaPotion",
+    "name": "Mana Potion",
+    "category": "potion",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Mana potion",
+    "tooltip": "Restores mana",
+    "how": "Brew from Lesser Mana Potions and Glowing Mushrooms",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GreaterManaPotion",
+    "name": "Greater Mana Potion",
+    "category": "potion",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Mana potion",
+    "tooltip": "Restores more mana",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Fallen Stars and Pink Gel",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SuperManaPotion",
+    "name": "Super Mana Potion",
+    "category": "potion",
+    "classes": [
+      "magic"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Mana potion",
+    "tooltip": "Restores a large amount of mana",
+    "how": "Brew from Mana Potions, Crystal Shards and Unicorn Horn",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "IronskinPotion",
+    "name": "Ironskin Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases defense by 8",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Daybloom and Iron or Lead Ore",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "RegenerationPotion",
+    "name": "Regeneration Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Provides life regeneration",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Daybloom and a Mushroom",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SwiftnessPotion",
+    "name": "Swiftness Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases movement speed by 25%",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Blinkroot and Cactus",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "EndurancePotion",
+    "name": "Endurance Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Reduces damage taken by 10%",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Blinkroot and an Armored Cavefish",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HeartreachPotion",
+    "name": "Heartreach Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases pickup range for hearts",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Daybloom and a Crimson Tigerfish",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TitanPotion",
+    "name": "Titan Potion",
+    "category": "potion",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases knockback",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Shiverthorn and Bones",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ThornsPotion",
+    "name": "Thorns Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Attackers also take damage",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Cactus, Deathweed and Worm Tooth",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "RagePotion",
+    "name": "Rage Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases critical strike chance by 10%",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Deathweed and a Hemopiranha",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WrathPotion",
+    "name": "Wrath Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases damage by 10%",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Deathweed and an Ebonkoi",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "InfernoPotion",
+    "name": "Inferno Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Ignites nearby enemies",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Fireblossom and an Obsidifish",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "LifeforcePotion",
+    "name": "Lifeforce Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "EarlyHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases max life by 20%",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Moonglow, Shiverthorn, Waterleaf and a Prismite",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ArcheryPotion",
+    "name": "Archery Potion",
+    "category": "potion",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases arrow damage and speed",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Daybloom and a Lens",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "AmmoReservationPotion",
+    "name": "Ammo Reservation Potion",
+    "category": "potion",
+    "classes": [
+      "ranged"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "20% chance not to consume ammo",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Moonglow and a Double Cod",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MagicPowerPotion",
+    "name": "Magic Power Potion",
+    "category": "potion",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases magic damage by 20%",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Moonglow, Deathweed and a Fallen Star",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ManaRegenerationPotion",
+    "name": "Mana Regeneration Potion",
+    "category": "potion",
+    "classes": [
+      "magic"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases mana regeneration",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Daybloom and a Fallen Star",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SummoningPotion",
+    "name": "Summoning Potion",
+    "category": "potion",
+    "classes": [
+      "summon"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases your max number of minions by 1",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Moonglow and a Variegated Lardfish",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ObsidianSkinPotion",
+    "name": "Obsidian Skin Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Provides immunity to lava",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Fireblossom, Waterleaf and Obsidian",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GravitationPotion",
+    "name": "Gravitation Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Lets you flip gravity",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Fireblossom, Deathweed, Blinkroot and a Feather",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FeatherfallPotion",
+    "name": "Featherfall Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Slows falling speed",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Daybloom, Blinkroot and a Feather",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WaterWalkingPotion",
+    "name": "Water Walking Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Lets you walk on water",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Waterleaf and a Shark Fin",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "GillsPotion",
+    "name": "Gills Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Breathe water instead of air",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Waterleaf and Coral",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FlipperPotion",
+    "name": "Flipper Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Lets you swim",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water and Waterleaf",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "NightOwlPotion",
+    "name": "Night Owl Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases night vision",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Daybloom and Blinkroot",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "ShinePotion",
+    "name": "Shine Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Emits an aura of light",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Daybloom and a Glowing Mushroom",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SpelunkerPotion",
+    "name": "Spelunker Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Shows the location of treasure and ore",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Blinkroot, Moonglow and Gold or Platinum Ore",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "HunterPotion",
+    "name": "Hunter Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Shows the location of enemies",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Daybloom and Shiverthorn",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TrapsightPotion",
+    "name": "Dangersense Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Lets you see nearby danger sources",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Blinkroot and Cobweb",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "MiningPotion",
+    "name": "Mining Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases mining speed by 25%",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Blinkroot and an Antlion Mandible",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BuilderPotion",
+    "name": "Builder Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases placement speed and range",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Blinkroot, Moonglow and Shiverthorn",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "InvisibilityPotion",
+    "name": "Invisibility Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Grants invisibility and lowers enemy spawn awareness",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Blinkroot and Moonglow",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "BattlePotion",
+    "name": "Battle Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases enemy spawn rate",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Deathweed and a Rotten Chunk or Vertebra",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CalmingPotion",
+    "name": "Calming Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Decreases enemy aggression",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Daybloom, Shiverthorn and Moonglow",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "WarmthPotion",
+    "name": "Warmth Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Reduces damage from cold sources",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Shiverthorn, Fireblossom and a Frost Daggerfish",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "TeleportationPotion",
+    "name": "Teleportation Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Teleports you to a random location",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Fireblossom and a Chaos Fish",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "RecallPotion",
+    "name": "Recall Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Teleports you home",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Daybloom and a Specular Fish",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FishingPotion",
+    "name": "Fishing Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases fishing power",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Waterleaf and Crispy Honey",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "SonarPotion",
+    "name": "Sonar Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Shows what is on your hook",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Waterleaf and a fish",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "CratePotion",
+    "name": "Crate Potion",
+    "category": "potion",
+    "classes": [],
+    "tier": "PreHardmode",
+    "stats": "Buff potion",
+    "tooltip": "Increases chance to fish up crates",
+    "how": "Brew at a Placed Bottle or Alchemy Table from Bottled Water, Moonglow, Shiverthorn and Amber",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FlaskofPoison",
+    "name": "Flask of Poison",
+    "category": "potion",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Weapon imbue",
+    "tooltip": "Melee and whip attacks poison enemies",
+    "how": "Craft at an Imbuing Station from Bottled Water and Jungle Spores or Stingers",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FlaskofFire",
+    "name": "Flask of Fire",
+    "category": "potion",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Weapon imbue",
+    "tooltip": "Melee and whip attacks set enemies on fire",
+    "how": "Craft at an Imbuing Station from Bottled Water and Fireblossom",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FlaskofParty",
+    "name": "Flask of Party",
+    "category": "potion",
+    "classes": [
+      "melee"
+    ],
+    "tier": "PreHardmode",
+    "stats": "Weapon imbue",
+    "tooltip": "Melee and whip attacks release confetti",
+    "how": "Craft at an Imbuing Station from Bottled Water and Pink Gel",
+    "uncertain": true
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FlaskofCursedFlames",
+    "name": "Flask of Cursed Flames",
+    "category": "potion",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Weapon imbue",
+    "tooltip": "Melee and whip attacks inflict Cursed Inferno",
+    "how": "Craft at an Imbuing Station from Bottled Water and Cursed Flames",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FlaskofIchor",
+    "name": "Flask of Ichor",
+    "category": "potion",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Weapon imbue",
+    "tooltip": "Melee and whip attacks lower enemy defense",
+    "how": "Craft at an Imbuing Station from Bottled Water and Ichor",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FlaskofGold",
+    "name": "Flask of Gold",
+    "category": "potion",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Weapon imbue",
+    "tooltip": "Melee and whip attacks make enemies drop more gold",
+    "how": "Craft at an Imbuing Station from Bottled Water and Gold Dust",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FlaskofVenom",
+    "name": "Flask of Venom",
+    "category": "potion",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Weapon imbue",
+    "tooltip": "Melee and whip attacks inflict Venom",
+    "how": "Craft at an Imbuing Station from Bottled Water and Vials of Venom",
+    "uncertain": false
+  },
+  {
+    "mod": "Terraria",
+    "vanilla_id": "FlaskofNanites",
+    "name": "Flask of Nanites",
+    "category": "potion",
+    "classes": [
+      "melee"
+    ],
+    "tier": "EarlyHardmode",
+    "stats": "Weapon imbue",
+    "tooltip": "Melee and whip attacks confuse enemies",
+    "how": "Craft at an Imbuing Station from Bottled Water and Nanites",
+    "uncertain": true
+  }
+]
