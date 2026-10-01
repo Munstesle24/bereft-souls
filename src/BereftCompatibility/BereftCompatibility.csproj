@@ -3,7 +3,10 @@
     <Import Project="../common/Mod.targets"/>
 
     <ItemGroup>
-        <ProjectReference Include="..\refs\FargowiltasCrossmod.csproj"/>
+        <!-- The DLC is only a runtime dependency (see build.txt).  Its last
+             public source no longer compiles against current Calamity. -->
+        <ProjectReference Include="..\refs\CalamityMod.csproj"/>
+        <ProjectReference Include="..\refs\FargowiltasSouls.csproj"/>
         <ProjectReference Include="..\refs\SOTS.csproj"/>
         <ProjectReference Include="..\refs\Luminance.csproj"/>
     </ItemGroup>

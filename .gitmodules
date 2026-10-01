@@ -19,3 +19,6 @@
 [submodule "src/refs/FargowiltasCrossmod"]
 	path = src/refs/FargowiltasCrossmod
 	url = https://github.com/chairclr/FargowiltasCrossmod.git
+[submodule "src/refs/QuestBooks"]
+	path = src/refs/QuestBooks
+	url = https://github.com/bereft-souls/QuestBooks.git

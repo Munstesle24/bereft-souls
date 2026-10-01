@@ -3,4 +3,4 @@ author = The Bereft Souls Development Team
 version = 1.0.0
 
 weakReferences =
-modReferences = BereftCompatibility@1.0.0.0
+modReferences = BereftCompatibility@1.0.0.0, QuestBooks, CalamityMod, SOTS

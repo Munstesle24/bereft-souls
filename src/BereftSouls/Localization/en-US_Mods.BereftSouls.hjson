@@ -1,1 +1,172 @@
+QuestBooks: {
+	DesertScourgeDefeated: {
+		Title: The Desert Scourge
+		Contents: Defeat The Desert Scourge.
+	}
 
+	GlowmothDefeated: {
+		Title: Glowmoth
+		Contents: Defeat Glowmoth.
+	}
+
+	CrabulonDefeated: {
+		Title: Crabulon
+		Contents: Defeat Crabulon.
+	}
+
+	HiveMindDefeated: {
+		Title: The Hive Mind
+		Contents: Defeat The Hive Mind.
+	}
+
+	PerforatorsDefeated: {
+		Title: The Perforators
+		Contents: Defeat The Perforators.
+	}
+
+	PutridPinkyDefeated: {
+		Title: Putrid Pinky
+		Contents: Defeat Putrid Pinky.
+	}
+
+	PharaohsCurseDefeated: {
+		Title: Pharaoh's Curse
+		Contents: Defeat Pharaoh's Curse.
+	}
+
+	SlimeGodDefeated: {
+		Title: The Slime God
+		Contents: Defeat The Slime God.
+	}
+
+	ExcavatorDefeated: {
+		Title: The Excavator
+		Contents: Defeat The Excavator.
+	}
+
+	AdvisorDefeated: {
+		Title: The Advisor
+		Contents: Defeat The Advisor.
+	}
+
+	CryogenDefeated: {
+		Title: Cryogen
+		Contents: Defeat Cryogen.
+	}
+
+	AquaticScourgeDefeated: {
+		Title: The Aquatic Scourge
+		Contents: Defeat The Aquatic Scourge.
+	}
+
+	BrimstoneElementalDefeated: {
+		Title: The Brimstone Elemental
+		Contents: Defeat The Brimstone Elemental.
+	}
+
+	PolarisDefeated: {
+		Title: Polaris
+		Contents: Defeat Polaris.
+	}
+
+	CalamitasCloneDefeated: {
+		Title: The Calamitas Clone
+		Contents: Defeat The Calamitas Clone.
+	}
+
+	LeviathanDefeated: {
+		Title: The Leviathan and Anahita
+		Contents: Defeat The Leviathan and Anahita.
+	}
+
+	AstrumAureusDefeated: {
+		Title: Astrum Aureus
+		Contents: Defeat Astrum Aureus.
+	}
+
+	PlaguebringerDefeated: {
+		Title: The Plaguebringer Goliath
+		Contents: Defeat The Plaguebringer Goliath.
+	}
+
+	RavagerDefeated: {
+		Title: Ravager
+		Contents: Defeat Ravager.
+	}
+
+	LuxDefeated: {
+		Title: Lux
+		Contents: Defeat Lux.
+	}
+
+	AstrumDeusDefeated: {
+		Title: Astrum Deus
+		Contents: Defeat Astrum Deus.
+	}
+
+	SubspaceSerpentDefeated: {
+		Title: The Subspace Serpent
+		Contents: Defeat The Subspace Serpent.
+	}
+
+	ProfanedGuardiansDefeated: {
+		Title: The Profaned Guardians
+		Contents: Defeat The Profaned Guardians.
+	}
+
+	DragonfollyDefeated: {
+		Title: The Dragonfolly
+		Contents: Defeat The Dragonfolly.
+	}
+
+	ProvidenceDefeated: {
+		Title: Providence, the Profaned Goddess
+		Contents: Defeat Providence, the Profaned Goddess.
+	}
+
+	CeaselessVoidDefeated: {
+		Title: The Ceaseless Void
+		Contents: Defeat The Ceaseless Void.
+	}
+
+	StormWeaverDefeated: {
+		Title: The Storm Weaver
+		Contents: Defeat The Storm Weaver.
+	}
+
+	SignusDefeated: {
+		Title: Signus, Envoy of the Devourer
+		Contents: Defeat Signus, Envoy of the Devourer.
+	}
+
+	PolterghastDefeated: {
+		Title: Polterghast
+		Contents: Defeat Polterghast.
+	}
+
+	OldDukeDefeated: {
+		Title: The Old Duke
+		Contents: Defeat The Old Duke.
+	}
+
+	DevourerOfGodsDefeated: {
+		Title: The Devourer of Gods
+		Contents: Defeat The Devourer of Gods.
+	}
+
+	YharonDefeated: {
+		Title: Yharon, Dragon of Rebirth
+		Contents: Defeat Yharon, Dragon of Rebirth.
+	}
+
+	ExoMechsDefeated: {
+		Title: The Exo Mechs
+		Contents: Defeat The Exo Mechs.
+	}
+
+	SupremeCalamitasDefeated: {
+		Title: Supreme Witch, Calamitas
+		Contents: Defeat Supreme Witch, Calamitas.
+	}
+
+}

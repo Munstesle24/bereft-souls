@@ -4,6 +4,9 @@
 
     <ItemGroup>
         <ProjectReference Include="..\BereftCompatibility\BereftCompatibility.csproj"/>
+        <ProjectReference Include="..\refs\CalamityMod.csproj"/>
+        <ProjectReference Include="..\refs\SOTS.csproj"/>
+        <ProjectReference Include="..\refs\QuestBooks.csproj"/>
     </ItemGroup>
 
 </Project>
