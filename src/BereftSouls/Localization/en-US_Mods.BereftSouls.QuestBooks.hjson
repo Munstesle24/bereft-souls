@@ -5,18 +5,37 @@ Gear: {
 	Summoner: Summoner Gear
 	Rogue: Rogue Gear
 	General: General Gear
+	Accessories: Accessory Tree
+}
+
+GearHeaderMeleeAccessoriesPreHardmode: {
+	Title: "Melee Gear: Other Pre-Hardmode Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Pre-Hardmode accessories"
+}
+
+GearHeaderMeleeAccessoriesEarlyHardmode: {
+	Title: "Melee Gear: Other Early Hardmode Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Early Hardmode accessories"
+}
+
+GearHeaderMeleeAccessoriesPostPlantera: {
+	Title: "Melee Gear: Other Post-Plantera Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Plantera accessories"
+}
+
+GearHeaderMeleeAccessoriesPostMoonLord: {
+	Title: "Melee Gear: Other Post-Moon Lord Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Moon Lord accessories"
 }
 
 GearHeaderMeleePreHardmodeArmor: {
 	Title: "Melee Gear: Armor Sets"
 	Contents: "Pre-Hardmode. Full sets for this class at this tier. Wear every piece to complete one."
 	Tooltip: "Armor Sets"
-}
-
-GearHeaderMeleePreHardmodeAccessory: {
-	Title: "Melee Gear: Accessories"
-	Contents: "Pre-Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderMeleePreHardmodeWeapon: {
@@ -37,12 +56,6 @@ GearHeaderMeleeEarlyHardmodeArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderMeleeEarlyHardmodeAccessory: {
-	Title: "Melee Gear: Accessories"
-	Contents: "Early Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderMeleeEarlyHardmodeWeapon: {
 	Title: "Melee Gear: Weapons"
 	Contents: "Early Hardmode. Notable weapons at this tier. Own one to complete it."
@@ -61,12 +74,6 @@ GearHeaderMeleePostPlanteraArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderMeleePostPlanteraAccessory: {
-	Title: "Melee Gear: Accessories"
-	Contents: "Post-Plantera. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderMeleePostPlanteraWeapon: {
 	Title: "Melee Gear: Weapons"
 	Contents: "Post-Plantera. Notable weapons at this tier. Own one to complete it."
@@ -77,12 +84,6 @@ GearHeaderMeleePostMoonLordArmor: {
 	Title: "Melee Gear: Armor Sets"
 	Contents: "Post-Moon Lord. Full sets for this class at this tier. Wear every piece to complete one."
 	Tooltip: "Armor Sets"
-}
-
-GearHeaderMeleePostMoonLordAccessory: {
-	Title: "Melee Gear: Accessories"
-	Contents: "Post-Moon Lord. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderMeleePostMoonLordWeapon: {
@@ -103,28 +104,34 @@ GearHeaderMeleeEndgameArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderMeleeEndgameAccessory: {
-	Title: "Melee Gear: Accessories"
-	Contents: "Endgame. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderMeleeEndgameWeapon: {
 	Title: "Melee Gear: Weapons"
 	Contents: "Endgame. Notable weapons at this tier. Own one to complete it."
 	Tooltip: "Weapons"
 }
 
+GearHeaderRangedAccessoriesPreHardmode: {
+	Title: "Ranged Gear: Other Pre-Hardmode Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Pre-Hardmode accessories"
+}
+
+GearHeaderRangedAccessoriesPostPlantera: {
+	Title: "Ranged Gear: Other Post-Plantera Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Plantera accessories"
+}
+
+GearHeaderRangedAccessoriesPostMoonLord: {
+	Title: "Ranged Gear: Other Post-Moon Lord Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Moon Lord accessories"
+}
+
 GearHeaderRangedPreHardmodeArmor: {
 	Title: "Ranged Gear: Armor Sets"
 	Contents: "Pre-Hardmode. Full sets for this class at this tier. Wear every piece to complete one."
 	Tooltip: "Armor Sets"
-}
-
-GearHeaderRangedPreHardmodeAccessory: {
-	Title: "Ranged Gear: Accessories"
-	Contents: "Pre-Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderRangedPreHardmodeWeapon: {
@@ -145,12 +152,6 @@ GearHeaderRangedEarlyHardmodeArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderRangedEarlyHardmodeAccessory: {
-	Title: "Ranged Gear: Accessories"
-	Contents: "Early Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderRangedEarlyHardmodeWeapon: {
 	Title: "Ranged Gear: Weapons"
 	Contents: "Early Hardmode. Notable weapons at this tier. Own one to complete it."
@@ -169,12 +170,6 @@ GearHeaderRangedPostPlanteraArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderRangedPostPlanteraAccessory: {
-	Title: "Ranged Gear: Accessories"
-	Contents: "Post-Plantera. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderRangedPostPlanteraWeapon: {
 	Title: "Ranged Gear: Weapons"
 	Contents: "Post-Plantera. Notable weapons at this tier. Own one to complete it."
@@ -185,12 +180,6 @@ GearHeaderRangedPostMoonLordArmor: {
 	Title: "Ranged Gear: Armor Sets"
 	Contents: "Post-Moon Lord. Full sets for this class at this tier. Wear every piece to complete one."
 	Tooltip: "Armor Sets"
-}
-
-GearHeaderRangedPostMoonLordAccessory: {
-	Title: "Ranged Gear: Accessories"
-	Contents: "Post-Moon Lord. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderRangedPostMoonLordWeapon: {
@@ -205,28 +194,34 @@ GearHeaderRangedEndgameArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderRangedEndgameAccessory: {
-	Title: "Ranged Gear: Accessories"
-	Contents: "Endgame. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderRangedEndgameWeapon: {
 	Title: "Ranged Gear: Weapons"
 	Contents: "Endgame. Notable weapons at this tier. Own one to complete it."
 	Tooltip: "Weapons"
 }
 
+GearHeaderMagicAccessoriesEarlyHardmode: {
+	Title: "Magic Gear: Other Early Hardmode Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Early Hardmode accessories"
+}
+
+GearHeaderMagicAccessoriesPostPlantera: {
+	Title: "Magic Gear: Other Post-Plantera Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Plantera accessories"
+}
+
+GearHeaderMagicAccessoriesPostMoonLord: {
+	Title: "Magic Gear: Other Post-Moon Lord Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Moon Lord accessories"
+}
+
 GearHeaderMagicPreHardmodeArmor: {
 	Title: "Magic Gear: Armor Sets"
 	Contents: "Pre-Hardmode. Full sets for this class at this tier. Wear every piece to complete one."
 	Tooltip: "Armor Sets"
-}
-
-GearHeaderMagicPreHardmodeAccessory: {
-	Title: "Magic Gear: Accessories"
-	Contents: "Pre-Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderMagicPreHardmodeWeapon: {
@@ -247,12 +242,6 @@ GearHeaderMagicEarlyHardmodeArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderMagicEarlyHardmodeAccessory: {
-	Title: "Magic Gear: Accessories"
-	Contents: "Early Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderMagicEarlyHardmodeWeapon: {
 	Title: "Magic Gear: Weapons"
 	Contents: "Early Hardmode. Notable weapons at this tier. Own one to complete it."
@@ -269,12 +258,6 @@ GearHeaderMagicPostPlanteraArmor: {
 	Title: "Magic Gear: Armor Sets"
 	Contents: "Post-Plantera. Full sets for this class at this tier. Wear every piece to complete one."
 	Tooltip: "Armor Sets"
-}
-
-GearHeaderMagicPostPlanteraAccessory: {
-	Title: "Magic Gear: Accessories"
-	Contents: "Post-Plantera. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderMagicPostPlanteraWeapon: {
@@ -295,12 +278,6 @@ GearHeaderMagicPostMoonLordArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderMagicPostMoonLordAccessory: {
-	Title: "Magic Gear: Accessories"
-	Contents: "Post-Moon Lord. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderMagicPostMoonLordWeapon: {
 	Title: "Magic Gear: Weapons"
 	Contents: "Post-Moon Lord. Notable weapons at this tier. Own one to complete it."
@@ -313,28 +290,46 @@ GearHeaderMagicEndgameArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderMagicEndgameAccessory: {
-	Title: "Magic Gear: Accessories"
-	Contents: "Endgame. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderMagicEndgameWeapon: {
 	Title: "Magic Gear: Weapons"
 	Contents: "Endgame. Notable weapons at this tier. Own one to complete it."
 	Tooltip: "Weapons"
 }
 
+GearHeaderSummonerAccessoriesPreHardmode: {
+	Title: "Summoner Gear: Other Pre-Hardmode Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Pre-Hardmode accessories"
+}
+
+GearHeaderSummonerAccessoriesEarlyHardmode: {
+	Title: "Summoner Gear: Other Early Hardmode Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Early Hardmode accessories"
+}
+
+GearHeaderSummonerAccessoriesPostPlantera: {
+	Title: "Summoner Gear: Other Post-Plantera Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Plantera accessories"
+}
+
+GearHeaderSummonerAccessoriesPostMoonLord: {
+	Title: "Summoner Gear: Other Post-Moon Lord Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Moon Lord accessories"
+}
+
+GearHeaderSummonerAccessoriesEndgame: {
+	Title: "Summoner Gear: Other Endgame Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Endgame accessories"
+}
+
 GearHeaderSummonerPreHardmodeArmor: {
 	Title: "Summoner Gear: Armor Sets"
 	Contents: "Pre-Hardmode. Full sets for this class at this tier. Wear every piece to complete one."
 	Tooltip: "Armor Sets"
-}
-
-GearHeaderSummonerPreHardmodeAccessory: {
-	Title: "Summoner Gear: Accessories"
-	Contents: "Pre-Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderSummonerPreHardmodeWeapon: {
@@ -355,12 +350,6 @@ GearHeaderSummonerEarlyHardmodeArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderSummonerEarlyHardmodeAccessory: {
-	Title: "Summoner Gear: Accessories"
-	Contents: "Early Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderSummonerEarlyHardmodeWeapon: {
 	Title: "Summoner Gear: Weapons"
 	Contents: "Early Hardmode. Notable weapons at this tier. Own one to complete it."
@@ -379,12 +368,6 @@ GearHeaderSummonerPostPlanteraArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderSummonerPostPlanteraAccessory: {
-	Title: "Summoner Gear: Accessories"
-	Contents: "Post-Plantera. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderSummonerPostPlanteraWeapon: {
 	Title: "Summoner Gear: Weapons"
 	Contents: "Post-Plantera. Notable weapons at this tier. Own one to complete it."
@@ -395,12 +378,6 @@ GearHeaderSummonerPostMoonLordArmor: {
 	Title: "Summoner Gear: Armor Sets"
 	Contents: "Post-Moon Lord. Full sets for this class at this tier. Wear every piece to complete one."
 	Tooltip: "Armor Sets"
-}
-
-GearHeaderSummonerPostMoonLordAccessory: {
-	Title: "Summoner Gear: Accessories"
-	Contents: "Post-Moon Lord. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderSummonerPostMoonLordWeapon: {
@@ -421,28 +398,40 @@ GearHeaderSummonerEndgameArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderSummonerEndgameAccessory: {
-	Title: "Summoner Gear: Accessories"
-	Contents: "Endgame. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderSummonerEndgameWeapon: {
 	Title: "Summoner Gear: Weapons"
 	Contents: "Endgame. Notable weapons at this tier. Own one to complete it."
 	Tooltip: "Weapons"
 }
 
+GearHeaderRogueAccessoriesPreHardmode: {
+	Title: "Rogue Gear: Other Pre-Hardmode Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Pre-Hardmode accessories"
+}
+
+GearHeaderRogueAccessoriesPostPlantera: {
+	Title: "Rogue Gear: Other Post-Plantera Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Plantera accessories"
+}
+
+GearHeaderRogueAccessoriesPostMoonLord: {
+	Title: "Rogue Gear: Other Post-Moon Lord Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Moon Lord accessories"
+}
+
+GearHeaderRogueAccessoriesEndgame: {
+	Title: "Rogue Gear: Other Endgame Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Endgame accessories"
+}
+
 GearHeaderRoguePreHardmodeArmor: {
 	Title: "Rogue Gear: Armor Sets"
 	Contents: "Pre-Hardmode. Full sets for this class at this tier. Wear every piece to complete one."
 	Tooltip: "Armor Sets"
-}
-
-GearHeaderRoguePreHardmodeAccessory: {
-	Title: "Rogue Gear: Accessories"
-	Contents: "Pre-Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderRoguePreHardmodeWeapon: {
@@ -463,12 +452,6 @@ GearHeaderRogueEarlyHardmodeArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderRogueEarlyHardmodeAccessory: {
-	Title: "Rogue Gear: Accessories"
-	Contents: "Early Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderRogueEarlyHardmodeWeapon: {
 	Title: "Rogue Gear: Weapons"
 	Contents: "Early Hardmode. Notable weapons at this tier. Own one to complete it."
@@ -487,12 +470,6 @@ GearHeaderRoguePostPlanteraArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderRoguePostPlanteraAccessory: {
-	Title: "Rogue Gear: Accessories"
-	Contents: "Post-Plantera. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderRoguePostPlanteraWeapon: {
 	Title: "Rogue Gear: Weapons"
 	Contents: "Post-Plantera. Notable weapons at this tier. Own one to complete it."
@@ -503,12 +480,6 @@ GearHeaderRoguePostMoonLordArmor: {
 	Title: "Rogue Gear: Armor Sets"
 	Contents: "Post-Moon Lord. Full sets for this class at this tier. Wear every piece to complete one."
 	Tooltip: "Armor Sets"
-}
-
-GearHeaderRoguePostMoonLordAccessory: {
-	Title: "Rogue Gear: Accessories"
-	Contents: "Post-Moon Lord. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderRoguePostMoonLordWeapon: {
@@ -529,28 +500,46 @@ GearHeaderRogueEndgameArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderRogueEndgameAccessory: {
-	Title: "Rogue Gear: Accessories"
-	Contents: "Endgame. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderRogueEndgameWeapon: {
 	Title: "Rogue Gear: Weapons"
 	Contents: "Endgame. Notable weapons at this tier. Own one to complete it."
 	Tooltip: "Weapons"
 }
 
+GearHeaderGeneralAccessoriesPreHardmode: {
+	Title: "General Gear: Other Pre-Hardmode Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Pre-Hardmode accessories"
+}
+
+GearHeaderGeneralAccessoriesEarlyHardmode: {
+	Title: "General Gear: Other Early Hardmode Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Early Hardmode accessories"
+}
+
+GearHeaderGeneralAccessoriesPostPlantera: {
+	Title: "General Gear: Other Post-Plantera Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Plantera accessories"
+}
+
+GearHeaderGeneralAccessoriesPostMoonLord: {
+	Title: "General Gear: Other Post-Moon Lord Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Post-Moon Lord accessories"
+}
+
+GearHeaderGeneralAccessoriesEndgame: {
+	Title: "General Gear: Other Endgame Accessories"
+	Contents: "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+	Tooltip: "Other Endgame accessories"
+}
+
 GearHeaderGeneralPreHardmodeArmor: {
 	Title: "General Gear: Armor Sets"
 	Contents: "Pre-Hardmode. Full sets for this class at this tier. Wear every piece to complete one."
 	Tooltip: "Armor Sets"
-}
-
-GearHeaderGeneralPreHardmodeAccessory: {
-	Title: "General Gear: Accessories"
-	Contents: "Pre-Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderGeneralPreHardmodeWeapon: {
@@ -571,12 +560,6 @@ GearHeaderGeneralEarlyHardmodeArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderGeneralEarlyHardmodeAccessory: {
-	Title: "General Gear: Accessories"
-	Contents: "Early Hardmode. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderGeneralEarlyHardmodeWeapon: {
 	Title: "General Gear: Weapons"
 	Contents: "Early Hardmode. Notable weapons at this tier. Own one to complete it."
@@ -595,22 +578,10 @@ GearHeaderGeneralPostPlanteraArmor: {
 	Tooltip: "Armor Sets"
 }
 
-GearHeaderGeneralPostPlanteraAccessory: {
-	Title: "General Gear: Accessories"
-	Contents: "Post-Plantera. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
-}
-
 GearHeaderGeneralPostPlanteraPotion: {
 	Title: "General Gear: Potions and Flasks"
 	Contents: "Post-Plantera. Buffs worth brewing for this tier. Own one to complete it."
 	Tooltip: "Potions and Flasks"
-}
-
-GearHeaderGeneralPostMoonLordAccessory: {
-	Title: "General Gear: Accessories"
-	Contents: "Post-Moon Lord. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearHeaderGeneralPostMoonLordWeapon: {
@@ -623,12 +594,6 @@ GearHeaderGeneralPostMoonLordPotion: {
 	Title: "General Gear: Potions and Flasks"
 	Contents: "Post-Moon Lord. Buffs worth brewing for this tier. Own one to complete it."
 	Tooltip: "Potions and Flasks"
-}
-
-GearHeaderGeneralEndgameAccessory: {
-	Title: "General Gear: Accessories"
-	Contents: "Endgame. Trinkets worth slotting at this tier. Equip one to complete it."
-	Tooltip: "Accessories"
 }
 
 GearAcrobaticBobber: {
@@ -10157,6 +10122,132 @@ GearFlaskofNanites: {
 	Title: "Flask of Nanites"
 	Contents: "[c/79BD84:Potion] Obtain Flask of Nanites. Weapon imbue. Melee and whip attacks confuse enemies. How to get it: Craft at an Imbuing Station from Bottled Water and Nanites [c/9AA0A6:(source unconfirmed)]"
 	Tooltip: "[c/79BD84:Potion] Flask of Nanites: Weapon imbue"
+}
+
+GearRocketBoots: {
+	Title: "Rocket Boots"
+	Contents: "[c/6CC4E8:Accessory] Equip Rocket Boots. Accessory. Allows flight for a short time. How to get it: Sold by the Goblin Tinkerer"
+	Tooltip: "[c/6CC4E8:Accessory] Rocket Boots: Accessory"
+}
+
+GearAnkletoftheWind: {
+	Title: "Anklet of the Wind"
+	Contents: "[c/6CC4E8:Accessory] Equip Anklet of the Wind. Accessory. 10% increased movement speed. How to get it: Found in Underground Jungle chests [c/9AA0A6:(source unconfirmed)]"
+	Tooltip: "[c/6CC4E8:Accessory] Anklet of the Wind: Accessory"
+}
+
+GearAglet: {
+	Title: "Aglet"
+	Contents: "[c/6CC4E8:Accessory] Equip Aglet. Accessory. 5% increased movement speed. How to get it: Found in surface and underground chests"
+	Tooltip: "[c/6CC4E8:Accessory] Aglet: Accessory"
+}
+
+GearIceSkates: {
+	Title: "Ice Skates"
+	Contents: "[c/6CC4E8:Accessory] Equip Ice Skates. Accessory. Extra mobility on ice; ice will not break when you fall on it. How to get it: Found in Ice biome chests"
+	Tooltip: "[c/6CC4E8:Accessory] Ice Skates: Accessory"
+}
+
+GearLavaWaders: {
+	Title: "Lava Waders"
+	Contents: "[c/6CC4E8:Accessory] Equip Lava Waders. Accessory. Walk on water and lava; immunity to fire blocks and some lava damage. How to get it: Combine at a Tinkerer's Workshop from Obsidian Water Walking Boots and a Lava Charm"
+	Tooltip: "[c/6CC4E8:Accessory] Lava Waders: Accessory"
+}
+
+GearTigerClimbingGear: {
+	Title: "Tiger Climbing Gear"
+	Contents: "[c/6CC4E8:Accessory] Equip Tiger Climbing Gear. Accessory. Allows the ability to climb walls. How to get it: Combine at a Tinkerer's Workshop from Climbing Claws and Shoe Spikes"
+	Tooltip: "[c/6CC4E8:Accessory] Tiger Climbing Gear: Accessory"
+}
+
+GearClimbingClaws: {
+	Title: "Climbing Claws"
+	Contents: "[c/6CC4E8:Accessory] Equip Climbing Claws. Accessory. Allows the ability to slide down walls. How to get it: Found in underground chests"
+	Tooltip: "[c/6CC4E8:Accessory] Climbing Claws: Accessory"
+}
+
+GearShoeSpikes: {
+	Title: "Shoe Spikes"
+	Contents: "[c/6CC4E8:Accessory] Equip Shoe Spikes. Accessory. Allows the ability to slide down walls. How to get it: Found in underground chests"
+	Tooltip: "[c/6CC4E8:Accessory] Shoe Spikes: Accessory"
+}
+
+GearShackle: {
+	Title: "Shackle"
+	Contents: "[c/6CC4E8:Accessory] Equip Shackle. Accessory, 1 defense. Increases defense by 1. How to get it: Dropped by Zombies"
+	Tooltip: "[c/6CC4E8:Accessory] Shackle: Accessory, 1 defense"
+}
+
+GearMoonStone: {
+	Title: "Moon Stone"
+	Contents: "[c/6CC4E8:Accessory] Equip Moon Stone. Accessory. Increases all stats at night. How to get it: Dropped by Hardmode Eclipse enemies (Vampires) [c/9AA0A6:(source unconfirmed)]"
+	Tooltip: "[c/6CC4E8:Accessory] Moon Stone: Accessory"
+}
+
+GearMoonShell: {
+	Title: "Moon Shell"
+	Contents: "[c/6CC4E8:Accessory] Equip Moon Shell. Accessory. Turns the holder into a werewolf at night and a merfolk in water. How to get it: Combine at a Tinkerer's Workshop from Moon Charm and Neptune's Shell"
+	Tooltip: "[c/6CC4E8:Accessory] Moon Shell: Accessory"
+}
+
+GearFishingBobber: {
+	Title: "Fishing Bobber"
+	Contents: "[c/6CC4E8:Accessory] Equip Fishing Bobber. Accessory. Your fishing bobber glows. How to get it: Reward from the Angler [c/9AA0A6:(source unconfirmed)]"
+	Tooltip: "[c/6CC4E8:Accessory] Fishing Bobber: Accessory"
+}
+
+GearLavaproofTackleBag: {
+	Title: "Lavaproof Tackle Bag"
+	Contents: "[c/6CC4E8:Accessory] Equip Lavaproof Tackle Bag. Accessory. Fishing line never breaks, fishing in lava, bait is used less. How to get it: Combine at a Tinkerer's Workshop from the Angler's fishing accessories [c/9AA0A6:(source unconfirmed)]"
+	Tooltip: "[c/6CC4E8:Accessory] Lavaproof Tackle Bag: Accessory"
+}
+
+GearArcticDivingGear: {
+	Title: "Arctic Diving Gear"
+	Contents: "[c/6CC4E8:Accessory] Equip Arctic Diving Gear. Accessory. Swim, breathe underwater, extra ice mobility and light underwater. How to get it: Combine at a Tinkerer's Workshop from Jellyfish Diving Gear and Ice Skates"
+	Tooltip: "[c/6CC4E8:Accessory] Arctic Diving Gear: Accessory"
+}
+
+GearSweetheartNecklace: {
+	Title: "Sweetheart Necklace"
+	Contents: "[c/6CC4E8:Accessory] Equip Sweetheart Necklace. Accessory. Releases bees and increases movement speed when damaged. How to get it: Combine at a Tinkerer's Workshop from Honey Comb and Panic Necklace"
+	Tooltip: "[c/6CC4E8:Accessory] Sweetheart Necklace: Accessory"
+}
+
+GearFrogLeg: {
+	Title: "Frog Leg"
+	Contents: "[c/6CC4E8:Accessory] Equip Frog Leg. Accessory. Increases jump speed and allows auto-jump. How to get it: Caught while fishing (crate or catch) [c/9AA0A6:(source unconfirmed)]"
+	Tooltip: "[c/6CC4E8:Accessory] Frog Leg: Accessory"
+}
+
+GearFrogFlipper: {
+	Title: "Frog Flipper"
+	Contents: "[c/6CC4E8:Accessory] Equip Frog Flipper. Accessory. Frog Leg and Flipper effects. How to get it: Combine at a Tinkerer's Workshop from Frog Leg and Flipper"
+	Tooltip: "[c/6CC4E8:Accessory] Frog Flipper: Accessory"
+}
+
+GearShinyStone: {
+	Title: "Shiny Stone"
+	Contents: "[c/6CC4E8:Accessory] Equip Shiny Stone. Accessory. Greatly increases life regeneration when not moving. How to get it: Found in Underground Jungle after Plantera (Chlorophyte/Life Fruit areas) [c/9AA0A6:(source unconfirmed)]"
+	Tooltip: "[c/6CC4E8:Accessory] Shiny Stone: Accessory"
+}
+
+GearGreedyRing: {
+	Title: "Greedy Ring"
+	Contents: "[c/6CC4E8:Accessory] Equip Greedy Ring. Accessory. Increases coin pickup range and shops have lower prices. How to get it: Sold by the Goblin Tinkerer during Hardmode [c/9AA0A6:(source unconfirmed)]"
+	Tooltip: "[c/6CC4E8:Accessory] Greedy Ring: Accessory"
+}
+
+GearMedicatedBandage: {
+	Title: "Medicated Bandage"
+	Contents: "[c/6CC4E8:Accessory] Equip Medicated Bandage. Accessory. Immunity to Poisoned and Bleeding. How to get it: Combine at a Tinkerer's Workshop from Adhesive Bandage and Bezoar"
+	Tooltip: "[c/6CC4E8:Accessory] Medicated Bandage: Accessory"
+}
+
+GearArmorPolish: {
+	Title: "Armor Polish"
+	Contents: "[c/6CC4E8:Accessory] Equip Armor Polish. Accessory. Immunity to Broken Armor. How to get it: Dropped by Armored Skeletons and Blue Armored Bones"
+	Tooltip: "[c/6CC4E8:Accessory] Armor Polish: Accessory"
 }
 
 GearSetcalamitymodaerospecmagic: {

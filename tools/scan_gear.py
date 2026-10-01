@@ -1658,6 +1658,11 @@ def main() -> int:
             }
             if tier_fallback:
                 rec["tier_inferred"] = True
+            if item_recipes:
+                # Display names of the first recipe's ingredients, used to draw
+                # accessory crafting trees.
+                first = item_recipes[0]
+                rec["ingredients"] = [nm for _, nm in first.ingredients + first.pack_added]
             if it.category == "armor":
                 defs = piece_sets.get(c.name, [])
                 if c.name in set_defs:

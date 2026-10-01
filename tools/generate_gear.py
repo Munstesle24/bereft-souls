@@ -18,6 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from generate_quests import CHAPTERS, MOD, TOOLS, fail, hjson_string, item_expr  # noqa: E402
+from accessory_trees import book_nodes, build_graph  # noqa: E402
 
 BOOKS = [
     # (name, class filter, display name)
@@ -32,7 +33,6 @@ BOOKS = [
 SECTIONS = [
     # (category, heading, blurb)
     ("armor", "Armor Sets", "Full sets for this class at this tier. Wear every piece to complete one."),
-    ("accessory", "Accessories", "Trinkets worth slotting at this tier. Equip one to complete it."),
     ("weapon", "Weapons", "Notable weapons at this tier. Own one to complete it."),
     ("potion", "Potions and Flasks", "Buffs worth brewing for this tier. Own one to complete it."),
 ]
@@ -60,7 +60,7 @@ def entry_key(record):
 
 def load_records():
     records = []
-    for name in ("gear_modded.json", "gear_vanilla.json"):
+    for name in ("gear_modded.json", "gear_vanilla.json", "gear_vanilla_extra.json"):
         path = TOOLS / name
         if path.exists():
             records += json.loads(path.read_text(encoding="utf-8"))
@@ -157,9 +157,24 @@ def main():
     book_fields = []
     headers = []
     localization = []
+    accessories, components = build_graph(entries)
+    tier_names = {name: display for name, _, display in CHAPTERS}
 
     for book, class_filter, display in BOOKS:
-        chapter_fields = []
+        tree_lines, tree_headers, _ = book_nodes(book, class_filter, accessories, components)
+        chapter_fields = ["            [\n" + "\n".join(tree_lines) + ("\n" if tree_lines else "") + "            ]"]
+        for header, tier in tree_headers:
+            headers.append(header)
+            title = f"{display}: Other {tier_names[tier]} Accessories"
+            blurb = "Accessories at this tier that are not part of a crafting chain. Equip one to complete it."
+            short = f"Other {tier_names[tier]} accessories"
+            localization.append(
+                f"\t{header}: {{\n"
+                f"\t\tTitle: {hjson_string(title)}\n"
+                f"\t\tContents: {hjson_string(blurb)}\n"
+                f"\t\tTooltip: {hjson_string(short)}\n"
+                "\t}\n"
+            )
 
         for tier, _, tier_name in CHAPTERS:
             nodes = []
@@ -263,7 +278,7 @@ def main():
         encoding="utf-8",
     )
 
-    names = "\n".join(f"\t\t{book}: {display}" for book, _, display in BOOKS)
+    names = "\n".join(f"\t\t{book}: {display}" for book, _, display in BOOKS) + "\n\t\tAccessories: Accessory Tree"
     (MOD / "Localization" / "en-US_Mods.BereftSouls.QuestBooks.hjson").write_text(
         "Gear: {\n" + names.replace("\t\t", "\t") + "\n}\n\n" + "\n".join(localization).replace("\n\t", "\n").lstrip("\t"),
         encoding="utf-8",

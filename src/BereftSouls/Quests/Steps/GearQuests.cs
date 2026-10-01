@@ -7947,6 +7947,111 @@ public sealed class GearFlaskofNanites : ObtainItemQuest
     protected override int ItemType => ItemID.FlaskofNanites;
 }
 
+public sealed class GearRocketBoots : EquipItemQuest
+{
+    protected override int ItemType => ItemID.RocketBoots;
+}
+
+public sealed class GearAnkletoftheWind : EquipItemQuest
+{
+    protected override int ItemType => ItemID.AnkletoftheWind;
+}
+
+public sealed class GearAglet : EquipItemQuest
+{
+    protected override int ItemType => ItemID.Aglet;
+}
+
+public sealed class GearIceSkates : EquipItemQuest
+{
+    protected override int ItemType => ItemID.IceSkates;
+}
+
+public sealed class GearLavaWaders : EquipItemQuest
+{
+    protected override int ItemType => ItemID.LavaWaders;
+}
+
+public sealed class GearTigerClimbingGear : EquipItemQuest
+{
+    protected override int ItemType => ItemID.TigerClimbingGear;
+}
+
+public sealed class GearClimbingClaws : EquipItemQuest
+{
+    protected override int ItemType => ItemID.ClimbingClaws;
+}
+
+public sealed class GearShoeSpikes : EquipItemQuest
+{
+    protected override int ItemType => ItemID.ShoeSpikes;
+}
+
+public sealed class GearShackle : EquipItemQuest
+{
+    protected override int ItemType => ItemID.Shackle;
+}
+
+public sealed class GearMoonStone : EquipItemQuest
+{
+    protected override int ItemType => ItemID.MoonStone;
+}
+
+public sealed class GearMoonShell : EquipItemQuest
+{
+    protected override int ItemType => ItemID.MoonShell;
+}
+
+public sealed class GearFishingBobber : EquipItemQuest
+{
+    protected override int ItemType => ItemID.FishingBobber;
+}
+
+public sealed class GearLavaproofTackleBag : EquipItemQuest
+{
+    protected override int ItemType => ItemID.LavaproofTackleBag;
+}
+
+public sealed class GearArcticDivingGear : EquipItemQuest
+{
+    protected override int ItemType => ItemID.ArcticDivingGear;
+}
+
+public sealed class GearSweetheartNecklace : EquipItemQuest
+{
+    protected override int ItemType => ItemID.SweetheartNecklace;
+}
+
+public sealed class GearFrogLeg : EquipItemQuest
+{
+    protected override int ItemType => ItemID.FrogLeg;
+}
+
+public sealed class GearFrogFlipper : EquipItemQuest
+{
+    protected override int ItemType => ItemID.FrogFlipper;
+}
+
+public sealed class GearShinyStone : EquipItemQuest
+{
+    protected override int ItemType => ItemID.ShinyStone;
+}
+
+public sealed class GearGreedyRing : EquipItemQuest
+{
+    protected override int ItemType => ItemID.GreedyRing;
+}
+
+public sealed class GearMedicatedBandage : EquipItemQuest
+{
+    protected override int ItemType => ItemID.MedicatedBandage;
+}
+
+public sealed class GearArmorPolish : EquipItemQuest
+{
+    protected override int ItemType => ItemID.ArmorPolish;
+}
+
 public sealed class GearSetcalamitymodaerospecmagic : EquipSetQuest
 {
     protected override int[] Pieces => [ModContent.ItemType<global::CalamityMod.Items.Armor.Aerospec.AerospecHeadMagic>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Aerospec.AerospecBreastplate>(), ModContent.ItemType<global::CalamityMod.Items.Armor.Aerospec.AerospecLeggings>()];
@@ -8627,9 +8732,15 @@ public sealed class GearSetVanillaStardust : EquipSetQuest
     protected override int[] Pieces => [ItemID.StardustHelmet, ItemID.StardustBreastplate, ItemID.StardustLeggings];
 }
 
-public sealed class GearHeaderMeleePreHardmodeArmor : HeaderQuest;
+public sealed class GearHeaderMeleeAccessoriesPreHardmode : HeaderQuest;
 
-public sealed class GearHeaderMeleePreHardmodeAccessory : HeaderQuest;
+public sealed class GearHeaderMeleeAccessoriesEarlyHardmode : HeaderQuest;
+
+public sealed class GearHeaderMeleeAccessoriesPostPlantera : HeaderQuest;
+
+public sealed class GearHeaderMeleeAccessoriesPostMoonLord : HeaderQuest;
+
+public sealed class GearHeaderMeleePreHardmodeArmor : HeaderQuest;
 
 public sealed class GearHeaderMeleePreHardmodeWeapon : HeaderQuest;
 
@@ -8637,21 +8748,15 @@ public sealed class GearHeaderMeleePreHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderMeleeEarlyHardmodeArmor : HeaderQuest;
 
-public sealed class GearHeaderMeleeEarlyHardmodeAccessory : HeaderQuest;
-
 public sealed class GearHeaderMeleeEarlyHardmodeWeapon : HeaderQuest;
 
 public sealed class GearHeaderMeleeEarlyHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderMeleePostPlanteraArmor : HeaderQuest;
 
-public sealed class GearHeaderMeleePostPlanteraAccessory : HeaderQuest;
-
 public sealed class GearHeaderMeleePostPlanteraWeapon : HeaderQuest;
 
 public sealed class GearHeaderMeleePostMoonLordArmor : HeaderQuest;
-
-public sealed class GearHeaderMeleePostMoonLordAccessory : HeaderQuest;
 
 public sealed class GearHeaderMeleePostMoonLordWeapon : HeaderQuest;
 
@@ -8659,13 +8764,15 @@ public sealed class GearHeaderMeleePostMoonLordPotion : HeaderQuest;
 
 public sealed class GearHeaderMeleeEndgameArmor : HeaderQuest;
 
-public sealed class GearHeaderMeleeEndgameAccessory : HeaderQuest;
-
 public sealed class GearHeaderMeleeEndgameWeapon : HeaderQuest;
 
-public sealed class GearHeaderRangedPreHardmodeArmor : HeaderQuest;
+public sealed class GearHeaderRangedAccessoriesPreHardmode : HeaderQuest;
 
-public sealed class GearHeaderRangedPreHardmodeAccessory : HeaderQuest;
+public sealed class GearHeaderRangedAccessoriesPostPlantera : HeaderQuest;
+
+public sealed class GearHeaderRangedAccessoriesPostMoonLord : HeaderQuest;
+
+public sealed class GearHeaderRangedPreHardmodeArmor : HeaderQuest;
 
 public sealed class GearHeaderRangedPreHardmodeWeapon : HeaderQuest;
 
@@ -8673,33 +8780,29 @@ public sealed class GearHeaderRangedPreHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderRangedEarlyHardmodeArmor : HeaderQuest;
 
-public sealed class GearHeaderRangedEarlyHardmodeAccessory : HeaderQuest;
-
 public sealed class GearHeaderRangedEarlyHardmodeWeapon : HeaderQuest;
 
 public sealed class GearHeaderRangedEarlyHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderRangedPostPlanteraArmor : HeaderQuest;
 
-public sealed class GearHeaderRangedPostPlanteraAccessory : HeaderQuest;
-
 public sealed class GearHeaderRangedPostPlanteraWeapon : HeaderQuest;
 
 public sealed class GearHeaderRangedPostMoonLordArmor : HeaderQuest;
-
-public sealed class GearHeaderRangedPostMoonLordAccessory : HeaderQuest;
 
 public sealed class GearHeaderRangedPostMoonLordWeapon : HeaderQuest;
 
 public sealed class GearHeaderRangedEndgameArmor : HeaderQuest;
 
-public sealed class GearHeaderRangedEndgameAccessory : HeaderQuest;
-
 public sealed class GearHeaderRangedEndgameWeapon : HeaderQuest;
 
-public sealed class GearHeaderMagicPreHardmodeArmor : HeaderQuest;
+public sealed class GearHeaderMagicAccessoriesEarlyHardmode : HeaderQuest;
 
-public sealed class GearHeaderMagicPreHardmodeAccessory : HeaderQuest;
+public sealed class GearHeaderMagicAccessoriesPostPlantera : HeaderQuest;
+
+public sealed class GearHeaderMagicAccessoriesPostMoonLord : HeaderQuest;
+
+public sealed class GearHeaderMagicPreHardmodeArmor : HeaderQuest;
 
 public sealed class GearHeaderMagicPreHardmodeWeapon : HeaderQuest;
 
@@ -8707,15 +8810,11 @@ public sealed class GearHeaderMagicPreHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderMagicEarlyHardmodeArmor : HeaderQuest;
 
-public sealed class GearHeaderMagicEarlyHardmodeAccessory : HeaderQuest;
-
 public sealed class GearHeaderMagicEarlyHardmodeWeapon : HeaderQuest;
 
 public sealed class GearHeaderMagicEarlyHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderMagicPostPlanteraArmor : HeaderQuest;
-
-public sealed class GearHeaderMagicPostPlanteraAccessory : HeaderQuest;
 
 public sealed class GearHeaderMagicPostPlanteraWeapon : HeaderQuest;
 
@@ -8723,19 +8822,23 @@ public sealed class GearHeaderMagicPostPlanteraPotion : HeaderQuest;
 
 public sealed class GearHeaderMagicPostMoonLordArmor : HeaderQuest;
 
-public sealed class GearHeaderMagicPostMoonLordAccessory : HeaderQuest;
-
 public sealed class GearHeaderMagicPostMoonLordWeapon : HeaderQuest;
 
 public sealed class GearHeaderMagicEndgameArmor : HeaderQuest;
 
-public sealed class GearHeaderMagicEndgameAccessory : HeaderQuest;
-
 public sealed class GearHeaderMagicEndgameWeapon : HeaderQuest;
 
-public sealed class GearHeaderSummonerPreHardmodeArmor : HeaderQuest;
+public sealed class GearHeaderSummonerAccessoriesPreHardmode : HeaderQuest;
 
-public sealed class GearHeaderSummonerPreHardmodeAccessory : HeaderQuest;
+public sealed class GearHeaderSummonerAccessoriesEarlyHardmode : HeaderQuest;
+
+public sealed class GearHeaderSummonerAccessoriesPostPlantera : HeaderQuest;
+
+public sealed class GearHeaderSummonerAccessoriesPostMoonLord : HeaderQuest;
+
+public sealed class GearHeaderSummonerAccessoriesEndgame : HeaderQuest;
+
+public sealed class GearHeaderSummonerPreHardmodeArmor : HeaderQuest;
 
 public sealed class GearHeaderSummonerPreHardmodeWeapon : HeaderQuest;
 
@@ -8743,21 +8846,15 @@ public sealed class GearHeaderSummonerPreHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderSummonerEarlyHardmodeArmor : HeaderQuest;
 
-public sealed class GearHeaderSummonerEarlyHardmodeAccessory : HeaderQuest;
-
 public sealed class GearHeaderSummonerEarlyHardmodeWeapon : HeaderQuest;
 
 public sealed class GearHeaderSummonerEarlyHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderSummonerPostPlanteraArmor : HeaderQuest;
 
-public sealed class GearHeaderSummonerPostPlanteraAccessory : HeaderQuest;
-
 public sealed class GearHeaderSummonerPostPlanteraWeapon : HeaderQuest;
 
 public sealed class GearHeaderSummonerPostMoonLordArmor : HeaderQuest;
-
-public sealed class GearHeaderSummonerPostMoonLordAccessory : HeaderQuest;
 
 public sealed class GearHeaderSummonerPostMoonLordWeapon : HeaderQuest;
 
@@ -8765,13 +8862,17 @@ public sealed class GearHeaderSummonerPostMoonLordPotion : HeaderQuest;
 
 public sealed class GearHeaderSummonerEndgameArmor : HeaderQuest;
 
-public sealed class GearHeaderSummonerEndgameAccessory : HeaderQuest;
-
 public sealed class GearHeaderSummonerEndgameWeapon : HeaderQuest;
 
-public sealed class GearHeaderRoguePreHardmodeArmor : HeaderQuest;
+public sealed class GearHeaderRogueAccessoriesPreHardmode : HeaderQuest;
 
-public sealed class GearHeaderRoguePreHardmodeAccessory : HeaderQuest;
+public sealed class GearHeaderRogueAccessoriesPostPlantera : HeaderQuest;
+
+public sealed class GearHeaderRogueAccessoriesPostMoonLord : HeaderQuest;
+
+public sealed class GearHeaderRogueAccessoriesEndgame : HeaderQuest;
+
+public sealed class GearHeaderRoguePreHardmodeArmor : HeaderQuest;
 
 public sealed class GearHeaderRoguePreHardmodeWeapon : HeaderQuest;
 
@@ -8779,21 +8880,15 @@ public sealed class GearHeaderRoguePreHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderRogueEarlyHardmodeArmor : HeaderQuest;
 
-public sealed class GearHeaderRogueEarlyHardmodeAccessory : HeaderQuest;
-
 public sealed class GearHeaderRogueEarlyHardmodeWeapon : HeaderQuest;
 
 public sealed class GearHeaderRogueEarlyHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderRoguePostPlanteraArmor : HeaderQuest;
 
-public sealed class GearHeaderRoguePostPlanteraAccessory : HeaderQuest;
-
 public sealed class GearHeaderRoguePostPlanteraWeapon : HeaderQuest;
 
 public sealed class GearHeaderRoguePostMoonLordArmor : HeaderQuest;
-
-public sealed class GearHeaderRoguePostMoonLordAccessory : HeaderQuest;
 
 public sealed class GearHeaderRoguePostMoonLordWeapon : HeaderQuest;
 
@@ -8801,13 +8896,19 @@ public sealed class GearHeaderRoguePostMoonLordPotion : HeaderQuest;
 
 public sealed class GearHeaderRogueEndgameArmor : HeaderQuest;
 
-public sealed class GearHeaderRogueEndgameAccessory : HeaderQuest;
-
 public sealed class GearHeaderRogueEndgameWeapon : HeaderQuest;
 
-public sealed class GearHeaderGeneralPreHardmodeArmor : HeaderQuest;
+public sealed class GearHeaderGeneralAccessoriesPreHardmode : HeaderQuest;
 
-public sealed class GearHeaderGeneralPreHardmodeAccessory : HeaderQuest;
+public sealed class GearHeaderGeneralAccessoriesEarlyHardmode : HeaderQuest;
+
+public sealed class GearHeaderGeneralAccessoriesPostPlantera : HeaderQuest;
+
+public sealed class GearHeaderGeneralAccessoriesPostMoonLord : HeaderQuest;
+
+public sealed class GearHeaderGeneralAccessoriesEndgame : HeaderQuest;
+
+public sealed class GearHeaderGeneralPreHardmodeArmor : HeaderQuest;
 
 public sealed class GearHeaderGeneralPreHardmodeWeapon : HeaderQuest;
 
@@ -8815,22 +8916,14 @@ public sealed class GearHeaderGeneralPreHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderGeneralEarlyHardmodeArmor : HeaderQuest;
 
-public sealed class GearHeaderGeneralEarlyHardmodeAccessory : HeaderQuest;
-
 public sealed class GearHeaderGeneralEarlyHardmodeWeapon : HeaderQuest;
 
 public sealed class GearHeaderGeneralEarlyHardmodePotion : HeaderQuest;
 
 public sealed class GearHeaderGeneralPostPlanteraArmor : HeaderQuest;
 
-public sealed class GearHeaderGeneralPostPlanteraAccessory : HeaderQuest;
-
 public sealed class GearHeaderGeneralPostPlanteraPotion : HeaderQuest;
-
-public sealed class GearHeaderGeneralPostMoonLordAccessory : HeaderQuest;
 
 public sealed class GearHeaderGeneralPostMoonLordWeapon : HeaderQuest;
 
 public sealed class GearHeaderGeneralPostMoonLordPotion : HeaderQuest;
-
-public sealed class GearHeaderGeneralEndgameAccessory : HeaderQuest;

@@ -12,9 +12,9 @@ using Terraria.ModLoader;
 namespace BereftSouls.Quests;
 
 /// <summary>
-///     Registers the gear guide books: one per class plus a general book,
-///     each with a chapter per tier listing that tier's armor sets,
-///     accessories, weapons and potions.
+///     Registers the gear guide books: one per class plus a general book.
+///     Each has an accessory crafting tree that grows as the world reaches
+///     each tier, then a chapter per tier for armor sets, weapons and potions.
 /// </summary>
 /// <remarks>
 ///     Entries complete when a player on the server owns or wears the item,
@@ -28,6 +28,7 @@ internal sealed partial class GearGuide : ModSystem
 
     private readonly record struct GearBook(
         string Name,
+        Node[] Accessories,
         Node[] PreHardmode,
         Node[] EarlyHardmode,
         Node[] PostPlantera,
@@ -42,6 +43,11 @@ internal sealed partial class GearGuide : ModSystem
         foreach (var gear in gear_books)
         {
             var chapters = new List<QuestChapter>();
+
+            if (gear.Accessories.Length > 0)
+            {
+                chapters.Add(QuestTree.Build<ScrollChapter>(Mod.GetLocalizationKey("QuestBooks.Gear.Accessories"), gear.Accessories));
+            }
 
             Add<ScrollChapter>("PreHardmode", gear.PreHardmode);
             Add<HardmodeTierChapter>("EarlyHardmode", gear.EarlyHardmode);

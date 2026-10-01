@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework;
 using QuestBooks.QuestLog;
 using QuestBooks.QuestLog.DefaultChapters;
 using QuestBooks.QuestLog.DefaultElements;
+using QuestBooks.Systems;
 
 using Terraria;
 
@@ -45,7 +46,15 @@ internal enum NodeKind
 ///     Keys of quests in the same chapter that must be completed to unlock
 ///     this one.
 /// </param>
-internal readonly record struct Node(string Key, int Column, int Row, NodeKind Kind, bool AnyOf, params string[] After);
+internal readonly record struct Node(string Key, int Column, int Row, NodeKind Kind, bool AnyOf, params string[] After)
+{
+    /// <summary>
+    ///     The tier (0 = Pre-Hardmode .. 4 = Endgame) the world must reach
+    ///     before this node is shown, for chapters that grow as the game
+    ///     progresses.
+    /// </summary>
+    public int Tier { get; init; }
+}
 
 /// <summary>
 ///     Builds QuestBooks chapters from generated node grids.
@@ -80,14 +89,14 @@ internal static class QuestTree
                 _                 => ("Medium", "MediumOutline"),
             };
 
-            var display = new QuestDisplay
-            {
-                QuestKey       = node.Key,
-                CanvasPosition = new Vector2(node.Column * column_spacing, node.Row * row_spacing),
-                UnlockFeeds    = node.AnyOf ? 1 : node.After.Length,
-                Texture        = texture_path + texture,
-                OutlineTexture = texture_path + outline,
-            };
+            var display = node.Tier > 0 ? new TierQuestDisplay { Tier = node.Tier } : new QuestDisplay();
+            display.QuestKey       = node.Key;
+            display.CanvasPosition = new Vector2(node.Column * column_spacing, node.Row * row_spacing);
+            // Gear entries are a catalog: lines show crafting trees but never lock
+            // an entry.
+            display.UnlockFeeds    = node.Kind == NodeKind.Gear ? 0 : node.AnyOf ? 1 : node.After.Length;
+            display.Texture        = texture_path + texture;
+            display.OutlineTexture = texture_path + outline;
 
             displays[node.Key] = display;
             chapter.Elements.Add(display);
@@ -142,4 +151,29 @@ public sealed class PostMoonLordChapter : ScrollChapter
 public sealed class EndgameTierChapter : ScrollChapter
 {
     public override bool IsUnlocked() => DownedBossSystem.downedDoG;
+}
+
+/// <summary>
+///     A quest display that stays hidden until the world reaches its tier,
+///     so a single chapter can grow as the game progresses.
+/// </summary>
+public sealed class TierQuestDisplay : QuestDisplay
+{
+    /// <summary>0 = Pre-Hardmode, 1 = Hardmode, 2 = post-Plantera, 3 = post-Moon Lord, 4 = post-Devourer of Gods.</summary>
+    public int Tier { get; set; }
+
+    public static bool TierReached(int tier)
+    {
+        return tier switch
+        {
+            <= 0 => true,
+            1    => Main.hardMode,
+            2    => NPC.downedPlantBoss,
+            3    => NPC.downedMoonlord,
+            _    => DownedBossSystem.downedDoG,
+        };
+    }
+
+    // Completed entries stay visible even if the tier check would hide them.
+    public override bool VisibleOnCanvas() => TierReached(Tier) ? base.VisibleOnCanvas() : Quest.Completed || QuestLogDrawer.ActiveStyle.UseDesigner;
 }
