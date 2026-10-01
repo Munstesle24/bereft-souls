@@ -2,11 +2,14 @@
 
     <Import Project="../common/Mod.targets"/>
 
+    <PropertyGroup>
+        <BereftModRefs>CalamityMod;SOTS;QuestBooks</BereftModRefs>
+    </PropertyGroup>
+
     <ItemGroup>
         <ProjectReference Include="..\BereftCompatibility\BereftCompatibility.csproj"/>
-        <ProjectReference Include="..\refs\CalamityMod.csproj"/>
-        <ProjectReference Include="..\refs\SOTS.csproj"/>
-        <ProjectReference Include="..\refs\QuestBooks.csproj"/>
     </ItemGroup>
+
+    <Import Project="../common/ModRefs.targets"/>
 
 </Project>

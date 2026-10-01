@@ -10,3 +10,6 @@ obj/
 # Python
 __pycache__/
 *.pyc
+
+# Mod assemblies extracted from installed Workshop mods
+src/refs-workshop/

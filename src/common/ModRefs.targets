@@ -1,0 +1,47 @@
+<Project>
+
+    <!--
+        References to other mods, imported by each Bereft project after it
+        sets BereftModRefs (e.g. "CalamityMod;SOTS").
+
+        Each mod is compiled against its installed Workshop copy when
+        tools/extract_workshop_refs.ps1 has extracted it into src/refs-workshop,
+        and otherwise against its source submodule in src/refs.  Neither is
+        packaged into the Bereft mods; tModLoader loads the real mods at runtime.
+    -->
+
+    <PropertyGroup>
+        <WorkshopRefs>$(MSBuildThisFileDirectory)..\refs-workshop\</WorkshopRefs>
+    </PropertyGroup>
+
+    <ItemGroup Condition="$(BereftModRefs.Contains('CalamityMod'))">
+        <Reference Include="$(WorkshopRefs)CalamityMod\*.dll" Private="false" Condition="Exists('$(WorkshopRefs)CalamityMod\CalamityMod.dll')"/>
+        <ProjectReference Include="$(MSBuildThisFileDirectory)..\refs\CalamityMod.csproj" Condition="!Exists('$(WorkshopRefs)CalamityMod\CalamityMod.dll')"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="$(BereftModRefs.Contains('SOTS'))">
+        <Reference Include="$(WorkshopRefs)SOTS\*.dll" Private="false" Condition="Exists('$(WorkshopRefs)SOTS\SOTS.dll')"/>
+        <ProjectReference Include="$(MSBuildThisFileDirectory)..\refs\SOTS.csproj" Condition="!Exists('$(WorkshopRefs)SOTS\SOTS.dll')"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="$(BereftModRefs.Contains('FargowiltasSouls'))">
+        <Reference Include="$(WorkshopRefs)FargowiltasSouls\*.dll" Private="false" Condition="Exists('$(WorkshopRefs)FargowiltasSouls\FargowiltasSouls.dll')"/>
+        <ProjectReference Include="$(MSBuildThisFileDirectory)..\refs\FargowiltasSouls.csproj" Condition="!Exists('$(WorkshopRefs)FargowiltasSouls\FargowiltasSouls.dll')"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="$(BereftModRefs.Contains('Luminance'))">
+        <Reference Include="$(WorkshopRefs)Luminance\*.dll" Private="false" Condition="Exists('$(WorkshopRefs)Luminance\Luminance.dll')"/>
+        <ProjectReference Include="$(MSBuildThisFileDirectory)..\refs\Luminance.csproj" Condition="!Exists('$(WorkshopRefs)Luminance\Luminance.dll')"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="$(BereftModRefs.Contains('StructureHelper'))">
+        <Reference Include="$(WorkshopRefs)StructureHelper\*.dll" Private="false" Condition="Exists('$(WorkshopRefs)StructureHelper\StructureHelper.dll')"/>
+        <ProjectReference Include="$(MSBuildThisFileDirectory)..\refs\StructureHelper.csproj" Condition="!Exists('$(WorkshopRefs)StructureHelper\StructureHelper.dll')"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="$(BereftModRefs.Contains('QuestBooks'))">
+        <Reference Include="$(WorkshopRefs)QuestBooks\*.dll" Private="false" Condition="Exists('$(WorkshopRefs)QuestBooks\QuestBooks.dll')"/>
+        <ProjectReference Include="$(MSBuildThisFileDirectory)..\refs\QuestBooks.csproj" Condition="!Exists('$(WorkshopRefs)QuestBooks\QuestBooks.dll')"/>
+    </ItemGroup>
+
+</Project>

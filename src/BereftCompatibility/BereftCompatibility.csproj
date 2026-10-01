@@ -2,13 +2,12 @@
 
     <Import Project="../common/Mod.targets"/>
 
-    <ItemGroup>
-        <!-- The DLC is only a runtime dependency (see build.txt).  Its last
-             public source no longer compiles against current Calamity. -->
-        <ProjectReference Include="..\refs\CalamityMod.csproj"/>
-        <ProjectReference Include="..\refs\FargowiltasSouls.csproj"/>
-        <ProjectReference Include="..\refs\SOTS.csproj"/>
-        <ProjectReference Include="..\refs\Luminance.csproj"/>
-    </ItemGroup>
+    <!-- The DLC is only a runtime dependency (see build.txt).  Its last
+         public source no longer compiles against current Calamity. -->
+    <PropertyGroup>
+        <BereftModRefs>CalamityMod;FargowiltasSouls;SOTS;Luminance</BereftModRefs>
+    </PropertyGroup>
+
+    <Import Project="../common/ModRefs.targets"/>
 
 </Project>
