@@ -327,6 +327,11 @@ public sealed class CraftDeerThing : ObtainItemQuest
     protected override int ItemType => ItemID.DeerThing;
 }
 
+public sealed class CraftFleshboundEffigy : ObtainItemQuest
+{
+    protected override int ItemType => ModContent.ItemType<global::BereftCompatibility.Content.BossChain.FleshboundEffigy>();
+}
+
 public sealed class FarmSoulsOfLight : ObtainItemQuest
 {
     protected override int ItemType => ItemID.SoulofLight;
@@ -773,6 +778,11 @@ public sealed class SetVoidspaceArmor : EquipSetQuest
     protected override int[] Pieces => [ModContent.ItemType<global::SOTS.Items.Celestial.VoidspaceMask>(), ModContent.ItemType<global::SOTS.Items.Celestial.VoidspaceBreastplate>(), ModContent.ItemType<global::SOTS.Items.Celestial.VoidspaceLeggings>()];
 }
 
+public sealed class CraftSigilTruffleWorm : ObtainItemQuest
+{
+    protected override int ItemType => ModContent.ItemType<global::BereftCompatibility.Content.BossChain.SigilTruffleWorm>();
+}
+
 public sealed class ObtainLuminiteBars : ObtainItemQuest
 {
     protected override int ItemType => ItemID.LunarBar;
@@ -931,6 +941,11 @@ public sealed class SetNebulaArmor : EquipSetQuest
 public sealed class SetStardustArmor : EquipSetQuest
 {
     protected override int[] Pieces => [ItemID.StardustHelmet, ItemID.StardustBreastplate, ItemID.StardustLeggings];
+}
+
+public sealed class CraftSigilBloodworm : ObtainItemQuest
+{
+    protected override int ItemType => ModContent.ItemType<global::BereftCompatibility.Content.BossChain.SigilBloodworm>();
 }
 
 public sealed class ObtainCosmiliteBar : ObtainItemQuest

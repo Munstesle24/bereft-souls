@@ -5,7 +5,7 @@
    "bosses": [
     {
      "key": "KingSlimeDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [],
      "any_of": false,
      "reward": {
@@ -29,7 +29,7 @@
     },
     {
      "key": "DesertScourgeDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftDesertMedallion"
      ],
@@ -42,7 +42,7 @@
     },
     {
      "key": "GlowmothDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftSuspiciousLookingCandle"
      ],
@@ -55,7 +55,7 @@
     },
     {
      "key": "CrabulonDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftDecapoditaSprout"
      ],
@@ -70,7 +70,7 @@
      "key": "EvilBossDefeated",
      "kind": "Required",
      "after": [
-      "EyeOfCthulhuDefeated"
+      "CrabulonDefeated"
      ],
      "any_of": false,
      "reward": {
@@ -81,71 +81,6 @@
     },
     {
      "key": "HiveMindDefeated",
-     "kind": "Optional",
-     "after": [
-      "EvilBossDefeated"
-     ],
-     "any_of": false,
-     "reward": {
-      "vanilla_id": "HealingPotion",
-      "title": "Healing Potion",
-      "stack": 5
-     }
-    },
-    {
-     "key": "PerforatorsDefeated",
-     "kind": "Optional",
-     "after": [
-      "EvilBossDefeated"
-     ],
-     "any_of": false,
-     "reward": {
-      "vanilla_id": "HealingPotion",
-      "title": "Healing Potion",
-      "stack": 5
-     }
-    },
-    {
-     "key": "PutridPinkyDefeated",
-     "kind": "Optional",
-     "after": [
-      "CraftJarOfPeanuts"
-     ],
-     "any_of": false,
-     "reward": {
-      "vanilla_id": "HealingPotion",
-      "title": "Healing Potion",
-      "stack": 5
-     }
-    },
-    {
-     "key": "QueenBeeDefeated",
-     "kind": "Optional",
-     "after": [
-      "CraftAbeemination"
-     ],
-     "any_of": false,
-     "reward": {
-      "vanilla_id": "HealingPotion",
-      "title": "Healing Potion",
-      "stack": 5
-     }
-    },
-    {
-     "key": "PharaohsCurseDefeated",
-     "kind": "Optional",
-     "after": [
-      "EvilBossDefeated"
-     ],
-     "any_of": false,
-     "reward": {
-      "vanilla_id": "HealingPotion",
-      "title": "Healing Potion",
-      "stack": 5
-     }
-    },
-    {
-     "key": "SkeletronDefeated",
      "kind": "Required",
      "after": [
       "EvilBossDefeated"
@@ -158,8 +93,73 @@
      }
     },
     {
+     "key": "PerforatorsDefeated",
+     "kind": "Required",
+     "after": [
+      "EvilBossDefeated"
+     ],
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
+    },
+    {
+     "key": "PutridPinkyDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftJarOfPeanuts"
+     ],
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
+    },
+    {
+     "key": "QueenBeeDefeated",
+     "kind": "Required",
+     "after": [
+      "CraftAbeemination"
+     ],
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
+    },
+    {
+     "key": "PharaohsCurseDefeated",
+     "kind": "Required",
+     "after": [
+      "PutridPinkyDefeated"
+     ],
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
+    },
+    {
+     "key": "SkeletronDefeated",
+     "kind": "Required",
+     "after": [
+      "PharaohsCurseDefeated"
+     ],
+     "any_of": false,
+     "reward": {
+      "vanilla_id": "HealingPotion",
+      "title": "Healing Potion",
+      "stack": 5
+     }
+    },
+    {
      "key": "SlimeGodDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftOverloadedSludge"
      ],
@@ -172,9 +172,9 @@
     },
     {
      "key": "ExcavatorDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "SkeletronDefeated"
+      "SlimeGodDefeated"
      ],
      "any_of": false,
      "reward": {
@@ -185,7 +185,7 @@
     },
     {
      "key": "DeerclopsDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftDeerThing"
      ],
@@ -198,7 +198,7 @@
     },
     {
      "key": "AdvisorDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "ExcavatorDefeated"
      ],
@@ -213,7 +213,7 @@
      "key": "WallOfFleshDefeated",
      "kind": "Gate",
      "after": [
-      "ObtainGuideVoodooDoll"
+      "CraftFleshboundEffigy"
      ],
      "any_of": false,
      "reward": {
@@ -246,11 +246,12 @@
      "type": "obtain",
      "kind": "Required",
      "after": [
-      "FarmLens"
+      "FarmLens",
+      "DesertScourgeDefeated"
      ],
      "any_of": false,
      "title": "Suspicious Looking Eye",
-     "how": "Craft at a Demon or Crimson Altar from 6 Lenses and use it at night. The Eye of Cthulhu can also show up on its own.",
+     "how": "Craft at a Demon or Crimson Altar from 6 Lenses and use it at night. The Eye of Cthulhu can also show up on its own. Bereft: the recipe also needs 1 Desert Scourge Sigil.",
      "stack": 1,
      "uncertain": false,
      "reward": {
@@ -823,14 +824,15 @@
      "class": "DesertMedallion",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "FarmStormlionMandible",
-      "FarmFragmentOfEarth"
+      "FarmFragmentOfEarth",
+      "GlowmothDefeated"
      ],
      "any_of": false,
      "title": "Desert Medallion",
-     "how": "Craft at a Demon/Crimson Altar from 40 Sand, 4 Antlion Mandibles, 2 Stormlion Mandibles and 3 Fragments of Earth (pack addition). Reusable.",
+     "how": "Craft at a Demon/Crimson Altar from 40 Sand, 4 Antlion Mandibles, 2 Stormlion Mandibles and 3 Fragments of Earth (pack addition). Reusable. Bereft: the recipe also needs 1 Glowmoth Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "NightOwlPotion",
@@ -932,13 +934,14 @@
      "class": "SuspiciousLookingCandle",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "ObtainPrismShard"
+      "ObtainPrismShard",
+      "KingSlimeDefeated"
      ],
      "any_of": false,
      "title": "Suspicious Looking Candle",
-     "how": "Craft at a Demon/Crimson Altar from a Candle, 5 Glow Nylon (Cobweb + Glowing Mushroom at a Loom), 10 Glowing Mushrooms and 3 Prism Shards (pack addition). Use in a Glowing Mushroom biome; consumed.",
+     "how": "Craft at a Demon/Crimson Altar from a Candle, 5 Glow Nylon (Cobweb + Glowing Mushroom at a Loom), 10 Glowing Mushrooms and 3 Prism Shards (pack addition). Use in a Glowing Mushroom biome; consumed. Bereft: the recipe also needs 1 King Slime Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "LesserHealingPotion",
@@ -954,13 +957,14 @@
      "class": "DecapoditaSprout",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "FarmFragmentOfNature"
+      "FarmFragmentOfNature",
+      "EyeOfCthulhuDefeated"
      ],
      "any_of": false,
      "title": "Decapodita Sprout",
-     "how": "Craft at a Demon/Crimson Altar from 50 Glowing Mushrooms and 3 Fragments of Nature (pack addition). Reusable.",
+     "how": "Craft at a Demon/Crimson Altar from 50 Glowing Mushrooms and 3 Fragments of Nature (pack addition). Reusable. Bereft: the recipe also needs 1 Eye of Cthulhu Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "BuilderPotion",
@@ -1115,14 +1119,15 @@
      "class": "JarOfPeanuts",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftAerialiteBar",
-      "FarmPeanuts"
+      "FarmPeanuts",
+      "QueenBeeDefeated"
      ],
      "any_of": false,
      "title": "Jar of Peanuts",
-     "how": "Craft by hand from a Bottle, 15 Peanuts and 2 Aerialite Bars (pack addition). Summons Putrid Pinky; consumed.",
+     "how": "Craft by hand from a Bottle, 15 Peanuts and 2 Aerialite Bars (pack addition). Summons Putrid Pinky; consumed. Bereft: the recipe also needs 1 Queen Bee Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "LesserHealingPotion",
@@ -1231,14 +1236,15 @@
      "class": "OverloadedSludge",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "ObtainWormwood",
-      "FarmBlightedGel"
+      "FarmBlightedGel",
+      "DeerclopsDefeated"
      ],
      "any_of": false,
      "title": "Overloaded Sludge",
-     "how": "Craft at a Demon/Crimson Altar from 40 Blighted Gel, 40 evil blocks and 5 Wormwood (pack addition). Reusable.",
+     "how": "Craft at a Demon/Crimson Altar from 40 Blighted Gel, 40 evil blocks and 5 Wormwood (pack addition). Reusable. Bereft: the recipe also needs 1 Deerclops Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "SwiftnessPotion",
@@ -1320,11 +1326,14 @@
      "class": null,
      "vanilla_id": "Abeemination",
      "stack": 1,
-     "kind": "Optional",
-     "after": [],
-     "any_of": false,
+     "kind": "Required",
+     "after": [
+      "HiveMindDefeated",
+      "PerforatorsDefeated"
+     ],
+     "any_of": true,
      "title": "Abeemination",
-     "how": "Craft at a Demon/Crimson Altar from honey, hive and Stinger materials, or just break a Bee Larva in the Underground Jungle.",
+     "how": "Craft at a Demon/Crimson Altar from honey, hive and Stinger materials, or just break a Bee Larva in the Underground Jungle. Bereft: the recipe also needs 1 Hive Mind Sigil or Perforator Sigil.",
      "uncertain": true,
      "reward": {
       "vanilla_id": "LesserHealingPotion",
@@ -1653,17 +1662,44 @@
      "class": null,
      "vanilla_id": "DeerThing",
      "stack": 1,
-     "kind": "Optional",
-     "after": [],
+     "kind": "Required",
+     "after": [
+      "SkeletronDefeated"
+     ],
      "any_of": false,
      "title": "Deer Thing",
-     "how": "Craft at a Demon/Crimson Altar from Flinx Fur, a Lens and Demonite/Crimtane Ore; use in the Snow biome.",
+     "how": "Craft at a Demon/Crimson Altar from Flinx Fur, a Lens and Demonite/Crimtane Ore; use in the Snow biome. Bereft: the recipe also needs 1 Skeletron Sigil.",
      "uncertain": true,
      "reward": {
       "vanilla_id": "BuilderPotion",
       "title": "Builder Potion",
       "stack": 2
      }
+    },
+    {
+     "key": "CraftFleshboundEffigy",
+     "type": "obtain",
+     "kind": "Required",
+     "after": [
+      "ObtainGuideVoodooDoll",
+      "EyeOfCthulhuDefeated",
+      "EvilBossDefeated",
+      "SkeletronDefeated",
+      "AdvisorDefeated"
+     ],
+     "any_of": false,
+     "title": "Fleshbound Effigy",
+     "how": "Craft at a Demon or Crimson Altar from a Guide Voodoo Doll plus an Eye of Cthulhu, World Evil, Skeletron and Advisor Sigil. Throw it into Underworld lava. Until the Wall of Flesh falls, a plain Guide Voodoo Doll won't summon it.",
+     "stack": 1,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "IronskinPotion",
+      "title": "Ironskin Potion",
+      "stack": 3
+     },
+     "mod": "BereftCompatibility",
+     "namespace": "BereftCompatibility.Content.BossChain",
+     "class": "FleshboundEffigy"
     }
    ]
   },
@@ -1678,7 +1714,7 @@
     },
     {
      "key": "QueenSlimeDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "ObtainGelatinCrystal"
      ],
@@ -1743,7 +1779,7 @@
     },
     {
      "key": "AquaticScourgeDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftSeafood"
      ],
@@ -1756,7 +1792,7 @@
     },
     {
      "key": "BrimstoneElementalDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftCharredIdol"
      ],
@@ -1799,7 +1835,8 @@
      "after": [
       "TheDestroyerDefeated",
       "TheTwinsDefeated",
-      "SkeletronPrimeDefeated"
+      "SkeletronPrimeDefeated",
+      "CalamitasCloneDefeated"
      ],
      "any_of": false,
      "reward": {
@@ -1916,12 +1953,12 @@
      "stack": 1,
      "kind": "Required",
      "after": [
-      "ObtainMythrilAnvil",
-      "ObtainOrichalcumAnvil"
+      "BrimstoneElementalDefeated",
+      "ObtainMythrilAnvil"
      ],
-     "any_of": true,
+     "any_of": false,
      "title": "Mechanical Worm",
-     "how": "Craft at a Mythril/Orichalcum Anvil from Rotten Chunks/Vertebrae, Iron/Lead Bars and Souls of Night. Use at night.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Rotten Chunks/Vertebrae, Iron/Lead Bars and Souls of Night. Use at night. Either a Mythril or an Orichalcum Anvil works. Bereft: the recipe also needs 1 Brimstone Elemental Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "InfernoPotion",
@@ -1939,12 +1976,12 @@
      "stack": 1,
      "kind": "Required",
      "after": [
-      "ObtainMythrilAnvil",
-      "ObtainOrichalcumAnvil"
+      "TheDestroyerDefeated",
+      "ObtainMythrilAnvil"
      ],
-     "any_of": true,
+     "any_of": false,
      "title": "Mechanical Eye",
-     "how": "Craft at a Mythril/Orichalcum Anvil from Lenses, Iron/Lead Bars and Souls of Light. Use at night.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Lenses, Iron/Lead Bars and Souls of Light. Use at night. Either a Mythril or an Orichalcum Anvil works. Bereft: the recipe also needs 1 Destroyer Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "HealingPotion",
@@ -1962,12 +1999,12 @@
      "stack": 1,
      "kind": "Required",
      "after": [
-      "ObtainMythrilAnvil",
-      "ObtainOrichalcumAnvil"
+      "TheTwinsDefeated",
+      "ObtainMythrilAnvil"
      ],
-     "any_of": true,
+     "any_of": false,
      "title": "Mechanical Skull",
-     "how": "Craft at a Mythril/Orichalcum Anvil from Bones, Iron/Lead Bars and Souls of Light and Night. Use at night.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from Bones, Iron/Lead Bars and Souls of Light and Night. Use at night. Either a Mythril or an Orichalcum Anvil works. Bereft: the recipe also needs 1 Twins Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "WrathPotion",
@@ -2174,11 +2211,12 @@
       "FarmEssenceOfEleum",
       "FarmFragmentOfPermafrost",
       "FarmSoulsOfLight",
-      "FarmSoulsOfNight"
+      "FarmSoulsOfNight",
+      "QueenSlimeDefeated"
      ],
      "any_of": false,
      "title": "Cryo Key",
-     "how": "Craft at an Anvil from 50 ice blocks, 5 Souls of Light, 5 Souls of Night, 8 Essence of Eleum and 6 Fragments of Permafrost (pack addition). Use in the Snow biome.",
+     "how": "Craft at an Anvil from 50 ice blocks, 5 Souls of Light, 5 Souls of Night, 8 Essence of Eleum and 6 Fragments of Permafrost (pack addition). Use in the Snow biome. Bereft: the recipe also needs 1 Queen Slime Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "FlaskofIchor",
@@ -2382,11 +2420,12 @@
       "ObtainDissolvingAurora",
       "ObtainSoulsOfMight",
       "ObtainSoulsOfSight",
-      "ObtainSoulsOfFright"
+      "ObtainSoulsOfFright",
+      "SkeletronPrimeDefeated"
      ],
      "any_of": false,
      "title": "Frosted Key",
-     "how": "Craft at a Mythril/Orichalcum Anvil from a Dissolving Aurora, 8 Cryonic Bars (replacing the Frost Core in this pack) and a Soul of Might, Sight and Fright. Hold it and right-click the Frost Artifact in the Permafrost biome; not consumed.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from a Dissolving Aurora, 8 Cryonic Bars (replacing the Frost Core in this pack) and a Soul of Might, Sight and Fright. Hold it and right-click the Frost Artifact in the Permafrost biome; not consumed. Bereft: the recipe also needs 1 Skeletron Prime Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "ShinePotion",
@@ -2526,11 +2565,12 @@
      "kind": "Required",
      "after": [
       "ObtainSoulOfPlight",
-      "FarmEssenceOfHavoc"
+      "FarmEssenceOfHavoc",
+      "PolarisDefeated"
      ],
      "any_of": false,
      "title": "Eye of Desolation",
-     "how": "Craft at an Anvil from 10 Hellstone Bars, 5 Essence of Havoc and 3 Souls of Plight (pack addition, so Polaris comes first). Use at night; reusable.",
+     "how": "Craft at an Anvil from 10 Hellstone Bars, 5 Essence of Havoc and 3 Souls of Plight (pack addition, so Polaris comes first). Use at night; reusable. Bereft: the recipe also needs 1 Polaris Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "NightOwlPotion",
@@ -2593,14 +2633,15 @@
      "class": "CharredIdol",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftUnholyCore",
-      "FarmSoulsOfNight"
+      "FarmSoulsOfNight",
+      "AquaticScourgeDefeated"
      ],
      "any_of": false,
      "title": "Charred Idol",
-     "how": "Craft at a Hellforge from 5 Unholy Cores, 7 Essence of Havoc, 5 Souls of Night and 5 Fragments of Inferno (pack addition). Use in the Brimstone Crags.",
+     "how": "Craft at a Hellforge from 5 Unholy Cores, 7 Essence of Havoc, 5 Souls of Night and 5 Fragments of Inferno (pack addition). Use in the Brimstone Crags. Bereft: the recipe also needs 1 Aquatic Scourge Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "ArcheryPotion",
@@ -2660,13 +2701,14 @@
      "class": "Seafood",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "WallOfFleshDefeated"
+      "WallOfFleshDefeated",
+      "CryogenDefeated"
      ],
      "any_of": false,
      "title": "Seafood",
-     "how": "Craft at an Anvil from 20 Sulphurous Sand, 10 Starfish, 5 Shark Fins and 5 Fragments of Tide (pack addition). Use in the Sulphurous Sea.",
+     "how": "Craft at an Anvil from 20 Sulphurous Sand, 10 Starfish, 5 Shark Fins and 5 Fragments of Tide (pack addition). Use in the Sulphurous Sea. Bereft: the recipe also needs 1 Cryogen Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "FishingPotion",
@@ -2682,13 +2724,13 @@
      "class": null,
      "vanilla_id": "QueenSlimeCrystal",
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "WallOfFleshDefeated"
      ],
      "any_of": false,
      "title": "Gelatin Crystal",
-     "how": "Mine one from the crystal clusters in the underground Hallow; use it in the Hallow to summon Queen Slime.",
+     "how": "Mine one from the crystal clusters in the underground Hallow; use it in the Hallow to summon Queen Slime. Bereft: someone nearby must carry Wall of Flesh Sigil when it's used, or the boss won't wake.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "MiningPotion",
@@ -2709,7 +2751,7 @@
     },
     {
      "key": "AstrumAureusDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftAstralChunk"
      ],
@@ -2722,7 +2764,7 @@
     },
     {
      "key": "LeviathanDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "PlanteraDefeated"
      ],
@@ -2737,7 +2779,8 @@
      "key": "GolemDefeated",
      "kind": "Required",
      "after": [
-      "ObtainLihzahrdPowerCell"
+      "ObtainLihzahrdPowerCell",
+      "AstrumAureusDefeated"
      ],
      "any_of": false,
      "reward": {
@@ -2748,9 +2791,9 @@
     },
     {
      "key": "DukeFishronDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "ObtainTruffleWorm"
+      "CraftSigilTruffleWorm"
      ],
      "any_of": false,
      "reward": {
@@ -2761,9 +2804,10 @@
     },
     {
      "key": "EmpressOfLightDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "ObtainPrismaticLacewing"
+      "ObtainPrismaticLacewing",
+      "DukeFishronDefeated"
      ],
      "any_of": false,
      "reward": {
@@ -2774,7 +2818,7 @@
     },
     {
      "key": "PlaguebringerDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftAbombination"
      ],
@@ -2787,7 +2831,7 @@
     },
     {
      "key": "RavagerDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftDeathWhistle"
      ],
@@ -2800,12 +2844,12 @@
     },
     {
      "key": "LuxDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "GolemDefeated",
-      "CraftElectromagneticLure"
+      "CraftElectromagneticLure",
+      "RavagerDefeated"
      ],
-     "any_of": true,
+     "any_of": false,
      "reward": {
       "vanilla_id": "GreaterHealingPotion",
       "title": "Greater Healing Potion",
@@ -2816,7 +2860,7 @@
      "key": "LunaticCultistDefeated",
      "kind": "Required",
      "after": [
-      "GolemDefeated"
+      "LuxDefeated"
      ],
      "any_of": false,
      "reward": {
@@ -2827,9 +2871,10 @@
     },
     {
      "key": "AstrumDeusDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "ObtainTitanHeart"
+      "ObtainTitanHeart",
+      "LunaticCultistDefeated"
      ],
      "any_of": false,
      "reward": {
@@ -2855,7 +2900,7 @@
      "key": "MoonLordDefeated",
      "kind": "Gate",
      "after": [
-      "LunaticCultistDefeated"
+      "SubspaceSerpentDefeated"
      ],
      "any_of": false,
      "reward": {
@@ -3133,7 +3178,7 @@
      ],
      "any_of": false,
      "title": "Lihzahrd Power Cell",
-     "how": "Found in Jungle Temple chests (the Temple Key comes from Plantera). Place it on the Lihzahrd Altar.",
+     "how": "Found in Jungle Temple chests (the Temple Key comes from Plantera). Place it on the Lihzahrd Altar. Bereft: someone nearby must carry Astrum Aureus Sigil when it's used, or the boss won't wake.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "GreaterHealingPotion",
@@ -3268,13 +3313,13 @@
      "class": "ElectromagneticLure",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftLifeAlloy"
      ],
      "any_of": false,
      "title": "Electromagnetic Lure",
-     "how": "Craft at an Anvil from a Dissolving element, 15 elemental fragments, 15 elemental plating and 2 Life Alloy (pack addition). Use on the surface Hallow to call a Chaos Construct, whose spirit becomes Lux; consumed.",
+     "how": "Craft at an Anvil from a Dissolving element, 15 elemental fragments, 15 elemental plating and 2 Life Alloy (pack addition). Use on the surface Hallow to call a Chaos Construct, whose spirit becomes Lux; consumed. Bereft: someone nearby must carry Ravager Sigil when it's used, or the boss won't wake.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "WrathPotion",
@@ -3424,13 +3469,14 @@
      "class": "AstralChunk",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "CraftDecryptionComputer"
+      "CraftDecryptionComputer",
+      "LeviathanDefeated"
      ],
      "any_of": false,
      "title": "Astral Chunk",
-     "how": "Craft at a Mythril/Orichalcum Anvil from 8 Dubious Plating, 20 Fallen Stars, 30 Starblight Soot and 6 Fragments of Otherworld (pack addition); requires the decrypted Planetoid (Tier 2) schematic. Use at night in the Astral Infection.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 8 Dubious Plating, 20 Fallen Stars, 30 Starblight Soot and 6 Fragments of Otherworld (pack addition); requires the decrypted Planetoid (Tier 2) schematic. Use at night in the Astral Infection. Bereft: the recipe also needs 1 Leviathan Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "FlaskofFire",
@@ -3512,13 +3558,13 @@
      "class": null,
      "vanilla_id": "EmpressButterfly",
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "PlanteraDefeated"
      ],
      "any_of": false,
      "title": "Prismatic Lacewing",
-     "how": "Catch one with a bug net in the surface Hallow at night after Plantera, then release or kill it there.",
+     "how": "Catch one with a bug net in the surface Hallow at night after Plantera, then release or kill it there. Bereft: someone nearby must carry Duke Fishron Sigil when it's used, or the boss won't wake.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "LifeforcePotion",
@@ -3556,14 +3602,15 @@
      "class": "Abombination",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "FarmPlagueCellCanister",
-      "CraftDecryptionComputer"
+      "CraftDecryptionComputer",
+      "GolemDefeated"
      ],
      "any_of": false,
      "title": "Abombination",
-     "how": "Craft at a Mythril/Orichalcum Anvil from 20 Plague Cell Canisters and 12 Mysterious Circuitry; requires the decrypted Jungle lab (Tier 3) schematic. Use in the Jungle.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 20 Plague Cell Canisters and 12 Mysterious Circuitry; requires the decrypted Jungle lab (Tier 3) schematic. Use in the Jungle. Bereft: the recipe also needs 1 Golem Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "GreaterHealingPotion",
@@ -3665,13 +3712,14 @@
      "class": "DeathWhistle",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "GolemDefeated"
+      "GolemDefeated",
+      "EmpressOfLightDefeated"
      ],
      "any_of": false,
      "title": "Death Whistle",
-     "how": "Craft at a Demon/Crimson Altar from 15 Lunar Tablet Fragments and 25 Lihzahrd Bricks. Reusable.",
+     "how": "Craft at a Demon/Crimson Altar from 15 Lunar Tablet Fragments and 25 Lihzahrd Bricks. Reusable. Bereft: the recipe also needs 1 Empress of Light Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "WrathPotion",
@@ -3711,11 +3759,11 @@
      "stack": 8,
      "kind": "Required",
      "after": [
-      "LunaticCultistDefeated"
+      "AstrumDeusDefeated"
      ],
      "any_of": false,
      "title": "Meld Blobs",
-     "how": "Solar Pillar enemies drop them (1 in 5, 1 in 4 on Expert); Astrum Deus drops them too. The Catalyst Bomb needs 4 (pack addition).",
+     "how": "Astrum Deus drops 16-24 Meld Blobs (20-32 in Expert).",
      "uncertain": false,
      "reward": {
       "mod": "Terraria",
@@ -3734,13 +3782,13 @@
      "class": "TitanHeart",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "PlanteraDefeated"
      ],
      "any_of": false,
      "title": "Titan Heart",
-     "how": "Dropped by Atlas in the Astral Infection. Place it in the Astral Beacon to summon Astrum Deus; the heart is consumed.",
+     "how": "Dropped by Atlas in the Astral Infection. Place it in the Astral Beacon to summon Astrum Deus; the heart is consumed. Bereft: someone nearby must carry Lunatic Cultist Sigil when it's used, or the boss won't wake.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "HeartreachPotion",
@@ -3945,11 +3993,12 @@
      "after": [
       "CraftTorchBomb",
       "FarmMeldBlob",
-      "ObtainEctoplasm"
+      "ObtainEctoplasm",
+      "AstrumDeusDefeated"
      ],
      "any_of": false,
      "title": "Catalyst Bomb",
-     "how": "Craft at a Mythril/Orichalcum Anvil from 5 Torch Bombs, a Dynamite, an Ectoplasm, a Soul of Night and 4 Meld Blobs (pack addition). Detonate it in the Sanctuary at Underworld depth; consumed.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 5 Torch Bombs, a Dynamite, an Ectoplasm, a Soul of Night and 4 Meld Blobs (pack addition). Detonate it in the Sanctuary at Underworld depth; consumed. Bereft: the recipe also needs 1 Astrum Deus Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "FlaskofFire",
@@ -4025,6 +4074,28 @@
       "stack": 1,
       "title": "Ranger Emblem"
      }
+    },
+    {
+     "key": "CraftSigilTruffleWorm",
+     "type": "obtain",
+     "kind": "Required",
+     "after": [
+      "ObtainTruffleWorm",
+      "PlaguebringerDefeated"
+     ],
+     "any_of": false,
+     "title": "Sigil Truffle Worm",
+     "how": "Craft from a Truffle Worm and a Plaguebringer Sigil. Fish with it in the Ocean to summon Duke Fishron; until he's beaten, a plain Truffle Worm is just bait.",
+     "stack": 1,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SonarPotion",
+      "title": "Sonar Potion",
+      "stack": 2
+     },
+     "mod": "BereftCompatibility",
+     "namespace": "BereftCompatibility.Content.BossChain",
+     "class": "SigilTruffleWorm"
     }
    ]
   },
@@ -4065,7 +4136,7 @@
     },
     {
      "key": "PolterghastDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
       "CraftNecroplasmicBeacon"
      ],
@@ -4080,7 +4151,8 @@
      "key": "ProvidenceDefeated",
      "kind": "Required",
      "after": [
-      "ObtainProfanedCore"
+      "ObtainProfanedCore",
+      "DragonfollyDefeated"
      ],
      "any_of": false,
      "reward": {
@@ -4091,9 +4163,9 @@
     },
     {
      "key": "OldDukeDefeated",
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "ObtainBloodworm"
+      "CraftSigilBloodworm"
      ],
      "any_of": false,
      "reward": {
@@ -4217,11 +4289,12 @@
      "kind": "Required",
      "after": [
       "ObtainLuminiteBars",
-      "FarmUnholyEssence"
+      "FarmUnholyEssence",
+      "MoonLordDefeated"
      ],
      "any_of": false,
      "title": "Profaned Shard",
-     "how": "Craft at a Mythril/Orichalcum Anvil from 5 Luminite Bars, 25 Unholy Essence and 4 Sanguite Bars (pack addition; from the Subspace Serpent). Use in the Hallow or Underworld; reusable.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 5 Luminite Bars, 25 Unholy Essence and 4 Sanguite Bars (pack addition; from the Subspace Serpent). Use in the Hallow or Underworld; reusable. Bereft: the recipe also needs 1 Moon Lord Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "EndurancePotion",
@@ -4243,7 +4316,7 @@
      ],
      "any_of": false,
      "title": "Profaned Core",
-     "how": "Dropped by the Profaned Guardian Commander. Summons Providence (reusable).",
+     "how": "Dropped by the Profaned Guardian Commander. Summons Providence (reusable). Bereft: someone nearby must carry Dragonfolly Sigil when it's used, or the boss won't wake.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "SpelunkerPotion",
@@ -4402,11 +4475,12 @@
      "stack": 1,
      "kind": "Required",
      "after": [
-      "ObtainSolarFragments"
+      "ObtainSolarFragments",
+      "ProfanedGuardiansDefeated"
      ],
      "any_of": false,
      "title": "Exotic Pheromones",
-     "how": "Craft at an Ancient Manipulator from 5 Life Alloy and 20 Solar Fragments. Use in the Jungle; reusable.",
+     "how": "Craft at an Ancient Manipulator from 5 Life Alloy and 20 Solar Fragments. Use in the Jungle; reusable. Bereft: the recipe also needs 1 Profaned Guardian Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "SuperHealingPotion",
@@ -4491,13 +4565,16 @@
      "class": "NecroplasmicBeacon",
      "vanilla_id": null,
      "stack": 1,
-     "kind": "Optional",
+     "kind": "Required",
      "after": [
-      "FarmNecroplasm"
+      "FarmNecroplasm",
+      "StormWeaverDefeated",
+      "CeaselessVoidDefeated",
+      "SignusDefeated"
      ],
      "any_of": false,
      "title": "Necroplasmic Beacon",
-     "how": "Craft at a Mythril/Orichalcum Anvil from 25 Wood and 50 Necroplasm. Use in the Dungeon; reusable.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 25 Wood and 50 Necroplasm. Use in the Dungeon; reusable. Bereft: the recipe also needs 1 Storm Weaver Sigil and Ceaseless Void Sigil and Signus Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "HeartreachPotion",
@@ -4608,7 +4685,7 @@
      ],
      "any_of": false,
      "title": "Mark of Providence",
-     "how": "Craft at a Mythril/Orichalcum Anvil from 3 Luminite Bars, 40 Unholy Essence and 5 Solar Fragments. Use in the Dungeon (Ceaseless Void), Underworld (Signus) or Space (Storm Weaver); reusable.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 3 Luminite Bars, 40 Unholy Essence and 5 Solar Fragments. Use in the Dungeon (Ceaseless Void), Underworld (Signus) or Space (Storm Weaver); reusable. Bereft: the recipe also needs 1 Providence Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "FlaskofFire",
@@ -4694,11 +4771,12 @@
      "after": [
       "ObtainDarkPlasma",
       "ObtainArmoredShell",
-      "ObtainTwistingNether"
+      "ObtainTwistingNether",
+      "OldDukeDefeated"
      ],
      "any_of": false,
      "title": "Cosmic Worm",
-     "how": "Craft at a Mythril/Orichalcum Anvil from an Armored Shell, a Twisting Nether and a Dark Plasma (an alternate recipe uses 40 Luminite Bars, 10 of each lunar fragment, 10 Meld Blobs and 40 Necroplasm). Reusable.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from an Armored Shell, a Twisting Nether and a Dark Plasma (an alternate recipe uses 40 Luminite Bars, 10 of each lunar fragment, 10 Meld Blobs and 40 Necroplasm). Reusable. Bereft: the recipe also needs 1 Old Duke Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "LifeforcePotion",
@@ -4965,6 +5043,28 @@
       "stack": 1,
       "title": "Statis' Blessing"
      }
+    },
+    {
+     "key": "CraftSigilBloodworm",
+     "type": "obtain",
+     "kind": "Required",
+     "after": [
+      "ObtainBloodworm",
+      "PolterghastDefeated"
+     ],
+     "any_of": false,
+     "title": "Sigil Bloodworm",
+     "how": "Craft from a Bloodworm and a Polterghast Sigil. Fish with it in the Sulphurous Sea to summon the Old Duke; until he's beaten, plain Bloodworms and Acid Rain won't bring him.",
+     "stack": 1,
+     "uncertain": false,
+     "reward": {
+      "vanilla_id": "SonarPotion",
+      "title": "Sonar Potion",
+      "stack": 2
+     },
+     "mod": "BereftCompatibility",
+     "namespace": "BereftCompatibility.Content.BossChain",
+     "class": "SigilBloodworm"
     }
    ]
   },
@@ -5335,7 +5435,7 @@
      ],
      "any_of": false,
      "title": "Jungle Dragon Egg",
-     "how": "Craft at a Mythril/Orichalcum Anvil from 10 Life Alloy and 15 Effulgent Feathers (from the Dragonfolly). Use in the Jungle; reusable.",
+     "how": "Craft at a Mythril/Orichalcum Anvil from 10 Life Alloy and 15 Effulgent Feathers (from the Dragonfolly). Use in the Jungle; reusable. Bereft: the recipe also needs 1 Devourer of Gods Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "SuperHealingPotion",
@@ -5516,11 +5616,12 @@
       "CraftAuricBar",
       "FarmEndothermicEnergy",
       "CraftCosmicAnvil",
-      "CraftVoltageRegulationSystem"
+      "CraftVoltageRegulationSystem",
+      "SupremeCalamitasDefeated"
      ],
      "any_of": false,
      "title": "Auric Quantum Cooling Cell",
-     "how": "Craft at the Cosmic Anvil from 5 Auric Bars, 8 Mysterious Circuitry, 8 Dubious Plating, 40 Endothermic Energy and 6 Essence of Eleum; requires the Ice lab (Tier 5) schematic. Insert it in the Codebreaker to contact Draedon.",
+     "how": "Craft at the Cosmic Anvil from 5 Auric Bars, 8 Mysterious Circuitry, 8 Dubious Plating, 40 Endothermic Energy and 6 Essence of Eleum; requires the Ice lab (Tier 5) schematic. Insert it in the Codebreaker to contact Draedon. Bereft: the recipe also needs 1 Supreme Calamitas Sigil.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "SuperHealingPotion",
@@ -5564,7 +5665,7 @@
      ],
      "any_of": false,
      "title": "Ashes of Calamity (Offering)",
-     "how": "Hold Ashes of Calamity (from the Calamitas Clone) and right-click the altar in the Brimstone Crags; one is consumed per summon.",
+     "how": "Hold Ashes of Calamity (from the Calamitas Clone) and right-click the altar in the Brimstone Crags; one is consumed per summon. Bereft: someone nearby must carry Yharon Sigil when it's used, or the boss won't wake.",
      "uncertain": false,
      "reward": {
       "vanilla_id": "FlaskofFire",

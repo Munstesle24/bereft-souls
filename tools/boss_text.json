@@ -6,7 +6,7 @@
  ],
  "GlowmothDefeated": [
   "Glowmoth",
-  "Use a Suspicious Looking Candle in a glowing mushroom biome.",
+  "Use a Suspicious Looking Candle in a glowing mushroom biome. Bereft: Silk Cocoons can't be broken unless you carry a King Slime Sigil.",
   ""
  ],
  "CrabulonDefeated": [
@@ -16,12 +16,12 @@
  ],
  "HiveMindDefeated": [
   "The Hive Mind",
-  "Break a Hive Tumor in the Corruption; later fights can use a Teratoma.",
+  "Break a Hive Tumor in the Corruption; later fights can use a Teratoma. Bereft: Hive Tumors can't be hurt unless you carry a World Evil Sigil. Only one of the Hive Mind or the Perforators is needed.",
   "The first Hive Mind or Perforators kill enchants Aerialite Ore."
  ],
  "PerforatorsDefeated": [
   "The Perforators",
-  "Break a Perforator Cyst in the Crimson; later fights can use Bloody Worm Food.",
+  "Break a Perforator Cyst in the Crimson; later fights can use Bloody Worm Food. Bereft: Perforator Cysts can't be hurt unless you carry a World Evil Sigil. Only one of the Hive Mind or the Perforators is needed.",
   "The first Hive Mind or Perforators kill enchants Aerialite Ore."
  ],
  "PutridPinkyDefeated": [
@@ -31,7 +31,7 @@
  ],
  "PharaohsCurseDefeated": [
   "Pharaoh's Curse",
-  "Open the Sarcophagus deep inside the Pyramid.",
+  "Open the Sarcophagus deep inside the Pyramid. Bereft: someone nearby must carry a Putrid Pinky Sigil.",
   "Drops Cursed Matter."
  ],
  "SlimeGodDefeated": [
@@ -41,12 +41,12 @@
  ],
  "ExcavatorDefeated": [
   "The Excavator",
-  "Activate the Seismic Station in the Abandoned Village.",
+  "Activate the Seismic Station in the Abandoned Village. Bereft: someone nearby must carry a Slime God Sigil.",
   ""
  ],
  "AdvisorDefeated": [
   "The Advisor",
-  "Wake it at the Avaritian Gateway in the Planetarium.",
+  "Wake it at the Avaritian Gateway in the Planetarium. Bereft: its four tethered Constructs can't be hurt unless you carry an Excavator Sigil.",
   ""
  ],
  "CryogenDefeated": [
@@ -96,12 +96,12 @@
  ],
  "LuxDefeated": [
   "Lux",
-  "Destroy a Chaos Construct and its spirit in the Hallow.",
+  "Destroy a Chaos Construct and its spirit in the Hallow. Bereft: the Chaos Spirit only becomes Lux if someone nearby carries a Ravager Sigil.",
   "Drops Phase Ore."
  ],
  "AstrumDeusDefeated": [
   "Astrum Deus",
-  "Use a Titan Heart (dropped by Atlas) on an Astral Beacon; later fights can use a reusable Starcore.",
+  "Use a Titan Heart (dropped by Atlas) on an Astral Beacon; later fights can use a reusable Starcore. Bereft: someone at the Astral Beacon must carry a Lunatic Cultist Sigil.",
   "Its defeat lets you mine Astral Ore."
  ],
  "SubspaceSerpentDefeated": [
@@ -121,7 +121,7 @@
  ],
  "ProvidenceDefeated": [
   "Providence, the Profaned Goddess",
-  "Use a Profaned Core in the Hallow or Underworld.",
+  "Use a Profaned Core in the Hallow or Underworld. Bereft: someone nearby must carry a Dragonfolly Sigil.",
   "Its defeat spawns Uelibloom Ore."
  ],
  "CeaselessVoidDefeated": [
@@ -141,12 +141,12 @@
  ],
  "PolterghastDefeated": [
   "Polterghast",
-  "Use a Necroplasmic Beacon in the Dungeon.",
+  "Use a Necroplasmic Beacon in the Dungeon. Bereft: killing Phantom Spirits won't summon it until all three Sentinels are down.",
   "Lets the Acid Rain bring the Old Duke."
  ],
  "OldDukeDefeated": [
   "The Old Duke",
-  "Fish in the Sulphurous Sea with a Bloodworm, or wait out a post-Polterghast Acid Rain.",
+  "Fish in the Sulphurous Sea with a Sigil Bloodworm. Until he's beaten, plain Bloodworms and Acid Rain won't bring him.",
   ""
  ],
  "DevourerOfGodsDefeated": [
@@ -166,7 +166,7 @@
  ],
  "SupremeCalamitasDefeated": [
   "Supreme Witch, Calamitas",
-  "Offer Ashes of Calamity at the Altar of the Accursed.",
+  "Offer Ashes of Calamity at the Altar of the Accursed. Bereft: someone at the altar must carry a Yharon Sigil.",
   "One of the two final bosses."
  ]
 }

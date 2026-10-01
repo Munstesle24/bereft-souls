@@ -18,7 +18,7 @@ QuestBooks: {
 
 	CraftSuspiciousLookingEye: {
 		Title: "Suspicious Looking Eye"
-		Contents: "[c/FFD700:Required] Obtain Suspicious Looking Eye. Craft at a Demon or Crimson Altar from 6 Lenses and use it at night. The Eye of Cthulhu can also show up on its own. [c/7FD4FF:Reward: 2 Ironskin Potion]"
+		Contents: "[c/FFD700:Required] Obtain Suspicious Looking Eye. Craft at a Demon or Crimson Altar from 6 Lenses and use it at night. The Eye of Cthulhu can also show up on its own. Bereft: the recipe also needs 1 Desert Scourge Sigil. [c/7FD4FF:Reward: 2 Ironskin Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Suspicious Looking Eye [c/7FD4FF:Reward: 2 Ironskin Potion]"
 	}
 
@@ -150,8 +150,8 @@ QuestBooks: {
 
 	CraftDesertMedallion: {
 		Title: "Desert Medallion"
-		Contents: "[c/9AA0A6:Optional] Obtain Desert Medallion. Craft at a Demon/Crimson Altar from 40 Sand, 4 Antlion Mandibles, 2 Stormlion Mandibles and 3 Fragments of Earth (pack addition). Reusable. [c/7FD4FF:Reward: 2 Night Owl Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Desert Medallion [c/7FD4FF:Reward: 2 Night Owl Potion]"
+		Contents: "[c/FFD700:Required] Obtain Desert Medallion. Craft at a Demon/Crimson Altar from 40 Sand, 4 Antlion Mandibles, 2 Stormlion Mandibles and 3 Fragments of Earth (pack addition). Reusable. Bereft: the recipe also needs 1 Glowmoth Sigil. [c/7FD4FF:Reward: 2 Night Owl Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Desert Medallion [c/7FD4FF:Reward: 2 Night Owl Potion]"
 	}
 
 	ObtainPearlShard: {
@@ -174,14 +174,14 @@ QuestBooks: {
 
 	CraftSuspiciousLookingCandle: {
 		Title: "Suspicious Looking Candle"
-		Contents: "[c/9AA0A6:Optional] Obtain Suspicious Looking Candle. Craft at a Demon/Crimson Altar from a Candle, 5 Glow Nylon (Cobweb + Glowing Mushroom at a Loom), 10 Glowing Mushrooms and 3 Prism Shards (pack addition). Use in a Glowing Mushroom biome; consumed. [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Suspicious Looking Candle [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
+		Contents: "[c/FFD700:Required] Obtain Suspicious Looking Candle. Craft at a Demon/Crimson Altar from a Candle, 5 Glow Nylon (Cobweb + Glowing Mushroom at a Loom), 10 Glowing Mushrooms and 3 Prism Shards (pack addition). Use in a Glowing Mushroom biome; consumed. Bereft: the recipe also needs 1 King Slime Sigil. [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Suspicious Looking Candle [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
 	}
 
 	CraftDecapoditaSprout: {
 		Title: "Decapodita Sprout"
-		Contents: "[c/9AA0A6:Optional] Obtain Decapodita Sprout. Craft at a Demon/Crimson Altar from 50 Glowing Mushrooms and 3 Fragments of Nature (pack addition). Reusable. [c/7FD4FF:Reward: 2 Builder Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Decapodita Sprout [c/7FD4FF:Reward: 2 Builder Potion]"
+		Contents: "[c/FFD700:Required] Obtain Decapodita Sprout. Craft at a Demon/Crimson Altar from 50 Glowing Mushrooms and 3 Fragments of Nature (pack addition). Reusable. Bereft: the recipe also needs 1 Eye of Cthulhu Sigil. [c/7FD4FF:Reward: 2 Builder Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Decapodita Sprout [c/7FD4FF:Reward: 2 Builder Potion]"
 	}
 
 	EquipFungalClump: {
@@ -216,8 +216,8 @@ QuestBooks: {
 
 	CraftJarOfPeanuts: {
 		Title: "Jar of Peanuts"
-		Contents: "[c/9AA0A6:Optional] Obtain Jar of Peanuts. Craft by hand from a Bottle, 15 Peanuts and 2 Aerialite Bars (pack addition). Summons Putrid Pinky; consumed. [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Jar of Peanuts [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
+		Contents: "[c/FFD700:Required] Obtain Jar of Peanuts. Craft by hand from a Bottle, 15 Peanuts and 2 Aerialite Bars (pack addition). Summons Putrid Pinky; consumed. Bereft: the recipe also needs 1 Queen Bee Sigil. [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Jar of Peanuts [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
 	}
 
 	ObtainWormwood: {
@@ -240,8 +240,8 @@ QuestBooks: {
 
 	CraftOverloadedSludge: {
 		Title: "Overloaded Sludge"
-		Contents: "[c/9AA0A6:Optional] Obtain Overloaded Sludge. Craft at a Demon/Crimson Altar from 40 Blighted Gel, 40 evil blocks and 5 Wormwood (pack addition). Reusable. [c/7FD4FF:Reward: 2 Swiftness Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Overloaded Sludge [c/7FD4FF:Reward: 2 Swiftness Potion]"
+		Contents: "[c/FFD700:Required] Obtain Overloaded Sludge. Craft at a Demon/Crimson Altar from 40 Blighted Gel, 40 evil blocks and 5 Wormwood (pack addition). Reusable. Bereft: the recipe also needs 1 Deerclops Sigil. [c/7FD4FF:Reward: 2 Swiftness Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Overloaded Sludge [c/7FD4FF:Reward: 2 Swiftness Potion]"
 	}
 
 	ObtainPurifiedGel: {
@@ -258,8 +258,8 @@ QuestBooks: {
 
 	CraftAbeemination: {
 		Title: "Abeemination"
-		Contents: "[c/9AA0A6:Optional] Obtain Abeemination. Craft at a Demon/Crimson Altar from honey, hive and Stinger materials, or just break a Bee Larva in the Underground Jungle. [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Abeemination [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
+		Contents: "[c/FFD700:Required] Obtain Abeemination. Craft at a Demon/Crimson Altar from honey, hive and Stinger materials, or just break a Bee Larva in the Underground Jungle. Bereft: the recipe also needs 1 Hive Mind Sigil or Perforator Sigil. [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Abeemination [c/7FD4FF:Reward: 5 Lesser Healing Potion]"
 	}
 
 	ObtainBeeWax: {
@@ -330,8 +330,14 @@ QuestBooks: {
 
 	CraftDeerThing: {
 		Title: "Deer Thing"
-		Contents: "[c/9AA0A6:Optional] Obtain Deer Thing. Craft at a Demon/Crimson Altar from Flinx Fur, a Lens and Demonite/Crimtane Ore; use in the Snow biome. [c/7FD4FF:Reward: 2 Builder Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Deer Thing [c/7FD4FF:Reward: 2 Builder Potion]"
+		Contents: "[c/FFD700:Required] Obtain Deer Thing. Craft at a Demon/Crimson Altar from Flinx Fur, a Lens and Demonite/Crimtane Ore; use in the Snow biome. Bereft: the recipe also needs 1 Skeletron Sigil. [c/7FD4FF:Reward: 2 Builder Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Deer Thing [c/7FD4FF:Reward: 2 Builder Potion]"
+	}
+
+	CraftFleshboundEffigy: {
+		Title: "Fleshbound Effigy"
+		Contents: "[c/FFD700:Required] Obtain Fleshbound Effigy. Craft at a Demon or Crimson Altar from a Guide Voodoo Doll plus an Eye of Cthulhu, World Evil, Skeletron and Advisor Sigil. Throw it into Underworld lava. Until the Wall of Flesh falls, a plain Guide Voodoo Doll won't summon it. [c/7FD4FF:Reward: 3 Ironskin Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Fleshbound Effigy [c/7FD4FF:Reward: 3 Ironskin Potion]"
 	}
 
 	FarmSoulsOfLight: {
@@ -360,19 +366,19 @@ QuestBooks: {
 
 	CraftMechanicalWorm: {
 		Title: "Mechanical Worm"
-		Contents: "[c/FFD700:Required] Obtain Mechanical Worm. Craft at a Mythril/Orichalcum Anvil from Rotten Chunks/Vertebrae, Iron/Lead Bars and Souls of Night. Use at night. [c/7FD4FF:Reward: 2 Inferno Potion]"
+		Contents: "[c/FFD700:Required] Obtain Mechanical Worm. Craft at a Mythril/Orichalcum Anvil from Rotten Chunks/Vertebrae, Iron/Lead Bars and Souls of Night. Use at night. Either a Mythril or an Orichalcum Anvil works. Bereft: the recipe also needs 1 Brimstone Elemental Sigil. [c/7FD4FF:Reward: 2 Inferno Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Mechanical Worm [c/7FD4FF:Reward: 2 Inferno Potion]"
 	}
 
 	CraftMechanicalEye: {
 		Title: "Mechanical Eye"
-		Contents: "[c/FFD700:Required] Obtain Mechanical Eye. Craft at a Mythril/Orichalcum Anvil from Lenses, Iron/Lead Bars and Souls of Light. Use at night. [c/7FD4FF:Reward: 5 Healing Potion]"
+		Contents: "[c/FFD700:Required] Obtain Mechanical Eye. Craft at a Mythril/Orichalcum Anvil from Lenses, Iron/Lead Bars and Souls of Light. Use at night. Either a Mythril or an Orichalcum Anvil works. Bereft: the recipe also needs 1 Destroyer Sigil. [c/7FD4FF:Reward: 5 Healing Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Mechanical Eye [c/7FD4FF:Reward: 5 Healing Potion]"
 	}
 
 	CraftMechanicalSkull: {
 		Title: "Mechanical Skull"
-		Contents: "[c/FFD700:Required] Obtain Mechanical Skull. Craft at a Mythril/Orichalcum Anvil from Bones, Iron/Lead Bars and Souls of Light and Night. Use at night. [c/7FD4FF:Reward: 2 Wrath Potion]"
+		Contents: "[c/FFD700:Required] Obtain Mechanical Skull. Craft at a Mythril/Orichalcum Anvil from Bones, Iron/Lead Bars and Souls of Light and Night. Use at night. Either a Mythril or an Orichalcum Anvil works. Bereft: the recipe also needs 1 Twins Sigil. [c/7FD4FF:Reward: 2 Wrath Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Mechanical Skull [c/7FD4FF:Reward: 2 Wrath Potion]"
 	}
 
@@ -420,7 +426,7 @@ QuestBooks: {
 
 	CraftCryoKey: {
 		Title: "Cryo Key"
-		Contents: "[c/FFD700:Required] Obtain Cryo Key. Craft at an Anvil from 50 ice blocks, 5 Souls of Light, 5 Souls of Night, 8 Essence of Eleum and 6 Fragments of Permafrost (pack addition). Use in the Snow biome. [c/7FD4FF:Reward: Flask of Ichor]"
+		Contents: "[c/FFD700:Required] Obtain Cryo Key. Craft at an Anvil from 50 ice blocks, 5 Souls of Light, 5 Souls of Night, 8 Essence of Eleum and 6 Fragments of Permafrost (pack addition). Use in the Snow biome. Bereft: the recipe also needs 1 Queen Slime Sigil. [c/7FD4FF:Reward: Flask of Ichor]"
 		Tooltip: "[c/FFD700:Required] Obtain Cryo Key [c/7FD4FF:Reward: Flask of Ichor]"
 	}
 
@@ -468,7 +474,7 @@ QuestBooks: {
 
 	CraftFrostedKey: {
 		Title: "Frosted Key"
-		Contents: "[c/FFD700:Required] Obtain Frosted Key. Craft at a Mythril/Orichalcum Anvil from a Dissolving Aurora, 8 Cryonic Bars (replacing the Frost Core in this pack) and a Soul of Might, Sight and Fright. Hold it and right-click the Frost Artifact in the Permafrost biome; not consumed. [c/7FD4FF:Reward: 2 Shine Potion]"
+		Contents: "[c/FFD700:Required] Obtain Frosted Key. Craft at a Mythril/Orichalcum Anvil from a Dissolving Aurora, 8 Cryonic Bars (replacing the Frost Core in this pack) and a Soul of Might, Sight and Fright. Hold it and right-click the Frost Artifact in the Permafrost biome; not consumed. Bereft: the recipe also needs 1 Skeletron Prime Sigil. [c/7FD4FF:Reward: 2 Shine Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Frosted Key [c/7FD4FF:Reward: 2 Shine Potion]"
 	}
 
@@ -498,7 +504,7 @@ QuestBooks: {
 
 	CraftEyeofDesolation: {
 		Title: "Eye of Desolation"
-		Contents: "[c/FFD700:Required] Obtain Eye of Desolation. Craft at an Anvil from 10 Hellstone Bars, 5 Essence of Havoc and 3 Souls of Plight (pack addition, so Polaris comes first). Use at night; reusable. [c/7FD4FF:Reward: 2 Night Owl Potion]"
+		Contents: "[c/FFD700:Required] Obtain Eye of Desolation. Craft at an Anvil from 10 Hellstone Bars, 5 Essence of Havoc and 3 Souls of Plight (pack addition, so Polaris comes first). Use at night; reusable. Bereft: the recipe also needs 1 Polaris Sigil. [c/7FD4FF:Reward: 2 Night Owl Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Eye of Desolation [c/7FD4FF:Reward: 2 Night Owl Potion]"
 	}
 
@@ -516,8 +522,8 @@ QuestBooks: {
 
 	CraftCharredIdol: {
 		Title: "Charred Idol"
-		Contents: "[c/9AA0A6:Optional] Obtain Charred Idol. Craft at a Hellforge from 5 Unholy Cores, 7 Essence of Havoc, 5 Souls of Night and 5 Fragments of Inferno (pack addition). Use in the Brimstone Crags. [c/7FD4FF:Reward: 2 Archery Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Charred Idol [c/7FD4FF:Reward: 2 Archery Potion]"
+		Contents: "[c/FFD700:Required] Obtain Charred Idol. Craft at a Hellforge from 5 Unholy Cores, 7 Essence of Havoc, 5 Souls of Night and 5 Fragments of Inferno (pack addition). Use in the Brimstone Crags. Bereft: the recipe also needs 1 Aquatic Scourge Sigil. [c/7FD4FF:Reward: 2 Archery Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Charred Idol [c/7FD4FF:Reward: 2 Archery Potion]"
 	}
 
 	SetBrimflameArmor: {
@@ -528,14 +534,14 @@ QuestBooks: {
 
 	CraftSeafood: {
 		Title: "Seafood"
-		Contents: "[c/9AA0A6:Optional] Obtain Seafood. Craft at an Anvil from 20 Sulphurous Sand, 10 Starfish, 5 Shark Fins and 5 Fragments of Tide (pack addition). Use in the Sulphurous Sea. [c/7FD4FF:Reward: 2 Fishing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Seafood [c/7FD4FF:Reward: 2 Fishing Potion]"
+		Contents: "[c/FFD700:Required] Obtain Seafood. Craft at an Anvil from 20 Sulphurous Sand, 10 Starfish, 5 Shark Fins and 5 Fragments of Tide (pack addition). Use in the Sulphurous Sea. Bereft: the recipe also needs 1 Cryogen Sigil. [c/7FD4FF:Reward: 2 Fishing Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Seafood [c/7FD4FF:Reward: 2 Fishing Potion]"
 	}
 
 	ObtainGelatinCrystal: {
 		Title: "Gelatin Crystal"
-		Contents: "[c/9AA0A6:Optional] Obtain Gelatin Crystal. Mine one from the crystal clusters in the underground Hallow; use it in the Hallow to summon Queen Slime. [c/7FD4FF:Reward: 2 Mining Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Gelatin Crystal [c/7FD4FF:Reward: 2 Mining Potion]"
+		Contents: "[c/FFD700:Required] Obtain Gelatin Crystal. Mine one from the crystal clusters in the underground Hallow; use it in the Hallow to summon Queen Slime. Bereft: someone nearby must carry Wall of Flesh Sigil when it's used, or the boss won't wake. [c/7FD4FF:Reward: 2 Mining Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Gelatin Crystal [c/7FD4FF:Reward: 2 Mining Potion]"
 	}
 
 	ObtainLivingShard: {
@@ -594,7 +600,7 @@ QuestBooks: {
 
 	ObtainLihzahrdPowerCell: {
 		Title: "Lihzahrd Power Cell"
-		Contents: "[c/FFD700:Required] Obtain Lihzahrd Power Cell. Found in Jungle Temple chests (the Temple Key comes from Plantera). Place it on the Lihzahrd Altar. [c/7FD4FF:Reward: 3 Greater Healing Potion]"
+		Contents: "[c/FFD700:Required] Obtain Lihzahrd Power Cell. Found in Jungle Temple chests (the Temple Key comes from Plantera). Place it on the Lihzahrd Altar. Bereft: someone nearby must carry Astrum Aureus Sigil when it's used, or the boss won't wake. [c/7FD4FF:Reward: 3 Greater Healing Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Lihzahrd Power Cell [c/7FD4FF:Reward: 3 Greater Healing Potion]"
 	}
 
@@ -624,8 +630,8 @@ QuestBooks: {
 
 	CraftElectromagneticLure: {
 		Title: "Electromagnetic Lure"
-		Contents: "[c/9AA0A6:Optional] Obtain Electromagnetic Lure. Craft at an Anvil from a Dissolving element, 15 elemental fragments, 15 elemental plating and 2 Life Alloy (pack addition). Use on the surface Hallow to call a Chaos Construct, whose spirit becomes Lux; consumed. [c/7FD4FF:Reward: 2 Wrath Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Electromagnetic Lure [c/7FD4FF:Reward: 2 Wrath Potion]"
+		Contents: "[c/FFD700:Required] Obtain Electromagnetic Lure. Craft at an Anvil from a Dissolving element, 15 elemental fragments, 15 elemental plating and 2 Life Alloy (pack addition). Use on the surface Hallow to call a Chaos Construct, whose spirit becomes Lux; consumed. Bereft: someone nearby must carry Ravager Sigil when it's used, or the boss won't wake. [c/7FD4FF:Reward: 2 Wrath Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Electromagnetic Lure [c/7FD4FF:Reward: 2 Wrath Potion]"
 	}
 
 	FarmFragmentOfChaos: {
@@ -660,8 +666,8 @@ QuestBooks: {
 
 	CraftAstralChunk: {
 		Title: "Astral Chunk"
-		Contents: "[c/9AA0A6:Optional] Obtain Astral Chunk. Craft at a Mythril/Orichalcum Anvil from 8 Dubious Plating, 20 Fallen Stars, 30 Starblight Soot and 6 Fragments of Otherworld (pack addition); requires the decrypted Planetoid (Tier 2) schematic. Use at night in the Astral Infection. [c/7FD4FF:Reward: Flask of Fire]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Astral Chunk [c/7FD4FF:Reward: Flask of Fire]"
+		Contents: "[c/FFD700:Required] Obtain Astral Chunk. Craft at a Mythril/Orichalcum Anvil from 8 Dubious Plating, 20 Fallen Stars, 30 Starblight Soot and 6 Fragments of Otherworld (pack addition); requires the decrypted Planetoid (Tier 2) schematic. Use at night in the Astral Infection. Bereft: the recipe also needs 1 Leviathan Sigil. [c/7FD4FF:Reward: Flask of Fire]"
+		Tooltip: "[c/FFD700:Required] Obtain Astral Chunk [c/7FD4FF:Reward: Flask of Fire]"
 	}
 
 	ObtainAureusCell: {
@@ -684,8 +690,8 @@ QuestBooks: {
 
 	ObtainPrismaticLacewing: {
 		Title: "Prismatic Lacewing"
-		Contents: "[c/9AA0A6:Optional] Obtain Prismatic Lacewing. Catch one with a bug net in the surface Hallow at night after Plantera, then release or kill it there. [c/7FD4FF:Reward: 2 Lifeforce Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Prismatic Lacewing [c/7FD4FF:Reward: 2 Lifeforce Potion]"
+		Contents: "[c/FFD700:Required] Obtain Prismatic Lacewing. Catch one with a bug net in the surface Hallow at night after Plantera, then release or kill it there. Bereft: someone nearby must carry Duke Fishron Sigil when it's used, or the boss won't wake. [c/7FD4FF:Reward: 2 Lifeforce Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Prismatic Lacewing [c/7FD4FF:Reward: 2 Lifeforce Potion]"
 	}
 
 	FarmPlagueCellCanister: {
@@ -696,8 +702,8 @@ QuestBooks: {
 
 	CraftAbombination: {
 		Title: "Abombination"
-		Contents: "[c/9AA0A6:Optional] Obtain Abombination. Craft at a Mythril/Orichalcum Anvil from 20 Plague Cell Canisters and 12 Mysterious Circuitry; requires the decrypted Jungle lab (Tier 3) schematic. Use in the Jungle. [c/7FD4FF:Reward: 3 Greater Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Abombination [c/7FD4FF:Reward: 3 Greater Healing Potion]"
+		Contents: "[c/FFD700:Required] Obtain Abombination. Craft at a Mythril/Orichalcum Anvil from 20 Plague Cell Canisters and 12 Mysterious Circuitry; requires the decrypted Jungle lab (Tier 3) schematic. Use in the Jungle. Bereft: the recipe also needs 1 Golem Sigil. [c/7FD4FF:Reward: 3 Greater Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Abombination [c/7FD4FF:Reward: 3 Greater Healing Potion]"
 	}
 
 	SetPlaguebringerArmor: {
@@ -714,8 +720,8 @@ QuestBooks: {
 
 	CraftDeathWhistle: {
 		Title: "Death Whistle"
-		Contents: "[c/9AA0A6:Optional] Obtain Death Whistle. Craft at a Demon/Crimson Altar from 15 Lunar Tablet Fragments and 25 Lihzahrd Bricks. Reusable. [c/7FD4FF:Reward: 2 Wrath Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Death Whistle [c/7FD4FF:Reward: 2 Wrath Potion]"
+		Contents: "[c/FFD700:Required] Obtain Death Whistle. Craft at a Demon/Crimson Altar from 15 Lunar Tablet Fragments and 25 Lihzahrd Bricks. Reusable. Bereft: the recipe also needs 1 Empress of Light Sigil. [c/7FD4FF:Reward: 2 Wrath Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Death Whistle [c/7FD4FF:Reward: 2 Wrath Potion]"
 	}
 
 	ObtainAncientManipulator: {
@@ -726,14 +732,14 @@ QuestBooks: {
 
 	FarmMeldBlob: {
 		Title: "Meld Blobs"
-		Contents: "[c/FFD700:Required] Obtain 8 Meld Blobs. Solar Pillar enemies drop them (1 in 5, 1 in 4 on Expert); Astrum Deus drops them too. The Catalyst Bomb needs 4 (pack addition). [c/7FD4FF:Reward: 3 Rage Potions]"
+		Contents: "[c/FFD700:Required] Obtain 8 Meld Blobs. Astrum Deus drops 16-24 Meld Blobs (20-32 in Expert). [c/7FD4FF:Reward: 3 Rage Potions]"
 		Tooltip: "[c/FFD700:Required] Obtain 8 Meld Blobs [c/7FD4FF:Reward: 3 Rage Potions]"
 	}
 
 	ObtainTitanHeart: {
 		Title: "Titan Heart"
-		Contents: "[c/9AA0A6:Optional] Obtain Titan Heart. Dropped by Atlas in the Astral Infection. Place it in the Astral Beacon to summon Astrum Deus; the heart is consumed. [c/7FD4FF:Reward: 2 Heartreach Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Titan Heart [c/7FD4FF:Reward: 2 Heartreach Potion]"
+		Contents: "[c/FFD700:Required] Obtain Titan Heart. Dropped by Atlas in the Astral Infection. Place it in the Astral Beacon to summon Astrum Deus; the heart is consumed. Bereft: someone nearby must carry Lunatic Cultist Sigil when it's used, or the boss won't wake. [c/7FD4FF:Reward: 2 Heartreach Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Titan Heart [c/7FD4FF:Reward: 2 Heartreach Potion]"
 	}
 
 	MineAstralOre: {
@@ -774,7 +780,7 @@ QuestBooks: {
 
 	CraftCatalystBomb: {
 		Title: "Catalyst Bomb"
-		Contents: "[c/FFD700:Required] Obtain Catalyst Bomb. Craft at a Mythril/Orichalcum Anvil from 5 Torch Bombs, a Dynamite, an Ectoplasm, a Soul of Night and 4 Meld Blobs (pack addition). Detonate it in the Sanctuary at Underworld depth; consumed. [c/7FD4FF:Reward: Flask of Fire]"
+		Contents: "[c/FFD700:Required] Obtain Catalyst Bomb. Craft at a Mythril/Orichalcum Anvil from 5 Torch Bombs, a Dynamite, an Ectoplasm, a Soul of Night and 4 Meld Blobs (pack addition). Detonate it in the Sanctuary at Underworld depth; consumed. Bereft: the recipe also needs 1 Astrum Deus Sigil. [c/7FD4FF:Reward: Flask of Fire]"
 		Tooltip: "[c/FFD700:Required] Obtain Catalyst Bomb [c/7FD4FF:Reward: Flask of Fire]"
 	}
 
@@ -788,6 +794,12 @@ QuestBooks: {
 		Title: "Voidspace Armor"
 		Contents: "[c/9AA0A6:Optional] Wear the full Voidspace Armor. Upgrade Vespera armor at a Mythril/Orichalcum Anvil with Sanguite Bars, Fragments of Inferno and Astral Bars (4 / 6 / 5, pack addition). [c/7FD4FF:Reward: Ranger Emblem]"
 		Tooltip: "[c/9AA0A6:Optional] Wear the full Voidspace Armor [c/7FD4FF:Reward: Ranger Emblem]"
+	}
+
+	CraftSigilTruffleWorm: {
+		Title: "Sigil Truffle Worm"
+		Contents: "[c/FFD700:Required] Obtain Sigil Truffle Worm. Craft from a Truffle Worm and a Plaguebringer Sigil. Fish with it in the Ocean to summon Duke Fishron; until he's beaten, a plain Truffle Worm is just bait. [c/7FD4FF:Reward: 2 Sonar Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Sigil Truffle Worm [c/7FD4FF:Reward: 2 Sonar Potion]"
 	}
 
 	ObtainLuminiteBars: {
@@ -804,13 +816,13 @@ QuestBooks: {
 
 	CraftProfanedShard: {
 		Title: "Profaned Shard"
-		Contents: "[c/FFD700:Required] Obtain Profaned Shard. Craft at a Mythril/Orichalcum Anvil from 5 Luminite Bars, 25 Unholy Essence and 4 Sanguite Bars (pack addition; from the Subspace Serpent). Use in the Hallow or Underworld; reusable. [c/7FD4FF:Reward: 2 Endurance Potion]"
+		Contents: "[c/FFD700:Required] Obtain Profaned Shard. Craft at a Mythril/Orichalcum Anvil from 5 Luminite Bars, 25 Unholy Essence and 4 Sanguite Bars (pack addition; from the Subspace Serpent). Use in the Hallow or Underworld; reusable. Bereft: the recipe also needs 1 Moon Lord Sigil. [c/7FD4FF:Reward: 2 Endurance Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Profaned Shard [c/7FD4FF:Reward: 2 Endurance Potion]"
 	}
 
 	ObtainProfanedCore: {
 		Title: "Profaned Core"
-		Contents: "[c/FFD700:Required] Obtain Profaned Core. Dropped by the Profaned Guardian Commander. Summons Providence (reusable). [c/7FD4FF:Reward: 2 Spelunker Potion]"
+		Contents: "[c/FFD700:Required] Obtain Profaned Core. Dropped by the Profaned Guardian Commander. Summons Providence (reusable). Bereft: someone nearby must carry Dragonfolly Sigil when it's used, or the boss won't wake. [c/7FD4FF:Reward: 2 Spelunker Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Profaned Core [c/7FD4FF:Reward: 2 Spelunker Potion]"
 	}
 
@@ -846,7 +858,7 @@ QuestBooks: {
 
 	CraftExoticPheromones: {
 		Title: "Exotic Pheromones"
-		Contents: "[c/FFD700:Required] Obtain Exotic Pheromones. Craft at an Ancient Manipulator from 5 Life Alloy and 20 Solar Fragments. Use in the Jungle; reusable. [c/7FD4FF:Reward: 3 Super Healing Potion]"
+		Contents: "[c/FFD700:Required] Obtain Exotic Pheromones. Craft at an Ancient Manipulator from 5 Life Alloy and 20 Solar Fragments. Use in the Jungle; reusable. Bereft: the recipe also needs 1 Profaned Guardian Sigil. [c/7FD4FF:Reward: 3 Super Healing Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Exotic Pheromones [c/7FD4FF:Reward: 3 Super Healing Potion]"
 	}
 
@@ -870,8 +882,8 @@ QuestBooks: {
 
 	CraftNecroplasmicBeacon: {
 		Title: "Necroplasmic Beacon"
-		Contents: "[c/9AA0A6:Optional] Obtain Necroplasmic Beacon. Craft at a Mythril/Orichalcum Anvil from 25 Wood and 50 Necroplasm. Use in the Dungeon; reusable. [c/7FD4FF:Reward: 2 Heartreach Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Obtain Necroplasmic Beacon [c/7FD4FF:Reward: 2 Heartreach Potion]"
+		Contents: "[c/FFD700:Required] Obtain Necroplasmic Beacon. Craft at a Mythril/Orichalcum Anvil from 25 Wood and 50 Necroplasm. Use in the Dungeon; reusable. Bereft: the recipe also needs 1 Storm Weaver Sigil and Ceaseless Void Sigil and Signus Sigil. [c/7FD4FF:Reward: 2 Heartreach Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Necroplasmic Beacon [c/7FD4FF:Reward: 2 Heartreach Potion]"
 	}
 
 	ObtainRuinousSoul: {
@@ -894,7 +906,7 @@ QuestBooks: {
 
 	CraftMarkOfProvidence: {
 		Title: "Mark of Providence"
-		Contents: "[c/FFD700:Required] Obtain Mark of Providence. Craft at a Mythril/Orichalcum Anvil from 3 Luminite Bars, 40 Unholy Essence and 5 Solar Fragments. Use in the Dungeon (Ceaseless Void), Underworld (Signus) or Space (Storm Weaver); reusable. [c/7FD4FF:Reward: Flask of Fire]"
+		Contents: "[c/FFD700:Required] Obtain Mark of Providence. Craft at a Mythril/Orichalcum Anvil from 3 Luminite Bars, 40 Unholy Essence and 5 Solar Fragments. Use in the Dungeon (Ceaseless Void), Underworld (Signus) or Space (Storm Weaver); reusable. Bereft: the recipe also needs 1 Providence Sigil. [c/7FD4FF:Reward: Flask of Fire]"
 		Tooltip: "[c/FFD700:Required] Obtain Mark of Providence [c/7FD4FF:Reward: Flask of Fire]"
 	}
 
@@ -918,7 +930,7 @@ QuestBooks: {
 
 	CraftCosmicWorm: {
 		Title: "Cosmic Worm"
-		Contents: "[c/FFD700:Required] Obtain Cosmic Worm. Craft at a Mythril/Orichalcum Anvil from an Armored Shell, a Twisting Nether and a Dark Plasma (an alternate recipe uses 40 Luminite Bars, 10 of each lunar fragment, 10 Meld Blobs and 40 Necroplasm). Reusable. [c/7FD4FF:Reward: 2 Lifeforce Potion]"
+		Contents: "[c/FFD700:Required] Obtain Cosmic Worm. Craft at a Mythril/Orichalcum Anvil from an Armored Shell, a Twisting Nether and a Dark Plasma (an alternate recipe uses 40 Luminite Bars, 10 of each lunar fragment, 10 Meld Blobs and 40 Necroplasm). Reusable. Bereft: the recipe also needs 1 Old Duke Sigil. [c/7FD4FF:Reward: 2 Lifeforce Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Cosmic Worm [c/7FD4FF:Reward: 2 Lifeforce Potion]"
 	}
 
@@ -956,6 +968,12 @@ QuestBooks: {
 		Title: "Stardust Armor (Summoner)"
 		Contents: "[c/9AA0A6:Optional] Wear the full Stardust Armor (Summoner). Craft at an Ancient Manipulator from Stardust Fragments and Luminite Bars. [c/7FD4FF:Reward: Statis' Blessing]"
 		Tooltip: "[c/9AA0A6:Optional] Wear the full Stardust Armor (Summoner) [c/7FD4FF:Reward: Statis' Blessing]"
+	}
+
+	CraftSigilBloodworm: {
+		Title: "Sigil Bloodworm"
+		Contents: "[c/FFD700:Required] Obtain Sigil Bloodworm. Craft from a Bloodworm and a Polterghast Sigil. Fish with it in the Sulphurous Sea to summon the Old Duke; until he's beaten, plain Bloodworms and Acid Rain won't bring him. [c/7FD4FF:Reward: 2 Sonar Potion]"
+		Tooltip: "[c/FFD700:Required] Obtain Sigil Bloodworm [c/7FD4FF:Reward: 2 Sonar Potion]"
 	}
 
 	ObtainCosmiliteBar: {
@@ -1020,7 +1038,7 @@ QuestBooks: {
 
 	CraftYharonEgg: {
 		Title: "Jungle Dragon Egg"
-		Contents: "[c/FFD700:Required] Obtain Jungle Dragon Egg. Craft at a Mythril/Orichalcum Anvil from 10 Life Alloy and 15 Effulgent Feathers (from the Dragonfolly). Use in the Jungle; reusable. [c/7FD4FF:Reward: 5 Super Healing Potion]"
+		Contents: "[c/FFD700:Required] Obtain Jungle Dragon Egg. Craft at a Mythril/Orichalcum Anvil from 10 Life Alloy and 15 Effulgent Feathers (from the Dragonfolly). Use in the Jungle; reusable. Bereft: the recipe also needs 1 Devourer of Gods Sigil. [c/7FD4FF:Reward: 5 Super Healing Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Jungle Dragon Egg [c/7FD4FF:Reward: 5 Super Healing Potion]"
 	}
 
@@ -1062,7 +1080,7 @@ QuestBooks: {
 
 	CraftAuricQuantumCoolingCell: {
 		Title: "Auric Quantum Cooling Cell"
-		Contents: "[c/FFD700:Required] Obtain Auric Quantum Cooling Cell. Craft at the Cosmic Anvil from 5 Auric Bars, 8 Mysterious Circuitry, 8 Dubious Plating, 40 Endothermic Energy and 6 Essence of Eleum; requires the Ice lab (Tier 5) schematic. Insert it in the Codebreaker to contact Draedon. [c/7FD4FF:Reward: 5 Super Healing Potion]"
+		Contents: "[c/FFD700:Required] Obtain Auric Quantum Cooling Cell. Craft at the Cosmic Anvil from 5 Auric Bars, 8 Mysterious Circuitry, 8 Dubious Plating, 40 Endothermic Energy and 6 Essence of Eleum; requires the Ice lab (Tier 5) schematic. Insert it in the Codebreaker to contact Draedon. Bereft: the recipe also needs 1 Supreme Calamitas Sigil. [c/7FD4FF:Reward: 5 Super Healing Potion]"
 		Tooltip: "[c/FFD700:Required] Obtain Auric Quantum Cooling Cell [c/7FD4FF:Reward: 5 Super Healing Potion]"
 	}
 
@@ -1074,7 +1092,7 @@ QuestBooks: {
 
 	GatherAshesOfCalamity: {
 		Title: "Ashes of Calamity (Offering)"
-		Contents: "[c/FFD700:Required] Obtain Ashes of Calamity (Offering). Hold Ashes of Calamity (from the Calamitas Clone) and right-click the altar in the Brimstone Crags; one is consumed per summon. [c/7FD4FF:Reward: Flask of Fire]"
+		Contents: "[c/FFD700:Required] Obtain Ashes of Calamity (Offering). Hold Ashes of Calamity (from the Calamitas Clone) and right-click the altar in the Brimstone Crags; one is consumed per summon. Bereft: someone nearby must carry Yharon Sigil when it's used, or the boss won't wake. [c/7FD4FF:Reward: Flask of Fire]"
 		Tooltip: "[c/FFD700:Required] Obtain Ashes of Calamity (Offering) [c/7FD4FF:Reward: Flask of Fire]"
 	}
 
@@ -1116,62 +1134,62 @@ QuestBooks: {
 
 	DesertScourgeDefeated: {
 		Title: "The Desert Scourge"
-		Contents: "[c/9AA0A6:Optional] Defeat The Desert Scourge. Use a Desert Medallion in the Desert. Drops Pearl Shards. [c/7FD4FF:Reward: 5 Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Desert Scourge [c/7FD4FF:Reward: 5 Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat The Desert Scourge. Use a Desert Medallion in the Desert. Drops Pearl Shards. [c/7FD4FF:Reward: 5 Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat The Desert Scourge [c/7FD4FF:Reward: 5 Healing Potion]"
 	}
 
 	GlowmothDefeated: {
 		Title: "Glowmoth"
-		Contents: "[c/9AA0A6:Optional] Defeat Glowmoth. Use a Suspicious Looking Candle in a glowing mushroom biome. [c/7FD4FF:Reward: 5 Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat Glowmoth [c/7FD4FF:Reward: 5 Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat Glowmoth. Use a Suspicious Looking Candle in a glowing mushroom biome. Bereft: Silk Cocoons can't be broken unless you carry a King Slime Sigil. [c/7FD4FF:Reward: 5 Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat Glowmoth [c/7FD4FF:Reward: 5 Healing Potion]"
 	}
 
 	CrabulonDefeated: {
 		Title: "Crabulon"
-		Contents: "[c/9AA0A6:Optional] Defeat Crabulon. Use a Decapodita Sprout in a glowing mushroom biome. [c/7FD4FF:Reward: 5 Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat Crabulon [c/7FD4FF:Reward: 5 Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat Crabulon. Use a Decapodita Sprout in a glowing mushroom biome. [c/7FD4FF:Reward: 5 Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat Crabulon [c/7FD4FF:Reward: 5 Healing Potion]"
 	}
 
 	HiveMindDefeated: {
 		Title: "The Hive Mind"
-		Contents: "[c/9AA0A6:Optional] Defeat The Hive Mind. Break a Hive Tumor in the Corruption; later fights can use a Teratoma. The first Hive Mind or Perforators kill enchants Aerialite Ore. [c/7FD4FF:Reward: 5 Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Hive Mind [c/7FD4FF:Reward: 5 Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat The Hive Mind. Break a Hive Tumor in the Corruption; later fights can use a Teratoma. Bereft: Hive Tumors can't be hurt unless you carry a World Evil Sigil. Only one of the Hive Mind or the Perforators is needed. The first Hive Mind or Perforators kill enchants Aerialite Ore. [c/7FD4FF:Reward: 5 Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat The Hive Mind [c/7FD4FF:Reward: 5 Healing Potion]"
 	}
 
 	PerforatorsDefeated: {
 		Title: "The Perforators"
-		Contents: "[c/9AA0A6:Optional] Defeat The Perforators. Break a Perforator Cyst in the Crimson; later fights can use Bloody Worm Food. The first Hive Mind or Perforators kill enchants Aerialite Ore. [c/7FD4FF:Reward: 5 Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Perforators [c/7FD4FF:Reward: 5 Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat The Perforators. Break a Perforator Cyst in the Crimson; later fights can use Bloody Worm Food. Bereft: Perforator Cysts can't be hurt unless you carry a World Evil Sigil. Only one of the Hive Mind or the Perforators is needed. The first Hive Mind or Perforators kill enchants Aerialite Ore. [c/7FD4FF:Reward: 5 Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat The Perforators [c/7FD4FF:Reward: 5 Healing Potion]"
 	}
 
 	PutridPinkyDefeated: {
 		Title: "Putrid Pinky"
-		Contents: "[c/9AA0A6:Optional] Defeat Putrid Pinky. Use a Jar of Peanuts. Drops Wormwood, needed for Overloaded Sludge. [c/7FD4FF:Reward: 5 Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat Putrid Pinky [c/7FD4FF:Reward: 5 Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat Putrid Pinky. Use a Jar of Peanuts. Drops Wormwood, needed for Overloaded Sludge. [c/7FD4FF:Reward: 5 Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat Putrid Pinky [c/7FD4FF:Reward: 5 Healing Potion]"
 	}
 
 	PharaohsCurseDefeated: {
 		Title: "Pharaoh's Curse"
-		Contents: "[c/9AA0A6:Optional] Defeat Pharaoh's Curse. Open the Sarcophagus deep inside the Pyramid. Drops Cursed Matter. [c/7FD4FF:Reward: 5 Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat Pharaoh's Curse [c/7FD4FF:Reward: 5 Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat Pharaoh's Curse. Open the Sarcophagus deep inside the Pyramid. Bereft: someone nearby must carry a Putrid Pinky Sigil. Drops Cursed Matter. [c/7FD4FF:Reward: 5 Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat Pharaoh's Curse [c/7FD4FF:Reward: 5 Healing Potion]"
 	}
 
 	SlimeGodDefeated: {
 		Title: "The Slime God"
-		Contents: "[c/9AA0A6:Optional] Defeat The Slime God. Use Overloaded Sludge. Drops Purified Gel, used in many recipes. [c/7FD4FF:Reward: 5 Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Slime God [c/7FD4FF:Reward: 5 Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat The Slime God. Use Overloaded Sludge. Drops Purified Gel, used in many recipes. [c/7FD4FF:Reward: 5 Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat The Slime God [c/7FD4FF:Reward: 5 Healing Potion]"
 	}
 
 	ExcavatorDefeated: {
 		Title: "The Excavator"
-		Contents: "[c/9AA0A6:Optional] Defeat The Excavator. Activate the Seismic Station in the Abandoned Village. [c/7FD4FF:Reward: 5 Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Excavator [c/7FD4FF:Reward: 5 Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat The Excavator. Activate the Seismic Station in the Abandoned Village. Bereft: someone nearby must carry a Slime God Sigil. [c/7FD4FF:Reward: 5 Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat The Excavator [c/7FD4FF:Reward: 5 Healing Potion]"
 	}
 
 	AdvisorDefeated: {
 		Title: "The Advisor"
-		Contents: "[c/9AA0A6:Optional] Defeat The Advisor. Wake it at the Avaritian Gateway in the Planetarium. [c/7FD4FF:Reward: 5 Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Advisor [c/7FD4FF:Reward: 5 Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat The Advisor. Wake it at the Avaritian Gateway in the Planetarium. Bereft: its four tethered Constructs can't be hurt unless you carry an Excavator Sigil. [c/7FD4FF:Reward: 5 Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat The Advisor [c/7FD4FF:Reward: 5 Healing Potion]"
 	}
 
 	CryogenDefeated: {
@@ -1182,14 +1200,14 @@ QuestBooks: {
 
 	AquaticScourgeDefeated: {
 		Title: "The Aquatic Scourge"
-		Contents: "[c/9AA0A6:Optional] Defeat The Aquatic Scourge. Use Seafood in the Sulphurous Sea. [c/7FD4FF:Reward: 5 Greater Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Aquatic Scourge [c/7FD4FF:Reward: 5 Greater Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat The Aquatic Scourge. Use Seafood in the Sulphurous Sea. [c/7FD4FF:Reward: 5 Greater Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat The Aquatic Scourge [c/7FD4FF:Reward: 5 Greater Healing Potion]"
 	}
 
 	BrimstoneElementalDefeated: {
 		Title: "The Brimstone Elemental"
-		Contents: "[c/9AA0A6:Optional] Defeat The Brimstone Elemental. Use a Charred Idol in the Brimstone Crag. [c/7FD4FF:Reward: 5 Greater Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Brimstone Elemental [c/7FD4FF:Reward: 5 Greater Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat The Brimstone Elemental. Use a Charred Idol in the Brimstone Crag. [c/7FD4FF:Reward: 5 Greater Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat The Brimstone Elemental [c/7FD4FF:Reward: 5 Greater Healing Potion]"
 	}
 
 	PolarisDefeated: {
@@ -1206,38 +1224,38 @@ QuestBooks: {
 
 	AstrumAureusDefeated: {
 		Title: "Astrum Aureus"
-		Contents: "[c/9AA0A6:Optional] Defeat Astrum Aureus. Use an Astral Chunk in the Astral Infection. Its defeat brings down a new Astral meteor. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat Astrum Aureus [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat Astrum Aureus. Use an Astral Chunk in the Astral Infection. Its defeat brings down a new Astral meteor. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat Astrum Aureus [c/7FD4FF:Reward: 8 Greater Healing Potion]"
 	}
 
 	LeviathanDefeated: {
 		Title: "The Leviathan and Anahita"
-		Contents: "[c/9AA0A6:Optional] Defeat The Leviathan and Anahita. Use a Naiad's Warhorn at the Ocean. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Leviathan and Anahita [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat The Leviathan and Anahita. Use a Naiad's Warhorn at the Ocean. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat The Leviathan and Anahita [c/7FD4FF:Reward: 8 Greater Healing Potion]"
 	}
 
 	PlaguebringerDefeated: {
 		Title: "The Plaguebringer Goliath"
-		Contents: "[c/9AA0A6:Optional] Defeat The Plaguebringer Goliath. Use an Abombination in the Jungle. Plague enemies only appear after Golem. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Plaguebringer Goliath [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat The Plaguebringer Goliath. Use an Abombination in the Jungle. Plague enemies only appear after Golem. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat The Plaguebringer Goliath [c/7FD4FF:Reward: 8 Greater Healing Potion]"
 	}
 
 	RavagerDefeated: {
 		Title: "Ravager"
-		Contents: "[c/9AA0A6:Optional] Defeat Ravager. Use a Death Whistle. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat Ravager [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat Ravager. Use a Death Whistle. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat Ravager [c/7FD4FF:Reward: 8 Greater Healing Potion]"
 	}
 
 	LuxDefeated: {
 		Title: "Lux"
-		Contents: "[c/9AA0A6:Optional] Defeat Lux. Destroy a Chaos Construct and its spirit in the Hallow. Drops Phase Ore. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat Lux [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat Lux. Destroy a Chaos Construct and its spirit in the Hallow. Bereft: the Chaos Spirit only becomes Lux if someone nearby carries a Ravager Sigil. Drops Phase Ore. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat Lux [c/7FD4FF:Reward: 8 Greater Healing Potion]"
 	}
 
 	AstrumDeusDefeated: {
 		Title: "Astrum Deus"
-		Contents: "[c/9AA0A6:Optional] Defeat Astrum Deus. Use a Titan Heart (dropped by Atlas) on an Astral Beacon; later fights can use a reusable Starcore. Its defeat lets you mine Astral Ore. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat Astrum Deus [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat Astrum Deus. Use a Titan Heart (dropped by Atlas) on an Astral Beacon; later fights can use a reusable Starcore. Bereft: someone at the Astral Beacon must carry a Lunatic Cultist Sigil. Its defeat lets you mine Astral Ore. [c/7FD4FF:Reward: 8 Greater Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat Astrum Deus [c/7FD4FF:Reward: 8 Greater Healing Potion]"
 	}
 
 	SubspaceSerpentDefeated: {
@@ -1260,20 +1278,20 @@ QuestBooks: {
 
 	PolterghastDefeated: {
 		Title: "Polterghast"
-		Contents: "[c/9AA0A6:Optional] Defeat Polterghast. Use a Necroplasmic Beacon in the Dungeon. Lets the Acid Rain bring the Old Duke. [c/7FD4FF:Reward: 5 Super Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat Polterghast [c/7FD4FF:Reward: 5 Super Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat Polterghast. Use a Necroplasmic Beacon in the Dungeon. Bereft: killing Phantom Spirits won't summon it until all three Sentinels are down. Lets the Acid Rain bring the Old Duke. [c/7FD4FF:Reward: 5 Super Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat Polterghast [c/7FD4FF:Reward: 5 Super Healing Potion]"
 	}
 
 	ProvidenceDefeated: {
 		Title: "Providence, the Profaned Goddess"
-		Contents: "[c/FFD700:Required] Defeat Providence, the Profaned Goddess. Use a Profaned Core in the Hallow or Underworld. Its defeat spawns Uelibloom Ore. [c/7FD4FF:Reward: 5 Super Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat Providence, the Profaned Goddess. Use a Profaned Core in the Hallow or Underworld. Bereft: someone nearby must carry a Dragonfolly Sigil. Its defeat spawns Uelibloom Ore. [c/7FD4FF:Reward: 5 Super Healing Potion]"
 		Tooltip: "[c/FFD700:Required] Defeat Providence, the Profaned Goddess [c/7FD4FF:Reward: 5 Super Healing Potion]"
 	}
 
 	OldDukeDefeated: {
 		Title: "The Old Duke"
-		Contents: "[c/9AA0A6:Optional] Defeat The Old Duke. Fish in the Sulphurous Sea with a Bloodworm, or wait out a post-Polterghast Acid Rain. [c/7FD4FF:Reward: 5 Super Healing Potion]"
-		Tooltip: "[c/9AA0A6:Optional] Defeat The Old Duke [c/7FD4FF:Reward: 5 Super Healing Potion]"
+		Contents: "[c/FFD700:Required] Defeat The Old Duke. Fish in the Sulphurous Sea with a Sigil Bloodworm. Until he's beaten, plain Bloodworms and Acid Rain won't bring him. [c/7FD4FF:Reward: 5 Super Healing Potion]"
+		Tooltip: "[c/FFD700:Required] Defeat The Old Duke [c/7FD4FF:Reward: 5 Super Healing Potion]"
 	}
 
 	CeaselessVoidDefeated: {
@@ -1314,7 +1332,7 @@ QuestBooks: {
 
 	SupremeCalamitasDefeated: {
 		Title: "Supreme Witch, Calamitas"
-		Contents: "[c/FF4040:Final boss] Defeat Supreme Witch, Calamitas. Offer Ashes of Calamity at the Altar of the Accursed. One of the two final bosses. [c/7FD4FF:Reward: 10 Super Healing Potion]"
+		Contents: "[c/FF4040:Final boss] Defeat Supreme Witch, Calamitas. Offer Ashes of Calamity at the Altar of the Accursed. Bereft: someone at the altar must carry a Yharon Sigil. One of the two final bosses. [c/7FD4FF:Reward: 10 Super Healing Potion]"
 		Tooltip: "[c/FF4040:Final boss] Defeat Supreme Witch, Calamitas [c/7FD4FF:Reward: 10 Super Healing Potion]"
 	}
 }

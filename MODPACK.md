@@ -19,7 +19,7 @@ the pack's baseline and are installed alongside it.
 | Mod | Notes |
 |---|---|
 | QuestBooks | Required by code. The quest book UI. Open it with **L** (rebind under Controls → Mod Controls). |
-| Bereft Compatibility | Balance, cross-mod recipes and fixes. |
+| Bereft Compatibility | Balance, cross-mod recipes, fixes and the boss chain: every required boss drops a Sigil the next one needs. |
 | The Bereft Souls | Progression and gear guide quest books. |
 
 ## Baseline quality of life
@@ -31,6 +31,7 @@ the pack's baseline and are installed alongside it.
 | Boss Checklist | Calamity and SotS register their bosses. |
 | Autostack | |
 | Vein Miner | Makes Calamity's large ore veins manageable. |
+| [Wing Slot Extra](https://steamcommunity.com/sharedfiles/filedetails/?id=2597324266) | A dedicated wing slot, so wings stop costing an accessory slot. Last updated for tModLoader v2025.3. This is effectively one extra accessory, so it slightly raises player power across the pack. |
 | [Shared World Map](https://steamcommunity.com/sharedfiles/filedetails/?id=2815010161) | Server-wide map sharing. Last updated July 2024; confirm it loads on the current tModLoader. |
 
 ## Considered, not included

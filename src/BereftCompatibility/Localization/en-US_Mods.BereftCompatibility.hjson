@@ -1,1 +1,37 @@
 
+
+BossChain: {
+	SigilName: "{0} Sigil"
+	SigilTooltip: "Dropped by {0}\nNeeded to face {1}"
+	SigilTooltipLast: "Dropped by {0}"
+	HiveOrPerforatorGroup: "Hive Mind or Perforator Sigil"
+	And: " and "
+	Or: " or "
+	Sealed: "{0} is sealed. Defeat {1} first."
+	NeedSigil: "{0} will not wake unless someone nearby carries {1}."
+	Dormant: "It will not stir unless you carry {0}."
+	EffigyOnly: "The Wall of Flesh only answers the Fleshbound Effigy."
+	NeedTruffleWorm: "Duke Fishron only bites on a Sigil Truffle Worm."
+	NeedBloodworm: "The Old Duke only rises for a Sigil Bloodworm."
+}
+
+Items: {
+	FleshboundEffigy: {
+		DisplayName: Fleshbound Effigy
+		Tooltip:
+			'''
+			Throw it into Underworld lava to summon the Wall of Flesh
+			Until the Wall falls, nothing else will summon it
+			'''
+	}
+
+	SigilTruffleWorm: {
+		DisplayName: Sigil Truffle Worm
+		Tooltip: Fish with it in the Ocean to summon Duke Fishron
+	}
+
+	SigilBloodworm: {
+		DisplayName: Sigil Bloodworm
+		Tooltip: Fish with it in the Sulphurous Sea to summon the Old Duke
+	}
+}
