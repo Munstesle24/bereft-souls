@@ -37,6 +37,9 @@ public abstract class StepQuest : Quest
 
     /// <summary>Whether the world itself meets the goal, e.g. through shared storage.</summary>
     protected virtual bool IsMetByWorld() => false;
+
+    /// <summary>The item drawn on this quest's icon in the book, or 0 for none.</summary>
+    public virtual int IconItem => 0;
 }
 
 /// <summary>
@@ -49,6 +52,8 @@ public abstract class ObtainItemQuest : StepQuest
     protected abstract int ItemType { get; }
 
     protected virtual int Stack => 1;
+
+    public override int IconItem => ItemType;
 
     protected override bool IsMetBy(Player player) => player.CountItem(ItemType, Stack) >= Stack;
 
@@ -64,6 +69,8 @@ public abstract class EquipItemQuest : StepQuest
     protected abstract int ItemType { get; }
 
     protected override bool IsMetBy(Player player) => IsEquipped(player, ItemType);
+
+    public override int IconItem => ItemType;
 
     /// <summary>Functional armor and accessory slots only, not vanity.</summary>
     internal static bool IsEquipped(Player player, int type)
@@ -88,4 +95,7 @@ public abstract class EquipSetQuest : StepQuest
     protected abstract int[] Pieces { get; }
 
     protected override bool IsMetBy(Player player) => Pieces.All(type => EquipItemQuest.IsEquipped(player, type));
+
+    // The first piece is usually the helmet, which reads best as an icon.
+    public override int IconItem => Pieces.Length > 0 ? Pieces[0] : 0;
 }

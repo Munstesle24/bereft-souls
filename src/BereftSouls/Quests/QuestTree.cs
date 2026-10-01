@@ -1,9 +1,11 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 using CalamityMod;
 
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 using QuestBooks.QuestLog;
 using QuestBooks.QuestLog.DefaultChapters;
@@ -89,7 +91,13 @@ internal static class QuestTree
                 _                 => ("Medium", "MediumOutline"),
             };
 
-            var display = node.Tier > 0 ? new TierQuestDisplay { Tier = node.Tier } : new QuestDisplay();
+            var display = node.Tier > 0 ? new TierQuestDisplay { Tier = node.Tier } : new IconQuestDisplay();
+            display.IconSize = node.Kind switch
+            {
+                NodeKind.Header                 => 0f,
+                NodeKind.Step or NodeKind.Gear  => 26f,
+                _                               => 36f,
+            };
             display.QuestKey       = node.Key;
             display.CanvasPosition = new Vector2(node.Column * column_spacing, node.Row * row_spacing);
             // Gear entries are a catalog: lines show crafting trees but never lock
@@ -154,10 +162,42 @@ public sealed class EndgameTierChapter : ScrollChapter
 }
 
 /// <summary>
+///     A quest display with the quest's item or boss head drawn over its
+///     shape.  The picture is dark while locked and full colour once done.
+/// </summary>
+public class IconQuestDisplay : QuestDisplay
+{
+    /// <summary>Canvas size the picture is fitted into, or 0 for none.</summary>
+    internal float IconSize;
+
+    // Small sprites aren't blown up past this much, so pixel art stays crisp.
+    private const float max_upscale = 2f;
+
+    public override void DrawToCanvas(SpriteBatch spriteBatch, Vector2 canvasViewOffset, float zoom, bool selected, bool hovered)
+    {
+        base.DrawToCanvas(spriteBatch, canvasViewOffset, zoom, selected, hovered);
+
+        if (IconSize <= 0f || !QuestIcons.TryGet(Quest, out var texture, out var frame))
+        {
+            return;
+        }
+
+        var color = Completed() ? Color.White
+                  : Unlocked()  ? new Color(190, 190, 190)
+                                : new Color(30, 30, 30);
+
+        var scale    = MathF.Min(IconSize / MathF.Max(frame.Width, frame.Height), max_upscale) * zoom;
+        var position = (CanvasPosition - canvasViewOffset) * zoom;
+
+        spriteBatch.Draw(texture, position, frame, color, 0f, frame.Size() * 0.5f, scale, SpriteEffects.None, 0f);
+    }
+}
+
+/// <summary>
 ///     A quest display that stays hidden until the world reaches its tier,
 ///     so a single chapter can grow as the game progresses.
 /// </summary>
-public sealed class TierQuestDisplay : QuestDisplay
+public sealed class TierQuestDisplay : IconQuestDisplay
 {
     /// <summary>0 = Pre-Hardmode, 1 = Hardmode, 2 = post-Plantera, 3 = post-Moon Lord, 4 = post-Devourer of Gods.</summary>
     public int Tier { get; set; }

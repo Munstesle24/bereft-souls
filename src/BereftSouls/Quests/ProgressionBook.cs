@@ -1,9 +1,13 @@
+using System.Linq;
+
 using JetBrains.Annotations;
 
 using QuestBooks;
 using QuestBooks.QuestLog;
+using QuestBooks.QuestLog.DefaultBooks;
 using QuestBooks.QuestLog.DefaultChapters;
 using QuestBooks.QuestLog.DefaultQuestBooks;
+using QuestBooks.Systems;
 
 using Terraria.ModLoader;
 
@@ -42,6 +46,23 @@ internal sealed partial class ProgressionBook : ModSystem
         };
 
         QuestBooksMod.AddGlobalQuestBooks(QUEST_LOG_KEY, [book], Mod);
+
+        RemoveComingSoonBooks();
+    }
+
+    /// <summary>
+    ///     QuestBooks' built-in log ships "Coming Soon" placeholder books, which
+    ///     sit next to ours and lead nowhere.
+    /// </summary>
+    private static void RemoveComingSoonBooks()
+    {
+        foreach (var log in QuestManager.QuestLogs.Values)
+        {
+            foreach (var placeholder in log.OfType<LockedBook>().ToList())
+            {
+                log.Remove(placeholder);
+            }
+        }
     }
 
     private QuestChapter Chapter<TChapter>(string name, Node[] nodes) where TChapter : BasicChapter, new()

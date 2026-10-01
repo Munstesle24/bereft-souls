@@ -192,8 +192,12 @@ internal sealed class ChainGuards : GlobalNPC
         }
     }
 
+    // Terraria asks every NPC in the world before checking whether a swing or
+    // projectile actually reaches it, so only warn about ones being struck.
+    private const float warn_range = 320f;
+
     public override bool? CanBeHitByItem(NPC npc, Player player, Item item) =>
-        Guarded(npc, player) ? false : null;
+        Guarded(npc, player, player.Distance(npc.Center) < warn_range) ? false : null;
 
     public override bool? CanBeHitByProjectile(NPC npc, Projectile projectile)
     {
@@ -202,7 +206,7 @@ internal sealed class ChainGuards : GlobalNPC
             return null;
         }
 
-        return Guarded(npc, Main.player[projectile.owner]) ? false : null;
+        return Guarded(npc, Main.player[projectile.owner], projectile.Hitbox.Intersects(npc.Hitbox)) ? false : null;
     }
 
     public override bool? CanChat(NPC npc)
@@ -218,14 +222,18 @@ internal sealed class ChainGuards : GlobalNPC
         return false;
     }
 
-    private static bool Guarded(NPC npc, Player player)
+    private static bool Guarded(NPC npc, Player player, bool warn)
     {
         if (!GuardLinks.TryGetValue(npc.type, out var link) || link.Downed() || ChainRules.Carries(player, link))
         {
             return false;
         }
 
-        ChainRules.Warn(player, ChainRules.Text("Dormant", ChainRules.SigilList(link)));
+        if (warn)
+        {
+            ChainRules.Warn(player, ChainRules.Text("Dormant", ChainRules.SigilList(link)));
+        }
+
         return true;
     }
 
