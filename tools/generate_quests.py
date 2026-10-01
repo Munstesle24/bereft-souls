@@ -214,10 +214,10 @@ def main():
             reward = step.get("reward")
             reward_text = ""
             if reward:
-                body.append(f"    protected override int RewardType => {item_expr(reward)};")
+                body.append(f"    protected internal override int RewardType => {item_expr(reward)};")
                 reward_stack = reward.get("stack", 1)
                 if reward_stack > 1:
-                    body.append(f"    protected override int RewardStack => {reward_stack};")
+                    body.append(f"    protected internal override int RewardStack => {reward_stack};")
                 count = f"{reward_stack} " if reward_stack > 1 else ""
                 reward_text = f" [c/7FD4FF:Reward: {count}{reward['title']}]"
 
@@ -275,6 +275,7 @@ def main():
     book = ["\tProgression: {", "\t\tName: Bereft Progression"]
     book += [f"\t\t{name}: {display}" for name, _, display in CHAPTERS]
     book.append("\t}\n")
+    book.append(f"\tRewardClaimed: {hjson_string('Quest reward claimed: {0}')}\n")
 
     (MOD / "Localization" / "en-US_Mods.BereftSouls.hjson").write_text(
         "QuestBooks: {\n" + "\n".join(book) + "\n" + "\n".join(localization) + "}\n",

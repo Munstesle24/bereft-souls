@@ -3,8 +3,6 @@ using System.Linq;
 using QuestBooks.Quests;
 
 using Terraria;
-using Terraria.DataStructures;
-using Terraria.ID;
 
 namespace BereftSouls.Quests.Steps;
 
@@ -21,10 +19,11 @@ public abstract class StepQuest : Quest
 {
     public override QuestType QuestType => QuestType.World;
 
-    /// <summary>The reward item given to every online player, or 0 for none.</summary>
-    protected virtual int RewardType => 0;
+    /// <summary>The reward item each player receives, or 0 for none.</summary>
+    /// <remarks>Handed out by <see cref="QuestRewardPlayer"/>.</remarks>
+    protected internal virtual int RewardType => 0;
 
-    protected virtual int RewardStack => 1;
+    protected internal virtual int RewardStack => 1;
 
     // QuestBooks checks incomplete quests every tick; inventory scans for
     // every player don't need to run that often.
@@ -41,23 +40,6 @@ public abstract class StepQuest : Quest
     }
 
     protected abstract bool IsMetBy(Player player);
-
-    public override void OnCompletion()
-    {
-        // Completion runs on the server and every client; only hand out
-        // rewards once, from the server (or in singleplayer).
-        if (RewardType <= 0 || Main.netMode == NetmodeID.MultiplayerClient)
-        {
-            return;
-        }
-
-        var source = new EntitySource_Misc("BereftSouls:QuestReward");
-
-        foreach (var player in Main.player.Where(p => p.active))
-        {
-            player.QuickSpawnItem(source, RewardType, RewardStack);
-        }
-    }
 }
 
 /// <summary>

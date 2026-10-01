@@ -8,6 +8,8 @@ QuestBooks: {
 		Endgame: Endgame
 	}
 
+	RewardClaimed: "Quest reward claimed: {0}"
+
 	ObtainSolidifier: {
 		Title: "Solidifier"
 		Contents: "[c/9AA0A6:Optional] Obtain Solidifier. Always dropped by King Slime. Needed for Statigel armor and lets you craft Wormwood (2 Wood + 5 Gel)."
