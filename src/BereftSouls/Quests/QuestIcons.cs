@@ -30,7 +30,7 @@ internal static class QuestIcons
         // Vanilla bosses (quests provided by QuestBooks).
         ["KingSlimeDefeated"]      = () => [NPCID.KingSlime],
         ["EyeOfCthulhuDefeated"]   = () => [NPCID.EyeofCthulhu],
-        ["EvilBossDefeated"]       = () => WorldGen.crimson ? new[] { NPCID.BrainofCthulhu } : new[] { NPCID.EaterofWorldsHead },
+        ["EvilBossDefeated"]       = () => WorldGen.crimson ? new int[] { NPCID.BrainofCthulhu } : new int[] { NPCID.EaterofWorldsHead },
         ["QueenBeeDefeated"]       = () => [NPCID.QueenBee],
         ["SkeletronDefeated"]      = () => [NPCID.SkeletronHead],
         ["DeerclopsDefeated"]      = () => [NPCID.Deerclops],
