@@ -21,19 +21,6 @@ public sealed class BsConfig : ModConfig
     [DefaultValue(false)]
     [ReloadRequired]
     public bool EnableQuestDesigner { get; set; }
-
-    /// <summary>Shows the quest book button beside the inventory.</summary>
-    [DefaultValue(true)]
-    public bool ShowQuestBookButton { get; set; }
-
-    /// <summary>Moves the button, in pixels, if it overlaps another mod's UI.</summary>
-    [Range(-600, 600)]
-    [DefaultValue(0)]
-    public int QuestBookButtonOffsetX { get; set; }
-
-    [Range(-400, 400)]
-    [DefaultValue(0)]
-    public int QuestBookButtonOffsetY { get; set; }
 }
 
 [UsedImplicitly(ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature)]

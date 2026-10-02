@@ -5,19 +5,4 @@ BsConfig: {
 		Label: Enable quest book designer
 		Tooltip: Turns on the QuestBooks in-game designer so the quest book layout can be rearranged and exported. For pack developers and testers only.
 	}
-
-	ShowQuestBookButton: {
-		Label: Show quest book button
-		Tooltip: Shows a quest book button beside your inventory. The quest book can also be opened with its keybind (L by default).
-	}
-
-	QuestBookButtonOffsetX: {
-		Label: Quest book button horizontal offset
-		Tooltip: Moves the button left or right, in pixels, if it overlaps another mod's buttons.
-	}
-
-	QuestBookButtonOffsetY: {
-		Label: Quest book button vertical offset
-		Tooltip: Moves the button up or down, in pixels, if it overlaps another mod's buttons.
-	}
 }
