@@ -131,9 +131,13 @@ internal static class QuestTree
         var min       = positions.Aggregate(Vector2.Min);
         var max       = positions.Aggregate(Vector2.Max);
 
+        // Pad the scroll limits so the outermost quests can be brought in from
+        // the page edges.
+        var padding = new Vector2(column_spacing, row_spacing);
+
         chapter.ViewAnchor   = (min + max) / 2f;
-        chapter.MinViewPoint = min;
-        chapter.MaxViewPoint = max;
+        chapter.MinViewPoint = min - padding;
+        chapter.MaxViewPoint = max + padding;
 
         return chapter;
     }
@@ -163,7 +167,7 @@ public sealed class EndgameTierChapter : ScrollChapter
 
 /// <summary>
 ///     A quest display with the quest's item or boss head drawn over its
-///     shape.  The picture is dark while locked and full colour once done.
+///     shape.  The picture is greyed while locked and full colour once done.
 /// </summary>
 public class IconQuestDisplay : QuestDisplay
 {
@@ -182,9 +186,11 @@ public class IconQuestDisplay : QuestDisplay
             return;
         }
 
+        // Locked quests draw their shape black, so their icon is a mid grey
+        // silhouette that still reads on top of it.
         var color = Completed() ? Color.White
-                  : Unlocked()  ? new Color(190, 190, 190)
-                                : new Color(30, 30, 30);
+                  : Unlocked()  ? new Color(210, 210, 210)
+                                : new Color(115, 115, 115);
 
         var scale    = MathF.Min(IconSize / MathF.Max(frame.Width, frame.Height), max_upscale) * zoom;
         var position = (CanvasPosition - canvasViewOffset) * zoom;

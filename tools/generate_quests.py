@@ -136,38 +136,104 @@ def validate(chapter, nodes):
     return depth
 
 
-def layout(nodes, depth):
-    """Assigns grid rows per column, keeping the critical path on row 0 and
-    placing everything else as close to its parents as possible."""
+def compact(nodes, depth):
+    """Moves each node right to just before its earliest dependent, so
+    starting steps (Lenses, Iron Bars...) sit beside what they unlock instead
+    of all piling into the first column with long lines across the chapter."""
+    children = {n["key"]: [] for n in nodes}
+    for node in nodes:
+        for after in node["after"]:
+            children[after].append(node["key"])
+
+    for key in sorted(depth, key=lambda k: -depth[k]):
+        if children[key]:
+            depth[key] = max(depth[key], min(depth[c] for c in children[key]) - 1)
+
+    return depth, children
+
+
+def layout(nodes, depth, children):
+    """Assigns grid rows per column, keeping required bosses on row 0 and
+    placing everything else as close to the quests it connects to as
+    possible."""
     priority = {"Gate": 0, "Required": 1, "Optional": 2}
+    by_key = {n["key"]: n for n in nodes}
     rows = {}
+    taken = {}
 
-    for column in sorted(set(depth.values())):
-        in_column = [n for n in nodes if depth[n["key"]] == column]
-        in_column.sort(key=lambda n: (priority[n["kind"]], n["is_step"], n["key"]))
+    def place(node, target):
+        column = depth[node["key"]]
+        used = taken.setdefault(column, set())
+        offset = 0
+        while True:
+            for row in (target + offset, target - offset):
+                if row not in used:
+                    used.add(row)
+                    rows[node["key"]] = row
+                    return
+            offset += 1
 
-        taken = set()
-        for node in in_column:
-            parents = [rows[a] for a in node["after"] if a in rows]
-            if node["kind"] in ("Gate", "Required") and not node["is_step"]:
-                target = 0
-            else:
-                target = round(sum(parents) / len(parents)) if parents else 0
+    def on_path(node):
+        return node["kind"] in ("Gate", "Required") and not node["is_step"]
 
-            offset = 0
-            while True:
-                for row in (target + offset, target - offset):
-                    if row not in taken:
-                        break
-                else:
-                    offset += 1
-                    continue
-                break
+    # Bosses on the critical path first, so everything else arranges around them.
+    for node in nodes:
+        if on_path(node):
+            place(node, 0)
 
-            taken.add(row)
-            rows[node["key"]] = row
+    # Then left to right, each node near the average row of its parents.
+    ordered = sorted(nodes, key=lambda n: (depth[n["key"]], priority[n["kind"]], n["is_step"], n["key"]))
+    for node in ordered:
+        if node["key"] in rows or not node["after"]:
+            continue
+        parents = [rows[a] for a in node["after"] if a in rows]
+        place(node, round(sum(parents) / len(parents)) if parents else 0)
 
-    return rows
+    # Starting steps last, next to the quests they lead to (right to left so
+    # chains of them follow each other).
+    for node in sorted(nodes, key=lambda n: -depth[n["key"]]):
+        if node["key"] in rows:
+            continue
+        targets = [rows[c] for c in children[node["key"]] if c in rows]
+        place(node, round(sum(targets) / len(targets)) if targets else 0)
+
+    # Untangle: a few sweeps moving every off-path node towards the average
+    # row of everything it connects to, keeping whichever pass crosses least.
+    best, best_crossings = dict(rows), crossings(nodes, depth, rows)
+    for sweep in range(8):
+        columns = sorted(set(depth.values()), reverse=sweep % 2 == 1)
+        for column in columns:
+            in_column = [n for n in nodes if depth[n["key"]] == column and not on_path(n)]
+            targets = {}
+            for node in in_column:
+                linked = [rows[a] for a in node["after"]] + [rows[c] for c in children[node["key"]]]
+                targets[node["key"]] = sum(linked) / len(linked) if linked else rows[node["key"]]
+            taken[column] = {rows[n["key"]] for n in nodes if depth[n["key"]] == column and on_path(n)}
+            for node in sorted(in_column, key=lambda n: (priority[n["kind"]], abs(targets[n["key"]]))):
+                place(node, round(targets[node["key"]]))
+        count = crossings(nodes, depth, rows)
+        if count < best_crossings:
+            best, best_crossings = dict(rows), count
+
+    return best
+
+
+def crossings(nodes, depth, rows):
+    """How many connector lines cross, with the book's column and row spacing."""
+    edges = []
+    for node in nodes:
+        for after in node["after"]:
+            edges.append(((depth[after] * 160, rows[after] * 130), (depth[node["key"]] * 160, rows[node["key"]] * 130)))
+
+    def side(a, b, c):
+        return (b[0] - a[0]) * (c[1] - a[1]) - (b[1] - a[1]) * (c[0] - a[0])
+
+    count = 0
+    for i, (p1, p2) in enumerate(edges):
+        for p3, p4 in edges[i + 1:]:
+            if len({p1, p2, p3, p4}) == 4 and side(p1, p2, p3) * side(p1, p2, p4) < 0 and side(p3, p4, p1) * side(p3, p4, p2) < 0:
+                count += 1
+    return count
 
 
 def main():
@@ -208,8 +274,15 @@ def main():
             step_keys.add(step["key"])
             nodes.append({**step, "is_step": True})
 
-        depth = validate(name, nodes)
-        rows = layout(nodes, depth)
+        # The chapter only opens once its entry boss (the previous chapter's
+        # gate) is down, so a line from it to a quest says nothing; dropping
+        # those keeps dozens of lines from fanning out across the chapter.
+        entry = next((n["key"] for n in nodes if n["kind"] == "Gate" and not n["after"] and not n["is_step"]), None)
+        if entry:
+            nodes = [{**n, "after": [a for a in n["after"] if a != entry]} for n in nodes]
+
+        depth, children = compact(nodes, validate(name, nodes))
+        rows = layout(nodes, depth, children)
 
         lines = [f"    private static readonly Node[] {field} =", "    ["]
         for node in sorted(nodes, key=lambda n: (depth[n["key"]], rows[n["key"]])):

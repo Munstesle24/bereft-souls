@@ -50,6 +50,24 @@ internal sealed partial class ProgressionBook : ModSystem
         RemoveComingSoonBooks();
     }
 
+    public override void PostAddRecipes()
+    {
+        base.PostAddRecipes();
+
+        // Global books are listed in registration order, and the gear guide
+        // registers first.  Put the progression book ahead of it so the list
+        // reads The Basics, Bereft Progression, then the gear books.
+        // Rebuilt rather than re-added, since a dictionary may reuse a removed
+        // entry's slot and keep the old order.
+        var books   = QuestManager.GlobalQuestBooks;
+        var ordered = books.OrderBy(kvp => kvp.Key == QUEST_LOG_KEY ? 0 : 1).ToList();
+        books.Clear();
+        foreach (var (key, value) in ordered)
+        {
+            books.Add(key, value);
+        }
+    }
+
     /// <summary>
     ///     QuestBooks' built-in log ships "Coming Soon" placeholder books, which
     ///     sit next to ours and lead nowhere.
