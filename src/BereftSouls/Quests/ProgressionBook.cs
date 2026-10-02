@@ -30,22 +30,29 @@ internal sealed partial class ProgressionBook : ModSystem
 {
     public const string QUEST_LOG_KEY = "BereftSouls";
 
+    /// <param name="Tier">The book the section belongs to, e.g. "PreHardmode".</param>
+    /// <param name="Name">The section's localization name.</param>
+    /// <param name="UnlockedBy">
+    ///     Boss quests that must all be complete to open it; "A|B" accepts
+    ///     either.
+    /// </param>
+    private readonly record struct Section(string Tier, string Name, Node[] Nodes, params string[] UnlockedBy);
+
     public override void PostSetupContent()
     {
-        var book = new TabBook
-        {
-            NameKey  = Mod.GetLocalizationKey("QuestBooks.Progression.Name"),
-            Chapters =
-            [
-                Chapter<ScrollChapter>("PreHardmode", pre_hardmode),
-                Chapter<HardmodeTierChapter>("EarlyHardmode", early_hardmode),
-                Chapter<PostPlanteraChapter>("PostPlantera", post_plantera),
-                Chapter<PostMoonLordChapter>("PostMoonLord", post_moon_lord),
-                Chapter<EndgameTierChapter>("Endgame", endgame),
-            ],
-        };
+        // One book per tier, each split into sections of about a dozen quests.
+        var books = sections
+                   .GroupBy(s => s.Tier)
+                   .Select(
+                        tier => (QuestBook)new TabBook
+                        {
+                            NameKey  = Mod.GetLocalizationKey($"QuestBooks.Progression.{tier.Key}"),
+                            Chapters = [.. tier.Select(Chapter)],
+                        }
+                    )
+                   .ToList();
 
-        QuestBooksMod.AddGlobalQuestBooks(QUEST_LOG_KEY, [book], Mod);
+        QuestBooksMod.AddGlobalQuestBooks(QUEST_LOG_KEY, books, Mod);
 
         RemoveComingSoonBooks();
     }
@@ -55,8 +62,8 @@ internal sealed partial class ProgressionBook : ModSystem
         base.PostAddRecipes();
 
         // Global books are listed in registration order, and the gear guide
-        // registers first.  Put the progression book ahead of it so the list
-        // reads The Basics, Bereft Progression, then the gear books.
+        // registers first.  Put the progression books ahead of it so the list
+        // reads The Basics, the five tiers, then the gear books.
         // Rebuilt rather than re-added, since a dictionary may reuse a removed
         // entry's slot and keep the old order.
         var books   = QuestManager.GlobalQuestBooks;
@@ -83,8 +90,15 @@ internal sealed partial class ProgressionBook : ModSystem
         }
     }
 
-    private QuestChapter Chapter<TChapter>(string name, Node[] nodes) where TChapter : BasicChapter, new()
+    private QuestChapter Chapter(Section section)
     {
-        return QuestTree.Build<TChapter>(Mod.GetLocalizationKey($"QuestBooks.Progression.{name}"), nodes, openAtStart: true);
+        var chapter = QuestTree.Build<SectionChapter>(
+            Mod.GetLocalizationKey($"QuestBooks.Progression.Sections.{section.Tier}{section.Name}"),
+            section.Nodes,
+            openAtStart: true
+        );
+
+        chapter.UnlockedBy = section.UnlockedBy;
+        return chapter;
     }
 }

@@ -7,6 +7,7 @@ using CalamityMod;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
+using QuestBooks;
 using QuestBooks.QuestLog;
 using QuestBooks.QuestLog.DefaultChapters;
 using QuestBooks.QuestLog.DefaultElements;
@@ -73,7 +74,7 @@ internal static class QuestTree
     ///     rather than showing the whole chapter at once, for long chapters
     ///     read left to right.
     /// </param>
-    public static QuestChapter Build<TChapter>(string nameKey, Node[] nodes, bool openAtStart = false) where TChapter : BasicChapter, new()
+    public static TChapter Build<TChapter>(string nameKey, Node[] nodes, bool openAtStart = false) where TChapter : BasicChapter, new()
     {
         var chapter = new TChapter
         {
@@ -148,6 +149,20 @@ internal static class QuestTree
 
         return chapter;
     }
+}
+
+/// <summary>
+///     A progression section: opens once every boss of the section before it
+///     is down, read from those bosses' quests.
+/// </summary>
+public sealed class SectionChapter : ScrollChapter
+{
+    /// <summary>Boss quest keys that must all be complete; "A|B" accepts either.</summary>
+    public string[] UnlockedBy { get; set; } = [];
+
+    public override bool IsUnlocked() => UnlockedBy.All(group => group.Split('|').Any(Completed));
+
+    private static bool Completed(string questKey) => QuestBooksMod.TryGetQuest(questKey, out var quest) && quest.Completed;
 }
 
 // Each tier opens once the previous tier's gate boss is down.

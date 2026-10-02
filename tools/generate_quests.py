@@ -27,6 +27,113 @@ CHAPTERS = [
     ("Endgame", "endgame", "Endgame"),
 ]
 
+# Each tier is split into sections of about a dozen quests, each ending at a
+# boss and opening once the previous section's last boss is down.
+#   tier -> [(section name, display name, bosses in chain order)]
+SECTIONS = {
+    "PreHardmode": [
+        ("FirstSteps", "First Steps", ["KingSlimeDefeated", "GlowmothDefeated", "DesertScourgeDefeated"]),
+        ("TheEye", "The Eye", ["EyeOfCthulhuDefeated", "CrabulonDefeated"]),
+        ("WorldEvil", "The World's Evil", ["EvilBossDefeated", "HiveMindDefeated", "PerforatorsDefeated"]),
+        ("HiveAndPyramid", "Hive and Pyramid", ["QueenBeeDefeated", "PutridPinkyDefeated", "PharaohsCurseDefeated"]),
+        ("Dungeon", "The Dungeon", ["SkeletronDefeated", "DeerclopsDefeated", "SlimeGodDefeated"]),
+        ("Underworld", "Into the Underworld", ["ExcavatorDefeated", "AdvisorDefeated", "WallOfFleshDefeated"]),
+    ],
+    "EarlyHardmode": [
+        ("NewWorld", "A New World", ["QueenSlimeDefeated", "CryogenDefeated", "AquaticScourgeDefeated"]),
+        ("Mechanical", "The Mechanical Bosses",
+         ["BrimstoneElementalDefeated", "TheDestroyerDefeated", "TheTwinsDefeated", "SkeletronPrimeDefeated"]),
+        ("CalamitysShadow", "Calamity's Shadow", ["PolarisDefeated", "CalamitasCloneDefeated", "PlanteraDefeated"]),
+    ],
+    "PostPlantera": [
+        ("DepthsAndStars", "Depths and Stars", ["LeviathanDefeated", "AstrumAureusDefeated", "GolemDefeated"]),
+        ("JungleAndSea", "Jungle and Sea", ["PlaguebringerDefeated", "DukeFishronDefeated", "EmpressOfLightDefeated"]),
+        ("TheCult", "The Cult", ["RavagerDefeated", "LuxDefeated", "LunaticCultistDefeated"]),
+        ("CelestialAscent", "Celestial Ascent", ["AstrumDeusDefeated", "SubspaceSerpentDefeated", "MoonLordDefeated"]),
+    ],
+    "PostMoonLord": [
+        ("TheProfaned", "The Profaned", ["ProfanedGuardiansDefeated", "DragonfollyDefeated", "ProvidenceDefeated"]),
+        ("TheSentinels", "The Sentinels", ["StormWeaverDefeated", "CeaselessVoidDefeated", "SignusDefeated"]),
+        ("TheDevourer", "The Devourer", ["PolterghastDefeated", "OldDukeDefeated", "DevourerOfGodsDefeated"]),
+    ],
+    "Endgame": [
+        ("DragonAndWitch", "Dragon and Witch", ["YharonDefeated", "SupremeCalamitasDefeated"]),
+        ("DraedonsArsenal", "Draedon's Arsenal", ["ExoMechsDefeated"]),
+    ],
+}
+
+# Only one evil boss exists per world, so either closes its section.
+EITHER = {
+    "HiveMindDefeated": ["HiveMindDefeated", "PerforatorsDefeated"],
+    "PerforatorsDefeated": ["HiveMindDefeated", "PerforatorsDefeated"],
+}
+
+
+def split_sections(tier, nodes):
+    """Assigns each quest to a section: bosses by SECTIONS, steps to the
+    section of the earliest boss that needs them (or, if nothing later needs
+    them, the section they open in).  Lines between sections are dropped; a
+    section only opens once the earlier ones are done."""
+    sections = SECTIONS[tier]
+    boss_section = {b: i for i, (_, _, bosses) in enumerate(sections) for b in bosses}
+    closers = {bosses[-1] for _, _, bosses in sections} | {"HiveMindDefeated"}
+    by_key = {n["key"]: n for n in nodes}
+    for node in nodes:
+        if not node["is_step"] and node["key"] not in boss_section:
+            fail(f"{tier}: boss {node['key']} isn't in any section")
+
+    children = {k: [] for k in by_key}
+    for node in nodes:
+        for after in node["after"]:
+            children[after].append(node["key"])
+
+    order = []
+    seen = set()
+
+    def visit(key):
+        if key in seen:
+            return
+        seen.add(key)
+        for after in by_key[key]["after"]:
+            visit(after)
+        order.append(key)
+
+    for key in by_key:
+        visit(key)
+
+    # Earliest section a quest can be in, from what it follows.  A quest after
+    # a section's last boss belongs to the next section.
+    low = {}
+    for key in order:
+        bound = boss_section.get(key, 0)
+        for after in by_key[key]["after"]:
+            if after in boss_section:
+                parent = boss_section[after] + (1 if after in closers else 0)
+            else:
+                parent = low[after]
+            bound = max(bound, parent)
+        low[key] = min(bound, len(sections) - 1)
+
+    # Then pull each step as late as the first quest that needs it.
+    section = {}
+    for key in reversed(order):
+        if key in boss_section:
+            section[key] = boss_section[key]
+            continue
+        needed = [section[c] for c in children[key]]
+        section[key] = max(low[key], min(needed)) if needed else low[key]
+
+    result = []
+    for index, (name, display, _) in enumerate(sections):
+        members = [
+            {**n, "after": [a for a in n["after"] if section[a] == index]}
+            for n in nodes
+            if section[n["key"]] == index
+        ]
+        result.append((name, display, members))
+    return result
+
+
 # Boss quests provided by QuestBooks itself.
 VANILLA_BOSSES = {
     "KingSlimeDefeated", "EyeOfCthulhuDefeated", "EvilBossDefeated", "QueenBeeDefeated",
@@ -247,6 +354,9 @@ def main():
         fail(f"missing chapters {missing}")
 
     node_fields = []
+    section_rows = []
+    section_names = []
+    previous_bosses = []
     step_classes = []
     localization = []
     boss_kinds = {}
@@ -279,22 +389,44 @@ def main():
         # those keeps dozens of lines from fanning out across the chapter.
         entry = next((n["key"] for n in nodes if n["kind"] == "Gate" and not n["after"] and not n["is_step"]), None)
         if entry:
-            nodes = [{**n, "after": [a for a in n["after"] if a != entry]} for n in nodes]
+            # Shown at the end of the previous tier; this tier only opens once
+            # it's down, so it isn't repeated here.
+            nodes = [{**n, "after": [a for a in n["after"] if a != entry]} for n in nodes if n["key"] != entry]
 
-        depth, children = compact(nodes, validate(name, nodes))
-        rows = layout(nodes, depth, children)
+        for section_index, (section_name, section_display, members) in enumerate(split_sections(name, nodes)):
+            label = f"{name}/{section_name}"
+            depth, children = compact(members, validate(label, members))
+            rows = layout(members, depth, children)
 
-        lines = [f"    private static readonly Node[] {field} =", "    ["]
-        for node in sorted(nodes, key=lambda n: (depth[n["key"]], rows[n["key"]])):
-            kind = "Step" if node["is_step"] else node["kind"]
-            any_of = "true" if node.get("any_of") else "false"
-            after = "".join(f', "{a}"' for a in node["after"])
-            lines.append(
-                f'        new("{node["key"]}", {depth[node["key"]]}, {rows[node["key"]]}, '
-                f"NodeKind.{kind}, {any_of}{after}),"
+            snake = re.sub(r"(?<!^)(?=[A-Z])", "_", section_name).lower()
+            section_field = f"{field}_{snake}"
+            lines = [f"    private static readonly Node[] {section_field} =", "    ["]
+            for node in sorted(members, key=lambda n: (depth[n["key"]], rows[n["key"]])):
+                kind = "Step" if node["is_step"] else node["kind"]
+                any_of = "true" if node.get("any_of") else "false"
+                after = "".join(f', "{a}"' for a in node["after"])
+                lines.append(
+                    f'        new("{node["key"]}", {depth[node["key"]]}, {rows[node["key"]]}, '
+                    f"NodeKind.{kind}, {any_of}{after}),"
+                )
+            lines.append("    ];")
+            node_fields.append("\n".join(lines))
+
+            # Opens once every boss of the previous section is down (the pack's
+            # first section is always open); "A|B" means either one.
+            unlocked_by = []
+            for boss in previous_bosses:
+                group = "|".join(EITHER.get(boss, [boss]))
+                if group not in unlocked_by:
+                    unlocked_by.append(group)
+            section_rows.append(
+                f'        new("{name}", "{section_name}", {section_field}'
+                + "".join(f', "{k}"' for k in unlocked_by)
+                + "),"
             )
-        lines.append("    ];")
-        node_fields.append("\n".join(lines))
+            section_names.append(f"\t\t\t{name}{section_name}: {hjson_string(section_display)}")
+            previous_bosses = SECTIONS[name][section_index][2]
+            print(f"  {label}: {len(members)} quests")
 
         for step in chapter["steps"]:
             if step["type"] not in ("obtain", "equip", "equip_set"):
@@ -366,7 +498,10 @@ def main():
         + "namespace BereftSouls.Quests;\n\n"
         + "internal sealed partial class ProgressionBook\n{\n"
         + "\n\n".join(node_fields)
-        + "\n}\n",
+        + "\n\n    /// <summary>Every section in pack order.</summary>\n"
+        + "    private static readonly Section[] sections =\n    [\n"
+        + "\n".join(section_rows)
+        + "\n    ];\n}\n",
         encoding="utf-8",
     )
 
@@ -397,6 +532,7 @@ def main():
 
     book = ["\tProgression: {", "\t\tName: Bereft Progression"]
     book += [f"\t\t{name}: {display}" for name, _, display in CHAPTERS]
+    book += ["\t\tSections: {"] + section_names + ["\t\t}"]
     book.append("\t}\n")
     book.append(f"\tRewardClaimed: {hjson_string('Quest reward claimed: {0}')}\n")
 

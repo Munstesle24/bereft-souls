@@ -6,6 +6,26 @@ QuestBooks: {
 		PostPlantera: Post-Plantera
 		PostMoonLord: Post-Moon Lord
 		Endgame: Endgame
+		Sections: {
+			PreHardmodeFirstSteps: "First Steps"
+			PreHardmodeTheEye: "The Eye"
+			PreHardmodeWorldEvil: "The World's Evil"
+			PreHardmodeHiveAndPyramid: "Hive and Pyramid"
+			PreHardmodeDungeon: "The Dungeon"
+			PreHardmodeUnderworld: "Into the Underworld"
+			EarlyHardmodeNewWorld: "A New World"
+			EarlyHardmodeMechanical: "The Mechanical Bosses"
+			EarlyHardmodeCalamitysShadow: "Calamity's Shadow"
+			PostPlanteraDepthsAndStars: "Depths and Stars"
+			PostPlanteraJungleAndSea: "Jungle and Sea"
+			PostPlanteraTheCult: "The Cult"
+			PostPlanteraCelestialAscent: "Celestial Ascent"
+			PostMoonLordTheProfaned: "The Profaned"
+			PostMoonLordTheSentinels: "The Sentinels"
+			PostMoonLordTheDevourer: "The Devourer"
+			EndgameDragonAndWitch: "Dragon and Witch"
+			EndgameDraedonsArsenal: "Draedon's Arsenal"
+		}
 	}
 
 	RewardClaimed: "Quest reward claimed: {0}"
