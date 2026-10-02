@@ -85,6 +85,6 @@ internal sealed partial class ProgressionBook : ModSystem
 
     private QuestChapter Chapter<TChapter>(string name, Node[] nodes) where TChapter : BasicChapter, new()
     {
-        return QuestTree.Build<TChapter>(Mod.GetLocalizationKey($"QuestBooks.Progression.{name}"), nodes);
+        return QuestTree.Build<TChapter>(Mod.GetLocalizationKey($"QuestBooks.Progression.{name}"), nodes, openAtStart: true);
     }
 }

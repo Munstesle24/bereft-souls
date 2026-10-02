@@ -68,13 +68,18 @@ internal static class QuestTree
 
     private const string texture_path = "QuestBooks/Assets/Textures/Quests/";
 
-    public static QuestChapter Build<TChapter>(string nameKey, Node[] nodes) where TChapter : BasicChapter, new()
+    /// <param name="openAtStart">
+    ///     Opens zoomed in on the first quests of the critical path (row 0)
+    ///     rather than showing the whole chapter at once, for long chapters
+    ///     read left to right.
+    /// </param>
+    public static QuestChapter Build<TChapter>(string nameKey, Node[] nodes, bool openAtStart = false) where TChapter : BasicChapter, new()
     {
         var chapter = new TChapter
         {
             NameKey        = nameKey,
             EnableShifting = true,
-            DefaultZoom    = 0.6f,
+            DefaultZoom    = openAtStart ? 0.9f : 0.6f,
         };
 
         var displays = new Dictionary<string, QuestDisplay>();
@@ -135,7 +140,9 @@ internal static class QuestTree
         // the page edges.
         var padding = new Vector2(column_spacing, row_spacing);
 
-        chapter.ViewAnchor   = (min + max) / 2f;
+        // About three columns fit on the page at the opening zoom; start with
+        // the first ones in view.
+        chapter.ViewAnchor   = openAtStart ? new Vector2(min.X + column_spacing * 1.25f, 0f) : (min + max) / 2f;
         chapter.MinViewPoint = min - padding;
         chapter.MaxViewPoint = max + padding;
 
