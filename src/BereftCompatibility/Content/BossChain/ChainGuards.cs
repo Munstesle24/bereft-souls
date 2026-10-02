@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -32,7 +33,19 @@ internal static class ChainRules
 
     private static readonly Color message_color = new(175, 75, 255);
 
-    private static uint nextWarning;
+    // Last time each message was shown, so a condition that keeps holding
+    // (a boss trying to spawn every night, a held summon item) isn't repeated.
+    private static readonly Dictionary<string, uint> last_shown = [];
+
+    // A player-triggered warning repeats at most this often (10 seconds)...
+    private const uint warn_cooldown = 600;
+
+    // ...and a server-wide "sealed" notice at most every 10 minutes.
+    private const uint broadcast_cooldown = 36000;
+
+    // Sealed spawns only announce themselves when someone is close enough to
+    // have been trying, not for a natural spawn far from everyone.
+    private const float announce_range = 3000f;
 
     public static bool Carries(Player player, ChainLink link)
     {
@@ -64,9 +77,31 @@ internal static class ChainRules
     public static string Text(string key, params object[] args) =>
         Language.GetTextValue("Mods.BereftCompatibility.BossChain." + key, args);
 
-    /// <summary>Tells everyone (from the server) or the local player.</summary>
-    public static void Broadcast(string text)
+    public static void ClearHistory() => last_shown.Clear();
+
+    private static bool Due(string text, uint cooldown)
     {
+        if (last_shown.TryGetValue(text, out var last) && Main.GameUpdateCount - last < cooldown)
+        {
+            return false;
+        }
+
+        last_shown[text] = Main.GameUpdateCount;
+        return true;
+    }
+
+    /// <summary>
+    ///     Tells everyone (from the server) or the local player that a boss was
+    ///     sealed at <paramref name="position"/>, if a player is nearby and the
+    ///     same notice hasn't gone out recently.
+    /// </summary>
+    public static void Broadcast(string text, Vector2 position)
+    {
+        if (!Main.player.Any(p => p.active && p.Distance(position) < announce_range) || !Due(text, broadcast_cooldown))
+        {
+            return;
+        }
+
         if (Main.netMode == NetmodeID.Server)
         {
             ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral(text), message_color);
@@ -77,15 +112,17 @@ internal static class ChainRules
         }
     }
 
-    /// <summary>Tells the local player, at most every few seconds.</summary>
+    /// <summary>
+    ///     Tells the local player why something they just tried didn't work,
+    ///     repeating the same message at most every 10 seconds.
+    /// </summary>
     public static void Warn(Player player, string text)
     {
-        if (Main.netMode == NetmodeID.Server || player.whoAmI != Main.myPlayer || Main.GameUpdateCount < nextWarning)
+        if (Main.netMode == NetmodeID.Server || player.whoAmI != Main.myPlayer || !Due(text, warn_cooldown))
         {
             return;
         }
 
-        nextWarning = Main.GameUpdateCount + 180;
         Main.NewText(text, message_color);
     }
 
@@ -218,7 +255,13 @@ internal sealed class ChainGuards : GlobalNPC
             return null;
         }
 
-        ChainRules.Warn(Main.LocalPlayer, reason);
+        // Terraria asks this constantly, not only when the player tries to
+        // talk, so only explain on an actual right-click on him.
+        if (Main.mouseRight && Main.mouseRightRelease && npc.Hitbox.Contains(Main.MouseWorld.ToPoint()))
+        {
+            ChainRules.Warn(Main.LocalPlayer, reason);
+        }
+
         return false;
     }
 
@@ -241,7 +284,7 @@ internal sealed class ChainGuards : GlobalNPC
     {
         npc.active = false;
         npc.netUpdate = true;
-        ChainRules.Broadcast(reason);
+        ChainRules.Broadcast(reason, npc.Center);
     }
 }
 
@@ -354,7 +397,23 @@ internal sealed class ChainTiles : GlobalTile
             return false;
         }
 
-        ChainRules.Warn(player, ChainRules.Text("Dormant", ChainRules.SigilList(link)));
+        // Smart cursor and other mods also ask whether tiles can be broken;
+        // only explain when the player is swinging at this spot (the target
+        // can be any tile of the multi-tile object).
+        if (player.ItemAnimationActive && Math.Abs(Player.tileTargetX - i) <= 3 && Math.Abs(Player.tileTargetY - j) <= 3)
+        {
+            ChainRules.Warn(player, ChainRules.Text("Dormant", ChainRules.SigilList(link)));
+        }
+
         return true;
     }
+}
+
+/// <summary>Starts each world with a clean message history.</summary>
+[UsedImplicitly(ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature)]
+internal sealed class ChainMessageHistory : ModSystem
+{
+    public override void OnWorldLoad() => ChainRules.ClearHistory();
+
+    public override void Unload() => ChainRules.ClearHistory();
 }
